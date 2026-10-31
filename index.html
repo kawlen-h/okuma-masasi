@@ -476,7 +476,16 @@ body.okuma-modu #okuma-cubuk{display:flex}
   .kapak-gorsel{order:-1;min-height:0;aspect-ratio:16/7;border-left:none;
     border-bottom:1px solid color-mix(in srgb,var(--kat) 20%,var(--cizgi))}
 }
+#tema-mobil{display:none}
 @media (max-width:900px){
+  #tema-mobil{display:block;margin:0 0 40px}
+  #tema-mobil .tm-bas{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--soluk);margin:0 0 10px}
+  #tema-mobil .tema summary{min-height:92px;font-size:1.05rem}
+  #tema-mobil .tema ul{list-style:none}
+  #tema-mobil .tema ul a{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;align-items:center;text-decoration:none;color:var(--murekkep);font-size:.95rem;padding:8px;border-radius:6px}
+  #tema-mobil .tema ul a.tum{grid-template-columns:1fr}
+  #tema-mobil .tema ul a img{width:40px;height:40px}
+  #tema-mobil .tema ul a.tum{font-size:.7rem}
   #cubuk{display:flex;flex-wrap:wrap;padding-bottom:0}
   #serit{display:flex;flex-basis:100%;gap:6px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;
     margin:0 -16px;padding:8px 16px 10px;scroll-padding-inline:16px}
@@ -519,7 +528,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
   <p class="marka">Okuma Masası</p>
   <div class="cubuk-sag">
     <button class="ikon-dug" id="tema-m" aria-label="Tema değiştir">Tema</button>
-    <button class="ikon-dug" id="menu-dug" aria-expanded="false" aria-controls="raf">Bu sayıda</button>
+    <button class="ikon-dug" id="menu-dug" aria-expanded="false" aria-controls="raf">☰ Kategoriler</button>
   </div>
   <nav id="serit" aria-label="Bölümler"></nav>
 </div>
@@ -587,6 +596,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
       Her kaynağın altındaki <strong>Bizde</strong> notu, onun bizim işimizde nasıl kullanılacağını söyler.
       Kazanç vaadi olan içerik ayıklanır.</p>
     </header>
+    <section id="tema-mobil" aria-label="Kategoriler"><p class="tm-bas">Kategoriler</p><div class="tm-liste"></div></section>
     <div id="bolumler"></div>
     <p id="bos">Eşleşen kaynak yok. Başka bir kelime dene.</p>
   </div>
@@ -932,6 +942,7 @@ document.getElementById("nav-tema").innerHTML=KATEGORILER.map(function(k){
     '<span class="ad"><small>'+kac(k.kisa)+'</small>'+kac(k.ad)+'</span>'+
     '<span class="sy">'+((k.bicim==="kapak"||k.bicim==="gunluk")?"":og.length)+'</span><i class="ok"></i></summary><ul>'+alt+'</ul></details>';
 }).join("");
+document.querySelector("#tema-mobil .tm-liste").innerHTML=document.getElementById("nav-tema").innerHTML;
 var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftanın dosyası","b-claude":"Claude",
   "b-yz":"Yapay zekâ","b-eticaret":"E-ticaret","b-bilim":"Bilim","b-saglik":"Sağlık ve fitness",
   "b-github":"Araçlar","b-arsiv":"Arşiv"};
