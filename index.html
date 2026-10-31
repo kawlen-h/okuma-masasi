@@ -117,10 +117,24 @@ nav .nokta{width:8px;height:8px;margin-top:.45em;display:inline-block}
 nav .ad small{display:block;font-family:var(--mono);font-size:.58rem;letter-spacing:.12em;
   text-transform:uppercase;color:var(--soluk);margin-bottom:2px}
 nav .sy{font-family:var(--mono);font-size:.7rem;color:var(--soluk);font-variant-numeric:tabular-nums;margin-top:.15em}
-#nav-yazi{counter-reset:yz;margin-bottom:0}
-#nav-yazi a{grid-template-columns:22px minmax(0,1fr);gap:6px;font-size:.88rem;color:var(--ikincil);padding:5px 10px;line-height:1.35}
-#nav-yazi a::before{counter-increment:yz;content:counter(yz,decimal-leading-zero);font-family:var(--mono);font-size:.64rem;color:var(--soluk);padding-top:.25em}
-#nav-yazi a:hover,#nav-yazi a.aktif{color:var(--murekkep)}
+.tema{border-bottom:1px solid var(--cizgi)}
+.tema summary{list-style:none;display:grid;grid-template-columns:38px minmax(0,1fr) auto 12px;gap:10px;align-items:center;
+  cursor:pointer;padding:8px 10px;margin-left:-10px;border-radius:5px;font-size:.95rem;line-height:1.25;transition:background var(--hiz)}
+.tema summary::-webkit-details-marker{display:none}
+.tema summary:hover{background:var(--yuzey)}
+.tema summary:focus-visible{outline:2px solid var(--vurgu);outline-offset:-2px}
+.tema-foto{width:38px;height:38px;border-radius:5px;object-fit:cover;display:block;box-shadow:inset 0 0 0 2px var(--kat);
+  border-left:4px solid var(--kat)}
+.tema summary .ok{width:7px;height:7px;border-right:1.5px solid var(--soluk);border-bottom:1.5px solid var(--soluk);
+  transform:rotate(-45deg);transition:transform var(--hiz);justify-self:center}
+.tema[open] summary .ok{transform:rotate(45deg)}
+.tema ul{margin:2px 0 10px;padding:0 0 0 14px;border-left:2px solid var(--kat);margin-left:4px}
+.tema ul a{grid-template-columns:28px minmax(0,1fr);gap:9px;align-items:center;font-size:.86rem;color:var(--ikincil);padding:5px 8px;margin-left:0}
+.tema ul a:hover,.tema ul a.aktif{color:var(--murekkep)}
+.tema ul a img{width:28px;height:28px;border-radius:4px;object-fit:cover;display:block}
+.tema ul a .bas{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tema ul a.tum{grid-template-columns:minmax(0,1fr);font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--soluk)}
+[data-oge]{scroll-margin-top:24px}
 .raf-dip{border-top:1px solid var(--cizgi);padding-top:14px;display:flex;flex-direction:column;gap:9px;background:var(--raf)}
 #tema{display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--okuma);
   font-size:.86rem;color:var(--ikincil);background:var(--yuzey);border:1px solid var(--cizgi);
@@ -442,7 +456,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
     text-decoration:none;white-space:nowrap}
   #serit a i{width:7px;height:7px;border-radius:50%;flex:none}
   #serit a.aktif{color:var(--murekkep);border-color:var(--murekkep);font-weight:600}
-  .bolum,.kapak{scroll-margin-top:118px}
+  .bolum,.kapak,[data-oge]{scroll-margin-top:118px}
   #raf{transform:translateX(-100%);transition:transform .22s ease;width:min(300px,86vw)}
   #raf.acik{transform:translateX(0);box-shadow:0 0 40px rgba(0,0,0,.22)}
   main{margin-left:0;padding-left:max(18px,env(safe-area-inset-left,0px));
@@ -522,9 +536,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
     <span class="ara-kis">/</span>
   </div>
   <nav>
-    <ul id="nav-bolum"></ul>
-    <h4>Yazılar</h4>
-    <ul id="nav-yazi"></ul>
+    <div id="nav-tema"></div>
   </nav>
   <div class="raf-dip">
     <button id="tema"><span>Görünüm</span><span class="deger" id="tema-deger">Sistem</span></button>
@@ -557,16 +569,16 @@ body.okuma-modu #okuma-cubuk{display:flex}
 "use strict";
 
 var KATEGORILER=[
- {id:"b-vibe",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
- {id:"b-gunluk",kisa:"Günlük",ad:"Kısa kısa",renk:"345 62% 48%",bicim:"gunluk",
+ {id:"b-vibe",foto:"gorseller/vibe.jpg",fotoAlt:"Karanlık ekranda kod satırları",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
+ {id:"b-gunluk",foto:"gorseller/bolum-gunluk.jpg",fotoAlt:"Gazetenin yanında bir fincan çay",kisa:"Günlük",ad:"Kısa kısa",renk:"345 62% 48%",bicim:"gunluk",
   not:"Her sabah onaylı kaynaklardan derlenir; her alandan en fazla bir haber: Claude, yapay zekâ, teknoloji, e-ticaret, bilim, sağlık, fitness. Özetler kendi cümlelerimizle, her biri kaynağına bağlı. O alanda yeni bir şey yoksa ya boş geçilir ya da tarihi açıkça yazılı kalıcı bir okuma konur."},
- {id:"b-hafta",kisa:"Haftanın dosyası",ad:"Bir kez anlat, hep bilsin",renk:"38 82% 40%",bicim:"dosya",
+ {id:"b-hafta",foto:"gorseller/bolum-hafta.jpg",fotoAlt:"Masada duran bir kondansatör mikrofon",kisa:"Haftanın dosyası",ad:"Bir kez anlat, hep bilsin",renk:"38 82% 40%",bicim:"dosya",
   not:"Her hafta yazıya dökülmüş bir konuşma ya da ders. Bu hafta Claude'un resmî kanalından: skill'ler."},
- {id:"b-claude",kisa:"Dosya",ad:"Claude ve ajanlar",renk:"168 48% 38%",bicim:"dosya",
+ {id:"b-claude",foto:"gorseller/bolum-claude.jpg",fotoAlt:"Ekranında renkli kod satırları olan bir dizüstü bilgisayar",kisa:"Dosya",ad:"Claude ve ajanlar",renk:"168 48% 38%",bicim:"dosya",
   not:"Ajanı güvenilir hâle getirme, skill yazma, bağlam yönetimi. Resmî kaynaklar ve doğrulanmış eğitim videoları."},
- {id:"b-yz",kisa:"Temeller",ad:"Yapay zekâ nasıl çalışır",renk:"212 62% 50%",bicim:"kisa",
+ {id:"b-yz",foto:"gorseller/alan-yz.jpg",fotoAlt:"Yapay zekâyı simgeleyen soyut bir görsel",kisa:"Temeller",ad:"Yapay zekâ nasıl çalışır",renk:"212 62% 50%",bicim:"kisa",
   not:"Modellerin ve ajanların nasıl çalıştığı. Bunu bilmeden üsttekiler ezber kalır."},
- {id:"b-eticaret",kisa:"Nasıl yapılır",ad:"E-ticaret ve pazarlama",renk:"24 74% 46%",bicim:"dosya",
+ {id:"b-eticaret",foto:"gorseller/bolum-eticaret.jpg",fotoAlt:"Işıklı tezgâhları ve renkli malzemeleriyle bir atölye",kisa:"Nasıl yapılır",ad:"E-ticaret ve pazarlama",renk:"24 74% 46%",bicim:"dosya",
   not:"Etsy görünürlüğü, listeleme, tedarik ve trafik. Uygulanabilir yöntem anlatanlar; kazanç vaadi değil."},
  {id:"b-bilim",foto:"gorseller/bolum-bilim.jpg",fotoAlt:"Mikroskopta Petri kabını inceleyen eldivenli bir el",kisa:"Bilim ve teknoloji",ad:"Onaylı kaynaklar",renk:"196 70% 38%",bicim:"kisa",
   not:"Günlük derlemenin bilim ayağı bu kaynaklardan beslenir: açıklayıcı ve araştırmaya dayanan yayınlar."},
@@ -574,7 +586,7 @@ var KATEGORILER=[
   not:"Bu alan yanlış bilgiyle dolu; yalnızca araştırmaya atıf yapan kaynaklar alınır. Buradaki hiçbir şey tıbbi tavsiye değildir."},
  {id:"b-github",foto:"gorseller/bolum-araclar.jpg",fotoAlt:"İki monitörlü bir yazılım masası",kisa:"Araç kutusu",ad:"Claude ekosistemi",renk:"282 42% 52%",bicim:"arac",
   not:"Claude üzerine en çok yıldız alan depolar ve kurulun kararı. Yıldızlar 29 Ekim 2026 taramasından; şişkin olabilir, tek başına ölçü değil."},
- {id:"b-arsiv",kisa:"Arşiv",ad:"Ana hattın dışında",renk:"220 8% 48%",bicim:"kisa",
+ {id:"b-arsiv",foto:"gorseller/bolum-arsiv.jpg",fotoAlt:"Raflara dizilmiş etiketli kartonlar",kisa:"Arşiv",ad:"Ana hattın dışında",renk:"220 8% 48%",bicim:"kisa",
   not:"Derginin ana konularının dışında kalanlar. Başta kişisel çalışma dosyası: galeride müşteriyle konuşmak için Almanca, sesli okunuşlarıyla. Altında yazıya dökülmüş ama doğrulanamayan kazanç iddiası ya da satış hunisi taşıyan içerik; işe yarayan bölümleri olduğu için silinmedi."}
 ];
 
@@ -794,6 +806,7 @@ function bolumBasi(kat,adet){
       '<figcaption>Fotoğraf: Unsplash</figcaption></figure>':'');
 }
 
+function oge(v){return ' id="o'+VERI.indexOf(v)+'" data-oge';}
 function platform(v){
   if(v.yazi) return "YAZI";
   var l=v.l||"";
@@ -830,7 +843,7 @@ KATEGORILER.forEach(function(kat){
     html+='<div class="dosya-grid">';
     og.forEach(function(v,i){
       var lead=(i===0&&v.yazi),Y=v.yazi&&YAZILAR[v.yazi],ft=(Y&&Y.foto&&Y.kartFoto!==false)?Y.foto:v.g;
-      html+='<article class="'+(lead?'lead':'')+(ft?' fotolu':'')+'" data-ara="'+araMetni(v)+'">'+
+      html+='<article'+oge(v)+' class="'+(lead?'lead':'')+(ft?' fotolu':'')+'" data-ara="'+araMetni(v)+'">'+
         (ft?'<a class="kart-foto" href="'+(v.yazi?'#'+v.yazi:kac(v.l||'#'))+'"'+(v.yazi?'':' target="_blank" rel="noopener"')+' tabindex="-1" aria-hidden="true"><img src="'+ft+'" alt="" loading="lazy" decoding="async"></a><div class="kart-govde">':'')+
         '<p class="kim">'+kimHtml(v)+'</p><h3>'+kac(v.b)+'</h3>'+
         '<p class="ne">'+v.n+'</p>'+bizdeHtml(v)+
@@ -840,7 +853,7 @@ KATEGORILER.forEach(function(kat){
   }else if(kat.bicim==="arac"){
     html+='<div class="arac-liste">';
     og.forEach(function(v){
-      html+='<div class="arac-oge'+(v.g?' fotolu':'')+'" data-ara="'+araMetni(v)+'">'+
+      html+='<div'+oge(v)+' class="arac-oge'+(v.g?' fotolu':'')+'" data-ara="'+araMetni(v)+'">'+
         (v.g?'<span class="kisa-foto" aria-hidden="true"><img src="'+v.g+'" alt="" loading="lazy" decoding="async"></span><div class="arac-govde">':'')+'<div class="arac-bas">'+
         '<a class="arac-ad" href="'+v.l+'" target="_blank" rel="noopener">'+kac(v.b)+'</a>'+
         rozetHtml(v)+'<span class="yildiz">'+kac(v.m[0])+'</span></div>'+
@@ -853,7 +866,7 @@ KATEGORILER.forEach(function(kat){
       html+='<div class="foto-seri">';
       fotolu.forEach(function(v,i){
         var Y=YAZILAR[v.yazi];
-        html+='<a class="foto-kart'+(i===0?' ilk':'')+'" href="#'+v.yazi+'" data-ara="'+araMetni(v)+'">'+
+        html+='<a'+oge(v)+' class="foto-kart'+(i===0?' ilk':'')+'" href="#'+v.yazi+'" data-ara="'+araMetni(v)+'">'+
           '<span class="foto-kap"><img src="'+Y.foto+'" alt="'+kac(Y.fotoAlt||"")+'" loading="lazy" decoding="async">'+
           (/^almanca/.test(v.yazi)?'<span class="foto-rozet">Sesli</span>':'')+'</span>'+
           '<span class="foto-govde"><span class="foto-ust">'+kac(v.m[0])+' · '+String(i+1).padStart(2,"0")+'</span>'+
@@ -863,7 +876,7 @@ KATEGORILER.forEach(function(kat){
     }
     html+='<div class="kisa-liste">';
     og.filter(function(v){return fotolu.indexOf(v)<0;}).forEach(function(v){
-      html+='<div class="kisa-oge" data-ara="'+araMetni(v)+'">'+
+      html+='<div'+oge(v)+' class="kisa-oge" data-ara="'+araMetni(v)+'">'+
         (v.g?'<span class="kisa-foto" aria-hidden="true"><img src="'+v.g+'" alt="" loading="lazy" decoding="async"></span>':
           '<span class="rozet-kare" aria-hidden="true">'+platform(v)+'</span>')+'<div class="kisa-govde">'+
         '<h3>'+kac(v.b)+'</h3><p class="kim">'+kimHtml(v)+'</p><p class="ne">'+v.n+'</p>'+bizdeHtml(v)+
@@ -878,11 +891,16 @@ document.getElementById("bolumler").innerHTML=html;
 var hazirSayi=VERI.filter(function(v){return v.yazi;}).length;
 document.getElementById("ust-sayac").textContent=VERI.length+" kaynak · "+hazirSayi+" yazı";
 
-document.getElementById("nav-bolum").innerHTML=KATEGORILER.map(function(k){
-  var s=VERI.filter(function(v){return v.k===k.id;}).length;
-  return '<li><a href="#'+k.id+'"><i class="nokta" style="background:hsl('+k.renk+')"></i>'+
+document.getElementById("nav-tema").innerHTML=KATEGORILER.map(function(k){
+  var og=VERI.filter(function(v){return v.k===k.id;}),alt;
+  if(k.bicim==="kapak") alt='<li><a href="#'+og[0].yazi+'"><img src="'+k.foto+'" alt="" loading="lazy"><span class="bas">Kapak yazısını oku</span></a></li>';
+  else alt='<li><a class="tum" href="#'+k.id+'">Bölümün başına git</a></li>'+og.map(function(v){
+    var Y=v.yazi&&YAZILAR[v.yazi],g=(Y&&Y.foto)||v.g||k.foto;
+    return '<li><a href="#'+(Y?v.yazi:'o'+VERI.indexOf(v))+'"><img src="'+g+'" alt="" loading="lazy" decoding="async"><span class="bas">'+kac(Y?Y.ad:v.b)+'</span></a></li>';
+  }).join("");
+  return '<details class="tema" style="--kat:hsl('+k.renk+')"><summary><img class="tema-foto" src="'+k.foto+'" alt="" loading="lazy">'+
     '<span class="ad"><small>'+kac(k.kisa)+'</small>'+kac(k.ad)+'</span>'+
-    '<span class="sy">'+((k.bicim==="kapak"||k.bicim==="gunluk")?"":s)+'</span></a></li>';
+    '<span class="sy">'+((k.bicim==="kapak"||k.bicim==="gunluk")?"":og.length)+'</span><i class="ok"></i></summary><ul>'+alt+'</ul></details>';
 }).join("");
 var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftanın dosyası","b-claude":"Claude",
   "b-yz":"Yapay zekâ","b-eticaret":"E-ticaret","b-bilim":"Bilim","b-saglik":"Sağlık ve fitness",
@@ -906,10 +924,6 @@ if("IntersectionObserver" in window){
   },{rootMargin:"-130px 0px -65% 0px"});
   KATEGORILER.forEach(function(k){ var el=document.getElementById(k.id); if(el) seritGoz.observe(el); });
 }
-document.getElementById("nav-yazi").innerHTML=Object.keys(YAZILAR).map(function(a){
-  return '<li><a href="#'+a+'"><span class="ad">'+kac(YAZILAR[a].ad)+'</span></a></li>';
-}).join("");
-
 /* ---- günlük kısa kısa: veri/kisa-kisa.json ---- */
 var ALAN={claude:["CL","Claude"],yz:["YZ","Yapay zekâ"],teknoloji:["TK","Teknoloji"],
   eticaret:["ET","E-ticaret"],bilim:["BL","Bilim"],saglik:["SĞ","Sağlık"],fitness:["FT","Fitness"]};
@@ -1191,7 +1205,7 @@ function kapat(){
 }
 function isaretle(ad){
   var bag=raf.querySelectorAll("nav a");
-  for(var i=0;i<bag.length;i++) bag[i].classList.toggle("aktif",bag[i].getAttribute("href")==="#"+ad);
+  for(var i=0;i<bag.length;i++){ var on=bag[i].getAttribute("href")==="#"+ad; bag[i].classList.toggle("aktif",on); if(on&&bag[i].closest("details")) bag[i].closest("details").open=true; }
 }
 function yonlendir(){
   var ad=location.hash.replace("#","");
