@@ -158,6 +158,13 @@ nav .sy{font-family:var(--mono);font-size:.7rem;color:var(--soluk);font-variant-
 .yt-kart h3{font-size:.98rem;line-height:1.3;margin:0}
 .yt-kart .ne{font-size:.86rem;color:var(--ikincil);margin:0;line-height:1.45}
 .almanca-gunluk{margin:0 0 30px}
+.tarif-kart{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:0;margin-top:12px;background:var(--yuzey);border:1px solid var(--cizgi);border-radius:8px;overflow:hidden}
+.tarif-kart img{width:100%;height:100%;object-fit:cover;display:block;min-height:220px}
+.tarif-govde{padding:16px 20px}
+.tarif-govde h3{margin:0 0 6px}
+.tarif-besin{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:hsl(32 75% 38%);margin:8px 0}
+.tarif-govde ul{margin:8px 0 10px;padding-left:18px;font-size:.9rem;color:var(--ikincil)}
+@media (max-width:720px){.tarif-kart{grid-template-columns:1fr}.tarif-kart img{max-height:220px}}
 .almanca-onceki{list-style:none;margin:10px 0 0;padding:0;font-size:.88rem;color:var(--ikincil)}
 .almanca-onceki li{padding:6px 0;border-top:1px solid var(--cizgi)}
 .almanca-onceki b{color:var(--murekkep);font-weight:600;margin-right:6px}
@@ -611,7 +618,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
 var KATEGORILER=[
  {id:"b-vibe",foto:"gorseller/vibe.jpg",fotoAlt:"Karanlık ekranda kod satırları",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
  {id:"b-gunluk",foto:"gorseller/bolum-gunluk.jpg",fotoAlt:"Gazetenin yanında bir fincan çay",kisa:"Günlük",ad:"Kısa kısa",renk:"345 62% 48%",bicim:"gunluk",
-  not:"Her sabah onaylı kaynaklardan derlenir; her alandan en fazla bir haber: Claude, yapay zekâ, teknoloji, e-ticaret, bilim, sağlık, fitness. Özetler kendi cümlelerimizle, her biri kaynağına bağlı. O alanda yeni bir şey yoksa ya boş geçilir ya da tarihi açıkça yazılı kalıcı bir okuma konur."},
+  not:"Her sabah onaylı kaynaklardan derlenir; yalnızca dört alan: Claude, yapay zekâ, teknoloji, spor ve fitness. Yapay zekâ ile spor ve fitnessten ikişer üçer haber. Özetler kendi cümlelerimizle, her biri kaynağına bağlı. O alanda yeni bir şey yoksa ya boş geçilir ya da tarihi açıkça yazılı kalıcı bir okuma konur."},
  {id:"b-hafta",foto:"gorseller/bolum-hafta.jpg",fotoAlt:"Masada duran bir kondansatör mikrofon",kisa:"Haftanın dosyası",ad:"Bir kez anlat, hep bilsin",renk:"38 82% 40%",bicim:"dosya",
   not:"Her hafta yazıya dökülmüş bir konuşma ya da ders. Bu hafta Claude'un resmî kanalından: skill'ler."},
  {id:"b-claude",foto:"gorseller/bolum-claude.jpg",fotoAlt:"Ekranında renkli kod satırları olan bir dizüstü bilgisayar",kisa:"Dosya",ad:"Claude ve ajanlar",renk:"168 48% 38%",bicim:"dosya",
@@ -967,10 +974,10 @@ if("IntersectionObserver" in window){
 }
 /* ---- günlük kısa kısa: veri/kisa-kisa.json ---- */
 var ALAN={claude:["CL","Claude"],yz:["YZ","Yapay zekâ"],teknoloji:["TK","Teknoloji"],
-  eticaret:["ET","E-ticaret"],bilim:["BL","Bilim"],saglik:["SĞ","Sağlık"],fitness:["FT","Fitness"]};
-var GRUP=[["Claude ve yapay zekâ",["claude","yz"],0,"262 52% 58%"],["Teknoloji ve bilim",["teknoloji","bilim"],0,"198 70% 45%"],
-  ["E-ticaret",["eticaret"],0,"24 80% 52%"],["Sağlık ve fitness",["saglik","fitness"],0,"145 45% 42%"],["Diğer",[],1,"220 8% 50%"]];
-function uygulaAlani(a){return a==="saglik"||a==="fitness";}
+  eticaret:["ET","E-ticaret"],bilim:["BL","Bilim"],saglik:["SĞ","Sağlık"],fitness:["FT","Spor ve fitness"],spor:["SP","Spor ve fitness"]};
+var GRUP=[["Claude ve yapay zekâ",["claude","yz"],0,"262 52% 58%"],["Teknoloji",["teknoloji"],0,"208 30% 40%"],
+  ["Spor ve fitness",["fitness","spor","saglik"],0,"145 45% 42%"],["E-ticaret",["eticaret"],0,"24 80% 52%"],["Bilim",["bilim"],0,"196 70% 38%"],["Diğer",[],1,"220 8% 50%"]];
+function uygulaAlani(a){return a==="saglik"||a==="fitness"||a==="spor";}
 function tarihYaz(t){
   var d=new Date(String(t)+"T12:00:00");
   return isNaN(d)?String(t):d.toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -1004,24 +1011,32 @@ function gunlukCiz(v){
   var saglikVar=false;
   function gun(g){
     g.ogeler.forEach(function(o){ if(uygulaAlani(o.alan)) saglikVar=true; });
-    var og=g.ogeler.slice(0,8),h='<p class="gunluk-tarih">'+kac(tarihYaz(g.tarih))+'</p>';
+    var og=g.ogeler.slice(0,12),h='<p class="gunluk-tarih">'+kac(tarihYaz(g.tarih))+'</p>';
     GRUP.forEach(function(gr){
       var bu=og.filter(function(o){ return gr[2]?GRUP.every(function(x){return x[2]||x[1].indexOf(o.alan)<0;}):gr[1].indexOf(o.alan)>-1; });
       if(!bu.length) return;
       h+='<div class="gunluk-grup"><p class="grup-bas" style="--g:'+gr[3]+'"><i></i>'+kac(gr[0])+'<span>'+bu.length+'</span></p>'+
         '<div class="kisa-liste">'+bu.map(gunlukOge).join("")+'</div></div>';
     });
-    var vd=(Array.isArray(g.videolar)?g.videolar:[]).filter(function(x){return x&&/^[A-Za-z0-9_-]{11}$/.test(x.id||"");}).slice(0,4);
+    var vd=(Array.isArray(g.videolar)?g.videolar:[]).filter(function(x){return x&&/^[A-Za-z0-9_-]{11}$/.test(x.id||"");}).slice(0,6);
     if(vd.length) h+='<div class="gunluk-grup"><p class="grup-bas" style="--g:0 70% 48%"><i></i>YouTube’dan seçilenler<span>'+vd.length+'</span></p><div class="yt-seri">'+
       vd.map(function(x){ return '<a class="yt-kart" href="https://www.youtube.com/watch?v='+x.id+'" target="_blank" rel="noopener" data-ara="'+kac(kucuk([x.kanal,x.baslik,x.neden||""].join(" ")))+'">'+
         '<span class="yt-foto"><img src="https://i.ytimg.com/vi/'+x.id+'/mqdefault.jpg" alt="" loading="lazy" decoding="async"></span>'+
         '<span class="yt-govde"><span class="yt-kanal">'+kac(x.kanal||"")+'</span><h3>'+kac(x.baslik||"")+'</h3>'+
         (x.neden?'<p class="ne">'+kac(x.neden)+'</p>':'')+'</span></a>'; }).join("")+'</div></div>';
+    var tf=g.tarif;
+    if(tf&&tf.ad) h+='<div class="gunluk-grup"><p class="grup-bas" style="--g:32 75% 45%"><i></i>Günün tarifi</p><div class="tarif-kart">'+
+      '<img src="gorseller/tarif.jpg" alt="" loading="lazy" decoding="async"><div class="tarif-govde"><h3>'+kac(tf.ad)+'</h3>'+
+      '<p class="kim"><span>'+kac(tf.porsiyon||"")+'</span><span>'+kac(tf.sure||"")+'</span><span>'+kac(tf.kaynak||"")+'</span></p>'+
+      (tf.besin?'<p class="tarif-besin">'+kac(tf.besin)+'</p>':'')+
+      (Array.isArray(tf.malzemeler)?'<ul>'+tf.malzemeler.map(function(m){return '<li>'+kac(m)+'</li>';}).join("")+'</ul>':'')+
+      (tf.yapilis?'<p class="ne">'+kac(tf.yapilis)+'</p>':'')+
+      (/^https:\/\//.test(tf.url||"")?'<div class="ayak"><a class="btn" href="'+kac(tf.url)+'" target="_blank" rel="noopener">Tarifin aslı</a></div>':'')+'</div></div></div>';
     return h;
   }
   var h=gun(gunler[0]);
   if(gunler.length>1) h+='<details class="onceki"><summary>Önceki günler ('+(gunler.length-1)+')</summary>'+gunler.slice(1).map(gun).join("")+'</details>';
-  if(saglikVar) h+='<p class="saglik-not">Sağlık ve fitness başlıkları bilgi amaçlıdır, tıbbi tavsiye değildir.</p>';
+  if(saglikVar) h+='<p class="saglik-not">Sağlık, fitness ve spor başlıkları bilgi amaçlıdır, tıbbi tavsiye değildir.</p>';
   kutu.innerHTML=h;
   almancaCiz(gunler);
   var n=sec.querySelector(".n"); if(n) n.textContent=gunler[0].ogeler.length;

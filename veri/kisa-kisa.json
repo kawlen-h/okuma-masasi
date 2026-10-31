@@ -5,6 +5,16 @@
    "tarih": "2026-10-31",
    "ogeler": [
     {
+     "alan": "claude",
+     "baslik": "Anthropic, AI for Science programını 20 kuruma genişletti",
+     "ozet": "Anthropic, araştırmacılara ücretsiz Claude kredisi veren AI for Science programını 28 Ekim'de dünyanın farklı yerlerinden 20 vakıf, enstitü ve araştırma grubuna genişletti. Sloan ve Simons vakıfları, ABD Ulusal Bilim Vakfı (NSF) ve Amerikan Kimya Derneği'nin birimi CAS, kredileri kendi araştırmacılarına dağıtacak. Francis Crick ve Wellcome Sanger enstitüleri ile Princeton'daki FlyWire beyin haritalama projesi de listede; Anthropic işbirliklerinin çoğunun açık veri seti ve açık kaynak yazılım üreteceğini söylüyor.",
+     "kaynak": "Anthropic · 28 Ekim 2026",
+     "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+     "not": "Bize doğrudan kredi yok, ama Claude'un uzun veri analizlerinde nasıl kullanıldığını görmek için anthropic.com/science sayfasını yer imlerine ekle.",
+     "ig": "Anthropic, araştırmacılara ücretsiz Claude kredisi veren AI for Science programını 20 kuruma genişletti. Listede NSF, Simons Vakfı ve Francis Crick Enstitüsü var.",
+     "igNot": "Claude'un bilimde nasıl kullanıldığını anthropic.com/science'tan izle."
+    },
+    {
      "alan": "yz",
      "baslik": "OpenAI, modellerinin davranış kılavuzunu yeniden yazdı",
      "ozet": "OpenAI, modellerinin nasıl davranması gerektiğini anlatan Model Spec belgesinin 29 Ekim 2026 sürümünü yayımladı. Belge artık beş temel değer etrafında düzenleniyor: insan niyetine sadakat, zararı en aza indirme, dürüstlük ve şeffaflık, insanın karar gücünü destekleme ve özenli davranma. Yeni metinde modeller \"asistan\" yerine \"GPT\" adıyla anılıyor.",
@@ -15,6 +25,14 @@
      "igNot": "Talimat dosyalarını birkaç temel değer etrafında toplamak daha tutarlı sonuç verebilir."
     },
     {
+     "alan": "yz",
+     "baslik": "Mistral Large 4'ün ağırlıkları açıldı",
+     "ozet": "Mistral, 6 Ekim'de önizlemeye açtığı Mistral Large 4'ün geliştirilmiş sürümünün ağırlıklarını yayımladı. Model toplam 1,05 trilyon parametreli ama her adımda yaklaşık 52 milyarı devreye giriyor; metin ve görsel alıyor, bağlam penceresi 1 milyon token. Lisans MIT'nin değiştirilmiş bir sürümü: indirip kullanmak serbest, modeli ücretli hizmet olarak sunmak ayrı ticari lisans istiyor. Hugging Face'in 29 Ekim tarihli yazısına göre Artificial Analysis zekâ endeksinde açık ağırlıklı modeller arasında beşinci sırada.",
+     "kaynak": "Mistral AI · 29 Ekim 2026",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/",
+     "ig": "Mistral, 1 trilyon parametreli Mistral Large 4'ün ağırlıklarını açtı. Bağlam penceresi 1 milyon token; ücretli hizmet olarak sunmak ayrı lisans istiyor."
+    },
+    {
      "alan": "teknoloji",
      "baslik": "İklim modellerinin büyük kör noktası: kendini besleyen ısınma",
      "ozet": "MIT Technology Review'dan James Temple, eriyen donmuş toprak, kuzey ormanı yangınları ve ısınan sulak alanlar gibi geri beslemelerin çoğu iklim modelinde eksik olduğunu yazıyor. Eylülde yayımlanan bir derlemeye göre bu döngüler yüzyıl sonuna kadar beklenen yaklaşık 2,6°C'ye 0,2–0,4°C daha ekleyebilir. Spark Climate Solutions, 20'den fazla ekibin aynı analizleri farklı modellerde çalıştırdığı WIE-MIP projesini başlattı.",
@@ -23,22 +41,14 @@
      "ig": "Çoğu iklim modeli, eriyen donmuş toprak ve orman yangınları gibi geri beslemeleri hesaba katmıyor. Bir derlemeye göre bunlar beklenen ısınmaya 0,2–0,4°C ekleyebilir."
     },
     {
-     "alan": "eticaret",
-     "baslik": "Etsy'de alıcılar iki yıl sonra ilk kez arttı; yapay zekâ ilanlarına sıkı kural",
-     "ozet": "Etsy'nin üçüncü çeyrek gelirleri yüzde 11 artışla 692,5 milyon dolara, brüt satış hacmi yüzde 9 artışla 2,65 milyar dolara çıktı; aktif alıcı sayısı iki yıldır ilk kez yükseldi. CEO Kruti Patel Goyal döneminde çoğu ilanda ürünün gerçek bir ortamda çekilmiş, düzenlenmemiş en az bir fotoğrafı zorunlu hâle geldi. Satıcıların yapay zekâ kullanımını daha ayrıntılı beyan etmesi de isteniyor.",
-     "kaynak": "Fortune · 29 Ekim 2026",
-     "url": "https://fortune.com/2026/10/29/etsy-ceo-ai-listings-crack-down-buyers-return",
-     "not": "Mağazadaki her ilanda en az bir düzenlenmemiş, gerçek ortamda çekilmiş ürün fotoğrafı olduğunu kontrol et; yapay zekâ kullandıysan açıklamada beyan et.",
-     "ig": "Etsy'nin geliri yüzde 11 artışla 692,5 milyon dolara çıktı, aktif alıcılar iki yıl sonra ilk kez arttı. Çoğu ilanda düzenlenmemiş gerçek bir ürün fotoğrafı artık zorunlu.",
-     "igNot": "Her ilanda en az bir düzenlenmemiş, gerçek ortamda çekilmiş fotoğraf olsun."
-    },
-    {
-     "alan": "bilim",
-     "baslik": "Yıldızlar arasındaki \"boş\" uzay sanıldığı kadar sakin değil",
-     "ozet": "Technion'dan Jonathan Shelest ve Shmuel Bialy, Gaia verisiyle çıkarılan üç boyutlu toz haritasını morötesi ısınma haritasıyla birleştirdi. Güneş çevresindeki yıldızlararası gazın yaklaşık yüzde 27'si soğuk, yüzde 32'si ılık, yüzde 41'i ise ders kitaplarının az bulunur dediği kararsız ara hâlde görünüyor. Çalışma henüz hakem değerlendirmesinde ve yöntem bazı araştırmacılarca sorgulanıyor.",
-     "kaynak": "Quanta Magazine · 30 Ekim 2026",
-     "url": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
-     "ig": "Gaia verisiyle yapılan yeni haritaya göre Güneş çevresindeki yıldızlararası gazın yaklaşık yüzde 41'i kararsız ara hâlde. Çalışma henüz hakem değerlendirmesinde."
+     "alan": "fitness",
+     "baslik": "Antrenmanı gün içine bölmek de aynı kuvveti getiriyor",
+     "ozet": "Tongji Üniversitesi'nin Journal of Exercise Science & Fitness'ta yayımlanan randomize kontrollü çalışmasında, en az altı aydır antrenman yapan 18-25 yaş arası 45 erkek öğrenci 8 hafta boyunca iki gruba ayrıldı. Bir grup direnç antrenmanını gün içine yayılmış kısa bölümler hâlinde, diğeri tek ve uzun seansta yaptı. Sonunda iki grup arasında kuvvet ve göreli kas dayanıklılığı açısından anlamlı bir fark çıkmadı. Tek çalışma ve yalnızca genç, antrenmanlı erkeklerle yapıldı; kadınlar ve yeni başlayanlar için sonuç henüz bilinmiyor.",
+     "kaynak": "Journal of Exercise Science & Fitness · Ekim 2026",
+     "url": "https://www.sciencedirect.com/science/article/pii/S1728869X26000821",
+     "not": "Spor salonuna uzun süre ayıramadığın günlerde aynı set sayısını sabah ve akşam iki kısa bölüme ayır; toplam hacmi aynı tut.",
+     "ig": "45 antrenmanlı gençle 8 hafta süren bir çalışmada, antrenmanı gün içine bölmek tek uzun seans kadar kuvvet kazandırdı. Tek çalışma, yalnızca genç erkekler.",
+     "igNot": "Vaktin yoksa aynı setleri sabah ve akşam iki kısa bölüme ayır."
     },
     {
      "alan": "saglik",
@@ -59,22 +69,34 @@
      "neden": "Claude'un resmî kanalından mobil uygulamadaki yenilikler; telefondan çalışıyorsan ilk bakman gereken video."
     },
     {
-     "kanal": "Kurzgesagt",
-     "baslik": "How Does Ketamine Work?",
-     "id": "KBfIo9sZbC4",
-     "neden": "Ketaminin beyinde nasıl etki ettiğini animasyonla anlatıyor; kanal videolarını kaynak listesiyle yayımlıyor."
+     "kanal": "Fireship",
+     "baslik": "Did the AI bubble just pop?",
+     "id": "nEaJMdM1djM",
+     "neden": "Fireship'in yapay zekâ yatırımlarındaki son dalgalanmaya kısa ve hızlı bakışı."
     },
     {
-     "kanal": "Quanta Magazine",
-     "baslik": "How Do Fungi Keep the Planet Healthy?",
-     "id": "zfVe1-c51Ws",
-     "neden": "Quanta'nın The Joy of Why podcast'inden: mantarların ekosistemdeki rolü, bir araştırmacıyla söyleşi."
+     "kanal": "Two Minute Papers",
+     "baslik": "OpenAI Claims It Just Did The Impossible",
+     "id": "CWdTBLsbaQs",
+     "neden": "OpenAI'nin son iddiasını araştırma makaleleri üzerinden anlatan kanal; başlık abartılı, içerik makaleye dayanıyor."
     },
     {
-     "kanal": "Evrim Ağacı",
-     "baslik": "Body Worlds Sergilerindeki Cesetler Yıllarca Nasıl Çürümüyor?",
-     "id": "KYadDJwdSqM",
-     "neden": "Türkçe: plastinasyon yöntemiyle bedenlerin nasıl korunduğu."
+     "kanal": "Renaissance Periodization",
+     "baslik": "Two Short Workouts a Week Still Builds Muscle",
+     "id": "gYtJFRvmt9M",
+     "neden": "Spor bilimci Mike Israetel'in kanalından: haftada iki kısa antrenmanla kas yapmak mümkün mü."
+    },
+    {
+     "kanal": "Renaissance Periodization",
+     "baslik": "Bad Sleep Might Be Worse for Muscle Growth Than We Thought",
+     "id": "A3NGVvKBOyk",
+     "neden": "Uykusuzluğun kas gelişimine etkisi üzerine kısa bir değerlendirme."
+    },
+    {
+     "kanal": "Jeff Nippard",
+     "baslik": "How Many Energy Drinks Can You Have Before It's A Problem?",
+     "id": "El8P1hp7lRQ",
+     "neden": "Jeff Nippard enerji içeceklerindeki kafein sınırını araştırmalar üzerinden ele alıyor."
     }
    ],
    "almanca": {
@@ -82,6 +104,24 @@
     "tr": "Fiyat teklifi, ön maliyet hesabı (çoğulu: die Kostenvoranschläge)",
     "ornek": "„Ich mache Ihnen gern einen Kostenvoranschlag für die Reparatur.“",
     "ornekTr": "Onarım için size memnuniyetle bir fiyat teklifi hazırlarım."
+   },
+   "tarif": {
+    "ad": "Sebzeli ve mercimekli güveç (cobbler)",
+    "kaynak": "NHS Healthier Families",
+    "url": "https://www.nhs.uk/healthier-families/recipes/vegetable-and-lentil-cobbler/",
+    "porsiyon": "4 kişilik",
+    "sure": "65 dk",
+    "besin": "Porsiyon başına 409 kcal · 14 g protein · 9,3 g lif",
+    "malzemeler": [
+     "75 g kırmızı mercimek",
+     "1 kutu doğranmış domates",
+     "2 havuç, 1 yaban havucu, 2 sap kereviz",
+     "Bir avuç karnabahar ve mantar",
+     "1 soğan, 1 diş sarımsak, 2 tatlı kaşığı zeytinyağı",
+     "450 ml az tuzlu sebze suyu, 2 yemek kaşığı mısır nişastası",
+     "Üstü için: 150 g kabartma tozlu un, 45 g az yağlı margarin, 1 yumurta, 30 ml süt"
+    ],
+    "yapilis": "Soğan ve sarımsağı yağda yumuşat, sert sebzeleri ekleyip kısa süre çevir; ocaktan alıp mantar, domates ve mercimeği karıştır. Suyla açılmış nişasta ve sebze suyunu ekleyip koyulaşana kadar kaynat, güvece al ve kapağı kapalı 180°C'de 20 dakika pişir. Bu arada unu margarinle ufala, yumurta ve sütle yumuşak bir hamur yap, 2 cm açıp yuvarlak kes. Fırını 200°C'ye çıkar, yuvarlakları güvecin kenarına diz ve kızarana kadar 12-15 dakika daha pişir."
    }
   },
   {
