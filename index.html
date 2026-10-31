@@ -1,0 +1,1314 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Okuma Masası</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<script>document.documentElement.lang="tr";</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/14.1.3/marked.min.js"></script>
+<style>
+/* Layout: dergi. Solda "Bu sayıda" içindekiler, sağda künye + kapak + bölümler; her bölüm içeriğine göre farklı biçimde dizilir. */
+:root{
+  --zemin:#fbfbf9; --yuzey:#ffffff; --raf:#f3f3f0; --kapak-zemin:#f1f0eb;
+  --murekkep:#121317; --ikincil:#555a63; --soluk:#80858e;
+  --cizgi:#e2e2dd; --cizgi-koyu:#cbcbc5;
+  --vurgu:#2f6f5e; --vurgu-ac:#e8f1ed; --vurgu-metin:#22594a;
+  --golge:0 1px 2px rgba(18,19,23,.05),0 8px 22px rgba(18,19,23,.06);
+  --display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --okuma:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --raf-en:258px; --hiz:.18s;
+  --oku-boyut:1.15rem; --oku-en:68ch;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --zemin:#0f1012; --yuzey:#17181b; --raf:#131417; --kapak-zemin:#1a1b1e;
+  --murekkep:#ebecee; --ikincil:#a6abb3; --soluk:#767c86;
+  --cizgi:#27292e; --cizgi-koyu:#383b42;
+  --vurgu:#62c2a6; --vurgu-ac:#16251f; --vurgu-metin:#82d2ba;
+  --golge:0 1px 2px rgba(0,0,0,.3),0 8px 22px rgba(0,0,0,.26);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --zemin:#0f1012; --yuzey:#17181b; --raf:#131417; --kapak-zemin:#1a1b1e;
+  --murekkep:#ebecee; --ikincil:#a6abb3; --soluk:#767c86;
+  --cizgi:#27292e; --cizgi-koyu:#383b42;
+  --vurgu:#62c2a6; --vurgu-ac:#16251f; --vurgu-metin:#82d2ba;
+  --golge:0 1px 2px rgba(0,0,0,.3),0 8px 22px rgba(0,0,0,.26);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--zemin);color:var(--murekkep);font-family:var(--okuma);
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);
+  z-index:60;background:var(--raf)}
+a{color:inherit}
+::selection{background:var(--vurgu-ac);color:var(--vurgu-metin)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--vurgu);outline-offset:2px}
+
+#ilerleme{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:3px;width:0;
+  background:var(--vurgu);z-index:70;transition:width .1s linear;opacity:0}
+#ilerleme.gorunur{opacity:1}
+
+/* ---------- ortak parçalar ---------- */
+.kicker{font-family:var(--mono);font-size:.67rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ikincil);margin:0 0 9px;display:flex;align-items:center;gap:8px;font-weight:500}
+.kicker i{width:9px;height:9px;background:var(--kat,var(--vurgu));display:inline-block;flex:none}
+.kim{font-family:var(--mono);font-size:.71rem;color:var(--soluk);margin:0;
+  display:flex;flex-wrap:wrap;gap:2px 10px;font-variant-numeric:tabular-nums}
+.yildiz{color:var(--kat,var(--vurgu-metin));font-weight:500}
+.ne{margin:0;font-family:var(--okuma);font-size:.99rem;color:var(--ikincil);line-height:1.56}
+.ne code{font-family:var(--mono);font-size:.84em;background:var(--vurgu-ac);
+  color:var(--vurgu-metin);padding:1px 4px;border-radius:3px}
+.uygula{margin:0;font-family:var(--okuma);font-size:.95rem;line-height:1.5;color:var(--murekkep);
+  background:color-mix(in srgb,var(--kat,var(--vurgu)) 8%,var(--yuzey));
+  border-radius:6px;padding:10px 12px}
+.uygula span{display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--kat,var(--vurgu-metin));margin-bottom:3px;font-weight:500}
+.ayak{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:2px}
+.btn{font-family:var(--okuma);font-size:.86rem;font-weight:600;text-decoration:none;
+  padding:6px 13px;border-radius:4px;border:1px solid var(--cizgi);color:var(--ikincil);
+  background:transparent;cursor:pointer;display:inline-block;
+  transition:border-color var(--hiz),color var(--hiz),background var(--hiz)}
+.btn:hover{border-color:var(--kat,var(--vurgu));color:var(--murekkep)}
+.btn.dolu{background:var(--vurgu);border-color:var(--vurgu);color:#fff}
+.btn.dolu:hover{filter:brightness(1.08);color:#fff}
+.rozet{font-family:var(--mono);font-size:.63rem;letter-spacing:.07em;text-transform:uppercase;
+  padding:3px 7px;border-radius:3px;background:var(--vurgu-ac);color:var(--vurgu-metin);font-weight:500}
+.rozet.bekle{background:transparent;border:1px solid var(--cizgi);color:var(--soluk)}
+.rozet.kurulu{background:transparent;border:1px solid var(--vurgu);color:var(--vurgu-metin)}
+.rozet.referans{background:transparent;border:1px dashed var(--cizgi-koyu);color:var(--soluk)}
+
+/* ---------- sol: bu sayıda ---------- */
+#raf{position:fixed;top:env(safe-area-inset-top,0px);bottom:0;left:0;width:var(--raf-en);
+  background:var(--raf);border-right:1px solid var(--cizgi);overflow:hidden;z-index:50;
+  padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:16px;
+  padding-block:28px 20px;display:flex;flex-direction:column;gap:18px}
+#raf>.raf-bas,#raf>.ara-kutu,#raf>.raf-dip{flex-shrink:0}
+.raf-bas{border-bottom:2px solid var(--murekkep);padding-bottom:12px}
+.raf-sayi{font-family:var(--mono);font-size:.64rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--soluk);margin:0 0 4px}
+.raf-baslik{font-family:var(--display);font-weight:800;font-stretch:84%;font-size:1.55rem;
+  line-height:1;margin:0;letter-spacing:-.02em}
+.ara-kutu{position:relative}
+#ara{width:100%;font-family:var(--okuma);font-size:.92rem;color:var(--murekkep);
+  background:var(--yuzey);border:1px solid var(--cizgi);border-radius:6px;
+  padding:8px 30px 8px 11px;outline:none;transition:border-color var(--hiz)}
+#ara:focus{border-color:var(--vurgu)}
+#ara::placeholder{color:var(--soluk)}
+.ara-kis{position:absolute;right:9px;top:50%;transform:translateY(-50%);font-family:var(--mono);
+  font-size:.66rem;color:var(--soluk);border:1px solid var(--cizgi-koyu);border-radius:3px;
+  padding:0 4px;pointer-events:none}
+#ara:focus+.ara-kis{opacity:0}
+nav{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;margin-right:-10px;padding-right:10px;
+  scrollbar-width:thin;scrollbar-color:var(--cizgi-koyu) transparent;
+  -webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 28px),transparent);
+  mask-image:linear-gradient(to bottom,#000 calc(100% - 28px),transparent);padding-bottom:22px}
+nav::-webkit-scrollbar{width:6px}nav::-webkit-scrollbar-thumb{background:var(--cizgi-koyu);border-radius:3px}
+nav h4{font-family:var(--mono);font-size:.62rem;color:var(--soluk);letter-spacing:.13em;
+  text-transform:uppercase;margin:6px 0 8px;font-weight:500}
+nav ul{list-style:none;margin:0 0 18px;padding:0}
+nav a{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:start;
+  text-decoration:none;font-size:.95rem;color:var(--murekkep);line-height:1.3;
+  padding:7px 10px;margin-left:-10px;border-radius:5px;transition:background var(--hiz)}
+nav a:hover{background:var(--yuzey)}
+nav a.aktif{background:var(--yuzey);box-shadow:inset 0 0 0 1px var(--cizgi)}
+nav .nokta{width:8px;height:8px;margin-top:.45em;display:inline-block}
+nav .ad small{display:block;font-family:var(--mono);font-size:.58rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--soluk);margin-bottom:2px}
+nav .sy{font-family:var(--mono);font-size:.7rem;color:var(--soluk);font-variant-numeric:tabular-nums;margin-top:.15em}
+#nav-yazi{counter-reset:yz;margin-bottom:0}
+#nav-yazi a{grid-template-columns:22px minmax(0,1fr);gap:6px;font-size:.88rem;color:var(--ikincil);padding:5px 10px;line-height:1.35}
+#nav-yazi a::before{counter-increment:yz;content:counter(yz,decimal-leading-zero);font-family:var(--mono);font-size:.64rem;color:var(--soluk);padding-top:.25em}
+#nav-yazi a:hover,#nav-yazi a.aktif{color:var(--murekkep)}
+.raf-dip{border-top:1px solid var(--cizgi);padding-top:14px;display:flex;flex-direction:column;gap:9px;background:var(--raf)}
+#tema{display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--okuma);
+  font-size:.86rem;color:var(--ikincil);background:var(--yuzey);border:1px solid var(--cizgi);
+  border-radius:6px;padding:8px 11px;cursor:pointer;width:100%;transition:border-color var(--hiz)}
+#tema:hover{border-color:var(--vurgu)}
+#tema .deger{font-family:var(--mono);font-size:.72rem;color:var(--soluk)}
+.raf-not{font-size:.78rem;color:var(--soluk);line-height:1.5;margin:0}
+
+/* ---------- telefon çubuğu ---------- */
+#cubuk{display:none;position:sticky;top:env(safe-area-inset-top,0px);z-index:55;background:var(--raf);
+  border-bottom:1px solid var(--cizgi);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:10px;align-items:center;justify-content:space-between;gap:10px}
+#cubuk .marka{font-family:var(--display);font-weight:900;font-stretch:78%;font-size:1.15rem;
+  text-transform:uppercase;letter-spacing:-.02em;margin:0}
+.cubuk-sag{display:flex;gap:7px}
+.ikon-dug{font-family:var(--mono);font-size:.74rem;background:var(--yuzey);border:1px solid var(--cizgi);
+  color:var(--ikincil);border-radius:5px;padding:7px 11px;cursor:pointer}
+#perde{display:none;position:fixed;inset:0;background:rgba(10,12,15,.45);z-index:45}
+#perde.acik{display:block}
+
+/* ---------- içerik ---------- */
+main{margin-left:var(--raf-en);
+  padding-left:max(48px,env(safe-area-inset-left,0px));padding-right:max(48px,env(safe-area-inset-right,0px));
+  padding-block:0 96px}
+.ic{max-width:1140px}
+
+/* künye */
+.kunye{padding-block:18px 22px;border-bottom:4px solid var(--murekkep);margin-bottom:34px}
+.kunye-ust{display:flex;gap:6px 18px;flex-wrap:wrap;font-family:var(--mono);font-size:.67rem;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--soluk);
+  padding-bottom:12px;border-bottom:1px solid var(--cizgi);margin-bottom:18px}
+.kunye-ust span:last-child{margin-left:auto}
+.logo{font-family:var(--display);font-weight:900;font-stretch:72%;
+  font-size:clamp(3rem,9.6vw,7.4rem);line-height:.84;letter-spacing:-.035em;
+  text-transform:uppercase;margin:0 0 16px}
+.kunye-alt{font-size:1.1rem;color:var(--ikincil);max-width:64ch;margin:0;line-height:1.55}
+.kunye-alt strong{color:var(--murekkep);font-weight:600}
+
+/* kapak */
+.kapak{margin-bottom:58px;scroll-margin-top:24px}
+.kapak-ic{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);border-radius:10px;
+  overflow:hidden;background:color-mix(in srgb,var(--kat) 6%,var(--kapak-zemin));
+  border:1px solid color-mix(in srgb,var(--kat) 24%,var(--cizgi))}
+.kapak-metin{padding:40px 42px 38px;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.kapak-baslik{font-family:var(--display);font-weight:900;font-stretch:76%;
+  font-size:clamp(3.1rem,7.2vw,5.6rem);line-height:.86;letter-spacing:-.035em;margin:6px 0 18px;text-wrap:balance}
+.kapak-alt{font-size:1.24rem;line-height:1.48;color:var(--ikincil);margin:0 0 18px;max-width:42ch}
+.kapak .uygula{font-size:1rem;margin-bottom:20px;max-width:48ch;
+  background:color-mix(in srgb,var(--kat) 10%,var(--yuzey))}
+.kapak .btn.dolu{background:var(--kat);border-color:var(--kat);font-size:.95rem;padding:10px 18px}
+.kapak .ayak{gap:14px}
+.kapak-gorsel{position:relative;min-height:340px;background:color-mix(in srgb,var(--kat) 11%,var(--yuzey));
+  border-left:1px solid color-mix(in srgb,var(--kat) 20%,var(--cizgi))}
+.kapak-gorsel canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+
+/* bölüm başı */
+.bolum{margin-bottom:60px;scroll-margin-top:24px}
+.bolum-bas{border-top:2px solid var(--murekkep);padding-top:12px;margin-bottom:20px}
+.kat{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 0 6px}
+h2{font-family:var(--display);font-weight:800;font-stretch:86%;font-size:clamp(1.65rem,3.2vw,2.15rem);
+  line-height:1.05;letter-spacing:-.022em;margin:0;text-wrap:balance}
+.kat .n{font-family:var(--mono);font-size:.7rem;color:var(--kat);font-variant-numeric:tabular-nums;
+  background:color-mix(in srgb,var(--kat) 12%,transparent);padding:2px 7px;border-radius:3px}
+.kat-not{color:var(--ikincil);font-size:1.02rem;margin:0;max-width:68ch;line-height:1.55}
+.kat-not strong{color:var(--murekkep);font-weight:600}
+
+/* dosya: öne çıkan + kartlar */
+.dosya-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.dosya-grid article{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:7px;
+  padding:20px;display:flex;flex-direction:column;gap:10px;min-width:0;
+  transition:border-color var(--hiz),box-shadow var(--hiz)}
+.dosya-grid article:hover{border-color:color-mix(in srgb,var(--kat) 50%,var(--cizgi));box-shadow:var(--golge)}
+.dosya-grid h3{font-family:var(--display);font-weight:700;font-stretch:92%;font-size:1.18rem;
+  line-height:1.2;letter-spacing:-.01em;margin:0;text-wrap:balance;overflow-wrap:anywhere}
+.dosya-grid article.lead{grid-column:1/-1;padding:28px 30px;gap:12px;
+  border-color:color-mix(in srgb,var(--kat) 34%,var(--cizgi))}
+.dosya-grid article.lead h3{font-weight:800;font-stretch:82%;font-size:clamp(1.7rem,3.4vw,2.35rem);
+  line-height:1.04;letter-spacing:-.025em;max-width:24ch}
+.dosya-grid article.lead .ne{font-size:1.1rem;max-width:68ch}
+.dosya-grid article.lead .uygula{max-width:68ch;font-size:1rem}
+.dosya-grid article.lead .btn.dolu{background:var(--kat);border-color:var(--kat)}
+
+/* kısa kısa: kutusuz, çizgiyle ayrılmış satırlar */
+.bolum-foto{position:relative;margin:0 0 24px;aspect-ratio:21/8;max-height:320px;width:100%;overflow:hidden;
+  border-radius:7px;background:var(--raf)}
+.bolum-foto img{width:100%;height:100%;object-fit:cover;display:block}
+.bolum-foto figcaption{position:absolute;right:10px;bottom:8px;font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;
+  text-transform:uppercase;color:#fff;background:rgba(12,12,14,.55);padding:3px 7px;border-radius:3px}
+.dosya-grid .kart-foto{display:block;margin:-20px -20px 4px;aspect-ratio:16/9;overflow:hidden;border-radius:6px 6px 0 0;background:var(--raf)}
+.dosya-grid .kart-foto img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.dosya-grid article:hover .kart-foto img{transform:scale(1.04)}
+.kart-govde{display:flex;flex-direction:column;gap:10px;min-width:0;flex:1}
+.dosya-grid article.lead .kart-govde{gap:12px}
+.dosya-grid article.lead.fotolu{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:32px;align-items:center}
+.dosya-grid article.lead.fotolu>.kart-foto{margin:-28px 0 -28px -30px;border-radius:6px 0 0 6px;aspect-ratio:auto;
+  align-self:stretch;min-height:320px}
+.kisa-oge:has(.kisa-foto){flex-direction:row;align-items:flex-start;gap:16px}
+.kisa-foto{flex:none;width:112px;aspect-ratio:4/3;border-radius:5px;overflow:hidden;background:var(--raf);display:block}
+.kisa-foto img{width:100%;height:100%;object-fit:cover;display:block}
+.kisa-oge:has(.kisa-foto) .kisa-govde{flex:1;min-width:0}
+.arac-oge.fotolu{flex-direction:row;gap:16px;align-items:flex-start}
+.arac-govde{flex:1;min-width:0;display:flex;flex-direction:column;gap:7px}
+.foto-seri{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:26px 20px;margin-bottom:36px}
+.foto-kart{display:flex;flex-direction:column;gap:12px;color:inherit;text-decoration:none;min-width:0}
+.foto-kart:focus-visible{outline:2px solid var(--vurgu);outline-offset:4px;border-radius:6px}
+.foto-kap{position:relative;display:block;aspect-ratio:4/3;overflow:hidden;border-radius:6px;background:var(--raf)}
+.foto-kap img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.foto-kart:hover .foto-kap img{transform:scale(1.045)}
+.foto-rozet{position:absolute;left:10px;top:10px;font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;
+  text-transform:uppercase;background:rgba(12,12,14,.72);color:#fff;padding:4px 8px;border-radius:3px;backdrop-filter:blur(4px)}
+.foto-govde{display:flex;flex-direction:column;gap:6px;min-width:0}
+.foto-ust{font-family:var(--mono);font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;color:var(--vurgu)}
+.foto-kart h3{font-family:var(--display);font-weight:800;font-stretch:88%;font-size:1.24rem;line-height:1.15;
+  letter-spacing:-.01em;margin:0;text-wrap:balance}
+.foto-kart:hover h3{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.foto-govde .ne{color:var(--ikincil);font-size:.93rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;
+  -webkit-box-orient:vertical;overflow:hidden}
+.foto-kart.ilk{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:30px;align-items:center}
+.foto-kart.ilk .foto-kap{aspect-ratio:16/9}
+.foto-kart.ilk h3{font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:900;font-stretch:80%;line-height:1.02}
+.foto-kart.ilk .ne{-webkit-line-clamp:4;font-size:1.04rem}
+@media (max-width:720px){.foto-kart.ilk{grid-template-columns:1fr;gap:12px}}
+.kisa-liste{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:0 40px}
+.kisa-oge{border-top:1px solid var(--cizgi);padding-block:18px 20px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.kisa-oge h3{font-family:var(--display);font-weight:700;font-stretch:90%;font-size:1.2rem;
+  line-height:1.2;letter-spacing:-.012em;margin:0;text-wrap:balance}
+
+/* araç kutusu: tablo gibi */
+.arac-liste{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:0 40px}
+.arac-oge{border-top:1px solid var(--cizgi);padding-block:15px 17px;display:flex;flex-direction:column;gap:7px;min-width:0}
+.arac-bas{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.arac-ad{font-family:var(--mono);font-size:.9rem;font-weight:500;color:var(--murekkep);
+  text-decoration:none;overflow-wrap:anywhere;min-width:0}
+.arac-ad:hover{color:var(--kat);text-decoration:underline}
+.arac-bas .yildiz{font-family:var(--mono);font-size:.74rem;margin-left:auto}
+.arac-oge .ne{font-size:.95rem}
+
+#bos{display:none;color:var(--ikincil);font-size:1rem;padding:40px 0}
+#bos.gorunur{display:block}
+
+/* ---------- okuyucu ---------- */
+#okuyucu{display:none}
+#okuyucu.acik{display:block;padding-block:84px 0}
+#metin{max-width:var(--oku-en);margin:0 auto;min-width:0;transition:max-width var(--hiz)}
+.yukleniyor{color:var(--soluk);font-family:var(--mono);font-size:.85rem}
+.yazi-kicker{font-family:var(--mono);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--vurgu-metin);margin:0 0 14px;font-weight:500}
+#metin h1{font-family:var(--display);font-weight:900;font-stretch:80%;
+  font-size:clamp(2.4rem,6.4vw,3.9rem);line-height:.98;letter-spacing:-.03em;margin:0 0 18px;text-wrap:balance}
+#metin p.deck{font-size:calc(var(--oku-boyut) + .2rem);line-height:1.5;color:var(--ikincil);margin:0 0 16px;font-style:italic}
+#metin p.deck strong{font-weight:400;color:inherit}
+.yazi-ust{font-family:var(--mono);font-size:.74rem;color:var(--soluk);margin:0 0 8px;
+  padding-bottom:22px;border-bottom:1px solid var(--cizgi)}
+.yazi-ust + hr{display:none}
+#metin h2{font-family:var(--display);font-weight:800;font-stretch:88%;font-size:1.55rem;
+  line-height:1.15;letter-spacing:-.016em;margin:46px 0 14px;text-wrap:balance;scroll-margin-top:84px}
+#metin h3{font-family:var(--display);font-weight:700;font-size:1.18rem;margin:30px 0 10px}
+#metin figure{margin:26px 0 32px}
+#metin figure img{display:block;width:100%;height:auto;border-radius:6px;background:var(--raf);object-fit:cover}
+#metin .yazi-foto img{aspect-ratio:16/9}
+#metin .ara-foto img{aspect-ratio:3/2}
+#metin figcaption{font-size:.88rem;font-style:italic;color:var(--ikincil);margin-top:10px;line-height:1.45}
+#metin figcaption span{font-style:normal;font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--soluk);margin-left:4px}
+#metin p{font-size:var(--oku-boyut);line-height:1.72;margin:0 0 20px;letter-spacing:.002em}
+#metin h2:first-of-type + p::first-letter{float:left;font-family:var(--display);font-weight:900;
+  font-stretch:80%;font-size:3.35em;line-height:.86;margin:.06em .1em 0 0;color:var(--vurgu-metin)}
+#metin strong{font-weight:600}
+#metin em{font-style:italic}
+#metin ul,#metin ol{padding-left:22px;margin:0 0 20px}
+#metin li{font-size:calc(var(--oku-boyut) - .03rem);line-height:1.68;margin-bottom:9px}
+#metin blockquote{margin:34px 0;padding:2px 0 2px 22px;border-left:4px solid var(--vurgu)}
+#metin blockquote p{font-family:var(--display);font-weight:700;font-stretch:90%;
+  font-size:calc(var(--oku-boyut) + .32rem);line-height:1.3;margin:0;letter-spacing:-.01em}
+#metin hr{border:none;border-top:1px solid var(--cizgi-koyu);width:88px;margin:42px auto}
+#metin code{font-family:var(--mono);font-size:.86em;background:var(--vurgu-ac);color:var(--vurgu-metin);
+  padding:1px 5px;border-radius:3px;overflow-wrap:anywhere}
+#metin table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;margin:22px 0 30px;font-size:.93rem;line-height:1.45}
+#metin th,#metin td{text-align:left;vertical-align:top;padding:9px 14px 9px 0;border-bottom:1px solid var(--cizgi);min-width:9rem}
+#metin th{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--soluk);font-weight:500;border-bottom:2px solid var(--murekkep)}
+#metin td:first-child{font-weight:600;color:var(--murekkep)}
+#metin tbody tr:hover td{background:var(--yuzey)}
+.ses{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;margin:0 0 0 8px;padding:0;
+  vertical-align:-6px;border:1px solid var(--cizgi);border-radius:50%;background:var(--yuzey);color:var(--vurgu);cursor:pointer;
+  transition:background var(--hiz),border-color var(--hiz),transform var(--hiz)}
+.ses:hover{border-color:var(--vurgu)}
+.ses:active{transform:scale(.92)}
+.ses svg{width:13px;height:13px;display:block}
+.ses.caliyor{background:var(--vurgu);border-color:var(--vurgu);color:#fff}
+.ses-pre{display:flex;align-items:center;gap:8px;margin:22px 0 -12px;font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soluk)}
+.ses-pre .ses{margin:0}
+.ses-bilgi{display:flex;flex-wrap:wrap;flex-direction:row;align-items:center;gap:10px 16px;margin:0 0 28px;padding:12px 14px;border:1px solid var(--cizgi);
+  border-radius:8px;background:var(--yuzey);font-size:.88rem;color:var(--ikincil)}
+.ses-bilgi .ses{margin:0;vertical-align:middle}
+.ses-bilgi label{display:inline-flex;align-items:center;gap:6px;cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--soluk)}
+#metin pre{white-space:pre-wrap;overflow-x:auto;background:var(--yuzey);border:1px solid var(--cizgi);padding:15px;border-radius:7px}
+#metin pre code{background:none;padding:0;color:var(--murekkep)}
+#metin a{color:var(--vurgu-metin)}
+
+/* okuma modu: yüzen düğmeler ve paneller */
+.ust-arac{position:fixed;top:calc(env(safe-area-inset-top,0px) + 14px);z-index:42;display:none;gap:8px}
+body.okuma-modu .ust-arac{display:flex}
+.ust-arac.sol{left:max(14px,env(safe-area-inset-left,0px))}
+.ust-arac.sag{right:max(14px,env(safe-area-inset-right,0px))}
+.yuzen{font-family:var(--okuma);font-size:.9rem;font-weight:600;background:var(--yuzey);
+  border:1px solid var(--cizgi);color:var(--ikincil);border-radius:8px;padding:8px 13px;
+  cursor:pointer;box-shadow:var(--golge);transition:border-color var(--hiz),color var(--hiz)}
+.yuzen:hover{border-color:var(--vurgu);color:var(--murekkep)}
+#aA{font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:1rem}
+#aA .kucuk{font-size:.76em}
+.panel{position:fixed;top:calc(env(safe-area-inset-top,0px) + 60px);right:max(14px,env(safe-area-inset-right,0px));
+  z-index:43;background:var(--yuzey);border:1px solid var(--cizgi);border-radius:12px;
+  box-shadow:0 12px 36px rgba(0,0,0,.16);padding:15px;display:none}
+.panel.acik{display:block}
+#panel{width:270px}
+#ic-panel{width:min(320px,calc(100vw - 28px));max-height:calc(100vh - 100px);overflow-y:auto}
+.p-bas{font-family:var(--mono);font-size:.61rem;color:var(--soluk);letter-spacing:.13em;
+  text-transform:uppercase;margin:0 0 8px}
+.p-grup{display:flex;gap:7px;margin-bottom:16px}
+.p-grup:last-child{margin-bottom:0}
+.oku-dug{flex:1;font-family:var(--okuma);font-size:.88rem;font-weight:600;color:var(--ikincil);
+  background:transparent;border:1px solid var(--cizgi);border-radius:6px;padding:8px 6px;cursor:pointer}
+.oku-dug:hover:not(:disabled){border-color:var(--vurgu);color:var(--murekkep)}
+.oku-dug.acik{border-color:var(--vurgu);color:var(--vurgu-metin);background:var(--vurgu-ac)}
+.oku-dug:disabled{opacity:.35;cursor:default}
+.zemin-dug{flex:1;height:38px;border-radius:6px;cursor:pointer;border:1px solid var(--cizgi-koyu);
+  font-family:var(--display);font-size:.84rem;font-weight:700}
+.zemin-dug.acik{box-shadow:0 0 0 2px var(--vurgu)}
+.z-acik{background:#fff;color:#1a1a1a}
+.z-sepya{background:#faf4e8;color:#3b3228}
+.z-gri{background:#4b4b4d;color:#e8e8e8}
+.z-koyu{background:#0b0b0c;color:#d6d6d6}
+#ic-liste{list-style:none;margin:0;padding:0;border-left:1px solid var(--cizgi)}
+#ic-liste a{display:block;text-decoration:none;color:var(--ikincil);font-size:.9rem;line-height:1.38;
+  padding:6px 0 6px 12px;margin-left:-1px;border-left:2px solid transparent}
+#ic-liste a:hover{color:var(--murekkep)}
+#ic-liste a.aktif{color:var(--vurgu-metin);border-left-color:var(--vurgu);font-weight:600}
+
+body.okuma-modu[data-zemin="acik"]{--zemin:#fff;--yuzey:#fff;--murekkep:#1a1a1a;--ikincil:#444;
+  --soluk:#767676;--cizgi:#e6e6e6;--cizgi-koyu:#d2d2d2;--vurgu:#2f6f5e;--vurgu-ac:#eaf2ef;
+  --vurgu-metin:#245648;color-scheme:light}
+body.okuma-modu[data-zemin="sepya"]{--zemin:#faf4e8;--yuzey:#faf4e8;--murekkep:#3b3228;--ikincil:#5d5143;
+  --soluk:#8a7b68;--cizgi:#e6dac4;--cizgi-koyu:#d5c5a8;--vurgu:#8a5a2b;--vurgu-ac:#f2e8d6;
+  --vurgu-metin:#6d4620;color-scheme:light}
+body.okuma-modu[data-zemin="gri"]{--zemin:#4b4b4d;--yuzey:#4b4b4d;--murekkep:#ececec;--ikincil:#c6c6c8;
+  --soluk:#9b9b9e;--cizgi:#5e5e61;--cizgi-koyu:#6e6e72;--vurgu:#8fd6bd;--vurgu-ac:#3d4a46;
+  --vurgu-metin:#a9e2cd;color-scheme:dark}
+body.okuma-modu[data-zemin="koyu"]{--zemin:#0b0b0c;--yuzey:#0b0b0c;--murekkep:#d8d8d8;--ikincil:#a9a9a9;
+  --soluk:#7c7c7c;--cizgi:#242425;--cizgi-koyu:#343436;--vurgu:#6fc7a9;--vurgu-ac:#161b19;
+  --vurgu-metin:#86d4ba;color-scheme:dark}
+body.okuma-modu #raf{transform:translateX(-100%)}
+body.okuma-modu #cubuk,body.okuma-modu #perde{display:none}
+body.okuma-modu main{margin-left:0;padding-left:max(22px,env(safe-area-inset-left,0px));
+  padding-right:max(22px,env(safe-area-inset-right,0px));padding-block:0 110px}
+body.okuma-modu .ic{max-width:none}
+
+/* ---------- ikinci geçiş: dergi ayrıntıları ---------- */
+/* bölüm etiketi dolu kutucuk */
+.bolum-bas .kicker,.kapak .kicker{display:inline-flex;background:color-mix(in srgb,var(--kat) 84%,#000);
+  color:#fff;padding:4px 9px 3px;border-radius:2px;letter-spacing:.15em}
+.bolum-bas .kicker i,.kapak .kicker i{display:none}
+/* künyenin üstünde sayı şeridi */
+.sayi-serit{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;text-decoration:none;
+  margin-top:20px;padding:10px 14px;border-radius:6px;font-size:.98rem;color:var(--murekkep);
+  background:color-mix(in srgb,hsl(258 66% 56%) 10%,var(--yuzey));
+  border:1px solid color-mix(in srgb,hsl(258 66% 56%) 22%,var(--cizgi))}
+.sayi-serit .ss-etiket{font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
+  color:#fff;background:hsl(258 48% 40%);padding:3px 7px;border-radius:2px;font-weight:500}
+.sayi-serit .ss-metin{flex:1;min-width:0}
+.sayi-serit .ss-ok{font-weight:600;white-space:nowrap}
+.sayi-serit:hover .ss-ok{text-decoration:underline}
+/* kısa liste: solda tür rozeti, başlık, altında künye */
+.kisa-oge{flex-direction:row;gap:16px;align-items:flex-start}
+.kisa-govde{display:flex;flex-direction:column;gap:7px;min-width:0;flex:1}
+.rozet-kare{flex:none;width:46px;height:46px;border-radius:5px;display:grid;place-items:center;
+  font-family:var(--mono);font-weight:500;font-size:.7rem;letter-spacing:.04em;
+  background:color-mix(in srgb,var(--kat) 13%,var(--yuzey));
+  color:color-mix(in srgb,var(--kat) 72%,var(--murekkep))}
+/* okurken üstte sabit başlık çubuğu */
+#okuma-cubuk{position:fixed;left:0;right:0;top:0;height:calc(env(safe-area-inset-top,0px) + 64px);
+  padding-top:env(safe-area-inset-top,0px);z-index:41;display:none;align-items:center;justify-content:center;
+  background:color-mix(in srgb,var(--zemin) 92%,transparent);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--cizgi);opacity:0;transition:opacity .2s;pointer-events:none}
+body.okuma-modu #okuma-cubuk{display:flex}
+#okuma-cubuk.gorunur{opacity:1}
+#cubuk-baslik{margin:0;font-family:var(--display);font-weight:700;font-stretch:90%;font-size:.98rem;
+  max-width:min(56ch,calc(100vw - 440px));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.gunluk-grup{margin-top:30px}
+.gunluk-grup:first-of-type{margin-top:16px}
+.grup-bas{display:flex;align-items:center;gap:9px;font-family:var(--display);font-weight:800;font-stretch:88%;
+  font-size:1.12rem;letter-spacing:-.01em;margin:0 0 6px;color:var(--murekkep)}
+.grup-bas i{width:9px;height:9px;border-radius:2px;background:hsl(var(--g));flex:none}
+.grup-bas span{font-family:var(--mono);font-size:.66rem;font-weight:400;color:var(--soluk);letter-spacing:.06em}
+#serit{display:none}
+/* günlük */
+.gunluk-tarih{font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--soluk);margin:6px 0 2px}
+.onceki{margin-top:24px;border-top:1px solid var(--cizgi);padding-top:14px}
+.onceki summary{cursor:pointer;font-weight:600;color:var(--ikincil);font-size:.95rem}
+.onceki summary:hover{color:var(--murekkep)}
+.saglik-not{font-size:.84rem;color:var(--soluk);margin:14px 0 0}
+
+/* ---------- duyarlı ---------- */
+@media (max-width:1120px){
+  .kapak-ic{grid-template-columns:minmax(0,1fr)}
+  .kapak-gorsel{order:-1;min-height:0;aspect-ratio:16/7;border-left:none;
+    border-bottom:1px solid color-mix(in srgb,var(--kat) 20%,var(--cizgi))}
+}
+@media (max-width:900px){
+  #cubuk{display:flex;flex-wrap:wrap;padding-bottom:0}
+  #serit{display:flex;flex-basis:100%;gap:6px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;
+    margin:0 -16px;padding:8px 16px 10px;scroll-padding-inline:16px}
+  #serit::-webkit-scrollbar{display:none}
+  #serit a{flex:none;display:inline-flex;align-items:center;gap:7px;font-size:.84rem;line-height:1;padding:8px 12px;
+    border:1px solid var(--cizgi);border-radius:999px;color:var(--ikincil);background:var(--yuzey);
+    text-decoration:none;white-space:nowrap}
+  #serit a i{width:7px;height:7px;border-radius:50%;flex:none}
+  #serit a.aktif{color:var(--murekkep);border-color:var(--murekkep);font-weight:600}
+  .bolum,.kapak{scroll-margin-top:118px}
+  #raf{transform:translateX(-100%);transition:transform .22s ease;width:min(300px,86vw)}
+  #raf.acik{transform:translateX(0);box-shadow:0 0 40px rgba(0,0,0,.22)}
+  main{margin-left:0;padding-left:max(18px,env(safe-area-inset-left,0px));
+    padding-right:max(18px,env(safe-area-inset-right,0px));padding-block:0 72px}
+  .kunye{padding-block:20px 18px;margin-bottom:26px}
+  .kunye-ust span:last-child{margin-left:0;width:100%}
+  .kapak-metin{padding:26px 22px 24px}
+  .kapak-gorsel{aspect-ratio:16/9}
+  .kapak-alt{font-size:1.12rem}
+  .dosya-grid,.kisa-liste,.arac-liste{grid-template-columns:minmax(0,1fr)}
+  .dosya-grid article.lead{padding:22px}
+  .dosya-grid article.lead.fotolu{display:flex}
+  .dosya-grid article.lead.fotolu>.kart-foto{margin:-22px -22px 4px;border-radius:6px 6px 0 0;aspect-ratio:16/9;min-height:0}
+  .bolum-foto{aspect-ratio:16/9}
+  #okuyucu.acik{padding-block:72px 0}
+  #cubuk-baslik{display:none}
+  .rozet-kare{width:40px;height:40px}
+  .kisa-foto{width:76px}
+  :root{--oku-boyut:1.18rem}
+  #metin p{line-height:1.76}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+
+<div id="ilerleme"></div>
+
+<div id="cubuk">
+  <p class="marka">Okuma Masası</p>
+  <div class="cubuk-sag">
+    <button class="ikon-dug" id="tema-m" aria-label="Tema değiştir">Tema</button>
+    <button class="ikon-dug" id="menu-dug" aria-expanded="false" aria-controls="raf">Bu sayıda</button>
+  </div>
+  <nav id="serit" aria-label="Bölümler"></nav>
+</div>
+<div id="perde"></div>
+
+<div id="okuma-cubuk" aria-hidden="true"><p id="cubuk-baslik"></p></div>
+<div class="ust-arac sol"><button class="yuzen" id="cik">← Masaya dön</button></div>
+<div class="ust-arac sag">
+  <button class="yuzen" id="ic-dug" aria-expanded="false">İçindekiler</button>
+  <button class="yuzen" id="aA" aria-expanded="false" aria-label="Okuma ayarları">a<span class="kucuk">A</span></button>
+</div>
+<div id="ic-panel" class="panel" role="dialog" aria-label="İçindekiler">
+  <p class="p-bas">İçindekiler</p>
+  <ol id="ic-liste"></ol>
+</div>
+<div id="panel" class="panel" role="dialog" aria-label="Okuma ayarları">
+  <p class="p-bas">Yazı boyutu</p>
+  <div class="p-grup">
+    <button class="oku-dug" id="kucult" title="Küçült (−)">A−</button>
+    <button class="oku-dug" id="buyut" title="Büyüt (+)">A+</button>
+  </div>
+  <p class="p-bas">Satır genişliği</p>
+  <div class="p-grup" id="en-grup">
+    <button class="oku-dug" data-en="0">Dar</button>
+    <button class="oku-dug" data-en="1">Orta</button>
+    <button class="oku-dug" data-en="2">Geniş</button>
+  </div>
+  <p class="p-bas">Zemin</p>
+  <div class="p-grup" id="zemin-grup">
+    <button class="zemin-dug z-acik" data-z="acik" aria-label="Açık zemin">A</button>
+    <button class="zemin-dug z-sepya" data-z="sepya" aria-label="Sepya zemin">A</button>
+    <button class="zemin-dug z-gri" data-z="gri" aria-label="Gri zemin">A</button>
+    <button class="zemin-dug z-koyu" data-z="koyu" aria-label="Koyu zemin">A</button>
+  </div>
+</div>
+
+<aside id="raf">
+  <div class="raf-bas">
+    <p class="raf-sayi">Sayı 1 · Kasım 2026</p>
+    <p class="raf-baslik">Bu sayıda</p>
+  </div>
+  <div class="ara-kutu">
+    <input id="ara" type="search" placeholder="Sayıda ara…" autocomplete="off" aria-label="Kaynaklarda ara">
+    <span class="ara-kis">/</span>
+  </div>
+  <nav>
+    <ul id="nav-bolum"></ul>
+    <h4>Yazılar</h4>
+    <ul id="nav-yazi"></ul>
+  </nav>
+  <div class="raf-dip">
+    <button id="tema"><span>Görünüm</span><span class="deger" id="tema-deger">Sistem</span></button>
+    <p class="raf-not">Uzun videolar yerelde metne çevrilip okunur yazıya dönüştürülüyor.</p>
+  </div>
+</aside>
+
+<main>
+<div class="ic">
+  <div id="liste">
+    <a class="sayi-serit" href="#vibe"><span class="ss-etiket">Bu sayı</span>
+      <span class="ss-metin">Kapak konusu: <strong>Vibe Coding</strong> — kod yazmayı bilmeden yazılım üretmek</span>
+      <span class="ss-ok">Oku →</span></a>
+    <header class="kunye">
+      <div class="kunye-ust"><span>Sayı 1</span><span>Kasım 2026</span><span id="ust-sayac"></span></div>
+      <p class="logo">Okuma Masası</p>
+      <p class="kunye-alt">Claude, yapay zekâ, pazarlama ve e-ticaret üzerine eğitici kaynaklar.
+      Her kaynağın altındaki <strong>Bizde</strong> notu, onun bizim işimizde nasıl kullanılacağını söyler.
+      Kazanç vaadi olan içerik ayıklanır.</p>
+    </header>
+    <div id="bolumler"></div>
+    <p id="bos">Eşleşen kaynak yok. Başka bir kelime dene.</p>
+  </div>
+  <div id="okuyucu"><div id="metin"></div></div>
+</div>
+</main>
+
+<script>
+(function(){
+"use strict";
+
+var KATEGORILER=[
+ {id:"b-vibe",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
+ {id:"b-gunluk",kisa:"Günlük",ad:"Kısa kısa",renk:"345 62% 48%",bicim:"gunluk",
+  not:"Her sabah onaylı kaynaklardan derlenir; her alandan en fazla bir haber: Claude, yapay zekâ, teknoloji, e-ticaret, bilim, sağlık, fitness. Özetler kendi cümlelerimizle, her biri kaynağına bağlı. O alanda yeni bir şey yoksa ya boş geçilir ya da tarihi açıkça yazılı kalıcı bir okuma konur."},
+ {id:"b-hafta",kisa:"Haftanın dosyası",ad:"Bir kez anlat, hep bilsin",renk:"38 82% 40%",bicim:"dosya",
+  not:"Her hafta yazıya dökülmüş bir konuşma ya da ders. Bu hafta Claude'un resmî kanalından: skill'ler."},
+ {id:"b-claude",kisa:"Dosya",ad:"Claude ve ajanlar",renk:"168 48% 38%",bicim:"dosya",
+  not:"Ajanı güvenilir hâle getirme, skill yazma, bağlam yönetimi. Resmî kaynaklar ve doğrulanmış eğitim videoları."},
+ {id:"b-yz",kisa:"Temeller",ad:"Yapay zekâ nasıl çalışır",renk:"212 62% 50%",bicim:"kisa",
+  not:"Modellerin ve ajanların nasıl çalıştığı. Bunu bilmeden üsttekiler ezber kalır."},
+ {id:"b-eticaret",kisa:"Nasıl yapılır",ad:"E-ticaret ve pazarlama",renk:"24 74% 46%",bicim:"dosya",
+  not:"Etsy görünürlüğü, listeleme, tedarik ve trafik. Uygulanabilir yöntem anlatanlar; kazanç vaadi değil."},
+ {id:"b-bilim",foto:"gorseller/bolum-bilim.jpg",fotoAlt:"Mikroskopta Petri kabını inceleyen eldivenli bir el",kisa:"Bilim ve teknoloji",ad:"Onaylı kaynaklar",renk:"196 70% 38%",bicim:"kisa",
+  not:"Günlük derlemenin bilim ayağı bu kaynaklardan beslenir: açıklayıcı ve araştırmaya dayanan yayınlar."},
+ {id:"b-saglik",foto:"gorseller/bolum-saglik.jpg",fotoAlt:"Spor salonunda sıra sıra dambıllar",kisa:"Sağlık ve fitness",ad:"Kanıta dayalı kaynaklar",renk:"120 38% 34%",bicim:"kisa",
+  not:"Bu alan yanlış bilgiyle dolu; yalnızca araştırmaya atıf yapan kaynaklar alınır. Buradaki hiçbir şey tıbbi tavsiye değildir."},
+ {id:"b-github",foto:"gorseller/bolum-araclar.jpg",fotoAlt:"İki monitörlü bir yazılım masası",kisa:"Araç kutusu",ad:"Claude ekosistemi",renk:"282 42% 52%",bicim:"arac",
+  not:"Claude üzerine en çok yıldız alan depolar ve kurulun kararı. Yıldızlar 29 Ekim 2026 taramasından; şişkin olabilir, tek başına ölçü değil."},
+ {id:"b-arsiv",kisa:"Arşiv",ad:"Ana hattın dışında",renk:"220 8% 48%",bicim:"kisa",
+  not:"Derginin ana konularının dışında kalanlar. Başta kişisel çalışma dosyası: galeride müşteriyle konuşmak için Almanca, sesli okunuşlarıyla. Altında yazıya dökülmüş ama doğrulanamayan kazanç iddiası ya da satış hunisi taşıyan içerik; işe yarayan bölümleri olduğu için silinmedi."}
+];
+
+var YAZILAR={
+  vibe:{foto:"gorseller/vibe.jpg",fotoAlt:"Karanlık ekranda kod satırları",fotoNot:"Kodu sen yazmıyorsun; ne istediğini sen söylüyorsun.",dosya:"yazilar/vibe-coding.md",ad:"Vibe Coding",bolum:"Kapak konusu",kaynak:"Okuma Masası · rehber"},
+  pm:{foto:"gorseller/pm.jpg",fotoAlt:"Dizüstü ekranında grafiklerle dolu bir veri panosu",fotoNot:"Veri panosu artık soruyu bekleyen bir ekran değil.",dosya:"yazilar/anthropic-urun-yonetimi.md",ad:"Veriyi Artık Kendisi Sorguluyor",bolum:"Dosya · Claude ve ajanlar",kaynak:"Claude · YouTube · 3 dk"},
+  ajanlar:{foto:"gorseller/ajanlar.jpg",fotoAlt:"Beyaz bir salonda robot kol",fotoNot:"Bir ajanı sohbet botundan ayıran şey, el uzatabilmesi.",dosya:"yazilar/ai-ajanlari-aciklandi.md",ad:"Sohbet Botundan Ajana: Üç Basamak",bolum:"Temeller",kaynak:"Jeff Su · YouTube · 10 dk"},
+  mcp:{foto:"gorseller/mcp.jpg",fotoAlt:"Mavi zemin üzerinde turuncu USB kablolar",fotoNot:"Farklı fişler, tek standart: MCP’nin fikri bu.",dosya:"yazilar/mcp-ogren.md",ad:"MCP: Yapay Zekâya Araç Vermenin Standart Yolu",bolum:"Temeller",kaynak:"NetworkChuck · YouTube · 39 dk"},
+  n8n:{foto:"gorseller/n8n.jpg",fotoAlt:"Beyaz tahtaya akış şeması çizen eller",fotoNot:"Önce akışı çiz, sonra kutuları bağla.",dosya:"yazilar/ilk-ajan-n8n.md",ad:"Kod Yazmadan İlk Ajanı Kurmak",bolum:"Temeller",kaynak:"Futurepedia · YouTube · 26 dk"},
+  etsyseo:{foto:"gorseller/etsyseo.jpg",fotoAlt:"Kraft kâğıda sarılıp kurdele bağlanan hediyeler",fotoNot:"Alıcı ürünü değil, verdiği hissi arar.",dosya:"yazilar/etsy-seo-baslik.md",ad:"Ürünü Değil, Amacı Yaz",bolum:"Nasıl yapılır · E-ticaret",kaynak:"Dylan Jahraus · YouTube · 12 dk"},
+  etsy100:{foto:"gorseller/etsy100.jpg",fotoAlt:"Atölye masasında el işi yapan biri",fotoNot:"Başarılı mağazaların ortak noktası atölyede başlar.",dosya:"yazilar/etsy-basarili-magazalar.md",ad:"Yüz Başarılı Etsy Mağazasının Ortak Noktaları",bolum:"Nasıl yapılır · E-ticaret",kaynak:"Brandon Timothy · YouTube · 13 dk"},
+  pinterest:{foto:"gorseller/pinterest.jpg",fotoAlt:"Fotoğraf ve kâğıt kesiklerle dolu bir ilham panosu",fotoNot:"Pinterest’te panolar vitrin, pinler kapıdır.",dosya:"yazilar/pinterest-etsy.md",ad:"Pinterest'i Etsy'ye Trafik Kaynağı Yapmak",bolum:"Nasıl yapılır · E-ticaret",kaynak:"Sandra Di · YouTube · 21 dk"},
+  ilk100:{foto:"gorseller/ilk100.jpg",fotoAlt:"Taş zemin üzerinde etiketli bir karton kutu",fotoNot:"İlk yüz satış, ilk yüz kutu demektir.",dosya:"yazilar/etsy-ilk-100-satis.md",ad:"İlk Yüz Satışa Giden Yol",bolum:"Nasıl yapılır · E-ticaret",kaynak:"Hannah Gardner · YouTube · 15 dk"},
+  dijital:{foto:"gorseller/dijital.jpg",fotoAlt:"Tablette kalemle çizim yapan biri",fotoNot:"Envanter yok, kargo yok: ürün bir dosya.",dosya:"yazilar/etsy-dijital-urun.md",ad:"Etsy'de Dijital Ürün Mağazası: Fikirden Pinterest'e",bolum:"Nasıl yapılır · E-ticaret",kaynak:"Sandra Di · YouTube · 60 dk"},
+  prompt101:{foto:"gorseller/prompt101.jpg",fotoAlt:"Karlı yamaçtan inen bir kayakçı",fotoNot:"Belirsiz bir sorudan net bir karara.",dosya:"yazilar/prompting-101.md",ad:"Kayak Kazasından Kesin Karara",bolum:"Dosya · Claude ve ajanlar",kaynak:"Anthropic Applied AI · 25 dk"},
+  mobil:{foto:"gorseller/mobil.jpg",fotoAlt:"Avuç üstünde duran bir akıllı telefon",fotoNot:"Dört saatte ekrana gelen bir uygulama.",dosya:"yazilar/claude-mobil-uygulama.md",ad:"Telefonda Çalışan Bir Uygulama, Dört Saatte",bolum:"Claude ve ajanlar",kaynak:"Nick Saraev · YouTube · 4 sa 3 dk"},
+  almancaKelime:{foto:"gorseller/galeri-kelimeler.jpg",fotoAlt:"Galeride sergilenen kırmızı bir otomobilin yakın çekimi",fotoNot:"Showroom’da her parçanın bir adı, her adın bir artikeli var.",dosya:"yazilar/almanca-galeri-kelimeler.md",ad:"Galerinin Kelimeleri",bolum:"Ana hattın dışında · Galeride Almanca",kaynak:"Okuma Masası · dil rehberi"},
+  almancaKarsilama:{foto:"gorseller/galeri-karsilama.jpg",fotoAlt:"Satış masası ve arkasında sergilenen kırmızı bir araçla galeri içi",fotoNot:"İlk izlenim, müşteri daha masaya oturmadan oluşur.",dosya:"yazilar/almanca-galeri-karsilama.md",ad:"İlk Beş Dakika",bolum:"Ana hattın dışında · Galeride Almanca",kaynak:"Okuma Masası · dil rehberi"},
+  almancaFiyat:{foto:"gorseller/galeri-fiyat.jpg",fotoAlt:"Bir ikinci el galerisinin önünde sıralanmış araçlar",fotoNot:"İlandaki rakam pazarlığın başlangıcıdır, sonu değil.",dosya:"yazilar/almanca-galeri-fiyat.md",ad:"Fiyat Sorulduğunda",bolum:"Ana hattın dışında · Galeride Almanca",kaynak:"Okuma Masası · dil rehberi"},
+  almancaTeslim:{foto:"gorseller/galeri-teslim.jpg",fotoAlt:"Bir elden diğerine uzatılan araç anahtarı",fotoNot:"Anahtar el değiştirdiğinde asıl sorumluluk başlar.",dosya:"yazilar/almanca-galeri-teslim.md",ad:"İmzadan Anahtara",bolum:"Ana hattın dışında · Galeride Almanca",kaynak:"Okuma Masası · dil rehberi"},
+  almancaTelefon:{foto:"gorseller/galeri-telefon.jpg",fotoAlt:"Ofiste dizüstü bilgisayar başında gülümseyerek telefonla konuşan bir kadın",fotoNot:"Telefonda yüzün görünmez ama gülümsemen duyulur.",dosya:"yazilar/almanca-galeri-telefon.md",ad:"Telefonda ve E-postada",bolum:"Ana hattın dışında · Galeride Almanca",kaynak:"Okuma Masası · dil rehberi"},
+  hinton:{foto:"gorseller/hinton.jpg",fotoAlt:"Gece ışıklarıyla bir şehir silueti",fotoNot:"Işıklar yanıyor; asıl soru, kontrolün kimde kalacağı.",dosya:"yazilar/hinton-dersi.md",ad:"Bu Gece Rahat Uyuyorsanız",bolum:"Yapay zekâ temelleri",kaynak:"Geoffrey Hinton · Royal Institution · 47 dk"},
+  stanford:{foto:"gorseller/stanford.jpg",fotoAlt:"Sınıfta dersi dinleyen öğrenciler",fotoNot:"Bir dil modelinin yapımı, bir ders salonunda adım adım.",dosya:"yazilar/stanford-llm-dersi.md",ad:"Bir Dil Modeli Nasıl Yapılır",bolum:"Yapay zekâ temelleri",kaynak:"Stanford CS229 · Stanford Online · 1 sa 44 dk"},
+  skills:{foto:"gorseller/skills.jpg",fotoAlt:"Açık bir defter ve kalem",fotoNot:"Bir kez yaz, Claude her seferinde hatırlasın.",dosya:"yazilar/claude-skills.md",ad:"Bir Kez Anlat, Hep Bilsin",bolum:"Haftanın dosyası",kaynak:"Claude · YouTube · 2 dk 54 sn"},
+  harness:{foto:"gorseller/harness.jpg",fotoAlt:"Duvarında aletler asılı bir atölye",fotoNot:"Model ne kadar güçlü olursa olsun, işi tezgâh belirler.",dosya:"yazilar/ajan-harness.md",ad:"Süper Yetenekli, Süper Aptal",bolum:"Dosya · Claude ve ajanlar",kaynak:"Kuzzat Altay · CYDEO · 55 dk"},
+  ekstrem:{foto:"gorseller/ekstrem.jpg",fotoAlt:"Gün batımında koşan bir kişinin silueti",fotoNot:"Disiplin, kimse bakmazken başlar.",kartFoto:false,dosya:"yazilar/ekstrem-zorluk.md",ad:"Ekstrem Zorluk",bolum:"Arşiv",kaynak:"Charlie Morgan · 38 dk"}
+};
+var VERI=[
+ {k:"b-vibe",kb:"Vibe Coding",kd:"Kod yazmayı bilmeden yazılım üretmek: ne olduğu, nerede işe yaradığı, nasıl öğrenildiği. Yeni başlayan biri için dört haftalık yol.",b:"Vibe coding nedir, nasıl öğrenilir",m:["Okuma Masası","Rehber","29 Eki 2026"],
+  n:"Kavram nereden çıktı, hangi işte işe yarar, nerede duvara toslar. Yeni başlayan biri için dört haftalık öğrenme yolu ve bu siteyi kurarken yaşadıklarımızdan örnekler.",
+  u:"Bu sitenin kendisi vibe coding ile yapıldı. Yazıda hangi adımda neyin işe yaradığını, neyin para ve zaman yaktığını okuyabilirsin.",
+  d:"hazir",yazi:"vibe"},
+
+ {k:"b-claude",b:"Süper Yetenekli, Süper Aptal",m:["Kuzzat Altay · CYDEO","55 dk","17 Eki 2026"],
+  n:"Ajan koşumu (harness) üzerine 26 bölüm. Bağlam mühendisliği, zehirlenme, skill'ler, geçitler, kum havuzu ve orkestrasyon matematiği. Sekiz aylık hata kayıtlarına dayanıyor.",
+  u:"Tekrarlanan her hatayı CLAUDE.md'ye bir kural olarak yaz. Uzun oturumda saçmalamaya başlarsa devir notu aldırıp yeni oturum aç.",
+  d:"hazir",yazi:"harness",l:"https://cydeo.com/bookcast/super-capable-super-stupid/read",lb:"Kaynak"},
+ {k:"b-hafta",b:"Bir kez anlat, hep bilsin — Claude skill'leri",m:["Claude · resmî kanal","2:54","27 Şub 2026","1,88 Mn"],
+  n:"Skill nedir, Claude onu nasıl seçer, kişisel ve proje skill'leri nereye konur, CLAUDE.md'den farkı ne. Videonun beş bölümü sırasıyla, her bölümde videoya dönüş linkiyle.",
+  u:"İlk skill'in Etsy ürün listeleme olsun: başlık kuralları, etiket stratejisi, açıklama yapısı. Her üründe aynı şeyi anlatıyorsan yazılmayı bekleyen skill bu.",
+  d:"hazir",yazi:"skills",l:"https://www.youtube.com/watch?v=bjdBVZa66oU",lb:"YouTube"},
+ {k:"b-claude",b:"How Anthropic uses Claude in product management",m:["Claude · resmî kanal","7 ay önce","57 Mn"],
+  n:"Anthropic'in ürün ekibinin Claude'u günlük işte nasıl kullandığı. Gerçek iş akışı, demo değil.",
+  u:"Mağazadaki tekrar eden işleri — ürün açıklaması, müşteri yanıtı, haftalık rapor — aynı mantıkla ajana devret.",
+  d:"hazir",yazi:"pm",l:"https://www.youtube.com/watch?v=91AJ0cpgLlQ",lb:"YouTube"},
+ {k:"b-claude",b:"Claude ekibinden prompt yazımı",m:["@westkripto","24:47","11 Ağu 2026","482 B"],
+  n:"Anthropic Applied AI ekibinin \"Prompting 101\" sunumu: bir sigorta görevinde tek satırlık prompt'un adım adım kesin bir sonuca dönüşmesi. Türkçe altyazılı paylaşım.",
+  u:"Etsy listeleme prompt'u için hazır şablon çıkıyor: görev bağlamı, sabit marka kuralları, inceleme sırası, örnekler ve çıktı biçimi.",
+  d:"hazir",yazi:"prompt101",l:"https://x.com/westkripto/status/2087165817309835607",lb:"Kaynak"},
+ {k:"b-claude",g:"gorseller/lansman.jpg",b:"Lansman öncesi 20 maddelik kontrol",m:["@suraj_sharma14","Metin","10 Eki 2026"],
+  n:"Yayına almadan önce ajana verilecek güvenlik listesi: API anahtarlarını gizle, sızmış anahtarı döndür, hız sınırı koy, her rotada yetki kontrolü, veritabanı kurallarını kilitle, harcama tavanı koy, yedeği gerçekten geri yükle.",
+  u:"Vibe coding ile yaptığın her şeyi yayına almadan önce bu listeden geçir. Harcama tavanı özellikle: Magnific kredisinin son 123 bini tek oturumda gitti.",
+  d:"bekle",l:"https://x.com/suraj_sharma14/status/2108376910577246579",lb:"Kaynak"},
+ {k:"b-claude",b:"Claude ile uygulama yapma",m:["@paramuhendisim","14 Eyl 2026","1,6 M"],
+  n:"Nick Saraev'in 4 saatlik kursu: üç mobil uygulama, beş adımlık tasarım çerçevesi, Supabase, güvenlik denetimi, App Store. Sonunda kendi topluluğunu satıyor; yöntem kısmı sağlam.",
+  d:"hazir",yazi:"mobil",l:"https://x.com/paramuhendisim/status/2099404778287608311",lb:"Kaynak",l2:"https://www.youtube.com/watch?v=BMMcmmnjrM8",lb2:"YouTube"},
+
+ {k:"b-yz",b:"AI agents, clearly explained",m:["Jeff Su","1 yıl önce","5,5 Mn"],
+  n:"Sohbet botu ile ajan arasındaki farkı jargonsuz anlatıyor. Ajan kavramına sıfırdan girmek için en temiz başlangıç.",
+  u:"Önce bunu izle, sonra Süper Yetenekli, Süper Aptal yazısını oku — oradaki sohbet botu, ajan, yazılım ayrımı yerine oturur.",
+  d:"hazir",yazi:"ajanlar",l:"https://www.youtube.com/watch?v=FwOTs4UxQS4",lb:"YouTube"},
+ {k:"b-yz",b:"You need to learn MCP right now",m:["NetworkChuck","1 yıl önce","1,8 Mn"],
+  n:"Model Context Protocol: ajanı araçlara — tarayıcı, Gmail, veritabanı — bağlayan standart. Ne olduğu, neden önemli olduğu, nasıl kurulduğu.",
+  u:"Bizdeki Gmail, Drive ve Supabase bağlantılarının hepsi MCP. Neyin neye eriştiğini bilmek güvenlik için şart.",
+  d:"hazir",yazi:"mcp",l:"https://www.youtube.com/watch?v=GuTcle5edjk",lb:"YouTube"},
+ {k:"b-yz",b:"From zero to your first AI agent in 25 minutes",m:["Futurepedia · AI Agent Lab","1 yıl önce","4,4 Mn"],
+  n:"Kod yazmadan ilk ajanı kurma. Kavramları elle tutulur hâle getiriyor; teknik derinlik az ama başlangıç için yeterli.",
+  d:"hazir",yazi:"n8n",l:"https://www.youtube.com/watch?v=EH5jx5qPabU",lb:"YouTube"},
+ {k:"b-yz",b:"Geoffrey Hinton dersi",m:["@paramuhendisim","47:03","8 Eki 2026","163 B"],
+  n:"Royal Institution'daki dersin Türkçe altyazılı hâli. Sinir ağlarının nasıl öğrendiğini ve Hinton'un neden endişeli olduğunu anlatıyor; yazı orijinal kayıttan.",
+  d:"hazir",yazi:"hinton",l:"https://x.com/paramuhendisim/status/2108103362025800015",lb:"Kaynak",l2:"https://www.youtube.com/watch?v=IkdziSLYzHw",lb2:"YouTube"},
+ {k:"b-yz",b:"Stanford LLM dersi",m:["@DeepTechTR","1:44:17","19 Nis 2026","58 B"],
+  n:"Stanford CS229'un dil modeli dersi: veri, ölçekleme yasaları, ince ayar, RLHF. Listedeki en teknik kaynak; yazı orijinal kayıttan, rakamlar 2024 ortasının.",
+  d:"hazir",yazi:"stanford",l:"https://x.com/DeepTechTR/status/2045774292000915681",lb:"Kaynak",l2:"https://www.youtube.com/watch?v=9vM4p9NN0Ts",lb2:"YouTube"},
+
+ {k:"b-eticaret",b:"Rank higher on Etsy — no tools needed",m:["Dylan Jahraus","3 yıl önce","372 B"],
+  n:"Ücretli araç kullanmadan Etsy SEO: başlık, etiket ve öznitelik alanlarının arama sıralamasına etkisi.",
+  u:"En az satan 5 listelemeni bu yöntemle yeniden yaz, iki hafta sonra görüntülenmeyi karşılaştır.",
+  d:"hazir",yazi:"etsyseo",l:"https://www.youtube.com/watch?v=QDoqZaYQ17E",lb:"YouTube"},
+ {k:"b-eticaret",b:"I studied 100+ Etsy shops to crack the algorithm",m:["Brandon Timothy","2 yıl önce","330 B"],
+  n:"Başarılı mağazaların ortak noktaları: listeleme sıklığı, fotoğraf, fiyat, yorum. Tek mağazanın anekdotu değil, karşılaştırma.",
+  u:"Kategorindeki ilk 10 mağazayı aynı ölçütlerle bir tabloya dök. Claude bunu senin için çıkarabilir.",
+  d:"hazir",yazi:"etsy100",l:"https://www.youtube.com/watch?v=wwfcJDM1bj0",lb:"YouTube"},
+ {k:"b-eticaret",b:"How to use Pinterest for Etsy sales",m:["Sandra Di","3 yıl önce","300 B"],
+  n:"Etsy dışından trafik getirmenin en düşük maliyetli yolu. Pin hazırlama, pano düzeni, Etsy'ye yönlendirme.",
+  u:"Ürün görsellerini zaten üretiyorsun; aynı görseli Pinterest'in 2:3 formatına çevirmek ek maliyet getirmez.",
+  d:"hazir",yazi:"pinterest",l:"https://www.youtube.com/watch?v=vVpVcEQzNeQ",lb:"YouTube"},
+ {k:"b-eticaret",b:"How to get your first 100 sales on Etsy",m:["Hannah Gardner","1 yıl önce","175 B"],
+  n:"Yeni mağaza için ilk satışlara kadar üç adımlık yol. Güncel ve sade.",
+  d:"hazir",yazi:"ilk100",l:"https://www.youtube.com/watch?v=oJsh2yhO21c",lb:"YouTube"},
+ {k:"b-eticaret",b:"Etsy shop selling digital products — full tutorial",m:["Sandra Di","2 yıl önce","110 B"],
+  n:"Dijital ürün mağazası kurulumu baştan sona. Envanter ve kargo yok; tasarım becerisi olan biri için düşük riskli genişleme.",
+  u:"Divan edebiyatı beyit kartları dijital ürün olarak satılabilir — 12 kartın tasarımı zaten elimizde.",
+  d:"hazir",yazi:"dijital",l:"https://www.youtube.com/watch?v=KXLYOWlqb78",lb:"YouTube"},
+ {k:"b-eticaret",g:"gorseller/importyeti.jpg",b:"ImportYeti — gümrük verisiyle fabrika bulma",m:["@canceylandigi","Araç","5 Tem 2026","79 B"],
+  n:"ABD gümrük kayıtlarını tarıyor. Marka adını yazıyorsun, çalıştığı fabrikayı ve ne sıklıkla mal çektiğini gösteriyor.",
+  u:"Kategorindeki en çok satan rakibin tedarikçisini bul; numune iste, fiyatı karşılaştır.",
+  d:"bekle",l:"https://www.importyeti.com",lb:"Siteye git",
+  l2:"https://x.com/canceylandigi/status/2073718386647871556",lb2:"Kaynak"},
+
+ {k:"b-arsiv",b:"Galerinin Kelimeleri",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
+  n:"Araç türleri, motor, donanım kısaltmaları, ilan dili, belgeler, para ve garanti kelimeleri; hepsi artikeliyle ve tablo hâlinde.",
+  u:"Her gün bir tablo: Türkçeyi kapat, Almancasını artikeliyle sesli söyle.",
+  d:"hazir",yazi:"almancaKelime"},
+ {k:"b-arsiv",b:"İlk Beş Dakika",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
+  n:"Kibar Almancanın dört kuralı, karşılama, ihtiyaç soruları, aracı tanıtma, test sürüşü ve anlamadığında söylenecek cümleler.",
+  u:"'Anlamadığında' tablosunu ilk gün ezberle; en çok o kurtarır.",
+  d:"hazir",yazi:"almancaKarsilama"},
+ {k:"b-arsiv",b:"Fiyat Sorulduğunda",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
+  n:"Almanca rakamlar, pazarlıkta müşterinin dolaylı cümleleri ve senin cevapların, takas, kredi, balon ödeme, kaparo ve nakit kuralı.",
+  u:"Galerideki on aracın fiyatını yüksek sesle oku; rakam hatası en pahalı hatadır.",
+  d:"hazir",yazi:"almancaFiyat"},
+ {k:"b-arsiv",b:"İmzadan Anahtara",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
+  n:"Satış sözleşmesi, tescil için gereken belgeler, teslim konuşması, garanti kelimeleri ve şikâyete sakin cevap.",
+  u:"Şikâyette dinle, sor, kayda al, takvim ver; servis bakmadan suç kabul etme, reddetme.",
+  d:"hazir",yazi:"almancaTeslim"},
+ {k:"b-arsiv",b:"Telefonda ve E-postada",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
+  n:"Telefon açılış kalıbı, randevu, harf harf söyleme, mobile.de mesajları ve kopyalanabilir dört e-posta şablonu.",
+  u:"Şablonları kendi galeri adınla doldurup telefonuna kaydet.",
+  d:"hazir",yazi:"almancaTelefon"},
+ {k:"b-bilim",g:"gorseller/kaynak-quanta.jpg",b:"Quanta Magazine",m:["Dergi · İngilizce"],
+  n:"Matematik, fizik, biyoloji ve bilgisayar bilimindeki araştırmaları uzmanı olmayana açıklayan yazılar. Açıklayıcı bilim yazısının en iyi örneklerinden.",
+  d:"kaynak",l:"https://www.quantamagazine.org",lb:"Siteye git"},
+ {k:"b-bilim",g:"gorseller/kaynak-3b1b.jpg",b:"3Blue1Brown",m:["YouTube · İngilizce"],
+  n:"Matematiği görselleştirerek anlatıyor. Sinir ağları ve büyük dil modelleri üzerine serisi, yapay zekânın içini anlamanın en iyi yollarından.",
+  u:"Temeller bölümündeki ajan videolarından sonra buradaki sinir ağı serisini izle; modellerin nasıl çalıştığı oturur.",
+  d:"kaynak",l:"https://www.youtube.com/@3blue1brown",lb:"YouTube"},
+ {k:"b-bilim",g:"gorseller/kaynak-veritasium.jpg",b:"Veritasium",m:["YouTube · İngilizce"],
+  n:"Fizik ve mühendislik kavramlarını deneylerle ve sezgiye ters düşen sorularla anlatan kanal.",
+  d:"kaynak",l:"https://www.youtube.com/@veritasium",lb:"YouTube"},
+ {k:"b-bilim",g:"gorseller/kaynak-kurzgesagt.jpg",b:"Kurzgesagt",m:["YouTube · İngilizce"],
+  n:"Bilimin büyük sorularını animasyonla anlatıyor; her videonun kaynak listesini ayrıca yayımlıyor.",
+  d:"kaynak",l:"https://www.youtube.com/@kurzgesagt",lb:"YouTube"},
+ {k:"b-bilim",g:"gorseller/kaynak-evrim.jpg",b:"Evrim Ağacı",m:["Site · Türkçe"],
+  n:"Türkçe popüler bilim. Yazılarında kaynak gösteriyor; yanlış bilgiyi doğrulayan yazılar da yayımlıyor.",
+  d:"kaynak",l:"https://evrimagaci.org",lb:"Siteye git"},
+ {k:"b-bilim",g:"gorseller/kaynak-bilimteknik.jpg",b:"Bilim ve Teknik",m:["Dergi · Türkçe · TÜBİTAK"],
+  n:"1967'den beri yayımlanan aylık popüler bilim dergisi. Okuma Masası'nın dergi düzenine ilham veren yayın.",
+  d:"kaynak",l:"https://bilimteknik.tubitak.gov.tr",lb:"Siteye git"},
+ {k:"b-saglik",g:"gorseller/kaynak-nippard.jpg",b:"Jeff Nippard",m:["YouTube · İngilizce"],
+  n:"Antrenman ve beslenmeyi araştırmalara dayanarak anlatıyor; videolarında hangi çalışmaya dayandığını gösteriyor.",
+  d:"kaynak",l:"https://www.youtube.com/@JeffNippard",lb:"YouTube"},
+ {k:"b-saglik",g:"gorseller/kaynak-sbs.jpg",b:"Stronger By Science",m:["Site · İngilizce"],
+  n:"Kuvvet antrenmanı ve beslenme araştırmalarının ayrıntılı özetleri; bir çalışmanın ne gösterdiğini ve neyi göstermediğini ayırıyor.",
+  d:"kaynak",l:"https://www.strongerbyscience.com",lb:"Siteye git"},
+ {k:"b-saglik",g:"gorseller/kaynak-examine.jpg",b:"Examine",m:["Site · İngilizce"],
+  n:"Takviye ve beslenme için bağımsız kanıt veritabanı: hangi etkinin kanıtı güçlü, hangisinin zayıf.",
+  u:"Bir takviye almadan önce burada ara: hangi etkisi kanıtlanmış, hangi dozda.",
+  d:"kaynak",l:"https://examine.com",lb:"Siteye git"},
+ {k:"b-github",g:"gorseller/arac-ecc.jpg",b:"affaan-m/ECC",m:["★ 292.102"],yil:true,
+  n:"Ajan koşumu sistemi — skill'ler, içgüdüler, hafıza, güvenlik. Bizdeki <code>ecc:</code> ön ekli skill ve ajanlar buradan geliyor. Hook kodu denetlendi: ağ çağrısı yok.",
+  d:"kurulu",l:"https://github.com/affaan-m/ECC",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-karpathy.jpg",b:"multica-ai/andrej-karpathy-skills",m:["★ 226.156"],yil:true,
+  n:"Karpathy'nin çalışma prensiplerinden türetilmiş tek bir CLAUDE.md. Lisansı yok, son güncelleme 6 ay önce — okunur, kurulmaz.",
+  d:"referans",l:"https://github.com/multica-ai/andrej-karpathy-skills",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-ponytail.jpg",b:"DietrichGebert/ponytail",m:["★ 179.546"],yil:true,
+  n:"Ajanı gereksiz karmaşıklıktan uzak tutan davranış skill'i. Bizim CLAUDE.md zaten aynı kuralları içeriyor; kurul kurmama kararı verdi.",
+  d:"referans",l:"https://github.com/DietrichGebert/ponytail",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-claudecode.jpg",b:"anthropics/claude-code",m:["★ 153.795"],yil:true,
+  n:"Resmî depo. Sorun bildirimi, sürüm notları ve özelliklerin doğru kaynağı. Bir şeyin gerçekten yapılıp yapılamadığını buradan doğrula.",
+  d:"referans",l:"https://github.com/anthropics/claude-code",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-ccswitch.jpg",b:"farion1231/cc-switch",m:["★ 149.929"],yil:true,
+  n:"Claude Code, Codex, OpenCode arasında geçiş yapan masaüstü yardımcı. Tek araç kullandığımız için gereksiz.",
+  d:"referans",l:"https://github.com/farion1231/cc-switch",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-sysprompts.jpg",b:"x1xhlol/system-prompts-and-models-of-ai-tools",m:["★ 144.322"],yil:true,
+  n:"Claude Code, Cursor, Devin ve onlarca aracın gerçek sistem prompt'ları. Prompt yazmayı öğrenmek için en iyi okuma — üretimde çalışan metinler.",
+  u:"Kurulum değil okuma: sıfır token yükü. Bizim skill'leri yazarken örnek olarak kullan.",
+  d:"bekle",l:"https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-uiux.jpg",b:"nextlevelbuilder/ui-ux-pro-max-skill",m:["★ 142.259"],yil:true,
+  n:"Tasarım zekâsı skill'i: 79 stil, 192 renk paleti, 74 font eşleşmesi, 119 UX kuralı.",
+  d:"kurulu",l:"https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-graphify.jpg",b:"Graphify-Labs/graphify",m:["★ 138.157"],yil:true,
+  n:"Kod tabanını, dokümanları ve PDF'leri sorgulanabilir bilgi grafiğine çeviriyor. Bizde <code>/graphify</code> olarak çalışıyor.",
+  d:"kurulu",l:"https://github.com/Graphify-Labs/graphify",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-gstack.jpg",b:"garrytan/gstack",m:["★ 138.115"],yil:true,
+  n:"Garry Tan'ın 23 araçlık Claude Code kurulumu. Mevcut kurulumla çakışıyor; okunur, kurulmaz.",
+  d:"referans",l:"https://github.com/garrytan/gstack",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-caveman.jpg",b:"JuliusBrussee/caveman",m:["★ 115.907"],yil:true,
+  n:"Token düşürme iddiası taşıyan skill ve vekil sunucu. Kurul reddetti: vekil bütün trafiği ve anahtarları görüyor, depo 48 KB'lık bir CLAUDE.md taşıyor.",
+  d:"referans",l:"https://github.com/JuliusBrussee/caveman",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-claudemem.jpg",b:"thedotmack/claude-mem",m:["★ 104.141"],yil:true,
+  n:"Oturumlar arası kalıcı hafıza. Kurul reddetti: token yükünü artırıyor ve yapılan her şeyi — hassas belgeler dahil — diske düz metin yazıyor.",
+  d:"referans",l:"https://github.com/thedotmack/claude-mem",lb:"GitHub"},
+ {k:"b-github",g:"gorseller/arac-awesome.jpg",b:"ComposioHQ/awesome-claude-skills",m:["★ 78.234"],yil:true,
+  n:"Claude skill'lerinin derli toplu listesi. Yeni bir ihtiyaç çıktığında önce buraya bakılır.",
+  u:"Sosyal medyada paylaşılan skill'leri tek tek takip etmek yerine bu listeyi ayda bir tara.",
+  d:"referans",l:"https://github.com/ComposioHQ/awesome-claude-skills",lb:"GitHub"},
+
+ {k:"b-arsiv",g:"gorseller/ekstrem.jpg",b:"Ekstrem Zorluk — 14 maddelik protokol",m:["Charlie Morgan","38:05","24 Eki 2026"],
+  n:"Video bir koçluk programının satış hunisi, \"40 milyon dolar\" iddiası doğrulanamıyor. Ama çalışma hızı, uyku disiplini ve dinlenme bölümleri sağlam.",
+  d:"hazir",yazi:"ekstrem",l:"https://x.com/paramuhendisim/status/2113900956404654279",lb:"Kaynak"},
+ {k:"b-arsiv",g:"gorseller/youtube.jpg",b:"Claude ile YouTube geliri",m:["@paramuhendisim","12 Eki 2026","234 B"],
+  n:"Kazanç iddiası isimsiz, çerçeve para vaadi. Yazıya dökülmedi.",
+  d:"bekle",l:"https://x.com/paramuhendisim/status/2109552694742704353",lb:"Kaynak"}
+];
+
+var ROZET={hazir:["rozet","Yazı hazır"],bekle:["rozet bekle","Sırada"],
+  kurulu:["rozet kurulu","Kurulu"],referans:["rozet referans","Referans"],
+  kaynak:["rozet","Onaylı kaynak"]};
+
+function kac(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function kucuk(s){return String(s).toLocaleLowerCase("tr");}
+function araMetni(v){return kac(kucuk(v.b+" "+v.m.join(" ")+" "+v.n+" "+(v.u||"")));}
+function kimHtml(v){return v.m.map(function(x){return '<span'+(v.yil?' class="yildiz"':'')+'>'+kac(x)+'</span>';}).join("");}
+function rozetHtml(v){var r=ROZET[v.d]||ROZET.bekle;return '<span class="'+r[0]+'">'+r[1]+'</span>';}
+function bizdeHtml(v){return v.u?'<p class="uygula"><span>Bizde</span>'+v.u+'</p>':'';}
+function baglarHtml(v){
+  return (v.yazi?'<a class="btn dolu" href="#'+v.yazi+'">Oku</a>':'')+
+    (v.l?'<a class="btn" href="'+v.l+'" target="_blank" rel="noopener">'+v.lb+'</a>':'')+
+    (v.l2?'<a class="btn" href="'+v.l2+'" target="_blank" rel="noopener">'+v.lb2+'</a>':'');
+}
+function bolumBasi(kat,adet){
+  return '<header class="bolum-bas"><p class="kicker"><i></i>'+kac(kat.kisa)+'</p>'+
+    '<div class="kat"><h2>'+kac(kat.ad)+'</h2><span class="n">'+adet+'</span></div>'+
+    (kat.not?'<p class="kat-not">'+kat.not+'</p>':'')+'</header>'+
+    (kat.foto?'<figure class="bolum-foto"><img src="'+kat.foto+'" alt="'+kac(kat.fotoAlt||"")+'" loading="lazy" decoding="async">'+
+      '<figcaption>Fotoğraf: Unsplash</figcaption></figure>':'');
+}
+
+function platform(v){
+  if(v.yazi) return "YAZI";
+  var l=v.l||"";
+  if(/youtube\.com|youtu\.be/.test(l)) return "YT";
+  if(/(^|\/\/)(www\.)?(x|twitter)\.com/.test(l)) return "X";
+  if(/github\.com/.test(l)) return "GH";
+  return "WEB";
+}
+
+/* ---- kurulum ---- */
+var html="";
+KATEGORILER.forEach(function(kat){
+  var og=VERI.filter(function(v){return v.k===kat.id;});
+  var stil=' style="--kat:hsl('+kat.renk+')"';
+  if(kat.bicim==="kapak"){
+    var v=og[0];
+    html+='<section id="'+kat.id+'" class="kapak"'+stil+'><div class="kapak-ic" data-ara="'+araMetni(v)+'">'+
+      '<div class="kapak-metin"><p class="kicker"><i></i>'+kac(kat.kisa)+'</p>'+
+      '<h2 class="kapak-baslik">'+kac(v.kb||v.b)+'</h2>'+
+      '<p class="kapak-alt">'+(v.kd||v.n)+'</p>'+bizdeHtml(v)+
+      '<div class="ayak"><a class="btn dolu" href="#'+v.yazi+'">Kapak yazısını oku</a>'+
+      '<span class="kim">'+kimHtml(v)+'</span></div></div>'+
+      '<div class="kapak-gorsel" aria-hidden="true"><canvas id="kapak-cizim"></canvas></div>'+
+      '</div></section>';
+    return;
+  }
+  if(kat.bicim==="gunluk"){
+    html+='<section id="'+kat.id+'" class="bolum"'+stil+'>'+bolumBasi(kat,"")+
+      '<div class="gunluk-icerik"><p class="yukleniyor">Bugünün derlemesi yükleniyor…</p></div></section>';
+    return;
+  }
+  html+='<section id="'+kat.id+'" class="bolum"'+stil+'>'+bolumBasi(kat,og.length);
+  if(kat.bicim==="dosya"){
+    html+='<div class="dosya-grid">';
+    og.forEach(function(v,i){
+      var lead=(i===0&&v.yazi),Y=v.yazi&&YAZILAR[v.yazi],ft=(Y&&Y.foto&&Y.kartFoto!==false)?Y.foto:v.g;
+      html+='<article class="'+(lead?'lead':'')+(ft?' fotolu':'')+'" data-ara="'+araMetni(v)+'">'+
+        (ft?'<a class="kart-foto" href="'+(v.yazi?'#'+v.yazi:kac(v.l||'#'))+'"'+(v.yazi?'':' target="_blank" rel="noopener"')+' tabindex="-1" aria-hidden="true"><img src="'+ft+'" alt="" loading="lazy" decoding="async"></a><div class="kart-govde">':'')+
+        '<p class="kim">'+kimHtml(v)+'</p><h3>'+kac(v.b)+'</h3>'+
+        '<p class="ne">'+v.n+'</p>'+bizdeHtml(v)+
+        '<div class="ayak">'+rozetHtml(v)+baglarHtml(v)+'</div>'+(ft?'</div>':'')+'</article>';
+    });
+    html+='</div>';
+  }else if(kat.bicim==="arac"){
+    html+='<div class="arac-liste">';
+    og.forEach(function(v){
+      html+='<div class="arac-oge'+(v.g?' fotolu':'')+'" data-ara="'+araMetni(v)+'">'+
+        (v.g?'<span class="kisa-foto" aria-hidden="true"><img src="'+v.g+'" alt="" loading="lazy" decoding="async"></span><div class="arac-govde">':'')+'<div class="arac-bas">'+
+        '<a class="arac-ad" href="'+v.l+'" target="_blank" rel="noopener">'+kac(v.b)+'</a>'+
+        rozetHtml(v)+'<span class="yildiz">'+kac(v.m[0])+'</span></div>'+
+        '<p class="ne">'+v.n+'</p>'+bizdeHtml(v)+(v.g?'</div>':'')+'</div>';
+    });
+    html+='</div>';
+  }else{
+    var fotolu=og.filter(function(v){return v.yazi&&YAZILAR[v.yazi]&&YAZILAR[v.yazi].foto&&YAZILAR[v.yazi].kartFoto!==false;});
+    if(fotolu.length){
+      html+='<div class="foto-seri">';
+      fotolu.forEach(function(v,i){
+        var Y=YAZILAR[v.yazi];
+        html+='<a class="foto-kart'+(i===0?' ilk':'')+'" href="#'+v.yazi+'" data-ara="'+araMetni(v)+'">'+
+          '<span class="foto-kap"><img src="'+Y.foto+'" alt="'+kac(Y.fotoAlt||"")+'" loading="lazy" decoding="async">'+
+          (/^almanca/.test(v.yazi)?'<span class="foto-rozet">Sesli</span>':'')+'</span>'+
+          '<span class="foto-govde"><span class="foto-ust">'+kac(v.m[0])+' · '+String(i+1).padStart(2,"0")+'</span>'+
+          '<h3>'+kac(v.b)+'</h3><span class="ne">'+v.n+'</span></span></a>';
+      });
+      html+='</div>';
+    }
+    html+='<div class="kisa-liste">';
+    og.filter(function(v){return fotolu.indexOf(v)<0;}).forEach(function(v){
+      html+='<div class="kisa-oge" data-ara="'+araMetni(v)+'">'+
+        (v.g?'<span class="kisa-foto" aria-hidden="true"><img src="'+v.g+'" alt="" loading="lazy" decoding="async"></span>':
+          '<span class="rozet-kare" aria-hidden="true">'+platform(v)+'</span>')+'<div class="kisa-govde">'+
+        '<h3>'+kac(v.b)+'</h3><p class="kim">'+kimHtml(v)+'</p><p class="ne">'+v.n+'</p>'+bizdeHtml(v)+
+        '<div class="ayak">'+rozetHtml(v)+baglarHtml(v)+'</div></div></div>';
+    });
+    html+='</div>';
+  }
+  html+='</section>';
+});
+document.getElementById("bolumler").innerHTML=html;
+
+var hazirSayi=VERI.filter(function(v){return v.yazi;}).length;
+document.getElementById("ust-sayac").textContent=VERI.length+" kaynak · "+hazirSayi+" yazı";
+
+document.getElementById("nav-bolum").innerHTML=KATEGORILER.map(function(k){
+  var s=VERI.filter(function(v){return v.k===k.id;}).length;
+  return '<li><a href="#'+k.id+'"><i class="nokta" style="background:hsl('+k.renk+')"></i>'+
+    '<span class="ad"><small>'+kac(k.kisa)+'</small>'+kac(k.ad)+'</span>'+
+    '<span class="sy">'+((k.bicim==="kapak"||k.bicim==="gunluk")?"":s)+'</span></a></li>';
+}).join("");
+var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftanın dosyası","b-claude":"Claude",
+  "b-yz":"Yapay zekâ","b-eticaret":"E-ticaret","b-bilim":"Bilim","b-saglik":"Sağlık ve fitness",
+  "b-github":"Araçlar","b-arsiv":"Arşiv"};
+var serit=document.getElementById("serit");
+serit.innerHTML=KATEGORILER.map(function(k){
+  return '<a href="#'+k.id+'"><i style="background:hsl('+k.renk+')"></i>'+kac(CIP[k.id]||k.kisa)+'</a>';
+}).join("");
+serit.addEventListener("click",function(e){
+  var a=e.target.closest("a"); if(!a) return;
+  if(location.hash===a.getAttribute("href")){ e.preventDefault(); var h=document.getElementById(a.getAttribute("href").slice(1)); if(h) h.scrollIntoView({behavior:"smooth"}); }
+});
+function seritAktif(id){
+  var bag=serit.querySelectorAll("a"),sec=null;
+  for(var i=0;i<bag.length;i++){ var on=bag[i].getAttribute("href")==="#"+id; bag[i].classList.toggle("aktif",on); if(on) sec=bag[i]; }
+  if(sec&&serit.offsetParent) serit.scrollTo({left:sec.offsetLeft-16,behavior:"smooth"});
+}
+if("IntersectionObserver" in window){
+  var seritGoz=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting) seritAktif(e.target.id); });
+  },{rootMargin:"-130px 0px -65% 0px"});
+  KATEGORILER.forEach(function(k){ var el=document.getElementById(k.id); if(el) seritGoz.observe(el); });
+}
+document.getElementById("nav-yazi").innerHTML=Object.keys(YAZILAR).map(function(a){
+  return '<li><a href="#'+a+'"><span class="ad">'+kac(YAZILAR[a].ad)+'</span></a></li>';
+}).join("");
+
+/* ---- günlük kısa kısa: veri/kisa-kisa.json ---- */
+var ALAN={claude:["CL","Claude"],yz:["YZ","Yapay zekâ"],teknoloji:["TK","Teknoloji"],
+  eticaret:["ET","E-ticaret"],bilim:["BL","Bilim"],saglik:["SĞ","Sağlık"],fitness:["FT","Fitness"]};
+var GRUP=[["Claude ve yapay zekâ",["claude","yz"],0,"262 52% 58%"],["Teknoloji ve bilim",["teknoloji","bilim"],0,"198 70% 45%"],
+  ["E-ticaret",["eticaret"],0,"24 80% 52%"],["Sağlık ve fitness",["saglik","fitness"],0,"145 45% 42%"],["Diğer",[],1,"220 8% 50%"]];
+function uygulaAlani(a){return a==="saglik"||a==="fitness";}
+function tarihYaz(t){
+  var d=new Date(String(t)+"T12:00:00");
+  return isNaN(d)?String(t):d.toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+}
+function gunlukOge(o){
+  var a=ALAN[o.alan]||["•","Haber"],url=/^https:\/\//.test(o.url||"")?o.url:"";
+  return '<div class="kisa-oge" data-ara="'+kac(kucuk([o.baslik,o.ozet,o.kaynak,a[1],o.not||""].join(" ")))+'">'+
+    '<span class="rozet-kare" aria-hidden="true">'+kac(a[0])+'</span><div class="kisa-govde">'+
+    '<h3>'+kac(o.baslik||"")+'</h3><p class="kim"><span>'+kac(a[1])+'</span><span>'+kac(o.kaynak||"")+'</span></p>'+
+    '<p class="ne">'+kac(o.ozet||"")+'</p>'+
+    (o.not?'<p class="uygula"><span>'+(uygulaAlani(o.alan)?"Uygula":"Bizde")+'</span>'+kac(o.not)+'</p>':'')+
+    (url?'<div class="ayak"><a class="btn" href="'+kac(url)+'" target="_blank" rel="noopener">Kaynak</a></div>':'')+
+    '</div></div>';
+}
+function gunlukCiz(v){
+  var sec=document.getElementById("b-gunluk"); if(!sec) return;
+  var kutu=sec.querySelector(".gunluk-icerik"),gunler=(v&&Array.isArray(v.gunler))?v.gunler:[];
+  gunler=gunler.filter(function(g){return g&&Array.isArray(g.ogeler)&&g.ogeler.length;});
+  if(!gunler.length){ kutu.innerHTML='<p class="kat-not">Bugünün derlemesi henüz hazır değil. Her sabah yenilenir.</p>'; return; }
+  var saglikVar=false;
+  function gun(g){
+    g.ogeler.forEach(function(o){ if(uygulaAlani(o.alan)) saglikVar=true; });
+    var og=g.ogeler.slice(0,8),h='<p class="gunluk-tarih">'+kac(tarihYaz(g.tarih))+'</p>';
+    GRUP.forEach(function(gr){
+      var bu=og.filter(function(o){ return gr[2]?GRUP.every(function(x){return x[2]||x[1].indexOf(o.alan)<0;}):gr[1].indexOf(o.alan)>-1; });
+      if(!bu.length) return;
+      h+='<div class="gunluk-grup"><p class="grup-bas" style="--g:'+gr[3]+'"><i></i>'+kac(gr[0])+'<span>'+bu.length+'</span></p>'+
+        '<div class="kisa-liste">'+bu.map(gunlukOge).join("")+'</div></div>';
+    });
+    return h;
+  }
+  var h=gun(gunler[0]);
+  if(gunler.length>1) h+='<details class="onceki"><summary>Önceki günler ('+(gunler.length-1)+')</summary>'+gunler.slice(1).map(gun).join("")+'</details>';
+  if(saglikVar) h+='<p class="saglik-not">Sağlık ve fitness başlıkları bilgi amaçlıdır, tıbbi tavsiye değildir.</p>';
+  kutu.innerHTML=h;
+  var n=sec.querySelector(".n"); if(n) n.textContent=gunler[0].ogeler.length;
+  if(ara.value.trim()) filtrele();
+}
+fetch("veri/kisa-kisa.json",{cache:"no-store"})
+  .then(function(r){ return r.ok?r.json():null; })
+  .then(gunlukCiz)
+  .catch(function(){ gunlukCiz(null); });
+
+/* ---- kapak çizimi: kod satırlarını andıran soyut kompozisyon ---- */
+function kapakCiz(){
+  var c=document.getElementById("kapak-cizim");
+  if(!c||!c.offsetWidth||!c.offsetHeight) return;
+  var w=c.offsetWidth,h=c.offsetHeight,dpr=Math.min(2,window.devicePixelRatio||1);
+  c.width=Math.round(w*dpr); c.height=Math.round(h*dpr);
+  var x=c.getContext("2d"); x.setTransform(dpr,0,0,dpr,0,0); x.clearRect(0,0,w,h);
+  var renk=KATEGORILER.slice(0,5).map(function(k){return "hsl("+k.renk+")";});
+  var t=20261101;
+  function rnd(){t=(t*1664525+1013904223)%4294967296;return t/4294967296;}
+  var pad=Math.max(20,w*.08),adim=Math.max(15,Math.min(24,h/17)),y=pad,gir=0,sat=0;
+  var vurguSat=Math.floor(((h-2*pad)/adim)*.56);
+  while(y<h-pad-adim*.4){
+    var d=rnd();
+    if(d<.27&&gir<4) gir++; else if(d>.73&&gir>0) gir--;
+    var px=pad+gir*adim*1.15,kel=1+Math.floor(rnd()*4),vs=(sat===vurguSat);
+    for(var k=0;k<kel;k++){
+      var bw=adim*(.9+rnd()*3.3);
+      if(px+bw>w-pad) break;
+      x.globalAlpha=vs?.95:(.16+rnd()*.42);
+      x.fillStyle=vs?renk[0]:renk[Math.floor(rnd()*renk.length)];
+      var bh=adim*.42;
+      x.beginPath();
+      if(x.roundRect) x.roundRect(px,y,bw,bh,bh/2); else x.rect(px,y,bw,bh);
+      x.fill();
+      px+=bw+adim*.45;
+    }
+    if(vs){ x.globalAlpha=.95; x.fillStyle=renk[0]; x.fillRect(px+2,y-adim*.14,2.5,adim*.7); }
+    y+=adim; sat++;
+  }
+  x.globalAlpha=1;
+}
+
+/* ---- tema ---- */
+var temaDeger=document.getElementById("tema-deger"),temalar=["sistem","light","dark"],
+    adlar={sistem:"Sistem",light:"Açık",dark:"Koyu"},tema="sistem";
+try{var kt=localStorage.getItem("tema"); if(kt&&adlar[kt]) tema=kt;}catch(e){}
+function temaUygula(){
+  if(tema==="sistem") document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme",tema);
+  temaDeger.textContent=adlar[tema];
+}
+function temaDondur(){
+  tema=temalar[(temalar.indexOf(tema)+1)%temalar.length];
+  try{localStorage.setItem("tema",tema);}catch(e){}
+  temaUygula(); kapakCiz();
+}
+temaUygula();
+document.getElementById("tema").addEventListener("click",temaDondur);
+document.getElementById("tema-m").addEventListener("click",temaDondur);
+
+/* ---- çekmece ---- */
+var raf=document.getElementById("raf"),perde=document.getElementById("perde"),menuDug=document.getElementById("menu-dug");
+function cekmece(ac){
+  raf.classList.toggle("acik",ac); perde.classList.toggle("acik",ac);
+  menuDug.setAttribute("aria-expanded",ac?"true":"false");
+}
+menuDug.addEventListener("click",function(){cekmece(!raf.classList.contains("acik"));});
+perde.addEventListener("click",function(){cekmece(false);});
+
+/* ---- arama ---- */
+var ara=document.getElementById("ara"),bos=document.getElementById("bos");
+function filtrele(){
+  var q=kucuk(ara.value.trim()),toplam=0;
+  KATEGORILER.forEach(function(k){
+    var sec=document.getElementById(k.id); if(!sec) return;
+    var og=sec.querySelectorAll("[data-ara]"),gor=0;
+    for(var i=0;i<og.length;i++){
+      var uy=!q||og[i].getAttribute("data-ara").indexOf(q)>-1;
+      og[i].hidden=!uy; if(uy) gor++;
+    }
+    var gg=sec.querySelectorAll(".gunluk-grup");
+    for(var j=0;j<gg.length;j++) gg[j].hidden=!gg[j].querySelector(".kisa-oge:not([hidden])");
+    sec.hidden=q?gor===0:false;
+    var n=sec.querySelector(".n"); if(n) n.textContent=gor;
+    toplam+=gor;
+  });
+  bos.classList.toggle("gorunur",toplam===0);
+  kapakCiz();
+}
+ara.addEventListener("input",filtrele);
+
+/* ---- okuyucu ---- */
+var liste=document.getElementById("liste"),okuyucu=document.getElementById("okuyucu"),
+    metin=document.getElementById("metin"),icListe=document.getElementById("ic-liste"),
+    ilerleme=document.getElementById("ilerleme"),onbellek={},aktifYazi=null,
+    okumaCubuk=document.getElementById("okuma-cubuk"),cubukBaslik=document.getElementById("cubuk-baslik");
+
+function okumaSuresi(t){return Math.max(1,Math.round(t.split(/\s+/).length/190));}
+function icindekilerKur(){
+  var bs=metin.querySelectorAll("h2"),cik="";
+  for(var i=0;i<bs.length;i++){
+    bs[i].id="bs-"+i;
+    cik+='<li><a href="#bs-'+i+'" data-bs="bs-'+i+'">'+kac(bs[i].textContent)+'</a></li>';
+  }
+  icListe.innerHTML=cik;
+  icDug.hidden=bs.length<3;
+  var bag=icListe.querySelectorAll("a");
+  for(var j=0;j<bag.length;j++){
+    bag[j].addEventListener("click",function(e){
+      e.preventDefault();
+      var hd=document.getElementById(this.getAttribute("data-bs"));
+      if(hd) hd.scrollIntoView({behavior:"smooth",block:"start"});
+      panelAc(null,false);
+    });
+  }
+}
+/* ---- Almanca yazılarda sesli okunuş (tarayıcının kendi sesi, ücretsiz) ---- */
+var SES_IKON='<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 6h2.5L8 3v10L4.5 10H2z"/><path d="M10.5 5.2a3.5 3.5 0 0 1 0 5.6M12.4 3.4a6 6 0 0 1 0 9.2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>';
+var sesHiz=0.92,sesCalan=null;
+try{ if(localStorage.getItem("ses-yavas")==="1") sesHiz=0.72; }catch(e){}
+function almancaSes(){
+  var v=window.speechSynthesis.getVoices().filter(function(x){return /^de[-_]/i.test(x.lang);});
+  var iyi=v.filter(function(x){return /Anna|Petra|Helena|Markus|Google|Premium|Enhanced/i.test(x.name);});
+  return iyi[0]||v[0]||null;
+}
+function sesTemizle(t){
+  return t.replace(/…/g,"").replace(/\s\/\s/g,". ").replace(/\[[^\]]*\]/g,"").replace(/\s+/g," ").trim();
+}
+function sesCal(btn,metinStr){
+  var ss=window.speechSynthesis;
+  if(sesCalan===btn){ ss.cancel(); btn.classList.remove("caliyor"); sesCalan=null; return; }
+  ss.cancel(); if(sesCalan) sesCalan.classList.remove("caliyor");
+  var u=new SpeechSynthesisUtterance(sesTemizle(metinStr));
+  u.lang="de-DE"; u.rate=sesHiz; var vo=almancaSes(); if(vo) u.voice=vo;
+  u.onend=u.onerror=function(){ btn.classList.remove("caliyor"); if(sesCalan===btn) sesCalan=null; };
+  btn.classList.add("caliyor"); sesCalan=btn; ss.speak(u);
+}
+function sesDugme(metinStr,etiket){
+  var b=document.createElement("button"); b.type="button"; b.className="ses";
+  b.setAttribute("aria-label",etiket||"Almanca dinle"); b.title=etiket||"Almanca dinle"; b.innerHTML=SES_IKON;
+  b.addEventListener("click",function(e){ e.preventDefault(); e.stopPropagation(); sesCal(b,metinStr); });
+  return b;
+}
+function sesEkle(){
+  if(!("speechSynthesis" in window)) return;
+  window.speechSynthesis.getVoices();
+  var ALM=/^(Almanca|Sert|Kibar|Müşteri der|Mesaj|Söylenişi)$/i;
+  metin.querySelectorAll("table").forEach(function(tb){
+    var bas=[].map.call(tb.querySelectorAll("thead th"),function(th){return th.textContent.trim();});
+    tb.querySelectorAll("tbody tr").forEach(function(tr){
+      [].forEach.call(tr.children,function(td,i){
+        if(ALM.test(bas[i]||"")&&td.textContent.trim()) td.appendChild(sesDugme(td.textContent));
+      });
+    });
+  });
+  metin.querySelectorAll("p > em").forEach(function(em){
+    var t=em.textContent.trim();
+    if(/^["„“]/.test(t)&&t.length>12) em.parentNode.insertBefore(sesDugme(t.replace(/["„“”]/g,"")),em.nextSibling);
+  });
+  metin.querySelectorAll("pre").forEach(function(pre){
+    var t=pre.textContent.replace(/^Betreff:.*$/m,"");
+    var bar=document.createElement("div"); bar.className="ses-pre";
+    bar.appendChild(sesDugme(t,"Şablonu dinle")); bar.appendChild(document.createTextNode("Şablonu dinle"));
+    pre.parentNode.insertBefore(bar,pre);
+  });
+  var by=metin.querySelector(".yazi-foto")||metin.querySelector(".yazi-ust");
+  if(by){
+    var kutu=document.createElement("div"); kutu.className="ses-bilgi";
+    kutu.appendChild(sesDugme("Guten Tag! Herzlich willkommen.","Örnek dinle"));
+    var ac=document.createElement("span"); ac.style.flex="1 1 240px";
+    ac.textContent="Almanca cümlelerin yanındaki düğmeye bas, okunuşunu dinle. Tekrar basınca durur.";
+    kutu.appendChild(ac);
+    var lb=document.createElement("label"),cb=document.createElement("input"); cb.type="checkbox"; cb.checked=sesHiz<0.8;
+    cb.addEventListener("change",function(){ sesHiz=cb.checked?0.72:0.92; try{localStorage.setItem("ses-yavas",cb.checked?"1":"0");}catch(e){} });
+    lb.appendChild(cb); lb.appendChild(document.createTextNode("Yavaş oku"));
+    kutu.appendChild(lb);
+    by.parentNode.insertBefore(kutu,by.nextSibling);
+  }
+}
+function fotoFigur(src,alt,not,sinif,hemen){
+  var f=document.createElement("figure"); f.className=sinif;
+  var im=document.createElement("img"); im.src=src; im.alt=alt||""; im.decoding="async";
+  if(!hemen) im.loading="lazy";
+  var c=document.createElement("figcaption"); c.innerHTML=(not?kac(not)+" ":"")+"<span>Fotoğraf: Unsplash</span>";
+  f.appendChild(im); f.appendChild(c); return f;
+}
+function yaziGoster(ad,h,ust){
+  metin.innerHTML=h;
+  var h1=metin.querySelector("h1");
+  if(h1&&h1.parentNode===metin){
+    var k=document.createElement("p"); k.className="yazi-kicker"; k.textContent=YAZILAR[ad].bolum;
+    metin.insertBefore(k,h1);
+    var deck=h1.nextElementSibling,sonra=h1;
+    if(deck&&deck.tagName==="P"){ deck.classList.add("deck"); sonra=deck; }
+    var by=document.createElement("p"); by.className="yazi-ust"; by.textContent=ust;
+    metin.insertBefore(by,sonra.nextSibling);
+    var Y=YAZILAR[ad];
+    if(Y.foto) metin.insertBefore(fotoFigur(Y.foto,Y.fotoAlt,Y.fotoNot,"yazi-foto",true),by.nextSibling);
+  }
+  metin.querySelectorAll("p > img").forEach(function(im){
+    var p=im.parentNode; if(p.children.length!==1||p.textContent.trim()) return;
+    p.parentNode.replaceChild(fotoFigur(im.getAttribute("src"),im.alt,im.title,"ara-foto"),p);
+  });
+  cubukBaslik.textContent=h1?h1.textContent:YAZILAR[ad].ad;
+  if(/^almanca/.test(ad)) sesEkle();
+  icindekilerKur(); guncelle();
+}
+function ac(ad){
+  aktifYazi=ad;
+  liste.hidden=true;
+  okuyucu.classList.add("acik");
+  ilerleme.classList.add("gorunur");
+  document.body.classList.add("okuma-modu");
+  if(zemin) document.body.setAttribute("data-zemin",zemin);
+  window.scrollTo(0,0);
+  if(onbellek[ad]){ yaziGoster(ad,onbellek[ad].html,onbellek[ad].ust); return; }
+  icDug.hidden=true;
+  metin.innerHTML='<p class="yukleniyor">Yazı yükleniyor…</p>';
+  fetch(YAZILAR[ad].dosya)
+    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.text(); })
+    .then(function(t){
+      var ust=YAZILAR[ad].kaynak+" · "+okumaSuresi(t)+" dk okuma";
+      onbellek[ad]={html:marked.parse(t),ust:ust};
+      if(aktifYazi===ad) yaziGoster(ad,onbellek[ad].html,ust);
+    })
+    .catch(function(){ metin.innerHTML="<p>Yazı yüklenemedi. Sayfayı yenilemeyi dene.</p>"; });
+}
+function kapat(){
+  aktifYazi=null;
+  if("speechSynthesis" in window) window.speechSynthesis.cancel();
+  okuyucu.classList.remove("acik");
+  ilerleme.classList.remove("gorunur"); ilerleme.style.width="0";
+  okumaCubuk.classList.remove("gorunur");
+  liste.hidden=false;
+  document.body.classList.remove("okuma-modu");
+  document.body.removeAttribute("data-zemin");
+  panelAc(null,false);
+  kapakCiz();
+}
+function isaretle(ad){
+  var bag=raf.querySelectorAll("nav a");
+  for(var i=0;i<bag.length;i++) bag[i].classList.toggle("aktif",bag[i].getAttribute("href")==="#"+ad);
+}
+function yonlendir(){
+  var ad=location.hash.replace("#","");
+  if(YAZILAR[ad]){ ac(ad); isaretle(ad); }
+  else{
+    if(aktifYazi!==null) kapat();
+    if(ad&&document.getElementById(ad)) setTimeout(function(){document.getElementById(ad).scrollIntoView();},0);
+    isaretle(ad);
+  }
+  cekmece(false);
+}
+function cikis(){ if(location.hash) location.hash=""; else { kapat(); isaretle(""); } }
+window.addEventListener("hashchange",yonlendir);
+
+/* ---- okuma modu: boyut, genişlik, zemin, içindekiler ---- */
+var BOYUTLAR=[1.0,1.07,1.15,1.24,1.34,1.46],ENLER=["56ch","68ch","80ch"],ZEMINLER=["acik","sepya","gri","koyu"],
+    bi=2,ei=1,zemin=null,
+    panel=document.getElementById("panel"),icPanel=document.getElementById("ic-panel"),
+    aAdug=document.getElementById("aA"),icDug=document.getElementById("ic-dug");
+try{
+  var kb=localStorage.getItem("oku");
+  if(kb){ var o=JSON.parse(kb);
+    if(typeof o.b==="number"&&BOYUTLAR[o.b]!==undefined) bi=o.b;
+    if(typeof o.e==="number"&&ENLER[o.e]!==undefined) ei=o.e;
+    if(ZEMINLER.indexOf(o.z)>-1) zemin=o.z; }
+}catch(e){}
+function okuKaydet(){ try{localStorage.setItem("oku",JSON.stringify({b:bi,e:ei,z:zemin}));}catch(e){} }
+function okuUygula(){
+  var r=document.documentElement.style;
+  r.setProperty("--oku-boyut",BOYUTLAR[bi]+"rem");
+  r.setProperty("--oku-en",ENLER[ei]);
+  if(zemin&&aktifYazi) document.body.setAttribute("data-zemin",zemin);
+  else document.body.removeAttribute("data-zemin");
+  document.getElementById("kucult").disabled=bi===0;
+  document.getElementById("buyut").disabled=bi===BOYUTLAR.length-1;
+  var eb=panel.querySelectorAll("#en-grup .oku-dug");
+  for(var i=0;i<eb.length;i++) eb[i].classList.toggle("acik",+eb[i].getAttribute("data-en")===ei);
+  var zb=panel.querySelectorAll("#zemin-grup .zemin-dug");
+  for(var j=0;j<zb.length;j++) zb[j].classList.toggle("acik",zb[j].getAttribute("data-z")===zemin);
+}
+function boyutDegis(y){ bi=Math.min(BOYUTLAR.length-1,Math.max(0,bi+y)); okuUygula(); okuKaydet(); }
+function panelAc(p,ac){
+  panel.classList.toggle("acik",p===panel&&ac);
+  icPanel.classList.toggle("acik",p===icPanel&&ac);
+  aAdug.setAttribute("aria-expanded",(p===panel&&ac)?"true":"false");
+  icDug.setAttribute("aria-expanded",(p===icPanel&&ac)?"true":"false");
+}
+document.getElementById("kucult").addEventListener("click",function(){boyutDegis(-1);});
+document.getElementById("buyut").addEventListener("click",function(){boyutDegis(1);});
+document.getElementById("en-grup").addEventListener("click",function(e){
+  var b=e.target.closest("[data-en]"); if(!b) return;
+  ei=+b.getAttribute("data-en"); okuUygula(); okuKaydet();
+});
+document.getElementById("zemin-grup").addEventListener("click",function(e){
+  var b=e.target.closest("[data-z]"); if(!b) return;
+  var z=b.getAttribute("data-z"); zemin=(zemin===z)?null:z; okuUygula(); okuKaydet();
+});
+aAdug.addEventListener("click",function(e){ e.stopPropagation(); panelAc(panel,!panel.classList.contains("acik")); });
+icDug.addEventListener("click",function(e){ e.stopPropagation(); panelAc(icPanel,!icPanel.classList.contains("acik")); });
+panel.addEventListener("click",function(e){e.stopPropagation();});
+icPanel.addEventListener("click",function(e){e.stopPropagation();});
+document.addEventListener("click",function(){ panelAc(null,false); });
+document.getElementById("cik").addEventListener("click",cikis);
+document.addEventListener("keydown",function(e){
+  if(e.metaKey||e.ctrlKey||e.altKey) return;
+  if(aktifYazi){
+    if(document.activeElement===ara) return;
+    if(e.key==="+"||e.key==="="){ e.preventDefault(); boyutDegis(1); }
+    else if(e.key==="-"||e.key==="_"){ e.preventDefault(); boyutDegis(-1); }
+    else if(e.key==="Escape"){
+      if(panel.classList.contains("acik")||icPanel.classList.contains("acik")) panelAc(null,false);
+      else cikis();
+    }
+    return;
+  }
+  if(e.key==="/"&&document.activeElement!==ara){ e.preventDefault(); ara.focus(); }
+  else if(e.key==="Escape"){
+    if(raf.classList.contains("acik")) cekmece(false);
+    else if(document.activeElement===ara){ ara.value=""; filtrele(); ara.blur(); }
+  }
+});
+okuUygula();
+
+/* ---- kaydırma takibi ---- */
+function guncelle(){
+  if(aktifYazi){
+    var yuk=document.documentElement.scrollHeight-window.innerHeight;
+    ilerleme.style.width=(yuk>0?Math.min(100,(window.scrollY/yuk)*100):0)+"%";
+    okumaCubuk.classList.toggle("gorunur",window.scrollY>140);
+    var bs=metin.querySelectorAll("h2"),se=null;
+    for(var i=0;i<bs.length;i++) if(bs[i].getBoundingClientRect().top<140) se=bs[i].id;
+    var icb=icListe.querySelectorAll("a");
+    for(var j=0;j<icb.length;j++) icb[j].classList.toggle("aktif",icb[j].getAttribute("data-bs")===se);
+  }else{
+    var sa=null;
+    for(var k=0;k<KATEGORILER.length;k++){
+      var s=document.getElementById(KATEGORILER[k].id);
+      if(s&&!s.hidden&&s.getBoundingClientRect().top<180) sa=KATEGORILER[k].id;
+    }
+    if(sa) isaretle(sa);
+  }
+}
+var bekle1=false,bekle2=false;
+window.addEventListener("scroll",function(){
+  if(bekle1) return; bekle1=true;
+  requestAnimationFrame(function(){ guncelle(); bekle1=false; });
+},{passive:true});
+window.addEventListener("resize",function(){
+  if(bekle2) return; bekle2=true;
+  requestAnimationFrame(function(){ kapakCiz(); bekle2=false; });
+});
+
+yonlendir();
+guncelle();
+kapakCiz();
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(kapakCiz);
+})();
+</script>
+
+</html>

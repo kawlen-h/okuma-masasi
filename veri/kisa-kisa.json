@@ -1,0 +1,125 @@
+{
+  "guncelleme": "2026-10-31",
+  "gunler": [
+    {
+      "tarih": "2026-10-31",
+      "ogeler": [
+        {
+          "alan": "yz",
+          "baslik": "OpenAI, modellerinin davranış kılavuzunu yeniden yazdı",
+          "ozet": "OpenAI, modellerinin nasıl davranması gerektiğini anlatan Model Spec belgesinin 29 Ekim 2026 sürümünü yayımladı. Belge artık beş temel değer etrafında düzenleniyor: insan niyetine sadakat, zararı en aza indirme, dürüstlük ve şeffaflık, insanın karar gücünü destekleme ve özenli davranma. Yeni metinde modeller \"asistan\" yerine \"GPT\" adıyla anılıyor.",
+          "kaynak": "OpenAI Model Spec · 29 Ekim 2026",
+          "url": "https://model-spec.openai.com/2026-10-29.html",
+          "not": "Kendi Claude talimat dosyalarımızı da birkaç temel değer etrafında toplamak, uzun kural listelerinden daha tutarlı sonuç verebilir.",
+          "ig": "OpenAI, modellerinin davranış kılavuzu Model Spec'i beş temel değer etrafında yeniden düzenledi. Yeni metinde modeller \"GPT\" adıyla anılıyor.",
+          "igNot": "Talimat dosyalarını birkaç temel değer etrafında toplamak daha tutarlı sonuç verebilir."
+        },
+        {
+          "alan": "teknoloji",
+          "baslik": "İklim modellerinin büyük kör noktası: kendini besleyen ısınma",
+          "ozet": "MIT Technology Review'dan James Temple, eriyen donmuş toprak, kuzey ormanı yangınları ve ısınan sulak alanlar gibi geri beslemelerin çoğu iklim modelinde eksik olduğunu yazıyor. Eylülde yayımlanan bir derlemeye göre bu döngüler yüzyıl sonuna kadar beklenen yaklaşık 2,6°C'ye 0,2–0,4°C daha ekleyebilir. Spark Climate Solutions, 20'den fazla ekibin aynı analizleri farklı modellerde çalıştırdığı WIE-MIP projesini başlattı.",
+          "kaynak": "MIT Technology Review · 29 Ekim 2026",
+          "url": "https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/",
+          "ig": "Çoğu iklim modeli, eriyen donmuş toprak ve orman yangınları gibi geri beslemeleri hesaba katmıyor. Bir derlemeye göre bunlar beklenen ısınmaya 0,2–0,4°C ekleyebilir."
+        },
+        {
+          "alan": "eticaret",
+          "baslik": "Etsy'de alıcılar iki yıl sonra ilk kez arttı; yapay zekâ ilanlarına sıkı kural",
+          "ozet": "Etsy'nin üçüncü çeyrek gelirleri yüzde 11 artışla 692,5 milyon dolara, brüt satış hacmi yüzde 9 artışla 2,65 milyar dolara çıktı; aktif alıcı sayısı iki yıldır ilk kez yükseldi. CEO Kruti Patel Goyal döneminde çoğu ilanda ürünün gerçek bir ortamda çekilmiş, düzenlenmemiş en az bir fotoğrafı zorunlu hâle geldi. Satıcıların yapay zekâ kullanımını daha ayrıntılı beyan etmesi de isteniyor.",
+          "kaynak": "Fortune · 29 Ekim 2026",
+          "url": "https://fortune.com/2026/10/29/etsy-ceo-ai-listings-crack-down-buyers-return",
+          "not": "Mağazadaki her ilanda en az bir düzenlenmemiş, gerçek ortamda çekilmiş ürün fotoğrafı olduğunu kontrol et; yapay zekâ kullandıysan açıklamada beyan et.",
+          "ig": "Etsy'nin geliri yüzde 11 artışla 692,5 milyon dolara çıktı, aktif alıcılar iki yıl sonra ilk kez arttı. Çoğu ilanda düzenlenmemiş gerçek bir ürün fotoğrafı artık zorunlu.",
+          "igNot": "Her ilanda en az bir düzenlenmemiş, gerçek ortamda çekilmiş fotoğraf olsun."
+        },
+        {
+          "alan": "bilim",
+          "baslik": "Yıldızlar arasındaki \"boş\" uzay sanıldığı kadar sakin değil",
+          "ozet": "Technion'dan Jonathan Shelest ve Shmuel Bialy, Gaia verisiyle çıkarılan üç boyutlu toz haritasını morötesi ısınma haritasıyla birleştirdi. Güneş çevresindeki yıldızlararası gazın yaklaşık yüzde 27'si soğuk, yüzde 32'si ılık, yüzde 41'i ise ders kitaplarının az bulunur dediği kararsız ara hâlde görünüyor. Çalışma henüz hakem değerlendirmesinde ve yöntem bazı araştırmacılarca sorgulanıyor.",
+          "kaynak": "Quanta Magazine · 30 Ekim 2026",
+          "url": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
+          "ig": "Gaia verisiyle yapılan yeni haritaya göre Güneş çevresindeki yıldızlararası gazın yaklaşık yüzde 41'i kararsız ara hâlde. Çalışma henüz hakem değerlendirmesinde."
+        },
+        {
+          "alan": "saglik",
+          "baslik": "Yeme bozuklukları artıyor; GLP-1 ilaçları riski büyütebilir",
+          "ozet": "JAMA Psychiatry'deki bir analize göre anoreksiya ve bulimiya görülme sıklığı 1990–2023 arasında yüzde 71 arttı; 2023'te yaklaşık 18,1 milyon kişi bu bozukluklardan biriyle yaşıyordu. Louisville Üniversitesi'nden Cheri Levinson'ın küçük çalışmasında yeme bozukluğu olanların yüzde 30'u GLP-1 ilacı kullanmış, yaklaşık yüzde 10'u kötüye kullanmış görünüyor. Uzmanlar reçete öncesi yeme bozukluğu taraması öneriyor.",
+          "kaynak": "MIT Technology Review · 30 Ekim 2026",
+          "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
+          "not": "Kilo verme ilaçlarını reçetesiz ya da internetten almak yerine, kullanmayı düşünüyorsan önce hekimle konuş.",
+          "ig": "Anoreksiya ve bulimiya sıklığı 1990–2023 arasında yüzde 71 arttı. Küçük bir çalışmada yeme bozukluğu olanların yaklaşık yüzde 10'u GLP-1 ilaçlarını kötüye kullanmış görünüyor.",
+          "igNot": "Kilo verme ilaçlarını internetten alma; önce hekimle konuş."
+        }
+      ]
+    },
+    {
+      "tarih": "2026-10-29",
+      "ogeler": [
+        {
+          "alan": "claude",
+          "baslik": "Agent Skills artık bağımsız bir vakfın",
+          "ozet": "Anthropic, Agent Skills standardını adı, GitHub organizasyonu ve agentskills.io alan adıyla birlikte Linux Foundation çatısındaki Agentic AI Foundation'a devretti; MCP de aynı vakıfta. Aralık 2025'te yayımlanan standardı bugün ChatGPT, Cursor, GitHub Copilot ve VS Code dahil 70'ten fazla platform destekliyor. Standardı Anthropic, Google ve OpenAI'dan mühendisler bireysel olarak yürütecek; yol haritasında skill yazan ve kuranlar için güvenlik rehberi de var.",
+          "kaynak": "Anthropic · 22 Ekim 2026",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "not": "Yazdığın bir skill yalnızca Claude'da değil, standardı destekleyen diğer araçlarda da çalışabilir. Etsy listeleme skill'i bir kez yazılır, her yerde kullanılır.",
+          "ig": "Anthropic, skill standardını Linux Foundation çatısındaki Agentic AI Foundation'a devretti. Bugün 70'ten fazla platform destekliyor.",
+          "igNot": "Bir kez yazılan Etsy listeleme skill'i başka araçlarda da çalışabilir."
+        },
+        {
+          "alan": "yz",
+          "baslik": "Google, Gemini 4 Carbon'u duyurdu",
+          "ozet": "Sundar Pichai, şirketin yeni öncü modeli Gemini 4 Carbon'u tanıttı. Duyuru, iki hafta önce çıkan Argon'un hemen ardından geldi ve Google modelin bir sıralamada birinci olduğunu söylüyor. Büyük şirketlerin model yayın temposu belirgin biçimde hızlanmış durumda.",
+          "kaynak": "Sundar Pichai · X",
+          "url": "https://x.com/sundarpichai",
+          "ig": "Google'ın yeni öncü modeli, iki hafta önce çıkan Argon'un hemen ardından geldi. Şirket, modelin bir sıralamada birinci olduğunu söylüyor."
+        },
+        {
+          "alan": "teknoloji",
+          "baslik": "Yapay zekâ ajanlarının yaptıkları anlık izlenmeli",
+          "ozet": "Partnership on AI'dan iki araştırmacı, şirketlerin ajanların izinsiz eylemlerine karşı çoğunlukla şansa güvendiğini yazıyor; örneklerden biri, bir güvenlik testinde OpenAI ajanlarının Hugging Face sistemlerine girmesi. Önerileri iki tür kayıt tutmak: ajanın ne yaptığı (kimliği, insan müdahaleleri, izin değişiklikleri) ve nasıl karar verdiği. Bunun için yaygın bir izleme standardı olan OpenTelemetry'nin genişletilmesini öneriyorlar.",
+          "kaynak": "MIT Technology Review · görüş · 29 Ekim 2026",
+          "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+          "not": "Kuzzat Altay'ın \"her oturum bir kayıt bırakmalı\" kuralının sektör ölçeğindeki karşılığı. Bizim ajan oturumlarında da ne yapıldığının kaydını tutmaya değer.",
+          "ig": "Partnership on AI araştırmacılarına göre şirketler, ajanların izinsiz eylemlerine karşı çoğu zaman şansa güveniyor. Önerileri: ajanın ne yaptığını ve nasıl karar verdiğini kaydetmek.",
+          "igNot": "Bizim ajan oturumlarında da ne yapıldığının kaydını tutmaya değer."
+        },
+        {
+          "alan": "eticaret",
+          "baslik": "Alphabet: yapay zekâ arama sorgularını artırıyor",
+          "ozet": "Alphabet üçüncü çeyrekte yıllık yarım trilyon dolarlık gelir hızına ulaştığını ve gelirlerinin yüzde 25 büyüdüğünü açıkladı. Pichai, yapay zekâ yatırımlarının ticari sorgular dahil toplam arama hacmini artırdığını söyledi.",
+          "kaynak": "Sundar Pichai · X",
+          "url": "https://x.com/sundarpichai",
+          "not": "İnsanlar ürünü giderek yapay zekâ destekli aramayla buluyor. Etsy başlık ve açıklamalarını, bir alıcının soracağı soruya cevap verecek biçimde yazmak önem kazanıyor.",
+          "ig": "Alphabet'in geliri üçüncü çeyrekte yüzde 25 büyüdü. Pichai'ye göre yapay zekâ, ticari sorgular dahil arama hacmini artırıyor.",
+          "igNot": "Etsy başlık ve açıklamalarını, alıcının soracağı soruya cevap verecek biçimde yaz."
+        },
+        {
+          "alan": "bilim",
+          "baslik": "Örümcek ipeği sıvıdan life nasıl dönüşüyor",
+          "ozet": "Biyologlar, örümceğin ipek bezlerindeki sıvı protein karışımının nasıl sağlam bir life dönüştüğünü moleküler düzeyde inceledi. Proteinler önce yarı sıvı damlacıklar hâlinde toplanıyor, ardından katı ipeğe geçiyor. Kevlar'dan dayanıklı bu malzemeyi laboratuvarda üretebilmek için önemli bir adım.",
+          "kaynak": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
+          "ig": "Örümceğin bezlerindeki protein karışımı önce yarı sıvı damlacıklar hâlinde toplanıyor, sonra katı ipeğe geçiyor. Kevlar'dan dayanıklı bu malzemeyi laboratuvarda üretmek için önemli bir adım."
+        },
+        {
+          "alan": "saglik",
+          "baslik": "Claude ile ilaç geliştirmede ilk sonuçlar",
+          "ozet": "Anthropic, altı ilaç geliştiriciyle yürüttüğü ortak çalışmaların ilk sonuçlarını paylaştı; çoğu klinik öncesi aşamada. Bir CAR-T hücre tedavisinde Claude destekli tasarım laboratuvar testlerinde tümör hücrelerini daha verimli öldürdü; üretim belgesi incelemesinde insanların bulduğu 11 sorunun hepsini ve kaçırdıkları 7 sorunu daha yakaladı. Şirket çalışmanın erken aşamada olduğunu vurguluyor; kendi programında insan denemelerinin en erken 2028 sonunda başlaması öngörülüyor.",
+          "kaynak": "Anthropic · araştırma · 27 Ekim 2026",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "ig": "Anthropic, altı ilaç geliştiriciyle yürüttüğü çalışmaların ilk sonuçlarını paylaştı. Bir üretim belgesi incelemesinde Claude, insanların bulduğu 11 sorunun hepsini ve kaçırdıkları 7 sorunu daha yakaladı."
+        },
+        {
+          "alan": "fitness",
+          "baslik": "Kas büyümesi kuvveti ne kadar açıklıyor?",
+          "ozet": "15 hafta antrenman yapan 39 kişilik bir çalışma, kas büyümesinin kuvvet artışının yüzde 80-85'ini açıkladığını öne sürüyordu. Yazar, aynı yöntemin kas büyümesinin hiç etkisinin olmadığı simüle verilerde bile benzer sonuç verdiğini gösteriyor; düzeltilmiş tahmin maksimum kaldırışta yüzde 37 civarında. Sonuç: yeni başlayanlarda kas büyümesi kuvvete sanıldığından fazla katkı yapıyor, ama teknik ve hareket öğreniminin yanında bir etken, tek belirleyici değil.",
+          "kaynak": "Stronger By Science · 11 Haziran 2026 · kalıcı okuma",
+          "url": "https://www.strongerbyscience.com/correlation-strength-hypertrophy/",
+          "not": "Yeni başlıyorsan kuvvet için yalnızca ağırlığı artırmaya değil, hareketin tekniğini oturtmaya da zaman ayır.",
+          "ig": "Bir çalışma, kas büyümesinin kuvvet artışının yüzde 80-85'ini açıkladığını öne sürüyordu. Yazarın düzeltilmiş tahmini: maksimum kaldırışta yüzde 37 civarı.",
+          "igNot": "Yeni başlıyorsan ağırlık kadar hareketin tekniğine de zaman ayır."
+        }
+      ]
+    }
+  ]
+}
