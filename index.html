@@ -632,7 +632,7 @@ var KATEGORILER=[
  {id:"b-vibe",foto:"gorseller/vibe.jpg",fotoAlt:"Karanlık ekranda kod satırları",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
  {id:"b-gunluk",foto:"gorseller/bolum-gunluk.jpg",fotoAlt:"Gazetenin yanında bir fincan çay",kisa:"Günlük",ad:"Kısa kısa",renk:"345 62% 48%",bicim:"gunluk",
   not:"Her sabah onaylı kaynaklardan derlenir; yalnızca dört alan: Claude, yapay zekâ, teknoloji, spor ve fitness. Yapay zekâ ile spor ve fitnessten ikişer üçer haber. Özetler kendi cümlelerimizle, her biri kaynağına bağlı. O alanda yeni bir şey yoksa ya boş geçilir ya da tarihi açıkça yazılı kalıcı bir okuma konur."},
- {id:"b-hafta",foto:"gorseller/bolum-hafta.jpg",fotoAlt:"Masada duran bir kondansatör mikrofon",kisa:"Haftalık sayı",ad:"Haftanın özeti",renk:"38 82% 40%",bicim:"haftalik",
+ {id:"b-hafta",foto:"gorseller/bolum-hafta.jpg",fotoAlt:"Masada duran bir kondansatör mikrofon",kisa:"Haftalık sayı",ad:"Haftanın enleri",renk:"38 82% 40%",bicim:"haftalik",
   not:"Her pazar yeni sayı: araştırmaya dayanan bir kapak yazısı, haftanın yapay zekâ ve teknoloji manşetleri, seçilmiş videolar ve bir çalışma."},
  {id:"b-claude",foto:"gorseller/bolum-claude.jpg",fotoAlt:"Ekranında renkli kod satırları olan bir dizüstü bilgisayar",kisa:"Dosya",ad:"Claude ve ajanlar",renk:"168 48% 38%",bicim:"dosya",
   not:"Ajanı güvenilir hâle getirme, skill yazma, bağlam yönetimi. Resmî kaynaklar ve doğrulanmış eğitim videoları."},
@@ -969,7 +969,7 @@ document.getElementById("nav-tema").innerHTML=KATEGORILER.map(function(k){
     '<span class="sy">'+((k.bicim==="kapak"||k.bicim==="gunluk"||k.bicim==="haftalik")?"":og.length)+'</span><i class="ok"></i></summary><ul>'+alt+'</ul></details>';
 }).join("");
 document.querySelector("#tema-mobil .tm-liste").innerHTML=document.getElementById("nav-tema").innerHTML;
-var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftalık sayı","b-claude":"Claude",
+var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftanın enleri","b-claude":"Claude",
   "b-yz":"Yapay zekâ","b-eticaret":"E-ticaret","b-bilim":"Bilim","b-saglik":"Sağlık ve fitness",
   "b-github":"Araçlar","b-arsiv":"Arşiv"};
 var serit=document.getElementById("serit");
