@@ -158,13 +158,6 @@ nav .sy{font-family:var(--mono);font-size:.7rem;color:var(--soluk);font-variant-
 .yt-kart h3{font-size:.98rem;line-height:1.3;margin:0}
 .yt-kart .ne{font-size:.86rem;color:var(--ikincil);margin:0;line-height:1.45}
 .almanca-gunluk{margin:0 0 30px}
-.tarif-kart{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:0;margin-top:12px;background:var(--yuzey);border:1px solid var(--cizgi);border-radius:8px;overflow:hidden}
-.tarif-kart img{width:100%;height:100%;object-fit:cover;display:block;min-height:220px}
-.tarif-govde{padding:16px 20px}
-.tarif-govde h3{margin:0 0 6px}
-.tarif-besin{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:hsl(32 75% 38%);margin:8px 0}
-.tarif-govde ul{margin:8px 0 10px;padding-left:18px;font-size:.9rem;color:var(--ikincil)}
-@media (max-width:720px){.tarif-kart{grid-template-columns:1fr}.tarif-kart img{max-height:220px}}
 .almanca-onceki{list-style:none;margin:10px 0 0;padding:0;font-size:.88rem;color:var(--ikincil)}
 .almanca-onceki li{padding:6px 0;border-top:1px solid var(--cizgi)}
 .almanca-onceki b{color:var(--murekkep);font-weight:600;margin-right:6px}
@@ -1024,14 +1017,6 @@ function gunlukCiz(v){
         '<span class="yt-foto"><img src="https://i.ytimg.com/vi/'+x.id+'/mqdefault.jpg" alt="" loading="lazy" decoding="async"></span>'+
         '<span class="yt-govde"><span class="yt-kanal">'+kac(x.kanal||"")+'</span><h3>'+kac(x.baslik||"")+'</h3>'+
         (x.neden?'<p class="ne">'+kac(x.neden)+'</p>':'')+'</span></a>'; }).join("")+'</div></div>';
-    var tf=g.tarif;
-    if(tf&&tf.ad) h+='<div class="gunluk-grup"><p class="grup-bas" style="--g:32 75% 45%"><i></i>Günün tarifi</p><div class="tarif-kart">'+
-      '<img src="gorseller/tarif.jpg" alt="" loading="lazy" decoding="async"><div class="tarif-govde"><h3>'+kac(tf.ad)+'</h3>'+
-      '<p class="kim"><span>'+kac(tf.porsiyon||"")+'</span><span>'+kac(tf.sure||"")+'</span><span>'+kac(tf.kaynak||"")+'</span></p>'+
-      (tf.besin?'<p class="tarif-besin">'+kac(tf.besin)+'</p>':'')+
-      (Array.isArray(tf.malzemeler)?'<ul>'+tf.malzemeler.map(function(m){return '<li>'+kac(m)+'</li>';}).join("")+'</ul>':'')+
-      (tf.yapilis?'<p class="ne">'+kac(tf.yapilis)+'</p>':'')+
-      (/^https:\/\//.test(tf.url||"")?'<div class="ayak"><a class="btn" href="'+kac(tf.url)+'" target="_blank" rel="noopener">Tarifin aslı</a></div>':'')+'</div></div></div>';
     return h;
   }
   var h=gun(gunler[0]);

@@ -1,135 +1,89 @@
 # Fiyat Sorulduğunda
 
-**Rakamları doğru söylemek, pazarlığı kibarca yönetmek, takas ve krediyi Almanca anlatmak.**
+**Fiyatı gerekçelendirmek, pazarlıkta ödün vermeden ilerlemek, takas ve kredi hesabını Almanca netlikle anlatmak için B2-C1 kalıpları.**
 
 ---
 
-Galeride konuşmanın en gergin anı fiyattır. Dil burada iki kez zorlar: önce rakamlar (Almanca sayılar Türkçeye ters işler), sonra pazarlığın dolaylı dili. Müşteri "Bu fiyata almam" demez, "Da geht doch sicher noch was?" der. Bu yazı ikisini de çözüyor.
+Fiyat konuşması galeride dilin en çok sınandığı yerdir. Müşteri bir rakam söyler, sen başka bir rakam; arada geçen cümleler kâr marjını da müşterinin güvenini de belirler. A2 seviyesinde "Das kostet 18.900 Euro" denir ve konuşma tıkanır. B2 seviyesinde fiyatı gerekçelendirirsin, ödünleri şarta bağlarsın ve itirazı kabul edip yön değiştirirsin. Bunun için üç yapı yeter: *zwar … aber* (gerçi … ama), Konjunktiv II ile varsayımsal teklif (*Ich könnte Ihnen … anbieten, wenn …*) ve *je … desto* (ne kadar … o kadar).
 
-## Önce rakamlar: Almanca sayılar ters okunur
-
-Almancada iki basamaklı sayılarda **birler önce, onlar sonra** söylenir: 45 = *fünf-und-vierzig* (beş ve kırk). Fiyatlarda bunu karıştırmak, 54'ü 45 diye söylemek demektir. Bir de yazım farkı var: Almanca binleri **nokta**, ondalıkları **virgül** ile ayırır. 18.900 € on sekiz bin dokuz yüz, 1,9 % ise yüzde bir virgül dokuzdur.
-
-| Yazılışı | Söylenişi |
-|---|---|
-| 45 | fünfundvierzig |
-| 349 € | dreihundertneunundvierzig Euro |
-| 6.750 € | sechstausendsiebenhundertfünfzig Euro |
-| 18.900 € | achtzehntausendneunhundert Euro |
-| 24.450 € | vierundzwanzigtausendvierhundertfünfzig Euro |
-| 48.000 km | achtundvierzigtausend Kilometer |
-| 1,9 % | eins Komma neun Prozent |
-| 03/2021 | März zweitausendeinundzwanzig |
-
-**Galeri ağzı:** Satıcılar fiyatı çoğu zaman kısaltarak söyler. 18.900 € için "achtzehn-neun", 24.450 € için "vierundzwanzig-vier-fünfzig" dersin. Müşteri de böyle söyleyebilir, kulağın alışsın.
-
-**Çalışma yolu:** Galerideki on aracın fiyatını yüksek sesle oku. Sonra bir arkadaşına ya da Claude'a rastgele fiyatlar söylet ve yaz. Rakamları duyup doğru yazabildiğinde bu kısım bitmiş demektir.
-
-## Fiyatı söylemek
+## Fiyatı söylemek ve gerekçelendirmek
 
 | Almanca | Türkçe |
 |---|---|
-| Der Wagen kostet 18.900 Euro. | Araç 18.900 Euro. |
-| Der Preis liegt bei 18.900 Euro inklusive Mehrwertsteuer. | Fiyat KDV dahil 18.900 Euro. |
-| Für das Alter und die Laufleistung ist das ein fairer Preis. | Yaşına ve kilometresine göre bu adil bir fiyat. |
-| Vergleichbare Fahrzeuge liegen eher bei 20.000 Euro. | Benzer araçlar daha çok 20.000 Euro civarında. |
-| Im Preis enthalten sind die neue HU und ein Satz Winterreifen. | Fiyata yeni muayene ve bir takım kış lastiği dahil. |
+| Der Wagen liegt bei 18.900 Euro; darin sind die neue Hauptuntersuchung und eine frische Inspektion bereits enthalten. | Aracın fiyatı 18.900 euro; yeni muayene ve taze bakım bu fiyata dahil. |
+| Im Vergleich zu ähnlichen Angeboten bewegt sich der Preis im unteren Bereich, zumal das Fahrzeug unfallfrei ist und aus erster Hand stammt. | Benzer ilanlarla karşılaştırınca fiyat alt bantta kalıyor; üstelik araç hasarsız ve ilk sahibinden. |
+| Der Preis ergibt sich in erster Linie aus der geringen Laufleistung und der umfangreichen Ausstattung. | Fiyat öncelikle düşük kilometreden ve zengin donanımdan kaynaklanıyor. |
+| Das Fahrzeug ist differenzbesteuert, die Mehrwertsteuer ist daher nicht gesondert ausweisbar. | Araç marj vergilendirmesine tabi, bu yüzden KDV faturada ayrıca gösterilemez. |
+| Bei diesem Fahrzeug ist die Mehrwertsteuer ausweisbar, was für Sie als Unternehmer interessant sein dürfte. | Bu araçta KDV ayrıca gösterilebiliyor; bu, işletme sahibi olarak sizin için ilginç olabilir. |
 
-## Pazarlık: müşteri ne der, sen ne dersin
+**Differenzbesteuerung ne demek?** Galeri aracı özel kişiden almışsa KDV yalnızca alış ile satış arasındaki farka uygulanır ve faturada ayrıca gösterilmez. Şirket olarak alan müşteri bu durumda KDV indirimi (*Vorsteuerabzug*) yapamaz. Bu yüzden şirket müşterisi ilk önce "Ist die Mehrwertsteuer ausweisbar?" diye sorar. Cevabı bilmiyorsan tahmin etme: "Das kläre ich kurz mit unserer Buchhaltung." (Muhasebeyle hemen netleştiriyorum.)
 
-Müşterinin pazarlık cümleleri genelde dolaylıdır. Önce bunları tanı:
+**Sayılar konusunda tek uyarı:** Almancada birler basamağı onlardan önce gelir (*achtzehntausendneunhundert*, *zweiundsiebzig*). B2'de bunu bilirsin ama telefonda ve yorgunken hâlâ hata kaynağıdır. Fiyatı söyledikten sonra yazılı teyit et: "Ich schreibe Ihnen den Betrag sicherheitshalber noch einmal auf."
 
-| Müşteri der | Anlamı |
+## Pazarlık: itirazı kabul et, yönü değiştir
+
+Almanya'da pazarlık Türkiye'deki kadar uzun sürmez ama vardır. Müşteri genellikle somut bir gerekçe getirir. İyi cevap gerekçeyi küçümsemez, onu karşılaştırmaya çevirir.
+
+| Müşteri | Sen (B2) |
 |---|---|
-| Was ist Ihr letzter Preis? | Son fiyatınız ne? |
-| Geht da noch was am Preis? | Fiyatta biraz oynama olur mu? |
-| Da ist doch sicher noch Luft drin. | Burada mutlaka pay vardır. |
-| Was können Sie mir noch entgegenkommen? | Bana ne kadar yardımcı olabilirsiniz? |
-| Bei Barzahlung müsste doch was gehen. | Nakit ödersem bir şey yapılmalı. |
-| Woanders habe ich ihn billiger gesehen. | Başka yerde daha ucuzunu gördüm. |
-| Das ist mir ein bisschen zu teuer. | Bu bana biraz pahalı. |
+| Im Internet habe ich ein vergleichbares Fahrzeug gesehen, das 1.500 Euro günstiger ist. | Gern schauen wir uns das Angebot gemeinsam an – erfahrungsgemäß unterscheiden sich Laufleistung, Ausstattung und Wartungshistorie oft erheblich. |
+| Da ist doch noch Spielraum, oder? | Viel Spielraum gibt es nicht, da wir den Wagen bereits knapp kalkuliert haben. Was hätten Sie sich denn vorgestellt? |
+| Wenn Sie mir 1.000 Euro entgegenkommen, unterschreibe ich sofort. | 1.000 Euro sind leider nicht drin. Ich könnte Ihnen jedoch 400 Euro nachlassen, vorausgesetzt, wir machen den Vertrag heute fest. |
+| Die Reifen sind aber schon ziemlich abgefahren. | Da haben Sie recht. Am Preis kann ich zwar nichts mehr machen, aber ich könnte Ihnen einen Satz Winterreifen dazugeben. |
+| Ich muss noch darüber nachdenken. | Das verstehe ich. Darf ich fragen, ob es eher am Preis liegt oder ob Sie beim Fahrzeug selbst noch Bedenken haben? |
 
-Senin cevapların ise hep aynı mantıkta kurulur: Önce **değeri hatırlat**, sonra **fiyat yerine ekstra öner**, gerekirse **yetkiyi yöneticiye bırak**.
+Türkçe karşılıkları:
+- "İlanı birlikte inceleyelim; tecrübeyle söylüyorum, kilometre, donanım ve bakım geçmişi çoğu zaman ciddi farklılık gösterir."
+- "Pek pay yok, çünkü aracı zaten sıkı hesapladık. Siz ne düşünmüştünüz?"
+- "1.000 euro maalesef olmaz. Ama sözleşmeyi bugün yapmamız şartıyla 400 euro indirebilirim."
+- "Haklısınız. Fiyatta artık bir şey yapamam ama size bir takım kış lastiği ekleyebilirim."
+- "Anlıyorum. Sorun daha çok fiyatta mı, yoksa aracın kendisiyle ilgili hâlâ tereddüdünüz mü var, sorabilir miyim?"
+
+Üç taktik dikkat çekiyor. Birincisi, ödün hiçbir zaman karşılıksız değil: *vorausgesetzt, dass …* ya da *wenn …* ile şarta bağlanıyor. İkincisi, indirim yerine değer ekleniyor (*dazugeben*, *on top*). Üçüncüsü, "düşüneyim" diyen müşteriye gerçek itirazı sorduran bir soru soruluyor.
+
+**İşe yarayan kalıplar:**
 
 | Almanca | Türkçe |
 |---|---|
-| Der Preis ist schon sehr knapp kalkuliert. | Fiyat zaten çok sıkı hesaplandı. |
-| Am Preis kann ich leider nicht viel machen. | Fiyatta maalesef pek bir şey yapamam. |
-| Aber ich könnte Ihnen einen Satz Winterreifen dazugeben. | Ama size bir takım kış lastiği ekleyebilirim. |
-| Wir übernehmen die Zulassung für Sie. | Tescili biz sizin için hallederiz. |
-| Wir machen den Tank voll und eine frische Inspektion. | Depoyu doldurur, yeni bir bakım yaparız. |
-| Da muss ich kurz mit meinem Chef sprechen. | Bunun için müdürümle konuşmam lazım. |
-| Darf ich das andere Angebot mal sehen? | Diğer teklifi görebilir miyim? |
-| Oft unterscheiden sich Ausstattung, Kilometerstand oder Gewährleistung. | Genelde donanım, kilometre ya da garanti farklı olur. |
-
-![Bir sözleşmenin üzerinde el sıkışan iki kişi](gorseller/galeri-anlasma.jpg "Anlaşma tokalaşmayla değil, onaylanmış rakamla biter.")
-
-**Kapanış cümlesi.** Pazarlık bir noktaya yaklaştığında soruyu netleştir:
-
-*"Wenn wir uns bei 18.500 Euro einig werden, würden Sie den Wagen heute nehmen?"*
-
-(18.500 Euro'da anlaşırsak aracı bugün alır mısınız?)
-
-Bu cümleyi ancak yöneticinden o fiyatın onayını aldıysan kur. Onaysız rakam söylemek, sonra geri almak zorunda kalmak, müşterinin güvenini bir anda bitirir.
+| Je früher Sie sich entscheiden, desto eher kann ich Ihnen bei der Übergabe entgegenkommen. | Ne kadar erken karar verirseniz teslimde size o kadar kolaylık sağlayabilirim. |
+| Das ist mein letztes Wort, mehr kann ich beim besten Willen nicht anbieten. | Son sözüm bu; ne kadar istesem de daha fazlasını sunamam. |
+| Lassen Sie mich kurz Rücksprache mit meinem Verkaufsleiter halten. | Satış müdürümle kısaca bir görüşeyim. |
 
 ## Takas: die Inzahlungnahme
 
 | Almanca | Türkçe |
 |---|---|
-| Möchten Sie Ihr altes Auto in Zahlung geben? | Eski aracınızı takasa vermek ister misiniz? |
-| Dann schauen wir uns Ihr Fahrzeug kurz an. | O zaman aracınıza bir bakalım. |
-| Haben Sie den Fahrzeugschein und den Fahrzeugbrief dabei? | Ruhsat ve araç belgesi yanınızda mı? |
-| Wie viele Kilometer hat er? | Kaç kilometrede? |
-| Hatte er schon mal einen Unfall? | Daha önce kaza yaptı mı? |
-| Ist das Scheckheft vollständig? | Bakım defteri tam mı? |
-| Gibt es Mängel, von denen wir wissen sollten? | Bilmemiz gereken kusurlar var mı? |
-| Für Ihr Fahrzeug können wir Ihnen 6.500 Euro anrechnen. | Aracınız için size 6.500 Euro düşebiliriz. |
+| Wir würden Ihr jetziges Fahrzeug gern in Zahlung nehmen. Dafür müssten wir es uns allerdings zunächst genauer ansehen. | Mevcut aracınızı memnuniyetle takasa alırız. Bunun için önce yakından incelememiz gerekiyor. |
+| Den Ankaufspreis ermitteln wir anhand einer Fahrzeugbewertung, bei der unter anderem Zustand, Laufleistung und Marktlage berücksichtigt werden. | Alış fiyatını, diğerlerinin yanı sıra durumun, kilometrenin ve piyasanın dikkate alındığı bir araç değerlemesiyle belirliyoruz. |
+| Ihr Fahrzeug würden wir mit 6.500 Euro in Zahlung nehmen, sodass sich der Restbetrag auf 12.400 Euro beläuft. | Aracınızı 6.500 euroya takasa alırız; böylece kalan tutar 12.400 euro olur. |
+| Ist das Fahrzeug noch finanziert? In dem Fall würden wir die Ablösung direkt mit der Bank abwickeln. | Aracın kredisi devam ediyor mu? Öyleyse kapatma işlemini doğrudan bankayla biz yürütürüz. |
+| Mir ist bewusst, dass Sie sich mehr erhofft haben, aber Online-Bewertungen berücksichtigen den tatsächlichen Zustand meist nicht. | Daha fazlasını umduğunuzun farkındayım ama çevrimiçi değerlemeler aracın gerçek durumunu genellikle hesaba katmaz. |
 
-**Sık itiraz:** "Online wird er für 8.000 Euro angeboten." (İnternette 8.000'e satılıyor.) Kibar cevap:
-
-*"Das sind Angebotspreise, keine Verkaufspreise. Wir müssen das Fahrzeug noch aufbereiten und mit Gewährleistung weiterverkaufen."*
-
-(Bunlar ilan fiyatı, satış fiyatı değil. Aracı hazırlamamız ve garantiyle yeniden satmamız gerekiyor.)
+*sich belaufen auf + Akk.* (… tutarına ulaşmak) ve *abwickeln* (bir işlemi yürütmek, sonuçlandırmak) resmî konuşmanın iki temel fiili. *Ablösung* burada kalan kredi borcunun kapatılması demek.
 
 ## Kredi: die Finanzierung
 
-Kredi teklifini sen değil banka yapar. Senin işin rakamları anlaşılır anlatmak ve hiçbir zaman kesin söz vermemek.
-
 | Almanca | Türkçe |
 |---|---|
-| Wir arbeiten mit einer Partnerbank zusammen. | Bir partner bankayla çalışıyoruz. |
-| Wie hoch soll die Anzahlung sein? | Peşinat ne kadar olsun? |
-| Welche Laufzeit stellen Sie sich vor – 36, 48 oder 60 Monate? | Nasıl bir vade düşünüyorsunuz; 36, 48 ya da 60 ay? |
-| Welche monatliche Rate wäre für Sie angenehm? | Aylık ne kadar taksit sizin için rahat olur? |
-| Bei 3.000 Euro Anzahlung und 48 Monaten läge die Rate bei etwa 330 Euro. | 3.000 Euro peşinat ve 48 ayda taksit yaklaşık 330 Euro olur. |
-| Das ist eine unverbindliche Beispielrechnung. | Bu bağlayıcı olmayan örnek bir hesap. |
-| Das genaue Angebot macht die Bank. | Kesin teklifi banka yapar. |
-| Die Bank prüft Ihre Bonität und holt eine Schufa-Auskunft ein. | Banka kredi notunuzu kontrol eder ve Schufa sorgusu yapar. |
-| Dafür bräuchten wir Ihre letzten drei Gehaltsnachweise. | Bunun için son üç maaş bordronuz lazım. |
+| Bei einer Laufzeit von 48 Monaten und 3.000 Euro Anzahlung läge die monatliche Rate bei rund 320 Euro. | 48 ay vade ve 3.000 euro peşinatla aylık taksit 320 euro civarında olur. |
+| Bitte beachten Sie, dass es sich dabei um eine unverbindliche Beispielrechnung handelt; das endgültige Angebot hängt von der Bonitätsprüfung der Bank ab. | Bunun bağlayıcı olmayan örnek bir hesap olduğunu unutmayın; kesin teklif bankanın kredi değerliliği kontrolüne bağlı. |
+| Entscheidend für den Vergleich ist der effektive Jahreszins, nicht der Sollzins, weil darin sämtliche Kosten des Kredits enthalten sind. | Karşılaştırmada belirleyici olan akdi faiz değil yıllık efektif faizdir, çünkü kredinin bütün masrafları onun içindedir. |
+| Alternativ gäbe es eine Ballonfinanzierung mit niedrigeren Raten und einer höheren Schlussrate am Ende der Laufzeit. | Alternatif olarak daha düşük taksitli ve vade sonunda daha yüksek bir son ödemeli balon kredisi de var. |
+| Eine Restschuldversicherung ist optional; Sie sind keineswegs verpflichtet, sie abzuschließen. | Kalan borç sigortası isteğe bağlı; yaptırmak zorunda kesinlikle değilsiniz. |
 
-**Balon ödemeli kredi (Drei-Wege-Finanzierung).** Almanya'da çok yaygındır, müşteriler de sık sorar. Türkçe kafayla şöyle anlat: aylık taksitler düşük tutulur, sonda büyük bir son ödeme (*Schlussrate*) kalır. Vade bitince müşterinin üç yolu olur, adı da buradan gelir:
-
-| Almanca | Türkçe |
-|---|---|
-| Sie zahlen die Schlussrate und behalten das Auto. | Son ödemeyi yapar, aracı tutarsınız. |
-| Sie geben das Auto zurück. | Aracı geri verirsiniz (şartlar sözleşmede yazar). |
-| Sie finanzieren die Schlussrate weiter. | Son ödemeyi yeni bir krediyle ödersiniz. |
-
-**Leasing ile farkı:** "Beim Leasing gehört Ihnen das Auto am Ende nicht; Sie bezahlen für die Nutzung." (Leasingde araç sonunda sizin olmaz; kullanım için ödersiniz.)
+Burada *läge* ve *gäbe* Konjunktiv II'si bilinçli: hesap bir varsayım, bağlayıcı bir teklif değil. Sigortanın isteğe bağlı olduğunu açıkça söylemek hem dürüst hem de sonradan çıkabilecek "bana dayatıldı" itirazına karşı koruyucudur.
 
 ## Ödeme ve kaparo
 
 | Almanca | Türkçe |
 |---|---|
-| Wie möchten Sie bezahlen – per Überweisung oder bar? | Nasıl ödemek istersiniz; havale mi, nakit mi? |
-| Für die Reservierung nehmen wir eine Anzahlung von 500 Euro. | Rezervasyon için 500 Euro kaparo alıyoruz. |
-| Der Restbetrag ist bei Abholung fällig. | Kalan tutar teslimde ödenir. |
-| Bei Barzahlung ab 10.000 Euro müssen wir Ihren Ausweis kopieren. | 10.000 Euro ve üzeri nakit ödemede kimliğinizin kopyasını almamız gerekiyor. |
-| Brauchen Sie eine Rechnung mit ausgewiesener Mehrwertsteuer? | KDV'si ayrıca gösterilmiş fatura lazım mı? |
-| Dieses Fahrzeug ist differenzbesteuert, die Mehrwertsteuer kann nicht ausgewiesen werden. | Bu araç marj vergili, KDV faturada ayrıca gösterilemez. |
+| Mit einer Anzahlung von 500 Euro reservieren wir Ihnen das Fahrzeug verbindlich; der Betrag wird selbstverständlich auf den Kaufpreis angerechnet. | 500 euro kaparoyla aracı sizin için kesin olarak ayırıyoruz; tutar elbette satış fiyatından düşülür. |
+| Den Restbetrag überweisen Sie bitte spätestens zwei Werktage vor der Übergabe, damit die Zahlung rechtzeitig eingeht. | Ödemenin zamanında ulaşması için kalan tutarı en geç teslimden iki iş günü önce havale edin lütfen. |
+| Bei Barzahlungen ab 10.000 Euro sind wir gesetzlich verpflichtet, Ihre Identität anhand eines Ausweisdokuments festzustellen. | 10.000 euro ve üzeri nakit ödemelerde kimliğinizi bir kimlik belgesiyle tespit etmek yasal zorunluluğumuz. |
+| Die Fahrzeugpapiere händigen wir Ihnen aus, sobald der vollständige Betrag auf unserem Konto eingegangen ist. | Tutarın tamamı hesabımıza geçer geçmez araç belgelerini size teslim ediyoruz. |
 
-Nakit sınırındaki kimlik kontrolü Almanya'daki kara para yasasından (*Geldwäschegesetz*) gelir. Müşteri itiraz ederse "Das ist eine gesetzliche Pflicht für alle Händler." (Bu, tüm satıcılar için yasal bir zorunluluk.) demen yeterli.
+Son satırdaki mantık sözleşmedeki *Eigentumsvorbehalt* maddesine dayanır: bedel tamamen ödenene kadar araç galerinin mülkiyetinde kalır. Bu konu "İmzadan Anahtara" yazısında ayrıntılı.
 
 ---
 
-*Bu kısım benim notum:* Fiyat konuşmasında dil hatası affedilir, söz hatası affedilmez. İndirim, faiz ve takas değerinde kendi yetkini ilk gün yöneticinle netleştir. Sınırın dışındaki her soruya aynı cümleyle cevap ver: "Da muss ich kurz mit meinem Chef sprechen."
+*Bu kısım benim notum:* Vergi, kredi ve nakit ödeme satırları kavramları anlaman için yazıldı, hukuki ya da mali danışmanlık değildir. Müşteriye oran, tutar ya da yasal sınır söylemeden önce galerinin muhasebesine ve güncel kurallara bak.

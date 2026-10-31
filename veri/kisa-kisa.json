@@ -104,24 +104,6 @@
     "tr": "Fiyat teklifi, ön maliyet hesabı (çoğulu: die Kostenvoranschläge)",
     "ornek": "„Sollte sich bei der Inspektion ein größerer Schaden herausstellen, erstellen wir Ihnen selbstverständlich vorab einen verbindlichen Kostenvoranschlag.“",
     "ornekTr": "Muayenede daha büyük bir hasar ortaya çıkarsa, size elbette önceden bağlayıcı bir fiyat teklifi hazırlarız."
-   },
-   "tarif": {
-    "ad": "Sebzeli ve mercimekli güveç (cobbler)",
-    "kaynak": "NHS Healthier Families",
-    "url": "https://www.nhs.uk/healthier-families/recipes/vegetable-and-lentil-cobbler/",
-    "porsiyon": "4 kişilik",
-    "sure": "65 dk",
-    "besin": "Porsiyon başına 409 kcal · 14 g protein · 9,3 g lif",
-    "malzemeler": [
-     "75 g kırmızı mercimek",
-     "1 kutu doğranmış domates",
-     "2 havuç, 1 yaban havucu, 2 sap kereviz",
-     "Bir avuç karnabahar ve mantar",
-     "1 soğan, 1 diş sarımsak, 2 tatlı kaşığı zeytinyağı",
-     "450 ml az tuzlu sebze suyu, 2 yemek kaşığı mısır nişastası",
-     "Üstü için: 150 g kabartma tozlu un, 45 g az yağlı margarin, 1 yumurta, 30 ml süt"
-    ],
-    "yapilis": "Soğan ve sarımsağı yağda yumuşat, sert sebzeleri ekleyip kısa süre çevir; ocaktan alıp mantar, domates ve mercimeği karıştır. Suyla açılmış nişasta ve sebze suyunu ekleyip koyulaşana kadar kaynat, güvece al ve kapağı kapalı 180°C'de 20 dakika pişir. Bu arada unu margarinle ufala, yumurta ve sütle yumuşak bir hamur yap, 2 cm açıp yuvarlak kes. Fırını 200°C'ye çıkar, yuvarlakları güvecin kenarına diz ve kızarana kadar 12-15 dakika daha pişir."
    }
   },
   {
