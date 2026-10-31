@@ -157,6 +157,10 @@ nav .sy{font-family:var(--mono);font-size:.7rem;color:var(--soluk);font-variant-
 .yt-kart .yt-kanal{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--soluk)}
 .yt-kart h3{font-size:.98rem;line-height:1.3;margin:0}
 .yt-kart .ne{font-size:.86rem;color:var(--ikincil);margin:0;line-height:1.45}
+.almanca-gunluk{margin:0 0 30px}
+.almanca-onceki{list-style:none;margin:10px 0 0;padding:0;font-size:.88rem;color:var(--ikincil)}
+.almanca-onceki li{padding:6px 0;border-top:1px solid var(--cizgi)}
+.almanca-onceki b{color:var(--murekkep);font-weight:600;margin-right:6px}
 .almanca-kutu{margin-top:12px;border-left:4px solid hsl(160 55% 34%);background:var(--yuzey);border-radius:0 8px 8px 0;padding:16px 20px}
 .almanca-kutu .de{font-family:var(--display);font-weight:800;font-stretch:86%;font-size:1.5rem;margin:0;line-height:1.15}
 .almanca-kutu .tr{color:var(--ikincil);font-style:italic;margin:4px 0 10px}
@@ -970,6 +974,17 @@ function gunlukOge(o){
     (url?'<div class="ayak"><a class="btn" href="'+kac(url)+'" target="_blank" rel="noopener">Kaynak</a></div>':'')+
     '</div></div>';
 }
+function almancaCiz(gunler){
+  var ar=document.getElementById("b-arsiv"),al=gunler.filter(function(g){return g.almanca&&g.almanca.de;});
+  if(!ar||!al.length) return;
+  var x=al[0].almanca,eski=ar.querySelector(".almanca-gunluk"); if(eski) eski.remove();
+  var h='<div class="almanca-gunluk"><p class="grup-bas" style="--g:160 55% 34%"><i></i>Günün Almancası<span>'+kac(tarihYaz(al[0].tarih))+'</span></p>'+
+    '<div class="almanca-kutu"><p class="de">'+kac(x.de)+'</p><p class="tr">'+kac(x.tr||"")+'</p>'+
+    (x.ornek?'<p class="ornek">'+kac(x.ornek)+(x.ornekTr?'<span>'+kac(x.ornekTr)+'</span>':'')+'</p>':'')+'</div>'+
+    (al.length>1?'<ul class="almanca-onceki">'+al.slice(1).map(function(g){return '<li><b>'+kac(g.almanca.de)+'</b> '+kac(g.almanca.tr||"")+'</li>';}).join("")+'</ul>':'')+'</div>';
+  var son=ar.querySelector(".bolum-foto")||ar.querySelector(".bolum-bas");
+  son.insertAdjacentHTML("afterend",h);
+}
 function gunlukCiz(v){
   var sec=document.getElementById("b-gunluk"); if(!sec) return;
   var kutu=sec.querySelector(".gunluk-icerik"),gunler=(v&&Array.isArray(v.gunler))?v.gunler:[];
@@ -991,16 +1006,13 @@ function gunlukCiz(v){
         '<span class="yt-foto"><img src="https://i.ytimg.com/vi/'+x.id+'/mqdefault.jpg" alt="" loading="lazy" decoding="async"></span>'+
         '<span class="yt-govde"><span class="yt-kanal">'+kac(x.kanal||"")+'</span><h3>'+kac(x.baslik||"")+'</h3>'+
         (x.neden?'<p class="ne">'+kac(x.neden)+'</p>':'')+'</span></a>'; }).join("")+'</div></div>';
-    var al=g.almanca;
-    if(al&&al.de) h+='<div class="gunluk-grup"><p class="grup-bas" style="--g:160 55% 34%"><i></i>Günün Almancası</p><div class="almanca-kutu">'+
-      '<p class="de">'+kac(al.de)+'</p><p class="tr">'+kac(al.tr||"")+'</p>'+
-      (al.ornek?'<p class="ornek">'+kac(al.ornek)+(al.ornekTr?'<span>'+kac(al.ornekTr)+'</span>':'')+'</p>':'')+'</div></div>';
     return h;
   }
   var h=gun(gunler[0]);
   if(gunler.length>1) h+='<details class="onceki"><summary>Önceki günler ('+(gunler.length-1)+')</summary>'+gunler.slice(1).map(gun).join("")+'</details>';
   if(saglikVar) h+='<p class="saglik-not">Sağlık ve fitness başlıkları bilgi amaçlıdır, tıbbi tavsiye değildir.</p>';
   kutu.innerHTML=h;
+  almancaCiz(gunler);
   var n=sec.querySelector(".n"); if(n) n.textContent=gunler[0].ogeler.length;
   if(ara.value.trim()) filtrele();
 }
