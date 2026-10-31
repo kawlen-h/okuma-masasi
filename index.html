@@ -232,6 +232,26 @@ h2{font-family:var(--display);font-weight:800;font-stretch:86%;font-size:clamp(1
 .kat-not{color:var(--ikincil);font-size:1.02rem;margin:0;max-width:68ch;line-height:1.55}
 .kat-not strong{color:var(--murekkep);font-weight:600}
 
+/* haftalık sayı */
+.sayi-bas{display:flex;gap:12px;align-items:baseline;font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ikincil);margin:4px 0 10px}
+.sayi-bas b{color:var(--kat)}
+.sayi-giris{font-size:1.02rem;line-height:1.6;max-width:68ch;margin:0 0 16px}
+.sayi-ic{border:1px solid var(--cizgi);border-radius:8px;padding:12px 16px;margin:0 0 18px;background:var(--yuzey)}
+.sayi-ic p{margin:0 0 6px;font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ikincil)}
+.sayi-ic ol{margin:0;padding-left:20px;line-height:1.8}
+.sayi-ic a{color:inherit}
+.sayi-kapak{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);background:var(--yuzey);border:1px solid var(--cizgi);border-radius:8px;overflow:hidden;color:inherit;text-decoration:none;margin-bottom:8px}
+.sayi-kapak:hover{border-color:color-mix(in srgb,var(--kat) 50%,var(--cizgi))}
+.sayi-kapak img{width:100%;height:100%;min-height:200px;object-fit:cover;display:block}
+.sayi-kapak-govde{display:flex;flex-direction:column;gap:8px;padding:18px 20px}
+.sayi-kapak-govde .kicker{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--kat)}
+.sayi-kapak-govde h3{font-family:var(--display);font-size:1.4rem;line-height:1.2;margin:0}
+.sayi-kapak-govde .ne{color:var(--ikincil)}
+.sayi-kapak-govde .btn{align-self:flex-start;margin-top:4px}
+.sayi-arsiv{list-style:none;padding:0;margin:8px 0}
+.sayi-arsiv a{display:flex;flex-wrap:wrap;gap:8px;padding:8px 0;border-bottom:1px solid var(--cizgi);color:inherit}
+.sayi-arsiv span{color:var(--ikincil);font-size:.85rem}
+@media (max-width:720px){.sayi-kapak{grid-template-columns:1fr}.sayi-kapak img{max-height:200px}}
 /* dosya: öne çıkan + kartlar */
 .dosya-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 .dosya-grid article{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:7px;
@@ -612,8 +632,8 @@ var KATEGORILER=[
  {id:"b-vibe",foto:"gorseller/vibe.jpg",fotoAlt:"Karanlık ekranda kod satırları",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
  {id:"b-gunluk",foto:"gorseller/bolum-gunluk.jpg",fotoAlt:"Gazetenin yanında bir fincan çay",kisa:"Günlük",ad:"Kısa kısa",renk:"345 62% 48%",bicim:"gunluk",
   not:"Her sabah onaylı kaynaklardan derlenir; yalnızca dört alan: Claude, yapay zekâ, teknoloji, spor ve fitness. Yapay zekâ ile spor ve fitnessten ikişer üçer haber. Özetler kendi cümlelerimizle, her biri kaynağına bağlı. O alanda yeni bir şey yoksa ya boş geçilir ya da tarihi açıkça yazılı kalıcı bir okuma konur."},
- {id:"b-hafta",foto:"gorseller/bolum-hafta.jpg",fotoAlt:"Masada duran bir kondansatör mikrofon",kisa:"Haftanın dosyası",ad:"Bir kez anlat, hep bilsin",renk:"38 82% 40%",bicim:"dosya",
-  not:"Her hafta yazıya dökülmüş bir konuşma ya da ders. Bu hafta Claude'un resmî kanalından: skill'ler."},
+ {id:"b-hafta",foto:"gorseller/bolum-hafta.jpg",fotoAlt:"Masada duran bir kondansatör mikrofon",kisa:"Haftalık sayı",ad:"Haftanın özeti",renk:"38 82% 40%",bicim:"haftalik",
+  not:"Her pazar yeni sayı: araştırmaya dayanan bir kapak yazısı, haftanın yapay zekâ ve teknoloji manşetleri, seçilmiş videolar ve bir çalışma."},
  {id:"b-claude",foto:"gorseller/bolum-claude.jpg",fotoAlt:"Ekranında renkli kod satırları olan bir dizüstü bilgisayar",kisa:"Dosya",ad:"Claude ve ajanlar",renk:"168 48% 38%",bicim:"dosya",
   not:"Ajanı güvenilir hâle getirme, skill yazma, bağlam yönetimi. Resmî kaynaklar ve doğrulanmış eğitim videoları."},
  {id:"b-yz",foto:"gorseller/alan-yz.jpg",fotoAlt:"Yapay zekâyı simgeleyen soyut bir görsel",kisa:"Temeller",ad:"Yapay zekâ nasıl çalışır",renk:"212 62% 50%",bicim:"kisa",
@@ -664,7 +684,7 @@ var VERI=[
   n:"Ajan koşumu (harness) üzerine 26 bölüm. Bağlam mühendisliği, zehirlenme, skill'ler, geçitler, kum havuzu ve orkestrasyon matematiği. Sekiz aylık hata kayıtlarına dayanıyor.",
   u:"Tekrarlanan her hatayı CLAUDE.md'ye bir kural olarak yaz. Uzun oturumda saçmalamaya başlarsa devir notu aldırıp yeni oturum aç.",
   d:"hazir",yazi:"harness",l:"https://cydeo.com/bookcast/super-capable-super-stupid/read",lb:"Kaynak"},
- {k:"b-hafta",b:"Bir kez anlat, hep bilsin — Claude skill'leri",m:["Claude · resmî kanal","2:54","27 Şub 2026","1,88 Mn"],
+ {k:"b-claude",b:"Bir kez anlat, hep bilsin — Claude skill'leri",m:["Claude · resmî kanal","2:54","27 Şub 2026","1,88 Mn"],
   n:"Skill nedir, Claude onu nasıl seçer, kişisel ve proje skill'leri nereye konur, CLAUDE.md'den farkı ne. Videonun beş bölümü sırasıyla, her bölümde videoya dönüş linkiyle.",
   u:"İlk skill'in Etsy ürün listeleme olsun: başlık kuralları, etiket stratejisi, açıklama yapısı. Her üründe aynı şeyi anlatıyorsan yazılmayı bekleyen skill bu.",
   d:"hazir",yazi:"skills",l:"https://www.youtube.com/watch?v=bjdBVZa66oU",lb:"YouTube"},
@@ -878,6 +898,11 @@ KATEGORILER.forEach(function(kat){
       '<div class="gunluk-icerik"><p class="yukleniyor">Bugünün derlemesi yükleniyor…</p></div></section>';
     return;
   }
+  if(kat.bicim==="haftalik"){
+    html+='<section id="'+kat.id+'" class="bolum"'+stil+'>'+bolumBasi(kat,"")+
+      '<div class="haftalik-icerik"><p class="yukleniyor">Bu haftanın sayısı yükleniyor…</p></div></section>';
+    return;
+  }
   html+='<section id="'+kat.id+'" class="bolum"'+stil+'>'+bolumBasi(kat,og.length);
   if(kat.bicim==="dosya"){
     html+='<div class="dosya-grid">';
@@ -934,16 +959,17 @@ document.getElementById("ust-sayac").textContent=VERI.length+" kaynak · "+hazir
 document.getElementById("nav-tema").innerHTML=KATEGORILER.map(function(k){
   var og=VERI.filter(function(v){return v.k===k.id;}),alt;
   if(k.bicim==="kapak") alt='<li><a href="#'+og[0].yazi+'"><img src="'+k.foto+'" alt="" loading="lazy"><span class="bas">Kapak yazısını oku</span></a></li>';
+  else if(k.bicim==="haftalik") alt='<li><a class="tum" href="#'+k.id+'">Bu haftanın sayısı</a></li>';
   else alt='<li><a class="tum" href="#'+k.id+'">Bölümün başına git</a></li>'+og.map(function(v){
     var Y=v.yazi&&YAZILAR[v.yazi],g=(Y&&Y.foto)||v.g||k.foto;
     return '<li><a href="#'+(Y?v.yazi:'o'+VERI.indexOf(v))+'"><img src="'+g+'" alt="" loading="lazy" decoding="async"><span class="bas">'+kac(Y?Y.ad:v.b)+'</span></a></li>';
   }).join("");
   return '<details class="tema" style="--kat:hsl('+k.renk+')"><summary><img class="tema-foto" src="'+k.foto+'" alt="" loading="lazy">'+
     '<span class="ad"><small>'+kac(k.kisa)+'</small>'+kac(k.ad)+'</span>'+
-    '<span class="sy">'+((k.bicim==="kapak"||k.bicim==="gunluk")?"":og.length)+'</span><i class="ok"></i></summary><ul>'+alt+'</ul></details>';
+    '<span class="sy">'+((k.bicim==="kapak"||k.bicim==="gunluk"||k.bicim==="haftalik")?"":og.length)+'</span><i class="ok"></i></summary><ul>'+alt+'</ul></details>';
 }).join("");
 document.querySelector("#tema-mobil .tm-liste").innerHTML=document.getElementById("nav-tema").innerHTML;
-var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftanın dosyası","b-claude":"Claude",
+var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftalık sayı","b-claude":"Claude",
   "b-yz":"Yapay zekâ","b-eticaret":"E-ticaret","b-bilim":"Bilim","b-saglik":"Sağlık ve fitness",
   "b-github":"Araçlar","b-arsiv":"Arşiv"};
 var serit=document.getElementById("serit");
@@ -996,6 +1022,12 @@ function almancaCiz(gunler){
   var son=ar.querySelector(".bolum-foto")||ar.querySelector(".bolum-bas");
   son.insertAdjacentHTML("afterend",h);
 }
+function ytKart(x){
+  return '<a class="yt-kart" href="https://www.youtube.com/watch?v='+x.id+'" target="_blank" rel="noopener" data-ara="'+kac(kucuk([x.kanal,x.baslik,x.neden||""].join(" ")))+'">'+
+    '<span class="yt-foto"><img src="https://i.ytimg.com/vi/'+x.id+'/mqdefault.jpg" alt="" loading="lazy" decoding="async"></span>'+
+    '<span class="yt-govde"><span class="yt-kanal">'+kac(x.kanal||"")+'</span><h3>'+kac(x.baslik||"")+'</h3>'+
+    (x.neden?'<p class="ne">'+kac(x.neden)+'</p>':'')+'</span></a>';
+}
 function gunlukCiz(v){
   var sec=document.getElementById("b-gunluk"); if(!sec) return;
   var kutu=sec.querySelector(".gunluk-icerik"),gunler=(v&&Array.isArray(v.gunler))?v.gunler:[];
@@ -1013,10 +1045,7 @@ function gunlukCiz(v){
     });
     var vd=(Array.isArray(g.videolar)?g.videolar:[]).filter(function(x){return x&&/^[A-Za-z0-9_-]{11}$/.test(x.id||"");}).slice(0,6);
     if(vd.length) h+='<div class="gunluk-grup"><p class="grup-bas" style="--g:0 70% 48%"><i></i>YouTube’dan seçilenler<span>'+vd.length+'</span></p><div class="yt-seri">'+
-      vd.map(function(x){ return '<a class="yt-kart" href="https://www.youtube.com/watch?v='+x.id+'" target="_blank" rel="noopener" data-ara="'+kac(kucuk([x.kanal,x.baslik,x.neden||""].join(" ")))+'">'+
-        '<span class="yt-foto"><img src="https://i.ytimg.com/vi/'+x.id+'/mqdefault.jpg" alt="" loading="lazy" decoding="async"></span>'+
-        '<span class="yt-govde"><span class="yt-kanal">'+kac(x.kanal||"")+'</span><h3>'+kac(x.baslik||"")+'</h3>'+
-        (x.neden?'<p class="ne">'+kac(x.neden)+'</p>':'')+'</span></a>'; }).join("")+'</div></div>';
+      vd.map(ytKart).join("")+'</div></div>';
     return h;
   }
   var h=gun(gunler[0]);
@@ -1031,6 +1060,41 @@ fetch("veri/kisa-kisa.json",{cache:"no-store"})
   .then(function(r){ return r.ok?r.json():null; })
   .then(gunlukCiz)
   .catch(function(){ gunlukCiz(null); });
+
+/* ---- haftalık sayı: veri/haftalik.json, kapak yazısı okuyucuda açılır ---- */
+var HFOTO={claude:"gorseller/bolum-claude.jpg",yz:"gorseller/alan-yz.jpg",teknoloji:"gorseller/bolum-araclar.jpg",fitness:"gorseller/bolum-saglik.jpg",spor:"gorseller/bolum-saglik.jpg",saglik:"gorseller/bolum-saglik.jpg"};
+function sayiAd(s){ return "sayi-"+("00"+s.no).slice(-3); }
+function haftalikCiz(v){
+  var sec=document.getElementById("b-hafta"); if(!sec) return;
+  var kutu=sec.querySelector(".haftalik-icerik");
+  var sy=(v&&Array.isArray(v.sayilar))?v.sayilar.filter(function(s){ return s&&+s.no>0&&s.kapak&&/^yazilar\/sayi-\d{3}\.md$/.test(s.kapak.dosya||""); }):[];
+  if(!sy.length){ kutu.innerHTML='<p class="kat-not">İlk sayı pazar günü çıkacak.</p>'; return; }
+  sy.forEach(function(s){ YAZILAR[sayiAd(s)]={dosya:s.kapak.dosya,ad:s.kapak.baslik,bolum:"Haftalık sayı · Sayı "+s.no,kaynak:"Okuma Masası · Sayı "+s.no,foto:HFOTO[s.kapak.alan]||"gorseller/bolum-hafta.jpg",fotoAlt:""}; });
+  var s=sy[0],ad=sayiAd(s),m=(Array.isArray(s.mansetler)?s.mansetler:[]).slice(0,6),c=(s.calisma&&s.calisma.baslik)?s.calisma:null;
+  var vd=(Array.isArray(s.videolar)?s.videolar:[]).filter(function(x){return x&&/^[A-Za-z0-9_-]{11}$/.test(x.id||"");}).slice(0,4);
+  var ic=['<li><a href="#'+ad+'">Kapak yazısı: '+kac(s.kapak.baslik)+'</a></li>'];
+  if(m.length) ic.push('<li><a href="#'+ad+'-manset">Haftanın manşetleri</a></li>');
+  if(vd.length) ic.push('<li><a href="#'+ad+'-video">Haftanın videoları</a></li>');
+  if(c) ic.push('<li><a href="#'+ad+'-calisma">Haftanın çalışması</a></li>');
+  var h='<p class="sayi-bas"><b>Sayı '+s.no+'</b><span>'+kac(s.donem||tarihYaz(s.tarih))+'</span></p>'+
+    (s.giris?'<p class="sayi-giris">'+kac(s.giris)+'</p>':'')+
+    '<nav class="sayi-ic" aria-label="Bu sayıda"><p>Bu sayıda</p><ol>'+ic.join("")+'</ol></nav>'+
+    '<a class="sayi-kapak" href="#'+ad+'"><img src="'+YAZILAR[ad].foto+'" alt="" loading="lazy" decoding="async">'+
+      '<span class="sayi-kapak-govde"><span class="kicker">Kapak yazısı</span><h3>'+kac(s.kapak.baslik)+'</h3>'+
+      '<span class="ne">'+kac(s.kapak.ozet||"")+'</span><span class="btn dolu">Yazıyı oku</span></span></a>'+
+    (m.length?'<div class="gunluk-grup" id="'+ad+'-manset"><p class="grup-bas" style="--g:212 62% 50%"><i></i>Haftanın manşetleri<span>'+m.length+'</span></p><div class="kisa-liste">'+m.map(gunlukOge).join("")+'</div></div>':'')+
+    (vd.length?'<div class="gunluk-grup" id="'+ad+'-video"><p class="grup-bas" style="--g:0 70% 48%"><i></i>Haftanın videoları<span>'+vd.length+'</span></p><div class="yt-seri">'+vd.map(ytKart).join("")+'</div></div>':'')+
+    (c?'<div class="gunluk-grup" id="'+ad+'-calisma"><p class="grup-bas" style="--g:120 38% 34%"><i></i>Haftanın çalışması</p><div class="kisa-liste">'+gunlukOge(c)+'</div></div>':'');
+  if(sy.length>1) h+='<details class="onceki"><summary>Önceki sayılar ('+(sy.length-1)+')</summary><ul class="sayi-arsiv">'+
+    sy.slice(1).map(function(x){ return '<li><a href="#'+sayiAd(x)+'"><b>Sayı '+x.no+'</b>'+kac(x.kapak.baslik)+'<span>'+kac(x.donem||"")+'</span></a></li>'; }).join("")+'</ul></details>';
+  kutu.innerHTML=h;
+  if(YAZILAR[location.hash.slice(1)]) yonlendir();
+  if(ara.value.trim()) filtrele();
+}
+fetch("veri/haftalik.json",{cache:"no-store"})
+  .then(function(r){ return r.ok?r.json():null; })
+  .then(haftalikCiz)
+  .catch(function(){ haftalikCiz(null); });
 
 /* ---- kapak çizimi: kod satırlarını andıran soyut kompozisyon ---- */
 function kapakCiz(){
@@ -1211,6 +1275,10 @@ function fotoFigur(src,alt,not,sinif,hemen){
 }
 function yaziGoster(ad,h,ust){
   metin.innerHTML=h;
+  metin.querySelectorAll("script,iframe,object,embed,style,form").forEach(function(e){ e.remove(); });
+  metin.querySelectorAll("*").forEach(function(e){ [].slice.call(e.attributes).forEach(function(a){ if(/^on/i.test(a.name)) e.removeAttribute(a.name); }); });
+  metin.querySelectorAll("a[href]").forEach(function(a){ if(!/^(https:\/\/|#)/i.test(a.getAttribute("href"))) a.removeAttribute("href"); });
+  metin.querySelectorAll("img").forEach(function(im){ if(!/^(https:\/\/|gorseller\/)/i.test(im.getAttribute("src")||"")) im.remove(); });
   var h1=metin.querySelector("h1");
   if(h1&&h1.parentNode===metin){
     var k=document.createElement("p"); k.className="yazi-kicker"; k.textContent=YAZILAR[ad].bolum;

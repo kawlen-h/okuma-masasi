@@ -1,0 +1,81 @@
+{
+ "guncelleme": "2026-10-31",
+ "sayilar": [
+  {
+   "no": 1,
+   "tarih": "2026-10-31",
+   "donem": "26 Ekim – 1 Kasım 2026",
+   "giris": "Bu hafta yapay zekâda iki yön öne çıktı: araçlar açılıyor (Agent Skills bir vakfa devredildi, Mistral Large 4'ün ağırlıkları serbest), şirketler de modellerinin nasıl davranacağını yazılı kurallara bağlıyor. Kapakta ise spor bilimlerinden bir uyarı var: güçlü görünen bir sayı her zaman güçlü bir ilişki demek değil.",
+   "kapak": {
+    "baslik": "Bir Sayının Göründüğünden Güçlü Olması",
+    "ozet": "Kas büyüdükçe kuvvet artar mı? Bir çalışma r = 0,92 buldu; ilişki hiç yokken bile yöntemin 0,8'in üzerinde sonuç verebildiği ortaya çıkınca tablo değişiyor.",
+    "dosya": "yazilar/sayi-001.md",
+    "alan": "fitness"
+   },
+   "mansetler": [
+    {
+     "alan": "claude",
+     "baslik": "Anthropic, AI for Science programını 20 kuruma genişletti",
+     "ozet": "Anthropic, araştırmacılara ücretsiz Claude kredisi veren AI for Science programını 28 Ekim'de dünyanın farklı yerlerinden 20 vakıf, enstitü ve araştırma grubuna genişletti. Sloan ve Simons vakıfları, ABD Ulusal Bilim Vakfı (NSF) ve Amerikan Kimya Derneği'nin birimi CAS, kredileri kendi araştırmacılarına dağıtacak. Francis Crick ve Wellcome Sanger enstitüleri ile Princeton'daki FlyWire beyin haritalama projesi de listede; Anthropic işbirliklerinin çoğunun açık veri seti ve açık kaynak yazılım üreteceğini söylüyor.",
+     "kaynak": "Anthropic · 28 Ekim 2026",
+     "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+    },
+    {
+     "alan": "claude",
+     "baslik": "Agent Skills artık bağımsız bir vakfın",
+     "ozet": "Anthropic, Agent Skills standardını adı, GitHub organizasyonu ve agentskills.io alan adıyla birlikte Linux Foundation çatısındaki Agentic AI Foundation'a devretti; MCP de aynı vakıfta. Aralık 2025'te yayımlanan standardı bugün ChatGPT, Cursor, GitHub Copilot ve VS Code dahil 70'ten fazla platform destekliyor. Standardı Anthropic, Google ve OpenAI'dan mühendisler bireysel olarak yürütecek; yol haritasında skill yazan ve kuranlar için güvenlik rehberi de var.",
+     "kaynak": "Anthropic · 22 Ekim 2026",
+     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    },
+    {
+     "alan": "yz",
+     "baslik": "OpenAI, modellerinin davranış kılavuzunu yeniden yazdı",
+     "ozet": "OpenAI, modellerinin nasıl davranması gerektiğini anlatan Model Spec belgesinin 29 Ekim 2026 sürümünü yayımladı. Belge artık beş temel değer etrafında düzenleniyor: insan niyetine sadakat, zararı en aza indirme, dürüstlük ve şeffaflık, insanın karar gücünü destekleme ve özenli davranma. Yeni metinde modeller \"asistan\" yerine \"GPT\" adıyla anılıyor.",
+     "kaynak": "OpenAI Model Spec · 29 Ekim 2026",
+     "url": "https://model-spec.openai.com/2026-10-29.html"
+    },
+    {
+     "alan": "yz",
+     "baslik": "Mistral Large 4'ün ağırlıkları açıldı",
+     "ozet": "Mistral, 6 Ekim'de önizlemeye açtığı Mistral Large 4'ün geliştirilmiş sürümünün ağırlıklarını yayımladı. Model toplam 1,05 trilyon parametreli ama her adımda yaklaşık 52 milyarı devreye giriyor; metin ve görsel alıyor, bağlam penceresi 1 milyon token. Lisans MIT'nin değiştirilmiş bir sürümü: indirip kullanmak serbest, modeli ücretli hizmet olarak sunmak ayrı ticari lisans istiyor. Hugging Face'in 29 Ekim tarihli yazısına göre Artificial Analysis zekâ endeksinde açık ağırlıklı modeller arasında beşinci sırada.",
+     "kaynak": "Mistral AI · 29 Ekim 2026",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/"
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "Yapay zekâ ajanlarının yaptıkları anlık izlenmeli",
+     "ozet": "Partnership on AI'dan iki araştırmacı, şirketlerin ajanların izinsiz eylemlerine karşı çoğunlukla şansa güvendiğini yazıyor; örneklerden biri, bir güvenlik testinde OpenAI ajanlarının Hugging Face sistemlerine girmesi. Önerileri iki tür kayıt tutmak: ajanın ne yaptığı (kimliği, insan müdahaleleri, izin değişiklikleri) ve nasıl karar verdiği. Bunun için yaygın bir izleme standardı olan OpenTelemetry'nin genişletilmesini öneriyorlar.",
+     "kaynak": "MIT Technology Review · görüş · 29 Ekim 2026",
+     "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
+    }
+   ],
+   "videolar": [
+    {
+     "kanal": "Fireship",
+     "baslik": "Did the AI bubble just pop?",
+     "id": "nEaJMdM1djM",
+     "neden": "Fireship'in yapay zekâ yatırımlarındaki son dalgalanmaya kısa ve hızlı bakışı."
+    },
+    {
+     "kanal": "Two Minute Papers",
+     "baslik": "OpenAI Claims It Just Did The Impossible",
+     "id": "CWdTBLsbaQs",
+     "neden": "OpenAI'nin son iddiasını araştırma makaleleri üzerinden anlatan kanal; başlık abartılı, içerik makaleye dayanıyor."
+    },
+    {
+     "kanal": "Renaissance Periodization",
+     "baslik": "Two Short Workouts a Week Still Builds Muscle",
+     "id": "gYtJFRvmt9M",
+     "neden": "Spor bilimci Mike Israetel'in kanalından: haftada iki kısa antrenmanla kas yapmak mümkün mü."
+    }
+   ],
+   "calisma": {
+    "alan": "fitness",
+    "baslik": "Antrenmanı gün içine bölmek de aynı kuvveti getiriyor",
+    "ozet": "Tongji Üniversitesi'nin Journal of Exercise Science & Fitness'ta yayımlanan randomize kontrollü çalışmasında, en az altı aydır antrenman yapan 18-25 yaş arası 45 erkek öğrenci 8 hafta boyunca iki gruba ayrıldı. Bir grup direnç antrenmanını gün içine yayılmış kısa bölümler hâlinde, diğeri tek ve uzun seansta yaptı. Sonunda iki grup arasında kuvvet ve göreli kas dayanıklılığı açısından anlamlı bir fark çıkmadı. Tek çalışma ve yalnızca genç, antrenmanlı erkeklerle yapıldı; kadınlar ve yeni başlayanlar için sonuç henüz bilinmiyor.",
+    "kaynak": "Journal of Exercise Science & Fitness · Ekim 2026",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1728869X26000821"
+   }
+  }
+ ]
+}
