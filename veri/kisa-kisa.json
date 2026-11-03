@@ -1,6 +1,171 @@
 {
- "guncelleme": "2026-11-02",
+ "guncelleme": "2026-11-03",
  "gunler": [
+  {
+   "tarih": "2026-11-03",
+   "ogeler": [
+    {
+     "alan": "claude",
+     "baslik": "Anthropic: Kendini geliştiren yapay zekâ eşiğine yaklaşıyor olabiliriz",
+     "ozet": "Anthropic, halka arz için SEC'e sunduğu güncellenmiş S-1/A belgesinin risk faktörlerine, iç tahminlerine göre Sorumlu Ölçekleme Politikası'ndaki özyinelemeli kendini geliştirme (RSI) tanımını yakında karşılayabileceği uyarısını ekledi. Belgeye göre şirket, model geliştirmede yapay zekâ kullanırken bazı yetenek sıçramalarını o anda fark edemedi; ancak şimdiye kadar hiçbir model bu eşiği aşmış olarak işaretlenmedi. Daha önce uzak bir senaryo gibi anlatılan eşik için Anthropic artık öncü model geliştirmede insan denetimini korumaya yönelik politika güncellemelerini değerlendirdiğini yazıyor. Uyarı en çok yatırımcıları ve düzenleyicileri ilgilendiriyor; bazı gözlemciler belgenin aynı zamanda pazarlama işlevi gördüğünü hatırlatıyor.",
+     "kaynak": "TechCrunch · 2 Kasım 2026",
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+     "ig": "Anthropic, halka arz belgesine iç tahminlere göre kendini geliştiren yapay zekâ (RSI) eşiğini yakında karşılayabileceğini yazdı. Henüz hiçbir model eşiği aşmış sayılmıyor."
+    },
+    {
+     "alan": "claude",
+     "baslik": "Claude Code 2.1.317: E-posta sızıntısına onay, alt ajanlara kendi çaba ayarı",
+     "ozet": "Anthropic, 3 Kasım'da Claude Code 2.1.317'yi yayımladı. Sürüm, bir web ya da kabuk aracı hesabın e-posta adresini ağa göndermeden önce onay istiyor ve /schedule ile kurulan bulut görevine istenmeyen bağlayıcı eklendiğinde uyarı veriyor. Farklı modelde çalışan alt ajanlar artık o modelin kayıtlı ya da varsayılan çaba düzeyini kullanıyor; SendMessage da çalışan arka plan ajanını durdurmak yerine arka plana alıyor. Kendi temposunda çalışan /loop uyanmalarının bazen planlanmaması ve masaüstünde proje MCP sunucularının ilk turdan sonra kopması gibi hatalar da giderildi.",
+     "kaynak": "Claude Code sürüm notları · 3 Kasım 2026",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+     "not": "Bizde: Claude Code'u 2.1.317'ye güncelle ve zamanlanmış görevlerinde istenmeyen bağlayıcı uyarısı çıkıyor mu kontrol et.",
+     "ig": "Claude Code 2.1.317, e-posta adresini ağa göndermeden önce onay istiyor ve zamanlanmış görevlere istenmeyen bağlayıcı eklenince uyarıyor.",
+     "igNot": "Güncelle, zamanlanmış görevlerde bağlayıcı uyarısına bak."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Anthropic'in geliri 12 kat arttı, net zarar 23,3 milyar dolar",
+     "ozet": "Bloomberg ve The Information'ın aktardığı rakamlara göre Anthropic son çeyrekte yaklaşık 17 milyar dolar gelir elde etti; bu, bir yıl önceki çeyreğin yaklaşık 12 katı. Ancak 17,5 milyar dolarlık işletme gideri geliri aştı, önceki çeyrekte bildirilen kâr işletme zararına döndü ve net zarar bir yıl önceki 12,1 milyar dolardan 23,3 milyar dolara çıktı. Şirket artışı 5 milyar dolarlık kısa vadeli hesaplama kapasitesi ve 2 milyar dolarlık çalışan bağış eşleştirmesiyle açıklıyor; güncellenmiş izahnamede 895 milyar dolarlık hesaplama ve veri merkezi kira taahhüdü yer alıyor. Yaklaşık 100 milyar dolar toplaması beklenen halka arz öncesinde tablo, Claude'un hızlı büyümesinin hesaplama maliyetiyle birlikte geldiğini gösteriyor.",
+     "kaynak": "The Decoder · 2 Kasım 2026",
+     "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+     "ig": "Anthropic'in çeyreklik geliri yaklaşık 17 milyar dolara çıktı (12 kat), ama net zarar 23,3 milyar dolar. Hesaplama taahhüdü 895 milyar dolar."
+    },
+    {
+     "alan": "yz",
+     "baslik": "MIT: GPT-6 Astra, başka bir modelin ağırlıklarını doğrudan yazarak düzeltti",
+     "ozet": "MIT CSAIL'den Rikiya Takehi, Omar Khattab ve ekibi 2 Kasım'da ağırlık uzayı programlama adını verdikleri yöntemi yayımladı: GPT-6 Astra, gradyan inişi ya da optimizer kullanmadan başka bir sinir ağının ağırlıklarını okuyup yeniden yazıyor. Qwen3.5-0.8B'de yalnızca 131.072 ağırlık (%0,016) değiştirilerek MATH-500 puanı %7,9'dan %48,1'e, GSM8K %13,8'den %67,1'e çıktı. Breakout oyununda Astra'nın yazdığı ağ 517,4 puan alırken 100 milyon adım eğitilen PPO 15,8'de kaldı. Model iyileştirmenin eğitim yerine doğrudan düzenlemeyle de yapılabileceğini gösteren bir deneme; şimdilik küçük modellerle sınırlı ve hakem değerlendirmesinden geçmiş bir makale değil, blog yazısı.",
+     "kaynak": "MIT CSAIL araştırma blogu · 2 Kasım 2026",
+     "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+     "ig": "MIT ekibine göre GPT-6 Astra, Qwen3.5-0.8B'nin yalnızca %0,016 ağırlığını yeniden yazarak MATH-500 puanını %7,9'dan %48,1'e çıkardı; eğitim yok."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Goldman Sachs, Claude Code'u trader ve bankacılardan geri aldı",
+     "ozet": "Bloomberg'in haberine göre Goldman Sachs, Ekim 2026'da yayımladığı iç yönergelerle trader ve bankacılarının çoğunun Anthropic'in Claude Code'u ve Microsoft'un GitHub araçları gibi gelişmiş kodlama araçlarına erişimini kapattı; erişim yalnızca mühendislerde kaldı. Banka sözcüsü kararı verimlilik ve risk yönetimi dahil çeşitli etkenlerle açıkladı ve deneme döneminin bittiğini söyledi. Araçlar daha önce geniş bir kitleye açılmıştı; şimdi kullanım, onları uzun vadede en verimli kullanacak rollerle sınırlanıyor. Büyük kurumların yapay zekâ kodlama araçlarında herkese açık erişimden rol bazlı yetkiye döndüğünün somut bir örneği.",
+     "kaynak": "The Decoder · 2 Kasım 2026",
+     "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+     "not": "Bizde: Claude Code'a verdiğin işleri (betik, ürün açıklaması, site) listele; sonucunu ölçemediğin kullanımı bırak.",
+     "ig": "Goldman Sachs, trader ve bankacıların çoğunun Claude Code ve GitHub araçlarına erişimini kapattı; yalnızca mühendisler kullanabiliyor.",
+     "igNot": "Claude Code işlerini listele, ölçemediğini bırak."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Grok Bot kotaları yarıya indi, Musk maliyeti gösterdi",
+     "ozet": "SpaceX'in web sitelerinde gezinen, e-posta yanıtlayan ve hesaplara giriş yapan ajanı Grok Bot'un kullanıcıları, hafta sonu kotalarının yarı yarıya düştüğünü bildirdi; bu kota Grok ve Cursor ile ortak kullanılıyor. Elon Musk X'teki şikâyetlere yanıt verirken botun işletme maliyetinin gelire göre sürdürülemez derecede yüksek olduğunu yazdı, ancak kesintiyi açıkça doğrulamadı. Musk birkaç hafta önce Grok Bot'u en hızlı büyüyen ürünü olarak tanıtmıştı. Uzun süre çalışan ajanlarla iş akışı kuranlar için abonelik kotalarının haber verilmeden değişebileceğini gösteriyor.",
+     "kaynak": "The Decoder · 2 Kasım 2026",
+     "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+     "not": "Bizde: Bir ajana bağladığın her iş için elle yapılabilecek yedek adımı not et.",
+     "ig": "Grok Bot kullanıcıları kotalarının yarıya indiğini bildirdi. Musk, botun maliyetinin gelire göre sürdürülemez olduğunu yazdı.",
+     "igNot": "Ajana bağlı her işin elle yedeğini not et."
+    },
+    {
+     "alan": "yz",
+     "baslik": "SemiAnalysis GDPx: Claude Opus 5.5 önde, Gemini 4 Carbon üçte bir maliyetle",
+     "ozet": "Araştırma şirketi SemiAnalysis'in finans, siber güvenlik ve biyoloji dahil 206 görevden oluşan GDPx karşılaştırmasında Claude Opus 5.5 ilk sırada, Google'ın 29 Ekim'de duyurduğu Gemini 4 Carbon ise çok yakın ikinci oldu. Görev başına maliyet Opus 5.5 için yaklaşık 51 dolar, Gemini 4 Carbon için 16 doların biraz üzerinde. Lansmandaki ölçümleri Google'ın kendisi yapmıştı; bu, iki modeli bağımsız bir tarafın iş görevlerinde karşılaştırdığı ilk sonuçlardan. Yüksek hacimli işlerde maliyet farkı model seçimini değiştirebilir, en zor görevlerde ise Opus hâlâ kıl payı önde.",
+     "kaynak": "9to5Google · 2 Kasım 2026",
+     "url": "https://9to5google.com/2026/11/02/gemini-4-carbon-benchmark/",
+     "not": "Bizde: Toplu bir işi (ör. 10 ürün açıklaması) iki modelde de çalıştırıp kaliteyi ve maliyeti yan yana koy.",
+     "ig": "SemiAnalysis'in 206 görevlik GDPx testinde Claude Opus 5.5 önde, Gemini 4 Carbon hemen arkada. Görev başı maliyet: 51 dolar ve 16 dolar.",
+     "igNot": "Aynı 10 işi iki modelde dene, maliyeti karşılaştır."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "Google, Android TV kutularındaki arka kapıyı kapattı",
+     "ozet": "Google Threat Intelligence, sertifikalı Android TV kutuları üreten Videostrong'un cihazlara, erişimini satabildiği bir arka kapı yerleştirdiğini 2 Kasım'da açıkladı; kod XCPE botnet'ine bağlıydı ve Google'ın testlerinden kaçmak için cihazın ilk açılışından sonra yükleniyordu. Google komuta-kontrol alan adlarını ve sunucularını hukuki yolla engelledi ve bu adımın en az 10 milyon ek cihazla bağlantıyı keseceğini söylüyor. Videostrong ve iştirakleri artık sertifikalı Android cihaz üretemiyor ya da sertifikalı satıcılara yazılım satamıyor; Google inceleme sürecini de güncelliyor. Etkilenen cihaz listesinde özellikle Mecool markası öne çıkıyor.",
+     "kaynak": "Google Cloud Threat Intelligence · 2 Kasım 2026",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+     "not": "Bizde: Evde ya da işyerinde Mecool veya markasız Android TV kutusu varsa ağdan çıkar.",
+     "ig": "Google, Videostrong'un Android TV kutularına koyduğu arka kapıyı kapattı; en az 10 milyon cihazın bağlantısı kesilecek. Mecool öne çıkıyor.",
+     "igNot": "Mecool ya da markasız TV kutusunu ağdan çıkar."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "Apple, romantik yapay zekâ arkadaş uygulamalarına 18+ şartı getiriyor",
+     "ozet": "Apple'ın geliştirici duyurusuna göre 16 Kasım'dan itibaren geliştiriciler App Store Connect'te uygulamalarının konum paylaşımı ya da flört/ilişki özelliği içerip içermediğini beyan etmek zorunda. Flört ve ilişki kategorisi, romantik ya da cinsel içerik sunan yapay zekâ arkadaş uygulamalarını da kapsıyor ve bu uygulamaların en düşük yaş derecesi 18+ olacak. Brezilya'da konum paylaşan uygulamalar A16, flört uygulamaları A18 derecesi alıyor. Beyan güncelleme gönderirken isteniyor; tüm uygulamaların 12 Ocak 2027'ye kadar tamamlaması gerekiyor.",
+     "kaynak": "Apple Developer · 2 Kasım 2026",
+     "url": "https://developer.apple.com/news/?id=yxkh08us",
+     "ig": "Apple, 16 Kasım'dan itibaren flört uygulamalarını ve romantik yapay zekâ arkadaşlarını 18+ yapıyor. Tüm uygulamalar 12 Ocak 2027'ye kadar beyan verecek."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "Apple'dan rekor yıl: Eylül çeyreğinde 114,5 milyar dolar",
+     "ozet": "Apple, SEC'e sunduğu bildirimde 2026 mali yılının dördüncü çeyreğinde gelirin yıllık %12 artışla 114,5 milyar dolara çıktığını açıkladı; iPhone Eylül çeyreği rekoru kırdı, Hizmetler tüm zamanların en yüksek seviyesine ulaştı. Mali yıl 479 milyar dolarlık rekor gelirle kapandı; brüt marj, gümrük vergisi iadelerinin yaklaşık 1 puanlık katkısıyla %47,9 oldu. Apple tatil çeyreği için tarihinin en yüksek gelirini öngörürken bellek maliyetlerinin ve Siri'deki yapay zekâ yatırımlarının marjı baskılayacağını söyledi. Bellek çiplerinin pahalanması, Apple'ın stoklarını da yıllık %154 artırdı.",
+     "kaynak": "Apple 8-K (SEC), 9to5Mac, TechCrunch · 2 Kasım 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm",
+     "ig": "Apple'ın Eylül çeyreği geliri %12 artışla 114,5 milyar dolar; mali yıl 479 milyar dolarla rekor. Bellek maliyetleri tatil çeyreği marjını baskılayacak."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "Hızlı yürüyenlerde ölüm riski daha düşük çıktı",
+     "ozet": "JAMA Network Open'da yayımlanan ve 1 Kasım'da duyurulan çalışma, yaş ortalaması yaklaşık 69 olan 4.067 İngiliz yetişkini yaklaşık 12 yıl izledi; olağan yürüme hızı daha yüksek olanlarda bu sürede ölüm riski daha düşüktü. Eylül'de BJSM'de çıkan 64.743 kişilik UK Biobank çalışması da günde 5.000 adımın altındakilerde daha hızlı adım temposunun daha düşük ölüm riskiyle ilişkili olduğunu göstermişti; yeni veri, adım sayısının yanında temponun da önemli bir ölçüt olduğunu destekliyor. Çalışma gözlemsel olduğu için neden-sonuç ilişkisi kurmuyor ve katılımcılar genel nüfustan daha sağlıklıydı.",
+     "kaynak": "JAMA Network Open (Fox News/WFMD) · 1 Kasım 2026",
+     "url": "https://www.wfmd.com/2026/11/01/your-walking-speed-may-hold-a-clue-to-how-long-youll-live-study-suggests/",
+     "not": "Uygula: Günlük yürüyüşünün en az 10 dakikasını konuşurken hafifçe zorlanacağın tempoda yap.",
+     "ig": "4.067 yetişkinin 12 yıl izlendiği çalışmada daha hızlı yürüyenlerde ölüm riski daha düşüktü. Gözlemsel bir çalışma, neden-sonuç kurmuyor.",
+     "igNot": "Yürüyüşünün 10 dakikasını tempolu yap."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "Akıllı ağızlıkla kafa darbeleri ölçüldü: Bir sezonda 270 sert çarpma",
+     "ozet": "Université de Montréal'den nöropsikolog Louis De Beaumont'un ekibi, Carabins Amerikan futbolu takımındaki oyunculara Catapult sensör yelekleri ve darbe kuvvetini ölçen Prevent akıllı ağızlıkları taktırdı. Geçen sezon katılımcılarda 40 g ve üzeri yaklaşık 270 darbe kaydedildi; araştırmacılar bunun 270 sakatlık değil, birikimli maruziyet olduğunu vurguluyor. 2026 sezonundan itibaren 40 g'yi aşan her darbe uyarı veriyor ve maç sonrası kan biyobelirteci, göz hareketi ve göz bebeği testlerini başlatıyor; 40 g tanı eşiği değil, araştırma ölçütü. Proje henüz hakemli dergide yayımlanmadı ve oyuncu sayısı açıklanmadı.",
+     "kaynak": "Medical Xpress · 2 Kasım 2026",
+     "url": "https://medicalxpress.com/news/2026-11-ways-athletes-student-football-players.html",
+     "not": "Uygula: Temas sporunda kafaya darbe sonrası baş ağrısı, bulantı ya da bulanık görme varsa o gün antrenmana dönme.",
+     "ig": "Montreal'de akıllı ağızlıklar bir sezonda 40 g üzeri yaklaşık 270 kafa darbesi kaydetti. Artık her sert darbe maç sonrası testleri başlatıyor.",
+     "igNot": "Darbe sonrası baş ağrısı varsa o gün antrenmana dönme."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "24 yıllık izlem: Yüksek BMI, daha hızlı bilişsel gerilemeyle ilişkili",
+     "ozet": "Journal of Neurology'de yayımlanan kohort çalışması, ulusal temsilî bir araştırmadan 50 yaş üstü 8.200'den fazla yetişkini 24 yıl izledi. Ortalama beden kitle indeksindeki (BMI) her bir puanlık artış; bellek, genel biliş ve yürütücü işlevlerde daha hızlı gerilemeyle ilişkili bulundu; bağlantı izlemin 8. yılında en belirgin, 65 yaş üstünde en güçlüydü. Tek bir ölçüm yerine yıllar boyunca biriken ortalama BMI kullanılması, kilonun uzun vadeli etkisini daha iyi yansıtıyor. Gözlemsel olduğu için kilonun gerilemeye yol açtığını kanıtlamıyor; BMI bel çevresi gibi ölçüleri de içermiyor.",
+     "kaynak": "Journal of Neurology (ScienceDaily) · 2 Kasım 2026",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261101010559.htm",
+     "not": "Uygula: Kilonun yanında bel çevreni de ayda bir ölç ve ikisini birlikte izle.",
+     "ig": "50 yaş üstü 8.200 kişinin 24 yıl izlendiği çalışmada BMI'daki her puan artışı daha hızlı bilişsel gerilemeyle ilişkiliydi. Gözlemsel çalışma.",
+     "igNot": "Kilonla birlikte bel çevreni de ayda bir ölç."
+    },
+    {
+     "alan": "saglik",
+     "baslik": "Cochrane: Tıbbi esrarın uykusuzlukta faydası gösterilemedi",
+     "ozet": "Cochrane'in Ekim 2026'da yayımlanan sistematik derlemesi, uykusuzluk yaşayan 18-76 yaş arası 537 yetişkinin katıldığı 9 çalışmayı inceledi; sekizinde THC ve/veya CBD içeren tablet, sprey ya da yağ plaseboyla, birinde amitriptilinle karşılaştırıldı. Plaseboya göre uyku kalitesi, toplam uyku süresi, uyku memnuniyeti ve gündüz işlevinde klinik olarak anlamlı iyileşme ya hiç yok ya da çok az; kanıt: zayıf ile çok zayıf arası. Baş dönmesi ve ağız kuruluğu gibi hafif yan etkiler plaseboya göre daha sık görüldü. Derleme ilaç etkileşimlerini incelemedi, ancak THC ve CBD karaciğerdeki ilaç yıkımını etkileyebildiğinden kan sulandırıcı, sara ilacı ya da yatıştırıcı kullananlar, gebeler ve emzirenler hekime danışmadan kullanmamalı.",
+     "kaynak": "Cochrane Database of Systematic Reviews · Ekim 2026 (ScienceDaily, 1 Kasım 2026)",
+     "url": "https://doi.org/10.1002/14651858.CD016216.pub2",
+     "not": "Uygula: Uyku için önce uyku düzeni ve uykusuzluğa yönelik bilişsel davranışçı terapiyi dene; esrar ya da CBD ürünü kullanmadan önce doktora/eczacıya danış.",
+     "ig": "Cochrane, 9 çalışmada (537 kişi) THC/CBD'nin uykuyu plaseboya göre anlamlı iyileştirmediğini buldu. Kanıt: zayıf/çok zayıf.",
+     "igNot": "Kullanmadan önce doktora/eczacıya danış."
+    },
+    {
+     "alan": "saglik",
+     "baslik": "Ölçülü içmek de erken ölüm ve kanser riskini artırıyor",
+     "ozet": "Journal of Studies on Alcohol and Drugs'ta yayımlanan çalışma, 7.200'ü aşkın makaleyi ABD'nin ulusal sağlık veri setleriyle birleştirerek alkole bağlı yaşam boyu ölüm riskini modelledi. Günde bir içkiyi aşan her ek içkiyle risk arttı; günde iki içki alkole bağlı erken ölümde belirgin artışla ilişkiliydi ve haftada yedi içkide bile olası faydalar zararı karşılamadı. Bir standart içki yaklaşık 355 ml bira, 150 ml şarap ya da 45 ml sert içkiye denk geliyor. Tahminler bireysel değil nüfus düzeyinde ve yalnızca alkolle nedensel bağı kurulmuş hastalıkları kapsıyor; ölçülü içkinin koruyucu olduğu görüşünü zayıflatıyor.",
+     "kaynak": "Journal of Studies on Alcohol and Drugs (ScienceDaily) · 1 Kasım 2026",
+     "url": "https://doi.org/10.15288/jsad.25-00435",
+     "not": "Uygula: Bir hafta boyunca içtiğin her içkiyi yaz; günde biri aşıyorsan azaltmayı hedefle.",
+     "ig": "7.200'den fazla makaleye dayanan modele göre günde birin üstündeki her içki erken ölüm riskini artırıyor; haftada 7 içkide bile fayda zararı karşılamıyor.",
+     "igNot": "Bir hafta içtiğin her içkiyi yaz."
+    }
+   ],
+   "videolar": [
+    {
+     "kanal": "Nick Saraev",
+     "baslik": "31 Life-Changing Ways to Use Claude in 2027",
+     "id": "KDyPHt4lW60",
+     "neden": "Başlığa göre Claude'un iş ve içerik üretimindeki 31 kullanım örneğini tek videoda topluyor; kendi akışına uyanları seçmek için hızlı bir tarama."
+    },
+    {
+     "kanal": "Easy German",
+     "baslik": "Eine Methode zum Deutsch lernen",
+     "id": "JpqjYc-5VHk",
+     "neden": "Easy German ekibinin Almanca öğrenme yöntemini anlattığı video; doğal konuşma hızında dinleme pratiği."
+    }
+   ],
+   "almanca": {
+    "de": "die Mängelrüge",
+    "tr": "ayıp ihbarı, kusur bildirimi (çoğulu: die Mängelrügen)",
+    "ornek": "„Wäre die Mängelrüge rechtzeitig erhoben worden, hätte der Händler die Nachbesserung nicht verweigern können.“",
+    "ornekTr": "Kusur bildirimi zamanında yapılmış olsaydı, satıcı onarımı reddedemezdi."
+   }
+  },
   {
    "tarih": "2026-11-02",
    "ogeler": [
