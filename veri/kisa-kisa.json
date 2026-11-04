@@ -1,6 +1,183 @@
 {
- "guncelleme": "2026-11-03",
+ "guncelleme": "2026-11-04",
  "gunler": [
+  {
+   "tarih": "2026-11-04",
+   "ogeler": [
+    {
+     "alan": "claude",
+     "baslik": "Message Threads: Uzun konuşmada ilk yanıt yaklaşık %35 hızlı",
+     "ozet": "Anthropic, Claude platformunda Message Threads özelliğini herkese açık beta olarak yayımladı. Önceden her API isteği konuşmanın tamamını yeniden gönderiyordu; artık yalnızca son mesajdan beri değişenler iletiliyor, oturum bellekte şifreli tutuluyor ve beş dakika işlem olmazsa sona eriyor. Şirkete göre 500 bin ile 1 milyon token arasındaki isteklerde ilk token süresi yaklaşık %35 kısalıyor; rakam bağımsız doğrulanmadı ve token tüketimi değişmiyor. En çok kodlama ajanları ile çok belge ya da görsel işleyen akışlar yararlanıyor; özellik AWS, Microsoft Foundry ve Google Cloud'da da açık.",
+     "kaynak": "Anthropic, The Decoder · 3 Kasım 2026",
+     "url": "https://claude.com/resources/articles/message-threads",
+     "not": "Bizde: Uzun bir Claude API akışın varsa bugün tek akışta Message Threads betasını açıp ilk yanıt süresini karşılaştır.",
+     "ig": "Anthropic, Message Threads'i beta olarak açtı: Uzun konuşmada yalnızca yeni kısım gönderiliyor, 500 bin-1 milyon token isteklerinde ilk yanıt yaklaşık %35 hızlanıyor.",
+     "igNot": "Uzun API akışında betayı dene, ilk yanıt süresini karşılaştır."
+    },
+    {
+     "alan": "claude",
+     "baslik": "Claude Code 2.1.318: Arka plan ajanlarına 3 dakika kuralı, giriş bitiş uyarısı",
+     "ozet": "Anthropic, 4 Kasım'da Claude Code 2.1.318 sürümünü yayımladı. Arka plan alt ajanları artık tüm sağlayıcılarda shell komutunu 3 dakika sonra arka plana alıyor, böylece iş sürerken istem önbelleğinin süresi dolmuyor. claude.ai girişinin bitimine 10 gün kala claude -p uyarı veriyor, bitiş tarihi claude auth status çıktısına da eklendi. Bozuk ~/.claude.json dosyasının etkileşimsiz başlatmada varsayılanlarla ezilmesi ve macOS'ta çok sayıda Bash komutu çalışan oturumların takılması düzeltildi; zamanlanmış görev ve uzun ajan çalıştıranlar farkı en çok burada görecek.",
+     "kaynak": "Claude Code sürüm notları · 4 Kasım 2026",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+     "not": "Bizde: Zamanlanmış görevlerin aksamasın diye bugün claude auth status ile giriş bitiş tarihine bak.",
+     "ig": "Claude Code 2.1.318 çıktı: Arka plan ajanları komutu 3 dakikada arka plana alıyor, giriş bitimine 10 gün kala uyarı geliyor.",
+     "igNot": "claude auth status ile giriş bitiş tarihine bak."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Anthropic'ten FlashProve: Çıktının hangi modelden geldiğini kanıtlama",
+     "ozet": "Anthropic, bir çıktının belirli bir modelden geldiğini kriptografik olarak doğrulayan açık kaynaklı FlashProve sistemini 3 Kasım'da yayımladı. Laboratuvarlar her model için ağırlıkları açığa çıkarmayan bir parmak izi yayımlıyor, çıktı bu izle yerel cihazda eşleştirilebiliyor. Yöntem, bir laboratuvarın modeli gizlice ucuz sürümle değiştirmesi ya da kıyaslamada pahalı model kullanması gibi dışarıdan kanıtlanması zor durumları hedefliyor. Çalışma ara aşamada, sayısal performans verisi yok ve Anthropic'te ya da başka bir laboratuvarda dağıtım planı bulunmuyor; şimdilik araştırmacıları ve denetçileri ilgilendiriyor.",
+     "kaynak": "Anthropic, TechCrunch · 3 Kasım 2026",
+     "url": "https://www.anthropic.com/research/provable-inference",
+     "ig": "Anthropic, çıktının hangi modelden geldiğini kriptografik olarak doğrulayan açık kaynaklı FlashProve'u yayımladı. Şimdilik araştırma aşamasında, dağıtım planı yok."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Anthropic'in üçüncü çeyreği: 17 milyar dolar gelir, %58'i hesaplamaya gitti",
+     "ozet": "Anthropic'in halka arz için SEC'e sunduğu S-1 güncellemesine göre üçüncü çeyrek geliri 17 milyar dolara çıktı; önceki çeyrekte 11,5 milyar dolardı. Hesaplama maliyeti yaklaşık 10 milyar dolar oldu, bunun 5 milyar doları çok yıllık sözleşmelerden belirgin biçimde pahalı kısa vadeli anlaşmalardan geldi. Bu kalemin gelire oranı bir çeyrekte %48'den %58'e yükseldi, gelir/hesaplama oranı da 2'ye yakın zirveden 1,72'ye geriledi. Talep kapasiteyi aştıkça kısa vadeli pahalı kaynaklara yöneliş sürerse baskı, Claude kullanıcılarının gördüğü fiyat ve kotalara yansıyabilir.",
+     "kaynak": "TechCrunch · 3 Kasım 2026",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+     "not": "Bizde: Claude'a bağlı işlerini listele, kota kısılırsa hangisini önce erteleyeceğini bugün belirle.",
+     "ig": "Anthropic'in üçüncü çeyrek geliri 17 milyar dolara çıktı, ama hesaplama maliyetinin gelire oranı %48'den %58'e yükseldi.",
+     "igNot": "Claude'a bağlı işlerini önem sırasına koy."
+    },
+    {
+     "alan": "yz",
+     "baslik": "OpenAI: GPT-6 Astra, Codex cihazını bir haftadan kısa sürede tasarladı",
+     "ozet": "OpenAI, 3 Kasım'da donanım ekibinin GPT-6 Astra ile Codex ajanıyla konuşmayı sağlayan bir cihazın kasa, devre kartı, bileşen seçimi, firmware ve arayüzünü bir haftadan kısa sürede çıkardığını anlattı. Sözleşmeli üretici küçük prototip partisini bir aydan kısa sürede üretti, ekiplerin token kullanımı Şubat'tan beri 23 kat arttı. Model üretim kısıtlarını ve toleransları her zaman hesaba katamadığı için birden çok revizyon gerekti; BenchCAD 2.0'da Astra 0,594, açıklanmayan iç model 0,875 puan aldı. Şirket beyanına dayanan sonuç, modellerin yazılımdan fiziksel ürün tasarımına kaydığını gösteriyor ve donanım ekiplerinin iş akışını etkiliyor.",
+     "kaynak": "OpenAI, The Decoder · 3 Kasım 2026",
+     "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+     "ig": "OpenAI: GPT-6 Astra, Codex ile konuşan bir cihazı bir haftadan kısa sürede tasarladı. Üretim kısıtlarını kaçırdığı için birden çok revizyon gerekti."
+    },
+    {
+     "alan": "yz",
+     "baslik": "OpenAI: ChatGPT aramaları Google hacminin yaklaşık %20'sine ulaştı",
+     "ozet": "ChatGPT tüketici ürünleri lideri Adam Fry, 2 Kasım'daki basın etkinliğinde ChatGPT'nin arama hacminin Google Search'ün yaklaşık beşte birine geldiğini söyledi. Ölçü geniş tutuluyor: OpenAI web araması tetikleyen her soruyu arama sayıyor ve Google hacmi için kaynak göstermiyor, bu yüzden oran kesin değil. ChatGPT yapay zekâ aramasını Ekim 2024'te başlatmıştı; Bing ise tek haneli payda kalıyor. Oran doğruysa satıcılar ve site sahipleri için arama trafiğinin önemli bir kısmı artık Google dışında oluşuyor.",
+     "kaynak": "9to5Google · 3 Kasım 2026",
+     "url": "https://9to5google.com/2026/11/03/chatgpt-has-hit-roughly-20-of-google-search-volume-openai-says/",
+     "not": "Bizde: Etsy ürününü ChatGPT'de alıcı gibi aratıp hangi mağazaların önerildiğini not al.",
+     "ig": "OpenAI'ye göre ChatGPT'nin arama hacmi Google'ın yaklaşık beşte birine ulaştı. Oran kesin değil: Web araması tetikleyen her soru arama sayılıyor.",
+     "igNot": "Etsy ürününü ChatGPT'de alıcı gibi aratıp sonuçları not al."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "AMD rekor çeyrek: 13,4 milyar dolar, veri merkezi %97 büyüdü",
+     "ozet": "AMD, 3 Kasım'da üçüncü çeyrekte 13,4 milyar dolar gelir bildirdi; bu yıllık %45 artış demek ve Ağustos'taki yaklaşık 13 milyar dolarlık (±300 milyon) öngörünün üstünde. Veri merkezi geliri, Instinct GPU ve EPYC işlemcilerdeki rekor satışlarla yıllık %97 büyüdü; brüt marj %54, net kâr 2,4 milyar dolar oldu. Şirket dördüncü çeyrekte gelir ve kâr büyümesinin hızlanmasını bekliyor. Veri, yapay zekâ hesaplama talebinin AMD'yi de büyüttüğünü gösteriyor ve bulut sağlayıcılarının tedarik seçeneklerini ilgilendiriyor.",
+     "kaynak": "AMD 8-K, SEC · 3 Kasım 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm",
+     "ig": "AMD üçüncü çeyrekte 13,4 milyar dolar gelirle rekor kırdı: Yıllık artış %45, veri merkezi büyümesi %97."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "Binance: 6,3 milyar dolarlık soygun sahte iş görüşmesiyle başladı",
+     "ozet": "Binance, rekor hırsızlığın bir yazılımcıya iş arama platformunda sahte işe alımcının ulaşmasıyla başladığını açıkladı. İki görüşmenin ardından verilen kodlama ödevindeki zararlı yazılım güvenlik araçlarına takılmadı; saldırganlar sonra bir iç aracı kullanarak cüzdan ekibindeki iki mühendisin iş bilgisayarını ele geçirdi. FBI olayı Lazarus olarak da bilinen TraderTraitor'a bağladı; kayıp yaklaşık 6,3 milyar dolar, Elliptic'e göre 6,43 milyar dolar. İlk haberlerde belirsiz olan giriş yolu böylece netleşti ve iş başvurusu ödevleri geliştiriciler ile kripto şirketleri için açık bir risk olarak öne çıktı.",
+     "kaynak": "BleepingComputer · 3 Kasım 2026",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+     "not": "Bizde: Tanımadığın birinin gönderdiği kod ödevini ya da dosyayı iş bilgisayarında açma.",
+     "ig": "Binance: 6,3 milyar dolarlık hırsızlık, sahte işe alımcının verdiği kodlama ödeviyle başladı. Saldırganlar sonra iki cüzdan mühendisinin bilgisayarını ele geçirdi.",
+     "igNot": "Tanımadığın kişiden gelen kod ödevini iş bilgisayarında açma."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "BlackX: Güncel Windows'ta bile Secure Boot'u aşan bootkit",
+     "ozet": "Kaspersky, 2026 başındaki bir casusluk kampanyasında kullanılan BlackX adlı UEFI bootkit'ini belgeledi. Zararlı, eski Baton Drop açığıyla Secure Boot'u aşıyor; kurbanların hepsi tam güncel Windows sürümü kullanıyordu, ancak ek iptal adımları elle etkinleştirilmemişti. Yani güncellemeyi kurmak yetmiyor, Windows Production PCA 2011 sertifikasının DBX listesine eklenmesi gibi elle adımlar gerekiyor. BlackLotus 2023'te aynı zayıflığı göstermişti; bu kez de en çok kurumsal BT yöneticilerinin yapılandırmasını ilgilendiriyor.",
+     "kaynak": "The Hacker News · Ekim 2026",
+     "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+     "ig": "Kaspersky'nin belgelediği BlackX, tam güncel Windows'ta Secure Boot'u aştı: Ek iptal adımları elle açılmadıysa güncelleme yetmiyor."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "watchOS 27.3 betası: Apple Watch konuşmayı geri sarıp özetliyor",
+     "ozet": "Apple, watchOS 27.3'ün ilk geliştirici betasında Series 12 ve Ultra 4 için Live Rewind ve Siri Recap özelliklerini açtı. Live Rewind, Digital Crown'a çift basınca son 15 saniyelik konuşmanın yazısını gösteriyor, kaydedilmezse 30 saniyede siliniyor; Siri Recap başlık ve ana noktalardan özet çıkarıyor, özet yedi gün sonra siliniyor. Eylül'de duyurulan özellikler böylece ilk kez teste girdi; konuşmacı tanımıyor ve Live Rewind sessiz modda bile uyarı sesi veriyor. Şimdilik yalnızca İngilizce, iPhone 16 ve sonrası gerekiyor; MacRumors genel sürümü Aralık'ta bekliyor.",
+     "kaynak": "9to5Mac · 3 Kasım 2026",
+     "url": "https://9to5mac.com/2026/11/03/watchos-27-3-beta-adds-new-siri-recap-and-live-rewind-features-for-apple-watch/",
+     "ig": "watchOS 27.3 betası Series 12 ve Ultra 4'e Live Rewind ile Siri Recap'i getirdi: Son 15 saniyenin yazısı ve yedi gün saklanan konuşma özeti."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "Apple Fitness+'a kişisel kuvvet programı: Gym Strength",
+     "ozet": "Apple, Fitness+ aboneliğine dahil Gym Strength programını 27.3 betasıyla açtı. Dört haftalık planlar haftalık sonuçlara göre uyarlanıyor; 350'den fazla egzersiz ve 30'dan fazla ekipman türü var, en az dambıl gerekiyor. Antrenmanlar beş hareketle yaklaşık 20-30, yedi hareketle yaklaşık 45-60 dakika sürüyor; Apple Watch isteğe bağlı olarak tekrar, ağırlık ve kalp atışını kaydediyor. Yeni ücret yok, Fitness+ ABD'de aylık 9,99 dolar; hazır video yerine ilerlemeye göre değişen plan isteyen salon kullanıcılarını hedefliyor.",
+     "kaynak": "9to5Mac · 3 Kasım 2026",
+     "url": "https://9to5mac.com/2026/11/03/apple-announces-fitness-gym-strength-program-with-personalized-workout-plans/",
+     "not": "Uygula: Programını dört haftalık bloklara böl, her hafta ağırlık ve tekrarını kaydet.",
+     "ig": "Apple'ın Gym Strength programı beta olarak açıldı: Dört haftalık uyarlanan planlar, 350'den fazla egzersiz, ek ücret yok.",
+     "igNot": "Programını dört haftalık bloklara böl, ağırlık ve tekrarı kaydet."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "Sarsıntı sonrası evde aerobik: Gençlerde üç ayda daha iyi toparlanma",
+     "ozet": "JAMA Pediatrics'te yayımlanan çalışma, son bir yılda sarsıntı geçirmiş 11-18 yaş arası 210 genci altı haftalık programlarla karşılaştırdı. Aerobik grup uzaktan koçlukla günde 10 dakika yürüyüş ya da sabit bisikletle başladı, kontrol grubu esneme yaptı; ikisi de standart bakım aldı. Üçüncü ayda aerobik grupta belirtiler daha çok azaldı ve yaşam kalitesi daha çok arttı, ancak altıncı ayda gruplar eşitlendi ve ek fayda yalnızca ilk 90 günde başlayanlarda anlamlıydı. Uyku, kaygı ve depresif belirtilerde üstünlük görülmedi; tek çalışma olsa da genç sporcuların dönüş planını ilgilendiriyor.",
+     "kaynak": "JAMA Pediatrics, Medical Xpress · 3 Kasım 2026",
+     "url": "https://doi.org/10.1001/jamapediatrics.2026.4927",
+     "not": "Uygula: Sarsıntı sonrası egzersize dönüşü doktorla planla; bu çalışmada fayda ilk 90 günde başlayanlarda görüldü.",
+     "ig": "210 gençlik çalışmada evde aerobik, üçüncü ayda sarsıntı belirtilerini esnemeden daha çok azalttı. Altıncı ayda gruplar eşitlendi.",
+     "igNot": "Egzersize dönüşü doktorla planla."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "Çocuklarda ultra işlenmiş gıda, ödül yanıtı ve kilo artışı",
+     "ozet": "JAMA Network Open'daki gözlemsel çalışma, 7-10 yaş arası sağlıklı kilolu 46 çocuğu MRI ile bir yıl izledi. Daha çok ultra işlenmiş gıda tüketenlerde yiyecek resimlerine bakarken ödülle ilişkili dorsal striatum daha aktifti ve bu yanıt bir yıllık BMI ile yağ oranı artışıyla bağlantılıydı. Striatum yanıtı hesaba katılınca gıda ile BMI arasındaki ilişki %31, vücut yağıyla ilişki %44 zayıfladı; bu, kilo üzerindeki olası bir beyin yolunu işaret ediyor. Küçük ve tek bir gözlemsel çalışma olduğu için neden-sonuç kurmuyor, ailelerin beslenme kararları için yalnızca yön gösteriyor.",
+     "kaynak": "JAMA Network Open, ScienceDaily · 3 Kasım 2026",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2026.40252",
+     "not": "Uygula: Evdeki paketli atıştırmalıkların bir kısmını az işlenmiş seçeneklerle değiştir.",
+     "ig": "46 çocukluk gözlemsel çalışmada ultra işlenmiş gıda tüketimi, daha güçlü ödül yanıtı ve bir yıllık BMI artışıyla ilişkili çıktı.",
+     "igNot": "Paketli atıştırmalıkların bir kısmını az işlenmişle değiştir."
+    },
+    {
+     "alan": "saglik",
+     "baslik": "Ultra işlenmiş gıda riskinin yaklaşık yarısı kan izlerinde",
+     "ozet": "BMC Medicine'deki analiz, Whitehall II kohortundan 6.000'den fazla İngiliz yetişkini yaklaşık 20 yıl izledi. Ultra işlenmiş gıdayı en çok tüketen üçte birlikte kalp-damar riski en az tüketenlere göre %17 yüksekti; kan metabolit profili bu bağlantının %51'ini, tip 2 diyabet bağlantısının %43'ünü açıkladı. Tuz ve doymuş yağ bağlantıyı açıklamadı, şeker yalnızca diyabette yaklaşık %27'lik pay aldı; bu da riskin tek bir besin ögesine indirgenemeyeceğini düşündürüyor. Çalışma gözlemsel olduğu için neden-sonuç kurmuyor, ancak diyet ve risk takibinde kullanılabilecek biyolojik izleri öne çıkarıyor.",
+     "kaynak": "BMC Medicine, Medical Xpress · 3 Kasım 2026",
+     "url": "https://doi.org/10.1186/s12916-026-05081-7",
+     "not": "Uygula: Haftalık alışverişte az işlenmiş besinlerin payını artır.",
+     "ig": "20 yıllık izlemde ultra işlenmiş gıda ile kalp-damar riski bağlantısının %51'ini kan metabolitleri açıkladı. Çalışma gözlemsel.",
+     "igNot": "Alışverişte az işlenmiş besinlerin payını artır."
+    },
+    {
+     "alan": "saglik",
+     "baslik": "Bitkisel bileşenli takviye damar belirteçlerini iyileştirdi: Kanıt zayıf",
+     "ozet": "European Heart Journal Open'daki plasebo kontrollü çalışmada 61 kişi altı ay boyunca günde bir kez vitamin, mineral, amino asit ve bitkisel bileşenler içeren ticari NOVOS Core takviyesi (33 kişi) ya da plasebo (28 kişi) aldı. Altıncı ayda ayarlanmış sistolik tansiyon farkı takviye lehine 6,1 mmHg, nabız dalga hızı 1,18 m/s daha düşüktü; kolesterol değişmedi. Veriler yalnızca ara belirteçleri kapsıyor, kalp krizi ya da felç üzerindeki etki bilinmiyor; kanıt: zayıf (tek ve küçük çalışma). Haberde yan etki, finansman, ilaç etkileşimi ve kimlerin kullanmaması gerektiği bildirilmiyor, bu yüzden tansiyon ilacı kullananlar ve gebeler güvenli sayamaz.",
+     "kaynak": "European Heart Journal Open, Medical Xpress · 4 Kasım 2026",
+     "url": "https://doi.org/10.1093/ehjopen/oeag157",
+     "not": "Uygula: Bu kanıt takviyeye başlamak için yeterli değil; kullanmadan önce doktora/eczacıya danış.",
+     "ig": "61 kişilik altı aylık çalışmada çok bileşenli takviye tansiyonda 6,1 mmHg fark gösterdi; olaylar ölçülmedi. Kanıt: zayıf.",
+     "igNot": "Kullanmadan önce doktora/eczacıya danış."
+    }
+   ],
+   "videolar": [
+    {
+     "kanal": "AI Explained",
+     "baslik": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
+     "id": "0Kw6_DTZPrY",
+     "neden": "Başlıktan anlaşıldığı kadarıyla öncü laboratuvar yöneticilerinin kontrol uyarılarını ve Gemini Carbon'u yaklaşık 28 dakikada ele alıyor."
+    },
+    {
+     "kanal": "bycloud",
+     "baslik": "DeepSeek's New LLM Engine Just Made GPUs 3x More Valuable",
+     "id": "2K_Rm8cho1I",
+     "neden": "DeepSeek'in yeni motorunun GPU verimine etkisini anlatan teknik bir video; başlıktaki 3 katı iddia olarak izle."
+    },
+    {
+     "kanal": "Fireship",
+     "baslik": "The worst week in cybersecurity history... so far",
+     "id": "k2ruCf_z75I",
+     "neden": "Yaklaşık beş dakikada son haftanın güvenlik olaylarını özetleyen kısa bir toparlama."
+    },
+    {
+     "kanal": "Renaissance Periodization",
+     "baslik": "The Problem With Copying Fitness Influencer Workouts",
+     "id": "tGIVOCplrjQ",
+     "neden": "Kanalın başlığına göre sosyal medyadaki antrenmanları kopyalamanın sorunlarını yaklaşık 20 dakika tartışıyor."
+    }
+   ],
+   "almanca": {
+    "de": "die Beweislastumkehr",
+    "tr": "ispat yükünün yer değiştirmesi; galeride satıcının kusurun teslimde olmadığını kanıtlaması (çoğulu: die Beweislastumkehren)",
+    "ornek": "„Aufgrund der Beweislastumkehr müsste der Händler nachweisen, dass der Mangel bei der Übergabe noch nicht vorhanden gewesen ist.“",
+    "ornekTr": "İspat yükünün yer değiştirmesi nedeniyle satıcının, kusurun teslim sırasında henüz bulunmadığını kanıtlaması gerekirdi."
+   }
+  },
   {
    "tarih": "2026-11-03",
    "ogeler": [
