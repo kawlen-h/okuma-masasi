@@ -533,6 +533,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
   #okuyucu.acik{padding-block:72px 0}
   #cubuk-baslik{display:none}
   .rozet-kare{width:40px;height:40px}
+  .kisa-foto{width:84px}
   .kisa-foto{width:76px}
   :root{--oku-boyut:1.18rem}
   #metin p{line-height:1.76}
@@ -1003,8 +1004,9 @@ function tarihYaz(t){
 }
 function gunlukOge(o){
   var a=ALAN[o.alan]||["•","Haber"],url=/^https:\/\//.test(o.url||"")?o.url:"";
+  var f=/^[a-z0-9-]+$/.test(o.foto||"")?"gorseller/"+o.foto+".jpg":(HFOTO[o.alan]||"");
   return '<div class="kisa-oge" data-ara="'+kac(kucuk([o.baslik,o.ozet,o.kaynak,a[1],o.not||""].join(" ")))+'">'+
-    '<span class="rozet-kare" aria-hidden="true">'+kac(a[0])+'</span><div class="kisa-govde">'+
+    (f?'<span class="kisa-foto" aria-hidden="true"><img src="'+kac(f)+'" alt="" loading="lazy"></span>':'<span class="rozet-kare" aria-hidden="true">'+kac(a[0])+'</span>')+'<div class="kisa-govde">'+
     '<h3>'+kac(o.baslik||"")+'</h3><p class="kim"><span>'+kac(a[1])+'</span><span>'+kac(o.kaynak||"")+'</span></p>'+
     '<p class="ne">'+kac(o.ozet||"")+'</p>'+
     (o.not?'<p class="uygula"><span>'+(uygulaAlani(o.alan)?"Uygula":"Bizde")+'</span>'+kac(o.not)+'</p>':'')+
@@ -1062,7 +1064,7 @@ fetch("veri/kisa-kisa.json",{cache:"no-store"})
   .catch(function(){ gunlukCiz(null); });
 
 /* ---- haftalık sayı: veri/haftalik.json, kapak yazısı okuyucuda açılır ---- */
-var HFOTO={claude:"gorseller/bolum-claude.jpg",yz:"gorseller/alan-yz.jpg",teknoloji:"gorseller/bolum-araclar.jpg",fitness:"gorseller/bolum-saglik.jpg",spor:"gorseller/bolum-saglik.jpg",saglik:"gorseller/bolum-saglik.jpg"};
+var HFOTO={claude:"gorseller/bolum-claude.jpg",yz:"gorseller/alan-yz.jpg",teknoloji:"gorseller/bolum-araclar.jpg",fitness:"gorseller/bolum-saglik.jpg",spor:"gorseller/bolum-saglik.jpg",saglik:"gorseller/kaynak-examine.jpg"};
 function sayiAd(s){ return "sayi-"+("00"+s.no).slice(-3); }
 function haftalikCiz(v){
   var sec=document.getElementById("b-hafta"); if(!sec) return;
