@@ -107,6 +107,48 @@
           "foto": "mobil"
         },
         {
+          "alan": "ab",
+          "baslik": "AB'den çip tasarımına 525 milyon euro: EuroCDP açıldı",
+          "ozet": "Komisyon Başkan Yardımcısı Henna Virkkunen, 4 Kasım'da Brüksel'de Avrupa Çip Tasarım Platformu'nu (EuroCDP) başlattı. Çip Yasası kapsamındaki platform 525 milyon euro harekete geçirecek: 285 milyonu AB bütçesinden, 240 milyonu Chips Joint Undertaking'e katılan ülkelerden. imec'in başını çektiği konsorsiyumun yürüttüğü bulut platform, girişimlere tasarım araçları ve üretim kapasitesine erişim veriyor; erken aşama girişimlere 100 bin euroya kadar hibe var. Komisyona göre Avrupa'nın çip tasarımı gelirlerindeki payı yüzde 1'in altında. Çip Yasası 2.0 ise haziranda önerildi, henüz kabul edilmedi.",
+          "kaynak": "Avrupa Komisyonu · 4 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2345",
+          "foto": "bolum-araclar",
+          "ig": "AB, çip tasarımı girişimleri için 525 milyon euroluk EuroCDP platformunu açtı. Avrupa'nın bu alandaki gelir payı yüzde 1'in altında."
+        },
+        {
+          "alan": "ab",
+          "baslik": "Dijital Omnibus: AB ülkeleri pozisyonunu belirledi, sıra Parlamento'da",
+          "ozet": "AB hükümetleri 21 Ekim'de Konsey'de Dijital Omnibus için müzakere pozisyonunu kabul etti; bu henüz yasa değil. EDRi'nin aktardığına göre metin, yapay zekâ geliştirmede GDPR'ın meşru menfaat dayanağının kullanılabileceğini tanıyor ama bunun otomatik olmadığını belirtiyor. Takma adlandırılmış veri, kimliği çözemeyen üçüncü taraflar için kişisel veri sayılmıyor; çerezi reddeden kullanıcıdan dört ay sonra yeniden onay istenebiliyor. Parlamento'da 1.800'den fazla değişiklik önerisi var. Dijital hak örgütü EDRi, metnin hakları zayıflattığını savunuyor.",
+          "kaynak": "EDRi · 4 Kasım 2026",
+          "url": "https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/",
+          "not": "Mağazanda müşteri verisi uygulamasını değiştirme: metin yasalaşmadı, mevcut GDPR kuralları geçerli.",
+          "foto": "stanford",
+          "ig": "AB ülkeleri Dijital Omnibus pozisyonunu 21 Ekim'de belirledi. Metin henüz yasa değil; Parlamento'da 1.800'den fazla değişiklik önerisi var.",
+          "igNot": "Metin yasalaşmadı, mevcut GDPR kuralları geçerli."
+        },
+        {
+          "alan": "kose",
+          "baslik": "Yapay zekâ acemiyi öne çekiyor, kazancı sermaye topluyor",
+          "ozet": "Avustralya milletvekili ve bakan yardımcısı, eski ekonomi profesörü Andrew Leigh iki yönlü bir tablo çiziyor. Leigh'e göre yapay zekâ çalışanlar arasındaki farkı daraltabilir: Brynjolfsson ve arkadaşlarının 5.000'den fazla müşteri temsilcisiyle yaptığı çalışmada verim yüzde 15, deneyimsizlerde yaklaşık yüzde 30 arttı; yaklaşık 1.200 yetişkinli bir deneyde eğitim kaynaklı verim farkı dörtte üç oranında azaldı. Ama yazar asıl kazancın sermaye sahiplerine gideceğini savunuyor: LSE'den bir model otomasyonun servet getirisini yükselttiğini gösteriyor, işletmeler ise yapay zekâya az sayıda sağlayıcı üzerinden ulaşıyor. Büyük bulut şirketlerinin bu yılki yatırımını yaklaşık 750 milyar dolar olarak veriyor. Hizmet ihracatına dayanan ülkeler için küresel eşitsizliğin de büyüyebileceğini söylüyor.",
+          "kaynak": "Social Europe · Andrew Leigh · Kasım 2026",
+          "url": "https://www.socialeurope.eu/ai-lets-novices-catch-up-while-the-biggest-gains-flow-to-capital",
+          "not": "Sermaye tarafındaki sonuç gözlem değil model çıktısı; giriş seviyesi işlere etkinin kanıtı da yazarın kabul ettiği gibi karışık.",
+          "foto": "arac-karpathy",
+          "ig": "Andrew Leigh'e göre yapay zekâ acemilerin verimini artırıyor, ama asıl kazanç sermaye sahiplerine gidebilir.",
+          "igNot": "Sermaye sonucu gözlem değil, model çıktısı."
+        },
+        {
+          "alan": "kose",
+          "baslik": "Demokrat zaferi Avrupa'yı rahatlatmayabilir",
+          "ozet": "POLITICO'nun dış politika yazarı Jamie Dettmer, ABD ara seçimi sonuçlanmadan yazdığı yazıda Avrupa'yı erken sevinmemesi için uyarıyor. Dettmer'e göre Kongre'nin dış politika ve ticarette başkanı sınırlayacak araçları az; içeride sıkışan Trump bu alanlara yönelebilir, bu da Avrupa için yeni anlaşmazlık ve daha sert talep riskini artırır. Münih Güvenlik Konferansı'nın ayrılan başkanı Wolfgang Ischinger'in de ilişkilerin ısınacağını varsaymanın hata olacağını, tersini beklediğini söylediğini aktarıyor.",
+          "kaynak": "POLITICO Europe · Jamie Dettmer · 3 Kasım 2026",
+          "url": "https://www.politico.eu/article/why-europe-shouldnt-celebrate-democratic-us-midterm-victory/",
+          "not": "Kongre'nin bütçe ve yaptırım yetkileri başkanı yazarın çizdiğinden daha çok bağlayabilir.",
+          "foto": "skills",
+          "ig": "Jamie Dettmer'e göre Kongre'nin dış politikada sınırlı yetkisi yüzünden Demokrat zaferi Avrupa'ya hemen rahatlama getirmeyebilir.",
+          "igNot": "Kongre'nin bütçe yetkileri bağlayıcı olabilir."
+        },
+        {
           "alan": "fitness",
           "baslik": "DSÖ: Gençlerin dörtte biri haftada hiç aktif gün yapmıyor",
           "ozet": "The Lancet Global Health'te yayımlanan ve DSÖ'nün 4 Kasım'da duyurduğu analiz, 140 ülkede 2010-2025 arasındaki 389 anketi ve 3,2 milyon katılımcıyı birleştirdi. 11-17 yaş grubunun yüzde 25'i, yaklaşık 240 milyon genç, geçen hafta 60 dakika orta-yüksek şiddette hareket ettiği tek gün bildirmedi; ortalama 2,7 aktif gün, her gün aktif olanlar yüzde 14. Kızlarda aktif günü olmayanlar yüzde 28, erkeklerde yüzde 22. Oranlar 15 yılda neredeyse hiç değişmemiş; veriler öz bildirime dayanıyor ve okul ile yerel spor politikalarının bu tabloyu kıramadığını gösteriyor.",

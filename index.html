@@ -994,9 +994,9 @@ if("IntersectionObserver" in window){
 }
 /* ---- günlük kısa kısa: veri/kisa-kisa.json ---- */
 var ALAN={claude:["CL","Claude"],yz:["YZ","Yapay zekâ"],teknoloji:["TK","Teknoloji"],
-  eticaret:["ET","E-ticaret"],bilim:["BL","Bilim"],saglik:["SĞ","Sağlık"],fitness:["FT","Spor ve fitness"],spor:["SP","Spor ve fitness"]};
+  ab:["AB","AB politikaları"],kose:["KY","Köşe yazısı"],eticaret:["ET","E-ticaret"],bilim:["BL","Bilim"],saglik:["SĞ","Sağlık"],fitness:["FT","Spor ve fitness"],spor:["SP","Spor ve fitness"]};
 var GRUP=[["Claude ve yapay zekâ",["claude","yz"],0,"262 52% 58%"],["Teknoloji",["teknoloji"],0,"208 30% 40%"],
-  ["Spor ve fitness",["fitness","spor","saglik"],0,"145 45% 42%"],["E-ticaret",["eticaret"],0,"24 80% 52%"],["Bilim",["bilim"],0,"196 70% 38%"],["Diğer",[],1,"220 8% 50%"]];
+  ["AB politikaları",["ab"],0,"222 60% 42%"],["Köşe yazıları",["kose"],0,"32 45% 36%"],["Spor ve fitness",["fitness","spor","saglik"],0,"145 45% 42%"],["E-ticaret",["eticaret"],0,"24 80% 52%"],["Bilim",["bilim"],0,"196 70% 38%"],["Diğer",[],1,"220 8% 50%"]];
 function uygulaAlani(a){return a==="saglik"||a==="fitness"||a==="spor";}
 function tarihYaz(t){
   var d=new Date(String(t)+"T12:00:00");
@@ -1009,8 +1009,8 @@ function gunlukOge(o){
     (f?'<span class="kisa-foto" aria-hidden="true"><img src="'+kac(f)+'" alt="" loading="lazy"></span>':'<span class="rozet-kare" aria-hidden="true">'+kac(a[0])+'</span>')+'<div class="kisa-govde">'+
     '<h3>'+kac(o.baslik||"")+'</h3><p class="kim"><span>'+kac(a[1])+'</span><span>'+kac(o.kaynak||"")+'</span></p>'+
     '<p class="ne">'+kac(o.ozet||"")+'</p>'+
-    (o.not?'<p class="uygula"><span>'+(uygulaAlani(o.alan)?"Uygula":"Bizde")+'</span>'+kac(o.not)+'</p>':'')+
-    (url?'<div class="ayak"><a class="btn" href="'+kac(url)+'" target="_blank" rel="noopener">Kaynak</a></div>':'')+
+    (o.not?'<p class="uygula"><span>'+(o.alan==="kose"?"İtiraz":uygulaAlani(o.alan)?"Uygula":"Bizde")+'</span>'+kac(o.not)+'</p>':'')+
+    (url?'<div class="ayak"><a class="btn" href="'+kac(url)+'" target="_blank" rel="noopener">Kaynak</a>'+(o.alan==="kose"?'<a class="btn" href="https://translate.google.com/translate?sl=auto&amp;tl=tr&amp;u='+encodeURIComponent(url)+'" target="_blank" rel="noopener">Türkçe oku</a>':'')+'</div>':'')+
     '</div></div>';
 }
 function almancaCiz(gunler){
@@ -1064,7 +1064,7 @@ fetch("veri/kisa-kisa.json",{cache:"no-store"})
   .catch(function(){ gunlukCiz(null); });
 
 /* ---- haftalık sayı: veri/haftalik.json, kapak yazısı okuyucuda açılır ---- */
-var HFOTO={claude:"gorseller/bolum-claude.jpg",yz:"gorseller/alan-yz.jpg",teknoloji:"gorseller/bolum-araclar.jpg",fitness:"gorseller/bolum-saglik.jpg",spor:"gorseller/bolum-saglik.jpg",saglik:"gorseller/kaynak-examine.jpg"};
+var HFOTO={claude:"gorseller/bolum-claude.jpg",yz:"gorseller/alan-yz.jpg",teknoloji:"gorseller/bolum-araclar.jpg",ab:"gorseller/stanford.jpg",kose:"gorseller/arac-karpathy.jpg",fitness:"gorseller/bolum-saglik.jpg",spor:"gorseller/bolum-saglik.jpg",saglik:"gorseller/kaynak-examine.jpg"};
 function sayiAd(s){ return "sayi-"+("00"+s.no).slice(-3); }
 function haftalikCiz(v){
   var sec=document.getElementById("b-hafta"); if(!sec) return;
