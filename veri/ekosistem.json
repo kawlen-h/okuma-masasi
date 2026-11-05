@@ -1,0 +1,41 @@
+{
+ "guncelleme": "2026-11-05",
+ "yeni": [
+  {
+   "ad": "heydamir/unslop",
+   "link": "https://github.com/heydamir/unslop",
+   "yildiz": 9097,
+   "not": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
+  },
+  {
+   "ad": "Jakeschincariol/day-trader-skill",
+   "link": "https://github.com/Jakeschincariol/day-trader-skill",
+   "yildiz": 5420,
+   "not": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before "
+  },
+  {
+   "ad": "patch-gg/pixelfx",
+   "link": "https://github.com/patch-gg/pixelfx",
+   "yildiz": 5051,
+   "not": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+  },
+  {
+   "ad": "Arekejoker/qwen21-nsfw-pose-skill",
+   "link": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+   "yildiz": 4161,
+   "not": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
+  },
+  {
+   "ad": "t3dotgg/tstack",
+   "link": "https://github.com/t3dotgg/tstack",
+   "yildiz": 3027,
+   "not": "The agent skills I use every day. Works with Claude Code and Codex."
+  },
+  {
+   "ad": "Jakeschincariol/founder-skill",
+   "link": "https://github.com/Jakeschincariol/founder-skill",
+   "yildiz": 2466,
+   "not": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO"
+  }
+ ]
+}
