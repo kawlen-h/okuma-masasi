@@ -1,6 +1,158 @@
 {
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "gunler": [
+  {
+   "tarih": "2026-11-05",
+   "ogeler": [
+    {
+     "alan": "claude",
+     "baslik": "Claude filigranı: Ayarı değiştiren API kullanıcısında çalışmıyor",
+     "ozet": "Anthropic, API müşterilerine gönderdiği e-postada metin filigranının Opus 4.6, Opus 4.5, Sonnet 4.5 ve Haiku 4.5 modellerine 16 Kasım'da geleceğini bildirdi; Opus 4.6 için tarih 3 Kasım'dan ertelendi. Aynı e-postaya göre bu modellerde filigran yalnızca temperature, top_p ve top_k varsayılan değerdeyken uygulanıyor, birini değiştirmek işareti devre dışı bırakıyor. 2 Ağustos'tan sonra çıkan modellerde filigran ilk günden var; e-posta bu şartı Mythos 5 ve Opus 4.7 için saymıyor. Düzenlemeye uyum için filigrana güvenen API kullanıcıları, AB Yapay Zekâ Yasası'nın aralık tarihi öncesinde bu üç ayarı varsayılanda tutmak zorunda.",
+     "kaynak": "The Decoder, Anthropic · 4 Kasım 2026",
+     "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/",
+     "not": "Bizde: API ile içerik üretiyorsan temperature, top_p ve top_k ayarlarını not et; uyum gerekiyorsa varsayılana al.",
+     "ig": "Claude'un eski modellerinde filigran 16 Kasım'da geliyor, ama temperature, top_p ya da top_k değişirse uygulanmıyor. Anthropic bunu API müşterilerine e-postayla bildirdi.",
+     "igNot": "API ayarlarını kontrol et; uyum gerekiyorsa üçünü varsayılanda tut."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Meta, ajan kodlama girişimi Conductor'ı aldı; bulut hizmeti 20 Kasım'da kapanıyor",
+     "ozet": "Meta, birden çok kodlama ajanını paralel çalışma alanlarında yöneten 2024 kuruluşlu Conductor'ı satın aldı; bedel açıklanmadı. Conductor kendi modelini değil Anthropic ve OpenAI ajanlarını kullanıyordu, bulut hizmeti 20 Kasım'da kapanacak ve ardından kullanıcıların bulut verisi silinmeye başlanacak. Temel özellikler 2027 başına kadar çalışmayı sürdürüyor, kurucu Charlie Holtz o tarihe kadar yeni bir ürün sözü veriyor. Aracın kullanıcıları iki hafta içinde verilerini taşımak zorunda; bir bağımsız ajan aracı daha büyük bir laboratuvarın çatısına geçmiş oldu.",
+     "kaynak": "TechCrunch · 4 Kasım 2026",
+     "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+     "not": "Bizde: Üçüncü taraf ajan aracına bağlı işlerin için bugün dışa aktarılabilir bir yedek tut.",
+     "ig": "Meta, paralel kodlama ajanları aracı Conductor'ı aldı. Bulut hizmeti 20 Kasım'da kapanıyor, ardından bulut verisi silinecek; bedel açıklanmadı.",
+     "igNot": "Üçüncü taraf ajan aracındaki işlerinin yedeğini al."
+    },
+    {
+     "alan": "yz",
+     "baslik": "OpenAI, Git araçları yapan Pierre'i satın alıyor",
+     "ozet": "OpenAI, Code Storage depolama hizmetiyle açık kaynaklı Trees, Diffs ve Highlights araçlarını geliştiren Pierre Computer Company'yi alacağını 4 Kasım'da duyurdu; bedel açıklanmadı ve anlaşma düzenleyici onaya bağlı. Codex zaten Pierre kütüphanelerini kullanıyor, OpenAI'ın kendi sürüm kontrol altyapısı Pando da mevcut. Şirketin gerekçesi, paralel çalışan ajan sayısı arttıkça Git iş akışlarının bu yüke yetişmesi gerektiği. Açık kaynak projeler açık kalacak; bu nedenle araçları kullanan geliştiriciler için kısa vadede kullanım değişmiyor.",
+     "kaynak": "OpenAI, The Decoder · 4 Kasım 2026",
+     "url": "https://openai.com/index/openai-to-acquire-pierre",
+     "ig": "OpenAI, Code Storage ve açık kaynak Trees, Diffs, Highlights araçlarının yapımcısı Pierre'i alıyor. Bedel açıklanmadı, anlaşma düzenleyici onaya bağlı."
+    },
+    {
+     "alan": "yz",
+     "baslik": "ChatGPT'ye GIF üretimi: Images 2.6 herkese açılıyor",
+     "ozet": "OpenAI, Images 2.6 modeliyle ChatGPT ve Codex'te metinden ya da yüklenen fotoğraftan hareketli GIF üretimini web, masaüstü ve mobilde açmaya başladı. Kullanıcı animasyon hızını ayarlayabiliyor, tek tek kareleri düzenleyebiliyor; model karakteri kareler boyunca tutarlı tutmayı hedefliyor. Şirkete göre ChatGPT ve API'de haftalık üretim dört milyar görselin epey üstünde, bu eylüle göre yaklaşık bir milyar artış. Geliştiriciler için Flare ve Sunburst sürümleri sunuluyor; GIF için kare sınırı ve fiyat bilgisi haberde yer almıyor.",
+     "kaynak": "OpenAI, The Decoder · 4 Kasım 2026",
+     "url": "https://openai.com/index/introducing-images-2-6",
+     "not": "Bizde: Etsy ürün fotoğrafından kısa bir GIF dene, Instagram'da duran görselle karşılaştır.",
+     "ig": "ChatGPT ve Codex'te Images 2.6 ile metinden ya da fotoğraftan GIF üretimi açılıyor. Kareler tek tek düzenlenebiliyor; haftalık üretim dört milyar görseli aştı.",
+     "igNot": "Bir ürün fotoğrafından GIF dene, duran görselle karşılaştır."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Uber: Cadılar Bayramı haftasında ajanla yalnızca 4 yolculuk",
+     "ozet": "Uber, üçüncü çeyrek görüşmesinde ekimin en yoğun haftasında yapay zekâ ajanlarından gelen yolculuk sayısının 4, Uber Eats siparişinin yaklaşık 500 olduğunu açıkladı; aynı haftadaki toplam yaklaşık 320 milyon. CEO Dara Khosrowshahi bunu çok erken ve çok sınırlı diye niteledi, uygulamada yolculuğun ortalama 50, tekrar yemek siparişinin 90 saniyede verildiğini hatırlattı. DoorDash da geçen hafta ajanlardan yalnızca birkaç yüz sipariş aldığını söylemişti. Ajanların alışveriş ve sipariş trafiğini ele geçireceği beklentisine karşı elde şimdilik somut bir ölçü var: alışkanlık hızlıysa ajan zaman kazandırmıyor.",
+     "kaynak": "TechCrunch · 4 Kasım 2026",
+     "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+     "not": "Bizde: Etsy'de ajan trafiği için yatırımı beklet, müşterinin sipariş adımlarını kısaltmaya bak.",
+     "ig": "Uber'de yoğun bir haftada 320 milyon işlemin yalnızca 4 yolculuk ve yaklaşık 500 siparişi yapay zekâ ajanlarından geldi. CEO bunu çok erken ve sınırlı dedi.",
+     "igNot": "Ajan trafiğini beklemek yerine sipariş adımlarını kısalt."
+    },
+    {
+     "alan": "yz",
+     "baslik": "Kimi K3.1 Pro'nun ağırlıkları açıldı: 2,8 trilyon parametre",
+     "ozet": "Moonshot AI, Kimi K3.1 Pro'yu Hugging Face'te açık ağırlıkla yayımladı: 2,8 trilyon parametre, token başına 104 milyar etkin parametre ve yaklaşık 1 milyon token bağlam. K3'e göre büyük ölçekli pekiştirmeli öğrenmeyle yeniden eğitildi ve uzun bağlam için dikkat katmanları değiştirildi. Şirketin kendi tablosunda Terminal-Bench 4.0 sonucu 65,7, ancak Terminal-Bench-Science'ta 38,1 ile GPT-6 Astra'nın 68,1'inin gerisinde. Lisans standart açık kaynak değil, özel Kimi lisansı; bu boyut da modeli pratikte büyük sunucu kullanıcılarıyla sınırlıyor.",
+     "kaynak": "Hugging Face · 4 Kasım 2026",
+     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+     "ig": "Moonshot, 2,8 trilyon parametreli Kimi K3.1 Pro'nun ağırlıklarını açtı. Bağlam yaklaşık 1 milyon token, lisans özel; sonuçlar şirketin kendi ölçümü."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "APT29'a bağlanan saldırı: Sitelere girenin iPhone ve Android'i hedef alındı",
+     "ozet": "Sekoia, ABD, Ukrayna, Çekya ve Bulgaristan'da ele geçirilmiş sitelerin ziyaretçi cihazını tanıyıp ona uygun açık zincirini çalıştırdığını açıkladı ve kampanyayı orta-yüksek güvenle Rus grubu APT29'a bağladı. iOS'ta Safari çerezleri, yeni sürümlerde WhatsApp ve Telegram verisi, Keychain, konum ve fotoğraflar; Android'de Chrome çerezleri, giriş bilgileri, geçmiş ve kayıtlı Wi-Fi şifreleri hedeflendi. Kullanılan açıkların tamamı Apple ve Google tarafından kapatılmış, yamalar eski iOS sürümlerine de ulaşmış durumda. Zararlı kalıcı değil, yeniden başlatma etkinliği durduruyor; asıl risk güncellenmemiş telefonlarda.",
+     "kaynak": "BleepingComputer · 4 Kasım 2026",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+     "not": "Bizde: İşte kullandığın telefonda bugün sistem ve Chrome güncellemesini kontrol et.",
+     "ig": "Sekoia, ele geçirilmiş sitelerden iOS ve Android'e saldıran kampanyayı APT29'a bağladı. Açıklar yamalı; risk güncellenmemiş telefonlarda.",
+     "igNot": "Telefonda sistem ve Chrome güncellemesini kontrol et."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "Canva çalışanlarının yüzde 22'sini çıkarıyor",
+     "ozet": "Canva, yaklaşık 1.271 kişiyi, yani kadrosunun yüzde 22'sini işten çıkarıyor; CEO Melanie Perkins çalışanlara büyümenin on yılda ilk kez yavaşladığını yazdı. Şirket yapay zekâ maliyetleri nedeniyle gelir büyüme tahminini yüzde 30'dan 20'ye indirdi, kendi modellerini geliştirmesine rağmen ChatGPT ve Gemini gibi poster ve sunum üreten araçların baskısıyla karşı karşıya. Ürün, büyüme ve platform ekipleri birleştiriliyor, çalışma düzeni hibrite dönüyor. Tasarım yazılımı kullanan küçük işletmeler için ürün yol haritası ve fiyatlar yeniden şekillenebilir.",
+     "kaynak": "TechCrunch · 4 Kasım 2026",
+     "url": "https://techcrunch.com/2026/11/04/canva-lays-off-over-1200-people-amid-slowing-growth/",
+     "not": "Bizde: Canva'daki Etsy şablonlarının kaynak dosyalarını bugün dışa aktarıp yedekle.",
+     "ig": "Canva yaklaşık 1.271 kişiyi, kadrosunun yüzde 22'sini çıkarıyor. Yapay zekâ maliyetleri nedeniyle büyüme tahmini yüzde 30'dan 20'ye indi.",
+     "igNot": "Canva'daki şablonlarının kaynak dosyalarını yedekle."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "DreamHost'a sızıntı ağustosta başlamış, ekimde fark edilmiş",
+     "ozet": "Barındırma şirketi DreamHost, Kaliforniya başsavcılığına yaptığı bildirimde saldırının ağustosta başladığını ve 23 Ekim'de fark edildiğini açıkladı. Saldırgan web tabanlı dosya yöneticisinin sunucusundaki bir açıktan girip FTP/SFTP giriş bilgilerine ve sınırlı sayıda webmail oturumuna ulaştı; şirket önce yalnızca kesinti ve parola sıfırlaması duyurmuştu. Etkilenen oran yaklaşık 400 bin müşterinin yüzde 10'unun epey altında deniyor, net sayı verilmedi, kontrol paneli ve ödeme verisinde iz bulunmadı. Müşterilerin oturumları sonlandırıldı, parolaları geçersiz kılındı; bir yıllık kredi izleme sunuluyor.",
+     "kaynak": "TechCrunch, BleepingComputer · 4 Kasım 2026",
+     "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+     "ig": "DreamHost'a saldırı ağustosta başladı, 23 Ekim'de fark edildi. FTP/SFTP bilgileri ve bazı webmail oturumları açığa çıktı; ödeme verisinde iz bulunmadı."
+    },
+    {
+     "alan": "teknoloji",
+     "baslik": "Qualcomm: Telefon çipi geliri yüzde 26 düştü, hedef veri merkezi",
+     "ozet": "Qualcomm, mali dördüncü çeyrekte düzeltilmiş 10,44 milyar dolar gelir açıkladı; bu geçen yıla göre yaklaşık yüzde 7 düşüş. Telefon çipi satışları yüzde 26 gerileyerek 5,14 milyar dolara indi, veri merkezi yaklaşık 650 milyon dolar getirdi ve şirket 2027 mali yılı için 5 milyar dolar hedefini yineledi. Amazon ile yapay zekâ veri merkezleri için çok nesilli ürün iş birliği de duyuruldu. Bellek kıtlığının telefon talebini vurmasıyla bir sonraki çeyrek tahmini beklentinin altında kaldı, hisse yüzde 7 düştü; bu da Android telefon fiyatlarındaki baskının sürdüğünü gösteriyor.",
+     "kaynak": "CNBC, Qualcomm · 4 Kasım 2026",
+     "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+     "ig": "Qualcomm'da telefon çipi geliri yüzde 26 düşüp 5,14 milyar dolara indi. Veri merkezi 650 milyon dolar getirdi, 2027 hedefi 5 milyar dolar."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "DSÖ: Gençlerin dörtte biri haftada hiç aktif gün yapmıyor",
+     "ozet": "The Lancet Global Health'te yayımlanan ve DSÖ'nün 4 Kasım'da duyurduğu analiz, 140 ülkede 2010-2025 arasındaki 389 anketi ve 3,2 milyon katılımcıyı birleştirdi. 11-17 yaş grubunun yüzde 25'i, yaklaşık 240 milyon genç, geçen hafta 60 dakika orta-yüksek şiddette hareket ettiği tek gün bildirmedi; ortalama 2,7 aktif gün, her gün aktif olanlar yüzde 14. Kızlarda aktif günü olmayanlar yüzde 28, erkeklerde yüzde 22. Oranlar 15 yılda neredeyse hiç değişmemiş; veriler öz bildirime dayanıyor ve okul ile yerel spor politikalarının bu tabloyu kıramadığını gösteriyor.",
+     "kaynak": "The Lancet Global Health, Medical Xpress · 4 Kasım 2026",
+     "url": "https://linkinghub.elsevier.com/retrieve/pii/S2214109X26002652",
+     "not": "Uygula: Evde 11-17 yaş genç varsa haftaya iki sabit 60 dakikalık hareket saati koy.",
+     "ig": "140 ülkede 3,2 milyon gencin verisi: Yüzde 25'i haftada hiç aktif gün bildirmedi, ortalama 2,7 gün. Oranlar 15 yılda neredeyse değişmedi.",
+     "igNot": "Evde genç varsa haftaya iki sabit hareket saati koy."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "Donuk omuz: 189 çalışmanın özeti şok dalgasını öne çıkardı, kanıt kısa vadeli",
+     "ozet": "The BMJ'de yayımlanan ağ meta-analizi, donuk omuzlu 12.988 yetişkini (ortalama 54 yaş) kapsayan 189 randomize çalışmayı karşılaştırdı. Vücut dışı şok dalgası kısa vadede ağrıyı olağan bakıma göre 0-10 ölçeğinde 1,97 puan azalttı (orta kesinlik); anestezi altında manipülasyon ise kolu öne kaldırmada 26-33 derece kazandırdı. Kanıtın çoğu yaklaşık üç aylık izlem; çalışmaların çoğu yüksek yanlılık riskinde, yan etkiler de düzensiz raporlanmış. Fizyoterapi ve enjeksiyon seçeneklerinin yanında kısa vadeli karar için yol gösteriyor, uzun vadeli sonucu kanıtlamıyor.",
+     "kaynak": "The BMJ, Medical Xpress · 4 Kasım 2026",
+     "url": "https://doi.org/10.1136/bmj-2026-101057",
+     "not": "Uygula: Omuz hareketin aylardır kısıtlıysa antrenmanı zorlamadan önce ortopedi ya da fizyoterapiye görün.",
+     "ig": "189 çalışma, 12.988 yetişkin: Şok dalgası donuk omuz ağrısını kısa vadede 1,97 puan azalttı. Kanıt çoğunlukla üç aylık, yanlılık riski yüksek.",
+     "igNot": "Omuz aylardır kısıtlıysa zorlamadan uzmana görün."
+    },
+    {
+     "alan": "fitness",
+     "baslik": "Yaşlanan kas onarımında yeni iz: Şimdilik yalnızca fare ve laboratuvar",
+     "ozet": "Kyushu Üniversitesi'nden ekip, Scientific Reports'ta lipoik asit trisülfit (LASSS) bileşiğinin kas onarımını başlatan HGF proteinini güçlendirdiğini bildirdi. Laboratuvarda 1:8000 molar oranda HGF'nin c-met reseptörüne bağlanma gücü iki katından fazla arttı; kas erimesi modelindeki farelerde proteinin yaşla ilişkili nitrasyon hasarı azaldı. İnsan katılımcı yok, örneklem sayısı haberde belirtilmiyor ve farelerde kas kütlesi ya da kuvvet geri kazanımı gösterilmedi. Tek bir hayvan ve laboratuvar çalışması olduğu için yaşlı kas tedavisi için yalnızca bir araştırma hedefi sunuyor.",
+     "kaynak": "Scientific Reports, ScienceDaily · 4 Kasım 2026",
+     "url": "https://doi.org/10.1038/s41598-026-60835-w",
+     "ig": "Scientific Reports: LASSS, farelerde kas onarım proteini HGF'yi hasardan korudu. İnsanda denenmedi, kas kütlesi ya da kuvvet artışı gösterilmedi."
+    },
+    {
+     "alan": "saglik",
+     "baslik": "Sütü zenginleştirilmemiş bitkisel ürünlerle değiştirmek iyot açığını büyütüyor",
+     "ozet": "Surrey ve Queen's Belfast araştırmacıları, The Lancet Planetary Health'te İngiltere'nin ulusal beslenme anketinden 3.500'ü aşkın kişinin verisiyle modelleme yayımladı; bu bir müdahale çalışması değil. Süt ürünlerinin yüzde 20-35'i bitkisel alternatifle değişirse ergen kızlarda yetersiz iyot alımı yüzde 54'ten 65'e, 19-49 yaş kadınlarda 32'den 42'ye çıkıyor; tam değişimde ergen kızlarda oran yüzde 80. Zorunlu zenginleştirme düşüşü önlüyor ama ergen kızlarda açık yüzde 59'da kalıyor, iyotlu ekmek eklenince 37'ye iniyor. İyot, kalsiyum, riboflavin ve B12 açısından süt tüketimini azaltan genç kadınları ilgilendiriyor.",
+     "kaynak": "The Lancet Planetary Health, Medical Xpress · 4 Kasım 2026",
+     "url": "https://doi.org/10.1016/j.lanplh.2026.101515",
+     "not": "Uygula: Bitkisel süt kullanıyorsan etikette iyot, kalsiyum ve B12 eklenmiş mi bak.",
+     "ig": "Modelleme: Sütün yüzde 20-35'i bitkisele dönerse ergen kızlarda yetersiz iyot yüzde 54'ten 65'e çıkıyor. Zenginleştirme açığı tek başına kapatmıyor.",
+     "igNot": "Bitkisel sütte iyot, kalsiyum ve B12 etiketine bak."
+    },
+    {
+     "alan": "saglik",
+     "baslik": "Günde avokado ve mango: Damar işlevi 8 haftada iyileşti, kilo değişmedi",
+     "ozet": "Illinois Tech ekibinin Journal of the American Heart Association'daki çalışması, prediyabetli ve fazla kilolu 82 yetişkini 8 hafta kalori kontrollü beslenmeyle izledi; ScienceDaily 3 Kasım'da duyurdu. Her gün bir avokado ve bir fincan mango yiyen grupta damar genişleme ölçüsü yüzde 6,7'ye çıktı, karbonhidrat ağırlıklı kontrol grubunda 4,6'ya indi; kilo, kolesterol ve kan şekeri belirgin değişmedi. Araştırmayı mango ve avokado üretici kurulları kısıtsız hibeyle destekledi, ölçülenler kalp krizi gibi sonuçlar değil risk belirteçleri. Tek ve kısa çalışma; prediyabetlilerin karbonhidrat seçimi için ön veri sayılır.",
+     "kaynak": "Journal of the American Heart Association, ScienceDaily · 3 Kasım 2026",
+     "url": "https://doi.org/10.1161/JAHA.124.040933",
+     "not": "Uygula: Rafine atıştırmalığın yerine meyve koymak makul, ama sonucu tek çalışma ve sektör destekli diye sınırlı say.",
+     "ig": "82 prediyabetli yetişkinde günlük avokado ve mango, 8 haftada damar işlevini iyileştirdi; kilo değişmedi. Çalışmayı üretici kurulları destekledi.",
+     "igNot": "Sonucu tek ve sektör destekli çalışma olarak sınırlı say."
+    }
+   ],
+   "videolar": [],
+   "almanca": {
+    "de": "der Eigentumsvorbehalt",
+    "tr": "mülkiyeti saklı tutma kaydı; bedel tamamen ödenene kadar aracın satıcının mülkiyetinde kalması (çoğulu: die Eigentumsvorbehalte)",
+    "ornek": "„Solange der Kaufpreis nicht vollständig beglichen ist, bleibt das Fahrzeug aufgrund des vereinbarten Eigentumsvorbehalts Eigentum des Autohauses.“",
+    "ornekTr": "Satış bedeli tamamen ödenmediği sürece araç, kararlaştırılan mülkiyeti saklı tutma kaydı nedeniyle galerinin mülkiyetinde kalır."
+   }
+  },
   {
    "tarih": "2026-11-04",
    "ogeler": [
