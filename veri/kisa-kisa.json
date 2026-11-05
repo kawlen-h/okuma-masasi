@@ -108,12 +108,21 @@
         },
         {
           "alan": "ab",
-          "baslik": "AB'den çip tasarımına 525 milyon euro: EuroCDP açıldı",
-          "ozet": "Komisyon Başkan Yardımcısı Henna Virkkunen, 4 Kasım'da Brüksel'de Avrupa Çip Tasarım Platformu'nu (EuroCDP) başlattı. Çip Yasası kapsamındaki platform 525 milyon euro harekete geçirecek: 285 milyonu AB bütçesinden, 240 milyonu Chips Joint Undertaking'e katılan ülkelerden. imec'in başını çektiği konsorsiyumun yürüttüğü bulut platform, girişimlere tasarım araçları ve üretim kapasitesine erişim veriyor; erken aşama girişimlere 100 bin euroya kadar hibe var. Komisyona göre Avrupa'nın çip tasarımı gelirlerindeki payı yüzde 1'in altında. Çip Yasası 2.0 ise haziranda önerildi, henüz kabul edilmedi.",
+          "baslik": "Genişleme raporu: Karadağ 2028 hedefinde, Türkiye'de tıkanma sürüyor",
+          "ozet": "Avrupa Komisyonu 4 Kasım'da 10 aday ülkeyi kapsayan 2026 genişleme raporunu kabul etti. Komisyona göre Karadağ 35 bölümden 21'ini kapattı; müzakereler yıl sonunda bitebilir, katılım anlaşması en erken Haziran 2027'de imzalanabilir, hedef 2028'de 28. üye olmak. Arnavutluk, Moldova ve Ukrayna için de yol haritası çıkarıldı; Ukrayna'da kalan kümelerin yıl sonuna kadar açılması bekleniyor. Komisyon, Sırbistan'da gerileme, Gürcistan'da fiilen durma tespit ediyor. Türkiye aday ve stratejik ortak olarak kalıyor, müzakerelerdeki durma devam ediyor; yargı bağımsızlığı ve basın özgürlüğü kaygı olarak geçiyor.",
           "kaynak": "Avrupa Komisyonu · 4 Kasım 2026",
-          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2345",
-          "foto": "bolum-araclar",
-          "ig": "AB, çip tasarımı girişimleri için 525 milyon euroluk EuroCDP platformunu açtı. Avrupa'nın bu alandaki gelir payı yüzde 1'in altında."
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2344",
+          "foto": "kaynak-bilimteknik",
+          "ig": "Komisyon: Karadağ 2028'de 28. üye olmayı hedefliyor. Türkiye ile müzakerelerdeki durma sürüyor."
+        },
+        {
+          "alan": "ab",
+          "baslik": "AB, çocuklar için ulusal sosyal medya yasaklarını 12 ay durdurdu",
+          "ozet": "Komisyon, 29 Ekim'de örtüşen ulusal taslakları 12 ay erteleyeceğini açıkladı; hedef ülkelere göre değişen yaş sınırları yerine tek AB kuralı. İlk etkilenen, video platformlarında 14 yaş sınırı isteyen Avusturya oldu. Eylülde önerilen EU KIDS Act, 13 yaş altını çoğu sosyal medyadan çıkarıyor, 15 yaş altının erişimini sınırlıyor; Parlamento ve üye ülkeler henüz uzlaşmadı, POLITICO'ya göre 2028'den önce yürürlüğe girmeyebilir. Erken bildirim yapan Yunanistan yasasını büyük olasılıkla koruyacak. Avusturya Devlet Sekreteri Alexander Pröll kararı kabul edilemez buluyor.",
+          "kaynak": "The Next Web · 29 Ekim 2026",
+          "url": "https://thenextweb.com/news/eu-pauses-national-social-media-bans-austria",
+          "foto": "dijital",
+          "ig": "AB, ulusal sosyal medya yasaklarını 12 ay durdurdu; önerilen EU KIDS Act henüz yasalaşmadı."
         },
         {
           "alan": "ab",
@@ -125,6 +134,69 @@
           "foto": "stanford",
           "ig": "AB ülkeleri Dijital Omnibus pozisyonunu 21 Ekim'de belirledi. Metin henüz yasa değil; Parlamento'da 1.800'den fazla değişiklik önerisi var.",
           "igNot": "Metin yasalaşmadı, mevcut GDPR kuralları geçerli."
+        },
+        {
+          "alan": "ab",
+          "baslik": "Ukrayna'ya 4,36 milyar euro: 12 reform koşulu karşılandı",
+          "ozet": "Komisyon 5 Kasım'da 90 milyar euroluk Ukrayna Destek Kredisi'nden 4,36 milyar euro ödedi: 3,7 milyarı makro mali yardımın ikinci dilimi, 658 milyonu savunma ayağının yedinci ödemesi. Komisyona göre Ukrayna bu dilimin 12 koşulunu da yerine getirdi; aralarında dijital platform gelirlerinin vergilendirilmesi ve düşük değerli kargolardaki KDV muafiyetinin kaldırılması var. Yıl için kalan kullanılabilir tutar 25,2 milyar euro; serbest bırakılması koşullara bağlı. Komisyon, 4 Kasım'da Brüksel'de Ukrayna'nın savaş sonrası ekonomisi için de görüşme yaptı, resmî bir anlaşma açıklanmadı.",
+          "kaynak": "Avrupa Komisyonu · 5 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2349",
+          "foto": "n8n",
+          "ig": "Komisyon, Ukrayna'ya 4,36 milyar euro ödedi; 12 reform koşulu karşılandı."
+        },
+        {
+          "alan": "ab",
+          "baslik": "AB'den çip tasarımına 525 milyon euro: EuroCDP açıldı",
+          "ozet": "Komisyon Başkan Yardımcısı Henna Virkkunen, 4 Kasım'da Brüksel'de Avrupa Çip Tasarım Platformu'nu (EuroCDP) başlattı. Çip Yasası kapsamındaki platform 525 milyon euro harekete geçirecek: 285 milyonu AB bütçesinden, 240 milyonu Chips Joint Undertaking'e katılan ülkelerden. imec'in başını çektiği konsorsiyumun yürüttüğü bulut platform, girişimlere tasarım araçları ve üretim kapasitesine erişim veriyor; erken aşama girişimlere 100 bin euroya kadar hibe var. Komisyona göre Avrupa'nın çip tasarımı gelirlerindeki payı yüzde 1'in altında. Çip Yasası 2.0 ise haziranda önerildi, henüz kabul edilmedi.",
+          "kaynak": "Avrupa Komisyonu · 4 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2345",
+          "foto": "bolum-araclar",
+          "ig": "AB, çip tasarımı girişimleri için 525 milyon euroluk EuroCDP platformunu açtı. Avrupa'nın bu alandaki gelir payı yüzde 1'in altında."
+        },
+        {
+          "alan": "ab",
+          "baslik": "Büyük platformların reklam arşivleri için görüş toplanıyor",
+          "ozet": "Komisyon, Dijital Hizmetler Yasası kapsamındaki reklam arşivleri için hazırlayacağı teknik kılavuzlara görüş topluyor. Bu arşivleri çok büyük çevrimiçi platformlar ve arama motorları tutuyor; reklam bilgilerini herkese açarak dolandırıcılık, dezenformasyon ve yasa dışı ürün tanıtımının tespitine yardım ediyor. Görüş süreci 2 Aralık 2026'ya kadar açık, kılavuzlar henüz kabul edilmedi.",
+          "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
+          "foto": "bolum-arsiv",
+          "ig": "Komisyon, büyük platformların reklam arşivleri için 2 Aralık'a kadar görüş topluyor."
+        },
+        {
+          "alan": "ab",
+          "baslik": "Siyasi reklam tüzüğü bir yılını doldurdu, Komisyon değerlendirme yapıyor",
+          "ozet": "Komiser Michael McGrath, Siyasi Reklam Tüzüğü'nün tam uygulanmaya başlamasının birinci yılında şirketleri, kamu kurumlarını, seçim gözlemcilerini, gazetecileri ve akademisyenleri bir araya getirdi. Tüzük, siyasi reklamın parasını kimin ödediğini, ne kadar harcandığını ve finansmanın nereden geldiğini açıklamayı zorunlu kılıyor. Komisyon, kuralların işe yarayıp yaramadığını ölçmek için görüş topluyor; yeni bir değişiklik açıklanmadı.",
+          "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
+          "foto": "hinton",
+          "ig": "Komisyon, Siyasi Reklam Tüzüğü'nün birinci yılını paydaşlarla değerlendiriyor."
+        },
+        {
+          "alan": "ab",
+          "baslik": "AB'den turizm stratejisi: Yasa değil, destek ve eylem planı",
+          "ozet": "Komisyon 4 Kasım'da AB Sürdürülebilir Turizm Stratejisi'ni sundu. Metin yeni bir yasa önermiyor; AB Turizm Akademisi, turizm gözlemevi, ortak veri alanı, bürokrasi azaltma girişimi ve ziyaretçi akışlarını yönetmek için bir model ile Konsey tavsiyesi içeriyor. Komisyona göre turizm AB'nin brüt katma değerinin yaklaşık yüzde 10'unu oluşturuyor, 20 milyondan fazla kişiye iş veriyor; yaklaşık 5 milyon işletmenin yüzde 99'u KOBİ. Eylemler için takvim verilmedi.",
+          "kaynak": "Avrupa Komisyonu · 4 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2281",
+          "foto": "arac-caveman",
+          "ig": "Komisyon'un turizm stratejisi yeni yasa getirmiyor; akademi, veri alanı ve ziyaretçi yönetimi modeli içeriyor."
+        },
+        {
+          "alan": "ab",
+          "baslik": "Biyometan alıcı ve satıcıları için ilk eşleştirme turu açıldı",
+          "ozet": "Komisyon, haziranda AB Enerji ve Hammadde Platformu'nda başlatılan gönüllü ve ücretsiz Biyometan Mekanizması'nın ilk eşleştirme turunu açtı. Alıcılar taleplerini 23 Aralık 2026'ya kadar girebiliyor; eşleşme olursa taraflar iletişim bilgilerini alıp ticari görüşmeye geçiyor. Komisyon ayrıca ülkelerin biyometan kurallarını karşılaştıran bir tablo yayınladı.",
+          "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
+          "foto": "kaynak-kurzgesagt",
+          "ig": "AB'nin biyometan eşleştirme turu açıldı; alıcılar 23 Aralık'a kadar başvurabilir."
+        },
+        {
+          "alan": "ab",
+          "baslik": "Letonya'nın son toparlanma fonu ödemesine yeşil ışık",
+          "ozet": "Komisyon, Letonya'nın NextGenerationEU kapsamındaki beşinci ve son ödeme talebi olan 504 milyon euroyu onayladı. Komisyona göre ülke 25 kilometre taşını ve 31 hedefi tatmin edici biçimde yerine getirdi; reformlar enerji verimliliği, sağlık, dijitalleşme, konut ve ulaşımı kapsıyor. Ödeme tamamlanırsa Letonya'nın aldığı toplam tutar 1,97 milyar euroya ulaşacak.",
+          "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
+          "foto": "arac-ccswitch",
+          "ig": "Komisyon, Letonya'nın son toparlanma fonu talebi olan 504 milyon euroyu onayladı."
         },
         {
           "alan": "kose",
