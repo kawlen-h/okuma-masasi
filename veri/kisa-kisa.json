@@ -16,7 +16,7 @@
     },
     {
      "alan": "yz",
-     "baslik": "Meta, ajan kodlama girişimi Conductor'ı aldı; bulut hizmeti 20 Kasım'da kapanıyor",
+     "baslik": "Meta, Conductor'ı aldı; bulut hizmeti 20 Kasım'da kapanıyor",
      "ozet": "Meta, birden çok kodlama ajanını paralel çalışma alanlarında yöneten 2024 kuruluşlu Conductor'ı satın aldı; bedel açıklanmadı. Conductor kendi modelini değil Anthropic ve OpenAI ajanlarını kullanıyordu, bulut hizmeti 20 Kasım'da kapanacak ve ardından kullanıcıların bulut verisi silinmeye başlanacak. Temel özellikler 2027 başına kadar çalışmayı sürdürüyor, kurucu Charlie Holtz o tarihe kadar yeni bir ürün sözü veriyor. Aracın kullanıcıları iki hafta içinde verilerini taşımak zorunda; bir bağımsız ajan aracı daha büyük bir laboratuvarın çatısına geçmiş oldu.",
      "kaynak": "TechCrunch · 4 Kasım 2026",
      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
@@ -62,7 +62,7 @@
     },
     {
      "alan": "teknoloji",
-     "baslik": "APT29'a bağlanan saldırı: Sitelere girenin iPhone ve Android'i hedef alındı",
+     "baslik": "APT29 saldırısı: Siteye girenin telefonu hedef alındı",
      "ozet": "Sekoia, ABD, Ukrayna, Çekya ve Bulgaristan'da ele geçirilmiş sitelerin ziyaretçi cihazını tanıyıp ona uygun açık zincirini çalıştırdığını açıkladı ve kampanyayı orta-yüksek güvenle Rus grubu APT29'a bağladı. iOS'ta Safari çerezleri, yeni sürümlerde WhatsApp ve Telegram verisi, Keychain, konum ve fotoğraflar; Android'de Chrome çerezleri, giriş bilgileri, geçmiş ve kayıtlı Wi-Fi şifreleri hedeflendi. Kullanılan açıkların tamamı Apple ve Google tarafından kapatılmış, yamalar eski iOS sürümlerine de ulaşmış durumda. Zararlı kalıcı değil, yeniden başlatma etkinliği durduruyor; asıl risk güncellenmemiş telefonlarda.",
      "kaynak": "BleepingComputer · 4 Kasım 2026",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
@@ -108,7 +108,7 @@
     },
     {
      "alan": "fitness",
-     "baslik": "Donuk omuz: 189 çalışmanın özeti şok dalgasını öne çıkardı, kanıt kısa vadeli",
+     "baslik": "Donuk omuz: 189 çalışmada öne çıkan şok dalgası",
      "ozet": "The BMJ'de yayımlanan ağ meta-analizi, donuk omuzlu 12.988 yetişkini (ortalama 54 yaş) kapsayan 189 randomize çalışmayı karşılaştırdı. Vücut dışı şok dalgası kısa vadede ağrıyı olağan bakıma göre 0-10 ölçeğinde 1,97 puan azalttı (orta kesinlik); anestezi altında manipülasyon ise kolu öne kaldırmada 26-33 derece kazandırdı. Kanıtın çoğu yaklaşık üç aylık izlem; çalışmaların çoğu yüksek yanlılık riskinde, yan etkiler de düzensiz raporlanmış. Fizyoterapi ve enjeksiyon seçeneklerinin yanında kısa vadeli karar için yol gösteriyor, uzun vadeli sonucu kanıtlamıyor.",
      "kaynak": "The BMJ, Medical Xpress · 4 Kasım 2026",
      "url": "https://doi.org/10.1136/bmj-2026-101057",
@@ -118,7 +118,7 @@
     },
     {
      "alan": "fitness",
-     "baslik": "Yaşlanan kas onarımında yeni iz: Şimdilik yalnızca fare ve laboratuvar",
+     "baslik": "Yaşlanan kas onarımında yeni iz: Şimdilik fare verisi",
      "ozet": "Kyushu Üniversitesi'nden ekip, Scientific Reports'ta lipoik asit trisülfit (LASSS) bileşiğinin kas onarımını başlatan HGF proteinini güçlendirdiğini bildirdi. Laboratuvarda 1:8000 molar oranda HGF'nin c-met reseptörüne bağlanma gücü iki katından fazla arttı; kas erimesi modelindeki farelerde proteinin yaşla ilişkili nitrasyon hasarı azaldı. İnsan katılımcı yok, örneklem sayısı haberde belirtilmiyor ve farelerde kas kütlesi ya da kuvvet geri kazanımı gösterilmedi. Tek bir hayvan ve laboratuvar çalışması olduğu için yaşlı kas tedavisi için yalnızca bir araştırma hedefi sunuyor.",
      "kaynak": "Scientific Reports, ScienceDaily · 4 Kasım 2026",
      "url": "https://doi.org/10.1038/s41598-026-60835-w",
@@ -126,7 +126,7 @@
     },
     {
      "alan": "saglik",
-     "baslik": "Sütü zenginleştirilmemiş bitkisel ürünlerle değiştirmek iyot açığını büyütüyor",
+     "baslik": "Süt yerine bitkisel ürün iyot açığını büyütüyor",
      "ozet": "Surrey ve Queen's Belfast araştırmacıları, The Lancet Planetary Health'te İngiltere'nin ulusal beslenme anketinden 3.500'ü aşkın kişinin verisiyle modelleme yayımladı; bu bir müdahale çalışması değil. Süt ürünlerinin yüzde 20-35'i bitkisel alternatifle değişirse ergen kızlarda yetersiz iyot alımı yüzde 54'ten 65'e, 19-49 yaş kadınlarda 32'den 42'ye çıkıyor; tam değişimde ergen kızlarda oran yüzde 80. Zorunlu zenginleştirme düşüşü önlüyor ama ergen kızlarda açık yüzde 59'da kalıyor, iyotlu ekmek eklenince 37'ye iniyor. İyot, kalsiyum, riboflavin ve B12 açısından süt tüketimini azaltan genç kadınları ilgilendiriyor.",
      "kaynak": "The Lancet Planetary Health, Medical Xpress · 4 Kasım 2026",
      "url": "https://doi.org/10.1016/j.lanplh.2026.101515",
@@ -136,7 +136,7 @@
     },
     {
      "alan": "saglik",
-     "baslik": "Günde avokado ve mango: Damar işlevi 8 haftada iyileşti, kilo değişmedi",
+     "baslik": "Avokado ve mango: Damar işlevi 8 haftada iyileşti",
      "ozet": "Illinois Tech ekibinin Journal of the American Heart Association'daki çalışması, prediyabetli ve fazla kilolu 82 yetişkini 8 hafta kalori kontrollü beslenmeyle izledi; ScienceDaily 3 Kasım'da duyurdu. Her gün bir avokado ve bir fincan mango yiyen grupta damar genişleme ölçüsü yüzde 6,7'ye çıktı, karbonhidrat ağırlıklı kontrol grubunda 4,6'ya indi; kilo, kolesterol ve kan şekeri belirgin değişmedi. Araştırmayı mango ve avokado üretici kurulları kısıtsız hibeyle destekledi, ölçülenler kalp krizi gibi sonuçlar değil risk belirteçleri. Tek ve kısa çalışma; prediyabetlilerin karbonhidrat seçimi için ön veri sayılır.",
      "kaynak": "Journal of the American Heart Association, ScienceDaily · 3 Kasım 2026",
      "url": "https://doi.org/10.1161/JAHA.124.040933",
