@@ -496,7 +496,15 @@
           "kaynak": "BBC · 5 Kasım 2026",
           "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo",
           "foto": "kaynak-caglayan",
-          "ig": "Joshua Wong, ulusal güvenlik yasası kapsamında 10 yıl hapis cezası aldı."
+          "ig": "Joshua Wong, ulusal güvenlik yasası kapsamında 10 yıl hapis cezası aldı.",
+          "en": {
+            "baslik": "Joshua Wong sentenced to 10 years in prison in Hong Kong",
+            "ozet": "Joshua Wong, the symbol of Hong Kong's democracy movement, was sentenced to 10 years in prison for collusion with foreign forces under the national security law. According to the BBC, the 30-year-old Wong, who has spent the past 6 years behind bars and was due for release in January, will stay inside for 10 more years. The law was introduced in 2020; critics say it silenced the opposition, while authorities say it is necessary for stability."
+          },
+          "de": {
+            "baslik": "Hongkong: Joshua Wong zu 10 Jahren Haft verurteilt",
+            "ozet": "Joshua Wong, Symbolfigur der Demokratiebewegung in Hongkong, wurde nach dem Nationalen Sicherheitsgesetz wegen Zusammenarbeit mit ausländischen Mächten zu 10 Jahren Haft verurteilt. Laut BBC wird der 30-Jährige, der die vergangenen 6 Jahre hinter Gittern verbracht hat und im Januar entlassen werden sollte, weitere 10 Jahre im Gefängnis bleiben. Das Gesetz wurde 2020 eingeführt; Kritiker sagen, es habe die Opposition mundtot gemacht, die Behörden erklären, es sei für die Stabilität notwendig."
+          }
         },
         {
           "alan": "dunya",
@@ -505,7 +513,15 @@
           "kaynak": "Al Jazeera · 5 Kasım 2026",
           "url": "https://www.aljazeera.com/news/2026/11/5/us-sanctions-indian-and-turkish-firms-accused-of-helping-iran",
           "foto": "arac-sysprompts",
-          "ig": "ABD, İran bağlantılı ağa yaptırım uyguladı; listede Türkiye merkezli Fugo Ground Services de var."
+          "ig": "ABD, İran bağlantılı ağa yaptırım uyguladı; listede Türkiye merkezli Fugo Ground Services de var.",
+          "en": {
+            "baslik": "US sanctions Iran-linked network, including a Turkey-based firm",
+            "ozet": "The US Treasury Department sanctioned an India-based network that it says provided forged flags and documents to sanctioned tankers carrying Iranian oil, along with Turkey-based Fugo Ground Services. According to the Treasury, the scheme run by Suniel Kumar Sharma and his wife dates back to at least 2014; 2 Indian individuals and 9 companies were also added to the list. Fugo is alleged to have provided ground handling services to sanctioned Iranian airlines. The article does not include a response from those sanctioned."
+          },
+          "de": {
+            "baslik": "USA sanktionieren Iran-nahes Netzwerk, darunter eine Firma aus der Türkei",
+            "ozet": "Das US-Finanzministerium hat ein in Indien ansässiges Netzwerk sanktioniert, das laut Ministerium gefälschte Flaggen und Dokumente für sanktionierte Tanker mit iranischem Öl bereitgestellt habe, sowie die in der Türkei ansässige Fugo Ground Services. Nach Angaben des Ministeriums reicht das Geschäftsmodell von Suniel Kumar Sharma und seiner Frau mindestens bis 2014 zurück; auf die Liste kamen außerdem 2 Personen aus Indien und 9 Unternehmen. Fugo soll sanktionierten iranischen Fluggesellschaften Bodenabfertigung angeboten haben. Eine Stellungnahme der Sanktionierten enthält der Bericht nicht."
+          }
         },
         {
           "alan": "dunya",
@@ -514,7 +530,15 @@
           "kaynak": "BBC · 5 Kasım 2026",
           "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo",
           "foto": "bolum-hafta",
-          "ig": "Demokratlar Kongre'nin iki kanadını da aldı, ama Trump yasaları reddedebiliyor."
+          "ig": "Demokratlar Kongre'nin iki kanadını da aldı, ama Trump yasaları reddedebiliyor.",
+          "en": {
+            "baslik": "Democrats win Congress, but Trump's veto remains",
+            "ozet": "Democrats won control of the House of Representatives and the Senate in the US midterm elections; the new term begins in January. According to the BBC, the party gains investigative and oversight power, but since President Trump can reject laws, it cannot immediately enact its promises. Senator Chris Coons said the result should not be treated as a mandate, and that the party is still not very popular."
+          },
+          "de": {
+            "baslik": "Demokraten gewinnen den Kongress, Trumps Veto bleibt",
+            "ozet": "Bei den US-Zwischenwahlen haben die Demokraten die Kontrolle über das Repräsentantenhaus und den Senat gewonnen; die neue Legislaturperiode beginnt im Januar. Laut BBC gewinnt die Partei Untersuchungs- und Kontrollbefugnisse, doch da Präsident Trump Gesetze ablehnen kann, lassen sich ihre Vorhaben nicht sofort umsetzen. Senator Chris Coons sagte, das Ergebnis dürfe nicht als Mandat verstanden werden, die Partei sei zudem noch immer wenig beliebt."
+          }
         },
         {
           "alan": "dunya",
@@ -523,7 +547,15 @@
           "kaynak": "The Guardian · 5 Kasım 2026",
           "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
           "foto": "lansman",
-          "ig": "Güney Kore, Cheonghae biriminin görev alanını Hürmüz'e yaklaştırmak istiyor."
+          "ig": "Güney Kore, Cheonghae biriminin görev alanını Hürmüz'e yaklaştırmak istiyor.",
+          "en": {
+            "baslik": "South Korea moves naval unit closer to Hormuz",
+            "ozet": "South Korea's Defense Ministry said it wants to extend the operating area of the anti-piracy Cheonghae unit to near Oman's Duqm port, about 650 km from the Strait of Hormuz. A motion will be submitted to parliament; approval from President Lee Jae Myung and the cabinet is also required. According to The Guardian, the move follows pressure from Donald Trump for support in the Iran war."
+          },
+          "de": {
+            "baslik": "Südkorea verlegt Marineeinheit näher an die Straße von Hormus",
+            "ozet": "Das südkoreanische Verteidigungsministerium teilte mit, das Einsatzgebiet der Anti-Piraterie-Einheit Cheonghae solle bis in die Nähe des omanischen Hafens Duqm erweitert werden, etwa 650 km von der Straße von Hormus entfernt. Dafür wird ein Antrag im Parlament eingebracht; zudem sind die Zustimmung von Präsident Lee Jae Myung und des Kabinetts nötig. Laut The Guardian folgt der Schritt auf den Druck von Donald Trump, die Unterstützung im Iran-Krieg zu verstärken."
+          }
         },
         {
           "alan": "ekonomi",
@@ -532,7 +564,15 @@
           "kaynak": "CNBC · 4 Kasım 2026",
           "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
           "foto": "bolum-eticaret",
-          "ig": "Euro bölgesinde yıllık enflasyon ekimde yüzde 4'e çıktı; piyasalar aralıkta faiz artışı fiyatlıyor."
+          "ig": "Euro bölgesinde yıllık enflasyon ekimde yüzde 4'e çıktı; piyasalar aralıkta faiz artışı fiyatlıyor.",
+          "en": {
+            "baslik": "Euro zone inflation hits 4 percent, highest in 3 years",
+            "ozet": "According to the October flash estimate, annual inflation rose to 4 percent from 3.8 percent in September. This is the first time this level has been seen since September 2023. Energy inflation rose to 20.8 percent, which CNBC links to the Iran war. Lithuania had the highest rate at 6.1 percent and Malta the lowest at 2.3 percent; all 21 countries are above the ECB's 2 percent target. The policy rate is 2.5 percent, and markets are pricing in a more than 72 percent chance of a hike in December."
+          },
+          "de": {
+            "baslik": "Inflation in der Eurozone steigt auf 4 Prozent, höchster Stand seit 3 Jahren",
+            "ozet": "Laut der Oktober-Schnellschätzung stieg die Jahresinflation auf 4 Prozent, nach 3,8 Prozent im September. Dies ist das erste Mal seit September 2023, dass dieses Niveau erreicht wurde. Die Energieinflation kletterte auf 20,8 Prozent, was CNBC auf den Iran-Krieg zurückführt. Litauen verzeichnete mit 6,1 Prozent den höchsten, Malta mit 2,3 Prozent den niedrigsten Wert; alle 21 Länder liegen über dem EZB-Ziel von 2 Prozent. Der Leitzins liegt bei 2,5 Prozent, und die Märkte preisen im Dezember eine Zinserhöhung mit mehr als 72 Prozent Wahrscheinlichkeit ein."
+          }
         },
         {
           "alan": "ekonomi",
@@ -541,7 +581,15 @@
           "kaynak": "Avrupa Merkez Bankası · 5 Kasım 2026",
           "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
           "foto": "kaynak-quanta",
-          "ig": "Schnabel, AMB'nin tek senaryoya bağlanmaması gerektiğini söyledi."
+          "ig": "Schnabel, AMB'nin tek senaryoya bağlanmaması gerektiğini söyledi.",
+          "en": {
+            "baslik": "ECB's Schnabel: Avoid committing to a single scenario",
+            "ozet": "ECB Executive Board member Isabel Schnabel urged against committing to a single scenario in monetary policy at a money markets conference in Frankfurt on November 5. According to Schnabel, what matters is not the type of shock but how it affects the inflation path; supply shocks may require timely tightening. She said euro area public debt has risen by about 20 percentage points of GDP since the early 2000s, and pointed to rising debt as a threat to monetary policy."
+          },
+          "de": {
+            "baslik": "EZB-Schnabel: Nicht auf ein einziges Szenario festlegen",
+            "ozet": "EZB-Direktoriumsmitglied Isabel Schnabel hat auf einer Geldmarktkonferenz in Frankfurt am 5. November davor gewarnt, sich in der Geldpolitik auf ein einziges Szenario festzulegen. Entscheidend sei nicht die Art des Schocks, sondern wie er den Inflationspfad beeinflusse; Angebotsschocks könnten eine rechtzeitige Straffung erfordern. Die Staatsverschuldung im Euroraum sei seit Anfang der 2000er-Jahre um rund 20 Prozentpunkte des BIP gestiegen; die wachsende Schuldenlast bezeichnete sie als Bedrohung für die Geldpolitik."
+          }
         },
         {
           "alan": "ekonomi",
@@ -550,7 +598,15 @@
           "kaynak": "BBC · 5 Kasım 2026",
           "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo",
           "foto": "arac-ecc",
-          "ig": "İngiltere Merkez Bankası'ndan yüzde 4'e faiz artışı bekleniyordu."
+          "ig": "İngiltere Merkez Bankası'ndan yüzde 4'e faiz artışı bekleniyordu.",
+          "en": {
+            "baslik": "UK rate rise expected for first time in 3 years",
+            "ozet": "The Bank of England was expected to raise its rate from 3.75 percent to 4 percent on November 5, which would be its first increase in more than 3 years. According to the BBC, analysts link the decision to inflation driven by petrol and diesel prices; annual inflation was 3.5 percent in September. The decision was due to be announced at 12:00 GMT; this summary is based on coverage from before the decision."
+          },
+          "de": {
+            "baslik": "Großbritannien: Erste Zinserhöhung seit 3 Jahren erwartet",
+            "ozet": "Die Bank of England sollte den Leitzins am 5. November von 3,75 auf 4 Prozent anheben, was die erste Erhöhung seit mehr als 3 Jahren wäre. Laut BBC führen Analysten die Entscheidung auf die von Benzin- und Dieselpreisen getriebene Inflation zurück; im September lag die Jahresinflation bei 3,5 Prozent. Die Entscheidung sollte um 12:00 GMT verkündet werden; diese Zusammenfassung beruht auf Berichten vor der Entscheidung."
+          }
         },
         {
           "alan": "ekonomi",
@@ -559,7 +615,15 @@
           "kaynak": "CNBC · 4 Kasım 2026",
           "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
           "foto": "harness",
-          "ig": "ADP: ABD özel sektörü ekimde 86 bin kişi istihdam etti, beklenti 75 bindi."
+          "ig": "ADP: ABD özel sektörü ekimde 86 bin kişi istihdam etti, beklenti 75 bindi.",
+          "en": {
+            "baslik": "US private sector adds 86,000 jobs in October",
+            "ozet": "According to ADP, US private employers added 86,000 jobs in October, against expectations of 75,000. The largest gain came in trade, transport and utilities with 39,000 jobs, while the biggest loss was in professional and business services with 27,000. Wages for job changers rose 4.8 percent a year. The official nonfarm payrolls report is due on Friday."
+          },
+          "de": {
+            "baslik": "US-Privatwirtschaft schafft im Oktober 86.000 Stellen",
+            "ozet": "Laut ADP hat die US-Privatwirtschaft im Oktober 86.000 Stellen geschaffen; erwartet worden waren 75.000. Den größten Zuwachs gab es mit 39.000 Stellen in Handel, Transport und öffentlichen Dienstleistungen, den größten Verlust mit 27.000 Stellen bei freiberuflichen und unternehmensbezogenen Dienstleistungen. Die Löhne von Jobwechslern stiegen jährlich um 4,8 Prozent. Der offizielle Arbeitsmarktbericht (Nonfarm Payrolls) wird am Freitag veröffentlicht."
+          }
         }
       ],
       "videolar": [
