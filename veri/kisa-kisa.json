@@ -159,7 +159,15 @@
           "kaynak": "TechCrunch, BleepingComputer · 4 Kasım 2026",
           "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
           "ig": "DreamHost'a saldırı ağustosta başladı, 23 Ekim'de fark edildi. FTP/SFTP bilgileri ve bazı webmail oturumları açığa çıktı; ödeme verisinde iz bulunmadı.",
-          "foto": "arac-graphify"
+          "foto": "arac-graphify",
+          "en": {
+            "baslik": "DreamHost breach began in August and was noticed in October",
+            "ozet": "Hosting company DreamHost told the California attorney general that the attack began in August and was discovered on 23 October. The attacker got in through a flaw in the server of its web-based file manager and reached FTP/SFTP login credentials and a limited number of webmail sessions; the company had initially announced only an outage and password resets. The affected share is said to be well below 10 percent of about 400,000 customers, with no exact figure given; no traces were found in the control panel or payment data. Customers' sessions were ended and their passwords invalidated; one year of credit monitoring is being offered."
+          },
+          "de": {
+            "baslik": "DreamHost-Datenleck begann im August, wurde im Oktober entdeckt",
+            "ozet": "Der Hoster DreamHost teilte der Generalstaatsanwaltschaft Kaliforniens mit, dass der Angriff im August begann und am 23. Oktober entdeckt wurde. Der Angreifer drang über eine Lücke im Server des webbasierten Dateimanagers ein und erlangte FTP/SFTP-Zugangsdaten sowie eine begrenzte Anzahl von Webmail-Sitzungen; zunächst hatte das Unternehmen nur eine Störung und Passwort-Zurücksetzungen angekündigt. Der betroffene Anteil liegt laut Unternehmen deutlich unter 10 Prozent der rund 400.000 Kunden, eine genaue Zahl wurde nicht genannt; im Kontrollpanel und bei den Zahlungsdaten wurden keine Spuren gefunden. Die Sitzungen der Kunden wurden beendet, die Passwörter ungültig gemacht; ein Jahr Kreditüberwachung wird angeboten."
+          }
         },
         {
           "alan": "teknoloji",
@@ -255,7 +263,15 @@
           "kaynak": "Avrupa Komisyonu · 4 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2345",
           "foto": "bolum-araclar",
-          "ig": "AB, çip tasarımı girişimleri için 525 milyon euroluk EuroCDP platformunu açtı. Avrupa'nın bu alandaki gelir payı yüzde 1'in altında."
+          "ig": "AB, çip tasarımı girişimleri için 525 milyon euroluk EuroCDP platformunu açtı. Avrupa'nın bu alandaki gelir payı yüzde 1'in altında.",
+          "en": {
+            "baslik": "EU invests 525 million euros in chip design: EuroCDP launches",
+            "ozet": "On 4 November in Brussels, Executive Vice-President Henna Virkkunen launched the European Chip Design Platform (EuroCDP). Under the Chips Act, the platform will mobilize 525 million euros: 285 million from the EU budget and 240 million from countries participating in the Chips Joint Undertaking. The cloud platform, run by a consortium led by imec, gives startups access to design tools and production capacity; early-stage startups can receive grants of up to 100,000 euros. According to the Commission, Europe's share of chip design revenue is below 1 percent. The Chips Act 2.0 was proposed in June but has not yet been adopted."
+          },
+          "de": {
+            "baslik": "EU investiert 525 Millionen Euro in Chipdesign: EuroCDP gestartet",
+            "ozet": "Die Vizepräsidentin der Kommission, Henna Virkkunen, startete am 4. November in Brüssel die Europäische Chip-Design-Plattform (EuroCDP). Im Rahmen des Chips-Gesetzes sollen über die Plattform 525 Millionen Euro mobilisiert werden: 285 Millionen aus dem EU-Haushalt, 240 Millionen von den Ländern, die am Chips Joint Undertaking teilnehmen. Die Cloud-Plattform, betrieben von einem unter Führung von imec stehenden Konsortium, gibt Start-ups Zugang zu Designwerkzeugen und Fertigungskapazitäten; für Frühphasen-Start-ups gibt es Zuschüsse von bis zu 100.000 Euro. Laut Kommission liegt Europas Anteil an den Umsätzen im Chipdesign bei unter 1 Prozent. Das Chips-Gesetz 2.0 wurde im Juni vorgeschlagen, ist aber noch nicht verabschiedet."
+          }
         },
         {
           "alan": "ab",
