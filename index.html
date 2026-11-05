@@ -600,6 +600,8 @@ body.okuma-modu #cubuk{display:none}
   main{padding-inline:16px}
   #serit{margin-right:-16px;gap:18px}
   .ikon-dug{padding:6px 8px}
+  #tema-m{display:none}
+  #cubuk .marka{font-size:1.4rem}
   .bolum-bas{padding-top:22px}
   .gunluk-grup .kisa-liste{display:block}
   .gunluk-grup .kisa-oge{flex-direction:row-reverse;align-items:flex-start;gap:14px}
@@ -1072,7 +1074,7 @@ serit.addEventListener("click",function(e){
 function seritAktif(id){
   var bag=serit.querySelectorAll("a"),sec=null;
   for(var i=0;i<bag.length;i++){ var on=bag[i].getAttribute("href")==="#"+id; bag[i].classList.toggle("aktif",on); if(on) sec=bag[i]; }
-  if(sec&&serit.offsetParent) serit.scrollTo({left:sec.offsetLeft-16,behavior:"smooth"});
+  if(sec&&serit.offsetParent) serit.scrollTo({left:sec.offsetLeft-serit.offsetLeft-16,behavior:"smooth"});
 }
 if("IntersectionObserver" in window){
   var seritGoz=new IntersectionObserver(function(es){
