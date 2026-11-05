@@ -181,6 +181,8 @@ nav .sy{font-family:var(--mono);font-size:.7rem;color:var(--soluk);font-variant-
 #cubuk .marka{font-family:var(--display);font-weight:900;font-stretch:78%;font-size:1.15rem;
   text-transform:uppercase;letter-spacing:-.02em;margin:0}
 .cubuk-sag{display:flex;gap:7px}
+.dil-sec{color:var(--murekkep);cursor:pointer;width:auto}
+.raf-dip .dil-sec{margin-bottom:8px}
 .ikon-dug{font-family:var(--mono);font-size:.74rem;background:var(--yuzey);border:1px solid var(--cizgi);
   color:var(--ikincil);border-radius:5px;padding:7px 11px;cursor:pointer}
 #perde{display:none;position:fixed;inset:0;background:rgba(10,12,15,.45);z-index:45}
@@ -548,6 +550,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
 <div id="cubuk">
   <p class="marka">Okuma Masası</p>
   <div class="cubuk-sag">
+    <select class="ikon-dug dil-sec" aria-label="Dil" translate="no"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select>
     <button class="ikon-dug" id="tema-m" aria-label="Tema değiştir">Tema</button>
     <button class="ikon-dug" id="menu-dug" aria-expanded="false" aria-controls="raf">☰ Kategoriler</button>
   </div>
@@ -599,6 +602,7 @@ body.okuma-modu #okuma-cubuk{display:flex}
     <div id="nav-tema"></div>
   </nav>
   <div class="raf-dip">
+    <select class="ikon-dug dil-sec" aria-label="Dil" translate="no"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select>
     <button id="tema"><span>Görünüm</span><span class="deger" id="tema-deger">Sistem</span></button>
     <p class="raf-not">Uzun videolar yerelde metne çevrilip okunur yazıya dönüştürülüyor.</p>
   </div>
@@ -1451,6 +1455,15 @@ yonlendir();
 guncelle();
 kapakCiz();
 if(document.fonts&&document.fonts.ready) document.fonts.ready.then(kapakCiz);
+})();
+// Dil seçimi: EN ve DE, sitenin Google Çeviri kopyasında açılır
+(function(){
+  var kok="/okuma-masasi/",d=/translate\.goog$/.test(location.hostname)?new URLSearchParams(location.search).get("_x_tr_tl"):"tr";
+  document.querySelectorAll(".dil-sec").forEach(function(s){
+    s.value=d==="en"||d==="de"?d:"tr";
+    s.onchange=function(){ var v=s.value;
+      location.href=(v==="tr"?"https://kawlen-h.github.io"+kok:"https://kawlen--h-github-io.translate.goog"+kok+"?_x_tr_sl=tr&_x_tr_tl="+v+"&_x_tr_hl="+v)+location.hash; };
+  });
 })();
 </script>
 
