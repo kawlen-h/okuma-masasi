@@ -4,26 +4,14 @@
   {
    "ad": "heydamir/unslop",
    "link": "https://github.com/heydamir/unslop",
-   "yildiz": 9097,
+   "yildiz": 9098,
    "not": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
-  },
-  {
-   "ad": "Jakeschincariol/day-trader-skill",
-   "link": "https://github.com/Jakeschincariol/day-trader-skill",
-   "yildiz": 5420,
-   "not": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before "
   },
   {
    "ad": "patch-gg/pixelfx",
    "link": "https://github.com/patch-gg/pixelfx",
-   "yildiz": 5051,
+   "yildiz": 5052,
    "not": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
-  },
-  {
-   "ad": "Arekejoker/qwen21-nsfw-pose-skill",
-   "link": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-   "yildiz": 4161,
-   "not": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
   },
   {
    "ad": "t3dotgg/tstack",
@@ -36,6 +24,18 @@
    "link": "https://github.com/Jakeschincariol/founder-skill",
    "yildiz": 2466,
    "not": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO"
+  },
+  {
+   "ad": "elvarofficial/teardown",
+   "link": "https://github.com/elvarofficial/teardown",
+   "yildiz": 2025,
+   "not": "A Claude Code skill that turns any machine into a 3D simulator you can take apart"
+  },
+  {
+   "ad": "DenisSergeevitch/ex-ussr-kinship-research",
+   "link": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+   "yildiz": 1930,
+   "not": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across "
   }
  ]
 }
