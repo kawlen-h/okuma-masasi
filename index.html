@@ -869,6 +869,16 @@ function ceviriUygula(kok){
 function kaynakYaz(s){
   return DIL==="tr"?s:String(s).replace(/Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık/g,function(a){return AYLAR_C[a][dilSira()];}).replace("Günlük Haberler",DIL==="en"?"Daily News":"Tagesnachrichten");
 }
+// Dil seçici ve dinamik içeriğin çevirisi
+document.documentElement.lang=DIL;
+document.querySelectorAll(".dil-sec").forEach(function(s){
+  s.value=DIL;
+  s.onchange=function(){ try{ localStorage.setItem("dil",s.value); }catch(e){} location.reload(); };
+});
+if(DIL!=="tr"){
+  ceviriUygula(document.body);
+  new MutationObserver(function(ms){ ms.forEach(function(m){ m.addedNodes.forEach(function(n){ if(n.nodeType===1) ceviriUygula(n); else if(n.parentNode) ceviriUygula(n.parentNode); }); }); }).observe(document.body,{childList:true,subtree:true});
+}
 function kac(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
 function kucuk(s){return String(s).toLocaleLowerCase("tr");}
 function araMetni(v){return kac(kucuk(v.b+" "+v.m.join(" ")+" "+v.n+" "+(v.u||"")));}
@@ -1473,16 +1483,6 @@ yonlendir();
 guncelle();
 kapakCiz();
 if(document.fonts&&document.fonts.ready) document.fonts.ready.then(kapakCiz);
-// Dil seçici ve dinamik içeriğin çevirisi
-document.documentElement.lang=DIL;
-document.querySelectorAll(".dil-sec").forEach(function(s){
-  s.value=DIL;
-  s.onchange=function(){ try{ localStorage.setItem("dil",s.value); }catch(e){} location.reload(); };
-});
-if(DIL!=="tr"){
-  ceviriUygula(document.body);
-  new MutationObserver(function(ms){ ms.forEach(function(m){ m.addedNodes.forEach(function(n){ if(n.nodeType===1) ceviriUygula(n); }); }); }).observe(document.body,{childList:true,subtree:true});
-}
 })();
 </script>
 
