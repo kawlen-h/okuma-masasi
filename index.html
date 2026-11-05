@@ -1017,8 +1017,7 @@ KATEGORILER.forEach(function(kat){
     html+='<div class="kisa-liste">';
     og.filter(function(v){return fotolu.indexOf(v)<0;}).forEach(function(v){
       html+='<div'+oge(v)+' class="kisa-oge" data-ara="'+araMetni(v)+'">'+
-        (v.g?'<span class="kisa-foto" aria-hidden="true"><img src="'+v.g+'" alt="" loading="lazy" decoding="async"></span>':
-          '<span class="rozet-kare" aria-hidden="true">'+platform(v)+'</span>')+'<div class="kisa-govde">'+
+        '<span class="kisa-foto" aria-hidden="true"><img src="'+(v.g||(v.yazi&&YAZILAR[v.yazi]&&YAZILAR[v.yazi].foto)||kat.foto)+'" alt="" loading="lazy" decoding="async"></span><div class="kisa-govde">'+
         '<h3>'+kac(v.b)+'</h3><p class="kim">'+kimHtml(v)+'</p><p class="ne">'+v.n+'</p>'+bizdeHtml(v)+
         '<div class="ayak">'+rozetHtml(v)+baglarHtml(v)+'</div></div></div>';
     });
@@ -1057,7 +1056,7 @@ document.querySelector("#tema-mobil .tm-liste").innerHTML=document.getElementByI
 fetch("veri/ekosistem.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null;}).then(function(e){
   var s=document.getElementById("b-github"); if(!e||!s||!e.yeni||!e.yeni.length) return;
   s.insertAdjacentHTML("beforeend",'<div class="gunluk-grup"><p class="grup-bas" style="--g:282 42% 52%"><i></i>Bu ay öne çıkan yeni skill depoları<span>'+e.yeni.length+'</span></p><div class="kisa-liste">'+e.yeni.map(function(y){
-    return '<div class="kisa-oge"><div class="kisa-govde"><h3>'+kac(y.ad)+'</h3><p class="kim"><span>★ '+kac(y.yildiz)+'</span></p><p class="ne">'+kac(y.not||"")+'</p>'+(/^https:\/\/github\.com\//.test(y.link)?'<div class="ayak"><a class="btn" href="'+kac(y.link)+'" target="_blank" rel="noopener">GitHub</a></div>':'')+'</div></div>';
+    return '<div class="kisa-oge"><span class="kisa-foto" aria-hidden="true"><img src="gorseller/bolum-araclar.jpg" alt="" loading="lazy"></span><div class="kisa-govde"><h3>'+kac(y.ad)+'</h3><p class="kim"><span>★ '+kac(y.yildiz)+'</span></p><p class="ne">'+kac(y.not||"")+'</p>'+(/^https:\/\/github\.com\//.test(y.link)?'<div class="ayak"><a class="btn" href="'+kac(y.link)+'" target="_blank" rel="noopener">GitHub</a></div>':'')+'</div></div>';
   }).join("")+'</div></div>');
 }).catch(function(){});
 var CIP={"b-vibe":"Kapak","b-gunluk":"Kısa kısa","b-hafta":"Haftanın enleri","b-claude":"Dijital",
