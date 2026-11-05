@@ -2,7 +2,7 @@
 <title>Okuma Masası</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <script>document.documentElement.lang="tr";</script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400&family=Instrument+Sans:wght@400;500;600&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/14.1.3/marked.min.js"></script>
 <style>
 /* Layout: dergi. Solda "Bu sayıda" içindekiler, sağda künye + kapak + bölümler; her bölüm içeriğine göre farklı biçimde dizilir. */
@@ -544,6 +544,73 @@ body.okuma-modu #okuma-cubuk{display:flex}
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
+
+/* Dergi teması */
+:root{--zemin:#fff;--yuzey:#fff;--raf:#f4f5f8;--kapak-zemin:#f4f5f8;--murekkep:#14161b;--ikincil:#4f5562;--soluk:#767c88;--cizgi:#e1e4ea;--cizgi-koyu:#c7ccd6;
+  --vurgu:#1b3fe0;--vurgu-ac:#eef1fd;--vurgu-metin:#1730b4;--golge:none;--ui:"Instrument Sans",system-ui,sans-serif;
+  --display:"Newsreader",Georgia,serif;--okuma:"Newsreader",Georgia,serif;--mono:var(--ui)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--zemin:#101218;--yuzey:#101218;--raf:#181b22;--kapak-zemin:#181b22;--murekkep:#eceef2;--ikincil:#b0b6c2;--soluk:#868d9a;--cizgi:#2a2e37;--cizgi-koyu:#3b404b;--vurgu:#8ea4ff;--vurgu-ac:#1a2140;--vurgu-metin:#a9baff}}
+:root[data-theme="dark"]{--zemin:#101218;--yuzey:#101218;--raf:#181b22;--kapak-zemin:#181b22;--murekkep:#eceef2;--ikincil:#b0b6c2;--soluk:#868d9a;--cizgi:#2a2e37;--cizgi-koyu:#3b404b;--vurgu:#8ea4ff;--vurgu-ac:#1a2140;--vurgu-metin:#a9baff}
+.sayi-serit,.kunye,#tema-mobil,.bolum-foto,.bolum-bas .kicker,.bolum-bas .n,.grup-bas i,.grup-bas span{display:none}
+#cubuk{display:flex;flex-wrap:wrap;align-items:center;gap:0 12px;background:var(--zemin);border-bottom:1px solid var(--cizgi);
+  padding:14px max(20px,calc((100vw - 1180px)/2)) 0}
+#cubuk .marka{font-family:var(--display);font-weight:700;font-stretch:normal;font-size:clamp(1.6rem,4vw,2.5rem);letter-spacing:-.025em;line-height:1;margin:0}
+.cubuk-sag{margin-left:auto;display:flex;gap:6px;align-items:center}
+.ikon-dug{font-family:var(--ui);font-size:.8rem;border-radius:4px}
+#serit{display:flex;flex-basis:100%;gap:22px;overflow-x:auto;scrollbar-width:none;margin:8px 0 0;padding:0}
+#serit::-webkit-scrollbar{display:none}
+#serit a{flex:none;font-family:var(--ui);font-size:.92rem;font-weight:500;line-height:1;color:var(--ikincil);background:none;border:0;border-radius:0;
+  border-bottom:3px solid transparent;padding:10px 0 11px;text-decoration:none;white-space:nowrap}
+#serit a i{display:none}
+#serit a:hover{color:var(--murekkep)}
+#serit a.aktif{color:var(--murekkep);border-bottom-color:var(--vurgu);font-weight:600}
+#raf{transform:translateX(-100%);transition:transform .22s ease;width:min(300px,86vw)}
+#raf.acik{transform:translateX(0);box-shadow:0 0 40px rgba(0,0,0,.22)}
+main{margin-left:0;padding:0 max(20px,calc((100vw - 1180px)/2)) 80px}
+.ic,#liste{max-width:none}
+body.okuma-modu #cubuk{display:none}
+.bolum,.kapak,[data-oge],.gunluk-grup{scroll-margin-top:124px}
+.bolum{margin-bottom:72px}
+.bolum-bas{border-top:0;padding-top:30px;margin-bottom:10px}
+.bolum-bas h2{font-family:var(--display);font-stretch:normal;font-weight:600;font-size:clamp(2.2rem,5.4vw,3.6rem);letter-spacing:-.025em;line-height:1.02}
+.kat-not{font-family:var(--ui);font-size:.98rem;line-height:1.5;color:var(--ikincil);max-width:62ch}
+.gunluk-tarih{font-family:var(--ui);font-size:.92rem;letter-spacing:0;text-transform:none;color:var(--ikincil)}
+.gunluk-grup{margin-top:44px}
+.grup-bas{display:block;font-family:var(--display);font-stretch:normal;font-weight:600;font-size:clamp(1.6rem,3.6vw,2.2rem);letter-spacing:-.018em;line-height:1.1;
+  text-transform:none;border-top:3px solid var(--murekkep);padding-top:10px;margin:0 0 4px}
+.gunluk-grup .kisa-liste{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px}
+.gunluk-grup .kisa-oge{flex-direction:column;gap:12px;padding-block:18px 24px;border-top:1px solid var(--cizgi)}
+.gunluk-grup .kisa-oge:first-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:32px;border-top:0;align-items:start}
+.gunluk-grup .kisa-oge .kisa-foto{width:100%;aspect-ratio:3/2;border-radius:0}
+.kisa-oge h3,.foto-kart h3{font-family:var(--display);font-stretch:normal;font-weight:600;font-size:1.34rem;line-height:1.17;letter-spacing:-.01em}
+.gunluk-grup .kisa-oge:first-child h3{font-size:clamp(1.9rem,3.8vw,2.9rem);line-height:1.06;letter-spacing:-.022em}
+.kim,.foto-ust,.foto-rozet{font-family:var(--ui);font-size:.78rem;letter-spacing:0;text-transform:none;color:var(--soluk)}
+.kisa-oge .ne,.foto-govde .ne{font-family:var(--okuma);font-size:1.06rem;line-height:1.5;color:var(--ikincil)}
+.gunluk-grup .kisa-oge:first-child .ne{font-size:1.16rem;line-height:1.5}
+.uygula{background:none;border:0;border-left:2px solid var(--vurgu);border-radius:0;padding:2px 0 2px 12px;font-family:var(--ui);font-size:.9rem;line-height:1.45;color:var(--ikincil)}
+.uygula span{font-family:var(--ui);font-size:.78rem;letter-spacing:0;text-transform:none;color:var(--vurgu-metin);display:block;font-weight:600}
+.btn{font-family:var(--ui);font-size:.86rem;font-weight:500;background:none;border:0;padding:0;color:var(--vurgu-metin);text-decoration:underline;text-underline-offset:3px}
+.btn:hover{color:var(--murekkep)}
+.ayak{gap:16px}
+.kapak .btn.dolu{background:var(--vurgu);color:#fff;text-decoration:none;padding:10px 18px;border-radius:4px}
+.tr-rozet{font-family:var(--ui)}
+:focus-visible{outline:2px solid var(--vurgu);outline-offset:2px}
+@media (max-width:760px){
+  #cubuk{padding-inline:16px;padding-top:10px}
+  main{padding-inline:16px}
+  #serit{margin-right:-16px;gap:18px}
+  .ikon-dug{padding:6px 8px}
+  .bolum-bas{padding-top:22px}
+  .gunluk-grup .kisa-liste{display:block}
+  .gunluk-grup .kisa-oge{flex-direction:row-reverse;align-items:flex-start;gap:14px}
+  .gunluk-grup .kisa-oge .kisa-foto{width:92px;aspect-ratio:1;flex:none}
+  .gunluk-grup .kisa-oge:first-child{display:block}
+  .gunluk-grup .kisa-oge:first-child .kisa-foto{width:100%;aspect-ratio:3/2;margin-bottom:14px}
+  .gunluk-grup .kisa-oge:first-child .kisa-govde{gap:9px}
+  .gunluk-grup .kisa-oge:first-child h3{font-size:1.85rem}
+  .kisa-oge h3{font-size:1.24rem}
+  .kisa-oge .ne{font-size:1.04rem}
+}
 </style>
 
 <div id="ilerleme"></div>
@@ -635,11 +702,11 @@ body.okuma-modu #okuma-cubuk{display:flex}
 "use strict";
 
 var KATEGORILER=[
- {id:"b-vibe",foto:"gorseller/vibe.jpg",fotoAlt:"Karanlık ekranda kod satırları",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
  {id:"b-gunluk",foto:"gorseller/bolum-gunluk.jpg",fotoAlt:"Gazetenin yanında bir fincan çay",kisa:"Günlük",ad:"Kısa kısa",renk:"345 62% 48%",bicim:"gunluk",
   not:"Her sabah onaylı kaynaklardan derlenir: Claude, yapay zekâ, teknoloji, AB politikaları, köşe yazıları, spor ve fitness, sağlık. Özetler kendi cümlelerimizle, her biri kaynağına bağlı."},
  {id:"b-hafta",foto:"gorseller/bolum-hafta.jpg",fotoAlt:"Masada duran bir kondansatör mikrofon",kisa:"Haftalık sayı",ad:"Haftanın enleri",renk:"38 82% 40%",bicim:"haftalik",
   not:"Her pazar yeni sayı: araştırmaya dayanan bir kapak yazısı, haftanın yapay zekâ ve teknoloji manşetleri, seçilmiş videolar ve bir çalışma."},
+ {id:"b-vibe",foto:"gorseller/vibe.jpg",fotoAlt:"Karanlık ekranda kod satırları",kisa:"Kapak konusu",ad:"Vibe Coding",renk:"258 66% 56%",bicim:"kapak"},
  {id:"b-eticaret",foto:"gorseller/bolum-eticaret.jpg",fotoAlt:"Işıklı tezgâhları ve renkli malzemeleriyle bir atölye",kisa:"E-ticaret ve pazarlama",ad:"Ekonomi",renk:"24 74% 46%",bicim:"dosya",
   not:"Etsy görünürlüğü, listeleme, tedarik ve trafik. Uygulanabilir yöntem anlatanlar; kazanç vaadi değil."},
  {id:"b-bilim",foto:"gorseller/bolum-bilim.jpg",fotoAlt:"Mikroskopta Petri kabını inceleyen eldivenli bir el",kisa:"Onaylı kaynaklar",ad:"Bilim",renk:"196 70% 38%",bicim:"kisa",
@@ -653,7 +720,7 @@ var KATEGORILER=[
  {id:"b-github",foto:"gorseller/bolum-araclar.jpg",fotoAlt:"İki monitörlü bir yazılım masası",kisa:"Claude ekosistemi",ad:"Testler",renk:"282 42% 52%",bicim:"arac",
   not:"Claude üzerine en çok yıldız alan depolar ve kurulun kararı. Yıldızlar 5 Kasım 2026 taramasından; şişkin olabilir, tek başına ölçü değil."},
  {id:"b-arsiv",foto:"gorseller/bolum-arsiv.jpg",fotoAlt:"Raflara dizilmiş etiketli kartonlar",kisa:"Ana hattın dışında",ad:"Arşiv",renk:"220 8% 48%",bicim:"kisa",
-  not:"Derginin ana konularının dışında kalanlar. Başta kişisel çalışma dosyası: galeride müşteriyle konuşmak için Almanca, sesli okunuşlarıyla. Altında yazıya dökülmüş ama doğrulanamayan kazanç iddiası ya da satış hunisi taşıyan içerik; işe yarayan bölümleri olduğu için silinmedi."}
+  not:"Geçmiş günlerin Almancası burada birikir."}
 ];
 
 var YAZILAR={
@@ -753,26 +820,6 @@ var VERI=[
   d:"bekle",l:"https://www.importyeti.com",lb:"Siteye git",
   l2:"https://x.com/canceylandigi/status/2073718386647871556",lb2:"Kaynak"},
 
- {k:"b-arsiv",b:"Galerinin Kelimeleri",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
-  n:"Araç türleri, motor, donanım kısaltmaları, ilan dili, belgeler, para ve garanti kelimeleri; hepsi artikeliyle ve tablo hâlinde.",
-  u:"Her gün bir tablo: Türkçeyi kapat, Almancasını artikeliyle sesli söyle.",
-  d:"hazir",yazi:"almancaKelime"},
- {k:"b-arsiv",b:"İlk Beş Dakika",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
-  n:"Kibar Almancanın dört kuralı, karşılama, ihtiyaç soruları, aracı tanıtma, test sürüşü ve anlamadığında söylenecek cümleler.",
-  u:"'Anlamadığında' tablosunu ilk gün ezberle; en çok o kurtarır.",
-  d:"hazir",yazi:"almancaKarsilama"},
- {k:"b-arsiv",b:"Fiyat Sorulduğunda",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
-  n:"Almanca rakamlar, pazarlıkta müşterinin dolaylı cümleleri ve senin cevapların, takas, kredi, balon ödeme, kaparo ve nakit kuralı.",
-  u:"Galerideki on aracın fiyatını yüksek sesle oku; rakam hatası en pahalı hatadır.",
-  d:"hazir",yazi:"almancaFiyat"},
- {k:"b-arsiv",b:"İmzadan Anahtara",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
-  n:"Satış sözleşmesi, tescil için gereken belgeler, teslim konuşması, garanti kelimeleri ve şikâyete sakin cevap.",
-  u:"Şikâyette dinle, sor, kayda al, takvim ver; servis bakmadan suç kabul etme, reddetme.",
-  d:"hazir",yazi:"almancaTeslim"},
- {k:"b-arsiv",b:"Telefonda ve E-postada",m:["Galeride Almanca","Sesli okunuşlu","29 Eki 2026"],
-  n:"Telefon açılış kalıbı, randevu, harf harf söyleme, mobile.de mesajları ve kopyalanabilir dört e-posta şablonu.",
-  u:"Şablonları kendi galeri adınla doldurup telefonuna kaydet.",
-  d:"hazir",yazi:"almancaTelefon"},
  {k:"b-bilim",g:"gorseller/kaynak-quanta.jpg",b:"Quanta Magazine",m:["Dergi · İngilizce"],
   n:"Matematik, fizik, biyoloji ve bilgisayar bilimindeki araştırmaları uzmanı olmayana açıklayan yazılar. Açıklayıcı bilim yazısının en iyi örneklerinden.",
   d:"kaynak",l:"https://www.quantamagazine.org",lb:"Siteye git"},
@@ -841,12 +888,6 @@ var VERI=[
   u:"Sosyal medyada paylaşılan skill'leri tek tek takip etmek yerine bu listeyi ayda bir tara.",
   d:"referans",l:"https://github.com/ComposioHQ/awesome-claude-skills",lb:"GitHub"},
 
- {k:"b-arsiv",g:"gorseller/ekstrem.jpg",b:"Ekstrem Zorluk — 14 maddelik protokol",m:["Charlie Morgan","38:05","24 Eki 2026"],
-  n:"Video bir koçluk programının satış hunisi, \"40 milyon dolar\" iddiası doğrulanamıyor. Ama çalışma hızı, uyku disiplini ve dinlenme bölümleri sağlam.",
-  d:"hazir",yazi:"ekstrem",l:"https://x.com/paramuhendisim/status/2113900956404654279",lb:"Kaynak"},
- {k:"b-arsiv",g:"gorseller/youtube.jpg",b:"Claude ile YouTube geliri",m:["@paramuhendisim","12 Eki 2026","234 B"],
-  n:"Kazanç iddiası isimsiz, çerçeve para vaadi. Yazıya dökülmedi.",
-  d:"bekle",l:"https://x.com/paramuhendisim/status/2109552694742704353",lb:"Kaynak"}
 ];
 
 var ROZET={hazir:["rozet","Yazı hazır"],bekle:["rozet bekle","Sırada"],
@@ -855,7 +896,7 @@ var ROZET={hazir:["rozet","Yazı hazır"],bekle:["rozet bekle","Sırada"],
 
 // Dil: arayüz sözlükle, günlük haberler veri dosyasındaki en/de alanlarıyla; eksikse Türkçe
 var DIL=(function(){ try{ var d=localStorage.getItem("dil"); return d==="en"||d==="de"?d:"tr"; }catch(e){ return "tr"; } })();
-var CEV={"Bu sayıda":["In this issue","In dieser Ausgabe"],"Kategoriler":["Categories","Kategorien"],"☰ Kategoriler":["☰ Categories","☰ Kategorien"],"Tema":["Theme","Design"],"Tema değiştir":["Change theme","Design wechseln"],"Görünüm":["Appearance","Darstellung"],"Sistem":["System","System"],"Sayıda ara…":["Search this issue…","In der Ausgabe suchen…"],"Bölümler":["Sections","Rubriken"],"Bölümün başına git":["Go to section start","Zum Rubrikanfang"],"← Masaya dön":["← Back to the desk","← Zurück zum Tisch"],"Okuma ayarları":["Reading settings","Leseeinstellungen"],"Yazı boyutu":["Text size","Schriftgröße"],"Satır genişliği":["Line width","Zeilenbreite"],"Zemin":["Background","Hintergrund"],"Dar":["Narrow","Schmal"],"Orta":["Medium","Mittel"],"Geniş":["Wide","Breit"],"Açık zemin":["Light","Hell"],"Gri zemin":["Grey","Grau"],"Koyu zemin":["Dark","Dunkel"],"Sepya zemin":["Sepia","Sepia"],"Küçült (−)":["Smaller (−)","Kleiner (−)"],"Büyüt (+)":["Larger (+)","Größer (+)"],"Sesli":["Read aloud","Vorlesen"],"İçindekiler":["Contents","Inhalt"],"Kaynak":["Source","Quelle"],"Oku":["Read","Lesen"],"Oku →":["Read →","Lesen →"],"Yazıyı oku":["Read the article","Artikel lesen"],"Kapak yazısını oku":["Read the cover story","Titelgeschichte lesen"],"Kapak yazısı":["Cover story","Titelgeschichte"],"Kapak konusu:":["Cover topic:","Titelthema:"],"Kapak konusu":["Cover topic","Titelthema"],"Kaynaklarda ara":["Search sources","Quellen durchsuchen"],"Eşleşen kaynak yok. Başka bir kelime dene.":["No matching source. Try another word.","Keine passende Quelle. Versuche ein anderes Wort."],"Yazı yükleniyor…":["Loading article…","Artikel wird geladen…"],"Yazı yüklenemedi. Sayfayı yenilemeyi dene.":["The article could not be loaded. Try refreshing.","Der Artikel konnte nicht geladen werden. Lade die Seite neu."],"Bugünün derlemesi yükleniyor…":["Loading today's briefing…","Das heutige Briefing wird geladen…"],"Bu haftanın sayısı yükleniyor…":["Loading this week's issue…","Die Ausgabe dieser Woche wird geladen…"],"Bu haftanın sayısı":["This week's issue","Ausgabe dieser Woche"],"İlk sayı pazar günü çıkacak.":["The first issue comes out on Sunday.","Die erste Ausgabe erscheint am Sonntag."],"Haftanın manşetleri":["Headlines of the week","Schlagzeilen der Woche"],"Haftanın videoları":["Videos of the week","Videos der Woche"],"Haftanın çalışması":["Study of the week","Studie der Woche"],"YouTube’dan seçilenler":["Picked from YouTube","Ausgewählt auf YouTube"],"Günün Almancası":["German of the day","Deutsch des Tages"],"Önceki sayılar":["Previous issues","Frühere Ausgaben"],"Fotoğraf: Unsplash":["Photo: Unsplash","Foto: Unsplash"],"Claude ve yapay zekâ":["Claude and AI","Claude und KI"],"Yapay zekâ":["AI","KI"],"Teknoloji":["Technology","Technologie"],"AB politikaları":["EU policy","EU-Politik"],"Köşe yazıları":["Columns","Kolumnen"],"Köşe yazısı":["Column","Kolumne"],"Spor ve fitness":["Sport and fitness","Sport und Fitness"],"Sağlık":["Health","Gesundheit"],"E-ticaret":["E-commerce","E-Commerce"],"Bilim":["Science","Wissenschaft"],"Diğer":["Other","Sonstiges"],"Haber":["News","Nachricht"],"Günlük":["Daily","Täglich"],"Kısa kısa":["In brief","Kurz gemeldet"],"Haftalık sayı":["Weekly issue","Wochenausgabe"],"Haftanın enleri":["Best of the week","Das Beste der Woche"],"Dosya":["Dossier","Dossier"],"Claude ve ajanlar":["Claude and agents","Claude und Agenten"],"Temeller":["Foundations","Grundlagen"],"Yapay zekâ nasıl çalışır":["How AI works","Wie KI funktioniert"],"Nasıl yapılır":["How-to","Anleitungen"],"E-ticaret ve pazarlama":["E-commerce and marketing","E-Commerce und Marketing"],"Bilim ve teknoloji":["Science and technology","Wissenschaft und Technik"],"Onaylı kaynaklar":["Verified sources","Geprüfte Quellen"],"Sağlık ve fitness":["Health and fitness","Gesundheit und Fitness"],"Spor, fitness ve sağlık":["Sport, fitness and health","Sport, Fitness und Gesundheit"],"Araç kutusu":["Toolbox","Werkzeugkasten"],"Claude ekosistemi":["Claude ecosystem","Claude-Ökosystem"],"Arşiv":["Archive","Archiv"],"Ana hattın dışında":["Off the main line","Abseits der Hauptlinie"],"Her sabah onaylı kaynaklardan derlenir: Claude, yapay zekâ, teknoloji, AB politikaları, köşe yazıları, spor ve fitness, sağlık. Özetler kendi cümlelerimizle, her biri kaynağına bağlı.":["Compiled every morning from verified sources: Claude, AI, technology, EU policy, columns, sport and fitness, health. Summaries are in our own words, each linked to its source.","Jeden Morgen aus geprüften Quellen zusammengestellt: Claude, KI, Technologie, EU-Politik, Kolumnen, Sport und Fitness, Gesundheit. Die Zusammenfassungen sind in eigenen Worten verfasst und jeweils mit der Quelle verlinkt."],"Her pazar yeni sayı: araştırmaya dayanan bir kapak yazısı, haftanın yapay zekâ ve teknoloji manşetleri, seçilmiş videolar ve bir çalışma.":["A new issue every Sunday: a research-based cover story, the week's AI and technology headlines, selected videos and one study.","Jeden Sonntag eine neue Ausgabe: eine recherchierte Titelgeschichte, die KI- und Technologie-Schlagzeilen der Woche, ausgewählte Videos und eine Studie."],"Ajanı güvenilir hâle getirme, skill yazma, bağlam yönetimi. Resmî kaynaklar ve doğrulanmış eğitim videoları.":["Making agents reliable, writing skills, managing context. Official sources and verified training videos.","Agenten zuverlässig machen, Skills schreiben, Kontext verwalten. Offizielle Quellen und geprüfte Lernvideos."],"Modellerin ve ajanların nasıl çalıştığı. Bunu bilmeden üsttekiler ezber kalır.":["How models and agents work. Without this, everything above is rote learning.","Wie Modelle und Agenten funktionieren. Ohne dieses Wissen bleibt alles Obige Auswendiglernen."],"Etsy görünürlüğü, listeleme, tedarik ve trafik. Uygulanabilir yöntem anlatanlar; kazanç vaadi değil.":["Etsy visibility, listings, sourcing and traffic. Practical methods, not promises of income.","Etsy-Sichtbarkeit, Listings, Beschaffung und Traffic. Praktische Methoden statt Verdienstversprechen."],"Günlük derlemenin bilim ayağı bu kaynaklardan beslenir: açıklayıcı ve araştırmaya dayanan yayınlar.":["The science side of the daily briefing draws on these sources: explanatory, research-based publications.","Der Wissenschaftsteil des täglichen Briefings stützt sich auf diese Quellen: erklärende, forschungsbasierte Publikationen."],"Antrenman, beslenme ve sağlık üzerine seçilmiş kaynaklar. Buradaki hiçbir şey tıbbi tavsiye değildir.":["Selected sources on training, nutrition and health. Nothing here is medical advice.","Ausgewählte Quellen zu Training, Ernährung und Gesundheit. Nichts hiervon ist medizinischer Rat."],"Politika":["Politics","Politik"],"Dijital":["Digital","Netzwelt"],"Spor":["Sport","Sport"],"Yaşam":["Life","Leben"],"Tartışma":["Debate","Debatte"],"Ekonomi":["Economy","Wirtschaft"],"Testler":["Reviews","Tests"],"Spor ve yaşam":["Sport and life","Sport und Leben"],"Dünya":["World","Ausland"],"Sosyal medya":["Social media","Soziale Medien"],"Bugünkü haberler":["Today's news","Heutige Nachrichten"],"Bugünün haberleri":["Today's news","Heutige Nachrichten"],"Fitness ve sağlık kaynakları":["Fitness and health sources","Quellen zu Fitness und Gesundheit"],"Bu ay öne çıkan yeni skill depoları":["New skill repositories this month","Neue Skill-Repositories dieses Monats"]};
+var CEV={"Bu sayıda":["In this issue","In dieser Ausgabe"],"Kategoriler":["Categories","Kategorien"],"☰ Kategoriler":["☰ Categories","☰ Kategorien"],"Tema":["Theme","Design"],"Tema değiştir":["Change theme","Design wechseln"],"Görünüm":["Appearance","Darstellung"],"Sistem":["System","System"],"Sayıda ara…":["Search this issue…","In der Ausgabe suchen…"],"Bölümler":["Sections","Rubriken"],"Bölümün başına git":["Go to section start","Zum Rubrikanfang"],"← Masaya dön":["← Back to the desk","← Zurück zum Tisch"],"Okuma ayarları":["Reading settings","Leseeinstellungen"],"Yazı boyutu":["Text size","Schriftgröße"],"Satır genişliği":["Line width","Zeilenbreite"],"Zemin":["Background","Hintergrund"],"Dar":["Narrow","Schmal"],"Orta":["Medium","Mittel"],"Geniş":["Wide","Breit"],"Açık zemin":["Light","Hell"],"Gri zemin":["Grey","Grau"],"Koyu zemin":["Dark","Dunkel"],"Sepya zemin":["Sepia","Sepia"],"Küçült (−)":["Smaller (−)","Kleiner (−)"],"Büyüt (+)":["Larger (+)","Größer (+)"],"Sesli":["Read aloud","Vorlesen"],"İçindekiler":["Contents","Inhalt"],"Kaynak":["Source","Quelle"],"Oku":["Read","Lesen"],"Oku →":["Read →","Lesen →"],"Yazıyı oku":["Read the article","Artikel lesen"],"Kapak yazısını oku":["Read the cover story","Titelgeschichte lesen"],"Kapak yazısı":["Cover story","Titelgeschichte"],"Kapak konusu:":["Cover topic:","Titelthema:"],"Kapak konusu":["Cover topic","Titelthema"],"Kaynaklarda ara":["Search sources","Quellen durchsuchen"],"Eşleşen kaynak yok. Başka bir kelime dene.":["No matching source. Try another word.","Keine passende Quelle. Versuche ein anderes Wort."],"Yazı yükleniyor…":["Loading article…","Artikel wird geladen…"],"Yazı yüklenemedi. Sayfayı yenilemeyi dene.":["The article could not be loaded. Try refreshing.","Der Artikel konnte nicht geladen werden. Lade die Seite neu."],"Bugünün derlemesi yükleniyor…":["Loading today's briefing…","Das heutige Briefing wird geladen…"],"Bu haftanın sayısı yükleniyor…":["Loading this week's issue…","Die Ausgabe dieser Woche wird geladen…"],"Bu haftanın sayısı":["This week's issue","Ausgabe dieser Woche"],"İlk sayı pazar günü çıkacak.":["The first issue comes out on Sunday.","Die erste Ausgabe erscheint am Sonntag."],"Haftanın manşetleri":["Headlines of the week","Schlagzeilen der Woche"],"Haftanın videoları":["Videos of the week","Videos der Woche"],"Haftanın çalışması":["Study of the week","Studie der Woche"],"YouTube’dan seçilenler":["Picked from YouTube","Ausgewählt auf YouTube"],"Günün Almancası":["German of the day","Deutsch des Tages"],"Önceki sayılar":["Previous issues","Frühere Ausgaben"],"Fotoğraf: Unsplash":["Photo: Unsplash","Foto: Unsplash"],"Claude ve yapay zekâ":["Claude and AI","Claude und KI"],"Yapay zekâ":["AI","KI"],"Teknoloji":["Technology","Technologie"],"AB politikaları":["EU policy","EU-Politik"],"Köşe yazıları":["Columns","Kolumnen"],"Köşe yazısı":["Column","Kolumne"],"Spor ve fitness":["Sport and fitness","Sport und Fitness"],"Sağlık":["Health","Gesundheit"],"E-ticaret":["E-commerce","E-Commerce"],"Bilim":["Science","Wissenschaft"],"Diğer":["Other","Sonstiges"],"Haber":["News","Nachricht"],"Günlük":["Daily","Täglich"],"Kısa kısa":["In brief","Kurz gemeldet"],"Haftalık sayı":["Weekly issue","Wochenausgabe"],"Haftanın enleri":["Best of the week","Das Beste der Woche"],"Dosya":["Dossier","Dossier"],"Claude ve ajanlar":["Claude and agents","Claude und Agenten"],"Temeller":["Foundations","Grundlagen"],"Yapay zekâ nasıl çalışır":["How AI works","Wie KI funktioniert"],"Nasıl yapılır":["How-to","Anleitungen"],"E-ticaret ve pazarlama":["E-commerce and marketing","E-Commerce und Marketing"],"Bilim ve teknoloji":["Science and technology","Wissenschaft und Technik"],"Onaylı kaynaklar":["Verified sources","Geprüfte Quellen"],"Sağlık ve fitness":["Health and fitness","Gesundheit und Fitness"],"Spor, fitness ve sağlık":["Sport, fitness and health","Sport, Fitness und Gesundheit"],"Araç kutusu":["Toolbox","Werkzeugkasten"],"Claude ekosistemi":["Claude ecosystem","Claude-Ökosystem"],"Arşiv":["Archive","Archiv"],"Ana hattın dışında":["Off the main line","Abseits der Hauptlinie"],"Her sabah onaylı kaynaklardan derlenir: Claude, yapay zekâ, teknoloji, AB politikaları, köşe yazıları, spor ve fitness, sağlık. Özetler kendi cümlelerimizle, her biri kaynağına bağlı.":["Compiled every morning from verified sources: Claude, AI, technology, EU policy, columns, sport and fitness, health. Summaries are in our own words, each linked to its source.","Jeden Morgen aus geprüften Quellen zusammengestellt: Claude, KI, Technologie, EU-Politik, Kolumnen, Sport und Fitness, Gesundheit. Die Zusammenfassungen sind in eigenen Worten verfasst und jeweils mit der Quelle verlinkt."],"Her pazar yeni sayı: araştırmaya dayanan bir kapak yazısı, haftanın yapay zekâ ve teknoloji manşetleri, seçilmiş videolar ve bir çalışma.":["A new issue every Sunday: a research-based cover story, the week's AI and technology headlines, selected videos and one study.","Jeden Sonntag eine neue Ausgabe: eine recherchierte Titelgeschichte, die KI- und Technologie-Schlagzeilen der Woche, ausgewählte Videos und eine Studie."],"Ajanı güvenilir hâle getirme, skill yazma, bağlam yönetimi. Resmî kaynaklar ve doğrulanmış eğitim videoları.":["Making agents reliable, writing skills, managing context. Official sources and verified training videos.","Agenten zuverlässig machen, Skills schreiben, Kontext verwalten. Offizielle Quellen und geprüfte Lernvideos."],"Modellerin ve ajanların nasıl çalıştığı. Bunu bilmeden üsttekiler ezber kalır.":["How models and agents work. Without this, everything above is rote learning.","Wie Modelle und Agenten funktionieren. Ohne dieses Wissen bleibt alles Obige Auswendiglernen."],"Etsy görünürlüğü, listeleme, tedarik ve trafik. Uygulanabilir yöntem anlatanlar; kazanç vaadi değil.":["Etsy visibility, listings, sourcing and traffic. Practical methods, not promises of income.","Etsy-Sichtbarkeit, Listings, Beschaffung und Traffic. Praktische Methoden statt Verdienstversprechen."],"Günlük derlemenin bilim ayağı bu kaynaklardan beslenir: açıklayıcı ve araştırmaya dayanan yayınlar.":["The science side of the daily briefing draws on these sources: explanatory, research-based publications.","Der Wissenschaftsteil des täglichen Briefings stützt sich auf diese Quellen: erklärende, forschungsbasierte Publikationen."],"Antrenman, beslenme ve sağlık üzerine seçilmiş kaynaklar. Buradaki hiçbir şey tıbbi tavsiye değildir.":["Selected sources on training, nutrition and health. Nothing here is medical advice.","Ausgewählte Quellen zu Training, Ernährung und Gesundheit. Nichts hiervon ist medizinischer Rat."],"Politika":["Politics","Politik"],"Dijital":["Digital","Netzwelt"],"Spor":["Sport","Sport"],"Yaşam":["Life","Leben"],"Tartışma":["Debate","Debatte"],"Ekonomi":["Economy","Wirtschaft"],"Testler":["Reviews","Tests"],"Spor ve yaşam":["Sport and life","Sport und Leben"],"Dünya":["World","Ausland"],"Sosyal medya":["Social media","Soziale Medien"],"Bugünkü haberler":["Today's news","Heutige Nachrichten"],"Bugünün haberleri":["Today's news","Heutige Nachrichten"],"Fitness ve sağlık kaynakları":["Fitness and health sources","Quellen zu Fitness und Gesundheit"],"Bu ay öne çıkan yeni skill depoları":["New skill repositories this month","Neue Skill-Repositories dieses Monats"],"Geçmiş günlerin Almancası burada birikir.":["Past German of the day entries collect here.","Hier sammelt sich das Deutsch der vergangenen Tage."]};
 var AYLAR_C={Ocak:["January","Januar"],"Şubat":["February","Februar"],Mart:["March","März"],Nisan:["April","April"],"Mayıs":["May","Mai"],Haziran:["June","Juni"],Temmuz:["July","Juli"],"Ağustos":["August","August"],"Eylül":["September","September"],Ekim:["October","Oktober"],"Kasım":["November","November"],"Aralık":["December","Dezember"]};
 function dilSira(){ return DIL==="en"?0:1; }
 function ceviriUygula(kok){
@@ -1103,6 +1144,7 @@ function gunlukCiz(v){
   if(saglikVar) h+='<p class="saglik-not">Sağlık, fitness ve spor başlıkları bilgi amaçlıdır, tıbbi tavsiye değildir.</p>';
   kutu.innerHTML=h;
   almancaCiz(gunler);
+  if(/^#g-/.test(location.hash)){ var gh=document.getElementById(location.hash.slice(1)); if(gh) gh.scrollIntoView(); }
   var n=sec.querySelector(".n"); if(n) n.textContent=gunler[0].ogeler.length;
   if(ara.value.trim()) filtrele();
 }
