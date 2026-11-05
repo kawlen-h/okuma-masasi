@@ -13,7 +13,15 @@
           "not": "Bizde: API ile içerik üretiyorsan temperature, top_p ve top_k ayarlarını not et; uyum gerekiyorsa varsayılana al.",
           "ig": "Claude'un eski modellerinde filigran 16 Kasım'da geliyor, ama temperature, top_p ya da top_k değişirse uygulanmıyor. Anthropic bunu API müşterilerine e-postayla bildirdi.",
           "igNot": "API ayarlarını kontrol et; uyum gerekiyorsa üçünü varsayılanda tut.",
-          "foto": "bolum-claude"
+          "foto": "bolum-claude",
+          "en": {
+            "baslik": "Claude watermark fails for API users who change the setting",
+            "ozet": "Anthropic told API customers in an email that text watermarking will reach Opus 4.6, Opus 4.5, Sonnet 4.5 and Haiku 4.5 on 16 November; the date for Opus 4.6 was pushed back from 3 November. According to the same email, the watermark applies on these models only while temperature, top_p and top_k are at their defaults; changing any one of them disables it. Models released after 2 August carry the watermark from day one, but the email does not apply this condition to Mythos 5 and Opus 4.7. To comply with the regulation, API users who rely on the watermark must keep these 3 settings at their defaults before the EU AI Act's December deadline."
+          },
+          "de": {
+            "baslik": "Claude-Wasserzeichen greift nicht bei API-Nutzern, die die Einstellung ändern",
+            "ozet": "Anthropic hat API-Kunden per E-Mail mitgeteilt, dass das Textwasserzeichen am 16. November für Opus 4.6, Opus 4.5, Sonnet 4.5 und Haiku 4.5 kommt; der Termin für Opus 4.6 wurde gegenüber dem 3. November verschoben. Laut derselben E-Mail greift es bei diesen Modellen nur, solange temperature, top_p und top_k auf dem Standardwert stehen; die Änderung eines dieser Werte deaktiviert es. Bei Modellen, die nach dem 2. August erschienen sind, ist es ab dem ersten Tag aktiv; die E-Mail wendet diese Bedingung jedoch nicht auf Mythos 5 und Opus 4.7 an. Um die Verordnung einzuhalten, müssen API-Nutzer, die auf das Wasserzeichen setzen, diese 3 Einstellungen vor der Dezember-Frist des EU-KI-Gesetzes auf dem Standardwert belassen."
+          }
         },
         {
           "alan": "yz",
@@ -24,7 +32,15 @@
           "not": "Bizde: Üçüncü taraf ajan aracına bağlı işlerin için bugün dışa aktarılabilir bir yedek tut.",
           "ig": "Meta, paralel kodlama ajanları aracı Conductor'ı aldı. Bulut hizmeti 20 Kasım'da kapanıyor, ardından bulut verisi silinecek; bedel açıklanmadı.",
           "igNot": "Üçüncü taraf ajan aracındaki işlerinin yedeğini al.",
-          "foto": "pm"
+          "foto": "pm",
+          "en": {
+            "baslik": "Meta acquires Conductor; cloud service shuts down on 20 November",
+            "ozet": "Meta has bought Conductor, the company founded in 2024 that manages multiple coding agents in parallel workspaces; the price was not disclosed. Conductor did not use its own model but relied on agents from Anthropic and OpenAI. The cloud service closes on 20 November, after which users' cloud data will begin to be deleted. Core features will keep running until the start of 2027, and founder Charlie Holtz has promised a new product by then. Users must move their data within 2 weeks; another independent agent tool has come under the umbrella of a larger lab."
+          },
+          "de": {
+            "baslik": "Meta übernimmt Conductor; Cloud-Dienst wird am 20. November abgeschaltet",
+            "ozet": "Meta hat Conductor übernommen, das 2024 gegründete Tool, das mehrere Coding-Agenten in parallelen Arbeitsbereichen steuert; der Preis wurde nicht genannt. Conductor setzte nicht auf ein eigenes Modell, sondern auf Agenten von Anthropic und OpenAI. Der Cloud-Dienst wird am 20. November eingestellt, danach werden die Cloud-Daten der Nutzer gelöscht. Die Kernfunktionen laufen bis Anfang 2027 weiter; Gründer Charlie Holtz hat bis dahin ein neues Produkt angekündigt. Nutzer müssen ihre Daten innerhalb von 2 Wochen sichern; ein unabhängiges Agenten-Tool ist damit erneut unter das Dach eines größeren Labors gewandert."
+          }
         },
         {
           "alan": "yz",
@@ -33,7 +49,15 @@
           "kaynak": "OpenAI, The Decoder · 4 Kasım 2026",
           "url": "https://openai.com/index/openai-to-acquire-pierre",
           "ig": "OpenAI, Code Storage ve açık kaynak Trees, Diffs, Highlights araçlarının yapımcısı Pierre'i alıyor. Bedel açıklanmadı, anlaşma düzenleyici onaya bağlı.",
-          "foto": "vibe"
+          "foto": "vibe",
+          "en": {
+            "baslik": "OpenAI to acquire Pierre, maker of Git tools",
+            "ozet": "On 4 November OpenAI announced it will acquire Pierre Computer Company, which builds the open-source tools Trees, Diffs and Highlights and the Code Storage service; the price was not disclosed and the deal is subject to regulatory approval. Codex already uses Pierre's libraries, and OpenAI already has its own version control system, Pando. The company's rationale is that Git workflows must keep pace as the number of agents working in parallel grows. Open-source projects will remain open, so for developers who use the tools, usage does not change in the short term."
+          },
+          "de": {
+            "baslik": "OpenAI übernimmt Pierre, den Hersteller von Git-Werkzeugen",
+            "ozet": "OpenAI hat am 4. November angekündigt, Pierre Computer Company zu übernehmen, die die Open-Source-Werkzeuge Trees, Diffs und Highlights sowie den Speicherdienst Code Storage entwickelt; der Preis wurde nicht genannt, die Übernahme steht unter behördlichem Vorbehalt. Codex nutzt bereits Pierre-Bibliotheken, und OpenAI verfügt mit Pando bereits über eigene Versionsverwaltung. Begründung: Wenn immer mehr Agenten parallel arbeiten, müssen die Git-Workflows mithalten. Open-Source-Projekte bleiben offen; für Entwickler, die die Werkzeuge nutzen, ändert sich die Nutzung kurzfristig nicht."
+          }
         },
         {
           "alan": "yz",
@@ -44,7 +68,15 @@
           "not": "Bizde: Etsy ürün fotoğrafından kısa bir GIF dene, Instagram'da duran görselle karşılaştır.",
           "ig": "ChatGPT ve Codex'te Images 2.6 ile metinden ya da fotoğraftan GIF üretimi açılıyor. Kareler tek tek düzenlenebiliyor; haftalık üretim dört milyar görseli aştı.",
           "igNot": "Bir ürün fotoğrafından GIF dene, duran görselle karşılaştır.",
-          "foto": "youtube"
+          "foto": "youtube",
+          "en": {
+            "baslik": "GIF generation in ChatGPT: Images 2.6 opens to all users",
+            "ozet": "OpenAI has started rolling out animated GIF generation in ChatGPT and Codex with its Images 2.6 model, from text or an uploaded photo, on web, desktop and mobile. Users can adjust animation speed and edit individual frames; the model aims to keep characters consistent across frames. According to the company, weekly image generation across ChatGPT and the API is well above 4 billion, roughly 1 billion more than in September. For developers, Flare and Sunburst versions are offered; the article gives no frame limit or pricing for GIFs."
+          },
+          "de": {
+            "baslik": "GIF-Erstellung in ChatGPT: Images 2.6 steht allen Nutzern offen",
+            "ozet": "OpenAI hat mit dem Modell Images 2.6 die Erstellung animierter GIFs in ChatGPT und Codex aus Text oder einem hochgeladenen Foto gestartet, im Web, auf dem Desktop und mobil. Nutzer können die Animationsgeschwindigkeit anpassen und einzelne Frames bearbeiten; das Modell soll Figuren über alle Frames hinweg konsistent halten. Laut Unternehmen liegt die wöchentliche Bildproduktion in ChatGPT und der API deutlich über 4 Milliarden Bilder, rund 1 Milliarde mehr als im September. Für Entwickler gibt es die Versionen Flare und Sunburst; zur Frame-Obergrenze und zum Preis für GIFs nennt der Bericht keine Angaben."
+          }
         },
         {
           "alan": "yz",
@@ -55,7 +87,15 @@
           "not": "Bizde: Etsy'de ajan trafiği için yatırımı beklet, müşterinin sipariş adımlarını kısaltmaya bak.",
           "ig": "Uber'de yoğun bir haftada 320 milyon işlemin yalnızca 4 yolculuk ve yaklaşık 500 siparişi yapay zekâ ajanlarından geldi. CEO bunu çok erken ve sınırlı dedi.",
           "igNot": "Ajan trafiğini beklemek yerine sipariş adımlarını kısalt.",
-          "foto": "ajanlar"
+          "foto": "ajanlar",
+          "en": {
+            "baslik": "Uber: only 4 trips via AI agents in Halloween week",
+            "ozet": "In its third-quarter earnings call, Uber said that in October's busiest week, AI agents generated 4 rides and about 500 Uber Eats orders, out of about 320 million total in that week. CEO Dara Khosrowshahi called this very early and very limited, noting that in the app a ride is booked in an average of 50 seconds and a repeat food order in 90 seconds. DoorDash also said last week it had received only a few hundred orders from agents. Against expectations that agents will take over shopping and ordering traffic, there is one concrete measure for now: if habits are fast, the agent saves no time."
+          },
+          "de": {
+            "baslik": "Uber: In der Halloween-Woche nur 4 Fahrten über KI-Agenten",
+            "ozet": "Uber nannte im Quartalsgespräch zum dritten Quartal, dass KI-Agenten in der verkehrsreichsten Oktoberwoche 4 Fahrten und rund 500 Uber-Eats-Bestellungen vermittelten; die Gesamtzahl lag in derselben Woche bei etwa 320 Millionen. CEO Dara Khosrowshahi nannte das sehr früh und sehr begrenzt und erinnerte daran, dass in der App eine Fahrt im Schnitt in 50 Sekunden gebucht ist, eine wiederholte Essensbestellung in 90 Sekunden. DoorDash hatte letzte Woche ebenfalls nur wenige hundert Bestellungen über Agenten gemeldet. Die Erwartung, dass Agenten Einkauf und Bestellverkehr übernehmen, hat vorerst nur eine konkrete Messgröße: Wenn Gewohnheiten schnell sind, spart der Agent keine Zeit."
+          }
         },
         {
           "alan": "yz",
@@ -64,7 +104,15 @@
           "kaynak": "Hugging Face · 4 Kasım 2026",
           "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
           "ig": "Moonshot, 2,8 trilyon parametreli Kimi K3.1 Pro'nun ağırlıklarını açtı. Bağlam yaklaşık 1 milyon token, lisans özel; sonuçlar şirketin kendi ölçümü.",
-          "foto": "alan-yz"
+          "foto": "alan-yz",
+          "en": {
+            "baslik": "Kimi K3.1 Pro weights released: 2.8 trillion parameters",
+            "ozet": "Moonshot AI released Kimi K3.1 Pro with open weights on Hugging Face: 2.8 trillion parameters, 104 billion active parameters per token, and a context window of about 1 million tokens. Compared with K3, it was retrained with large-scale reinforcement learning, and the attention layers were changed for long context. In the company's own table it scores 65.7 on Terminal-Bench 4.0, but only 38.1 on Terminal-Bench-Science, behind GPT-6 Astra's 68.1. The license is not a standard open-source license but a custom Kimi license; the model's size also limits its practical use to users with large servers."
+          },
+          "de": {
+            "baslik": "Kimi K3.1 Pro mit offenen Gewichten: 2,8 Billionen Parameter",
+            "ozet": "Moonshot AI hat Kimi K3.1 Pro mit offenen Gewichten auf Hugging Face veröffentlicht: 2,8 Billionen Parameter, 104 Milliarden aktive Parameter pro Token und ein Kontextfenster von rund 1 Million Token. Gegenüber K3 wurde das Modell mit groß angelegtem Reinforcement Learning neu trainiert, die Aufmerksamkeitsschichten für langen Kontext wurden verändert. In der eigenen Tabelle erreicht es bei Terminal-Bench 4.0 einen Wert von 65,7, bei Terminal-Bench-Science jedoch nur 38,1 und liegt damit hinter GPT-6 Astra mit 68,1. Die Lizenz ist keine Standard-Open-Source-Lizenz, sondern eine eigene Kimi-Lizenz; die Größe beschränkt das Modell zudem in der Praxis auf Nutzer mit großen Servern."
+          }
         },
         {
           "alan": "teknoloji",
@@ -75,7 +123,15 @@
           "not": "Bizde: İşte kullandığın telefonda bugün sistem ve Chrome güncellemesini kontrol et.",
           "ig": "Sekoia, ele geçirilmiş sitelerden iOS ve Android'e saldıran kampanyayı APT29'a bağladı. Açıklar yamalı; risk güncellenmemiş telefonlarda.",
           "igNot": "Telefonda sistem ve Chrome güncellemesini kontrol et.",
-          "foto": "arac-claudecode"
+          "foto": "arac-claudecode",
+          "en": {
+            "baslik": "APT29 attack targets phones of visitors to compromised sites",
+            "ozet": "Sekoia said that compromised sites in the US, Ukraine, Czechia and Bulgaria recognize the visitor's device and run the matching exploit chain; with medium-to-high confidence it linked the campaign to the Russian group APT29. On iOS the targets were Safari cookies, WhatsApp and Telegram data in newer versions, Keychain, location and photos; on Android, Chrome cookies, login credentials, history and saved Wi-Fi passwords. All the vulnerabilities used have been fixed by Apple and Google, and the patches have also reached older iOS versions. The malware is not persistent; a restart stops the activity, so the real risk lies with phones that have not been updated."
+          },
+          "de": {
+            "baslik": "APT29-Angriff: Telefone von Besuchern kompromittierter Websites gezielt angegriffen",
+            "ozet": "Sekoia berichtet, dass kompromittierte Websites in den USA, der Ukraine, Tschechien und Bulgarien das Gerät des Besuchers erkennen und die passende Exploit-Kette ausführen; die Kampagne wird mit mittlerer bis hoher Sicherheit der russischen Gruppe APT29 zugeschrieben. Auf iOS zielte sie auf Safari-Cookies, in neueren Versionen auf WhatsApp- und Telegram-Daten, auf den Schlüsselbund, Standort und Fotos; auf Android auf Chrome-Cookies, Zugangsdaten, Verlauf und gespeicherte WLAN-Passwörter. Alle genutzten Sicherheitslücken wurden von Apple beziehungsweise Google geschlossen, die Patches reichen auch bis zu älteren iOS-Versionen. Die Schadsoftware bleibt nicht dauerhaft auf dem Gerät; ein Neustart beendet die Aktivität. Das eigentliche Risiko liegt bei nicht aktualisierten Telefonen."
+          }
         },
         {
           "alan": "teknoloji",
@@ -86,7 +142,15 @@
           "not": "Bizde: Canva'daki Etsy şablonlarının kaynak dosyalarını bugün dışa aktarıp yedekle.",
           "ig": "Canva yaklaşık 1.271 kişiyi, kadrosunun yüzde 22'sini çıkarıyor. Yapay zekâ maliyetleri nedeniyle büyüme tahmini yüzde 30'dan 20'ye indi.",
           "igNot": "Canva'daki şablonlarının kaynak dosyalarını yedekle.",
-          "foto": "arac-uiux"
+          "foto": "arac-uiux",
+          "en": {
+            "baslik": "Canva cuts 22 percent of its staff",
+            "ozet": "Canva is laying off about 1,271 people, 22 percent of its workforce; CEO Melanie Perkins wrote to employees that growth has slowed for the first time in 10 years. Citing AI costs, the company cut its revenue growth forecast from 30 percent to 20 percent, and it faces pressure from ChatGPT and Gemini, which also generate posters and presentations, despite developing its own models. Product, growth and platform teams are being merged, and working arrangements are moving to hybrid. For small businesses that use the design software, the product roadmap and pricing could be reshaped."
+          },
+          "de": {
+            "baslik": "Canva streicht 22 Prozent der Belegschaft",
+            "ozet": "Canva entlässt rund 1.271 Beschäftigte, 22 Prozent der Belegschaft; CEO Melanie Perkins schrieb den Mitarbeitenden, dass das Wachstum erstmals seit 10 Jahren nachlässt. Wegen der KI-Kosten senkte das Unternehmen seine Umsatzwachstumsprognose von 30 auf 20 Prozent und sieht sich trotz eigener Modelle dem Druck von ChatGPT und Gemini gegenüber, die ebenfalls Poster und Präsentationen erzeugen. Produkt-, Wachstums- und Plattformteams werden zusammengelegt, die Arbeitsmodelle wechseln zu Hybrid. Für kleine Unternehmen, die die Design-Software nutzen, könnten Produkt-Roadmap und Preise neu gestaltet werden."
+          }
         },
         {
           "alan": "teknoloji",
@@ -104,7 +168,15 @@
           "kaynak": "CNBC, Qualcomm · 4 Kasım 2026",
           "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
           "ig": "Qualcomm'da telefon çipi geliri yüzde 26 düşüp 5,14 milyar dolara indi. Veri merkezi 650 milyon dolar getirdi, 2027 hedefi 5 milyar dolar.",
-          "foto": "mobil"
+          "foto": "mobil",
+          "en": {
+            "baslik": "Qualcomm: phone chip revenue down 26 percent, data centers in focus",
+            "ozet": "Qualcomm reported adjusted revenue of 10.44 billion dollars for its fiscal fourth quarter, about 7 percent lower than a year earlier. Phone chip sales fell 26 percent to 5.14 billion dollars, the data center business brought in about 650 million dollars, and the company reiterated its target of 5 billion dollars for fiscal 2027. A multi-generation product collaboration with Amazon for AI data centers was also announced. Memory shortages are hitting phone demand, so the forecast for the next quarter came in below expectations and the stock fell 7 percent, a sign that pressure on Android phone prices persists."
+          },
+          "de": {
+            "baslik": "Qualcomm: Umsatz mit Smartphone-Chips sinkt um 26 Prozent, Rechenzentren im Fokus",
+            "ozet": "Qualcomm meldete für das vierte Geschäftsquartal einen bereinigten Umsatz von 10,44 Milliarden US-Dollar, rund 7 Prozent weniger als im Vorjahr. Der Absatz von Smartphone-Chips sank um 26 Prozent auf 5,14 Milliarden Dollar, das Rechenzentrumsgeschäft brachte rund 650 Millionen Dollar, und das Unternehmen bekräftigte sein Ziel von 5 Milliarden Dollar für das Geschäftsjahr 2027. Zudem wurde eine Produktkooperation mit Amazon über mehrere Chipgenerationen für KI-Rechenzentren angekündigt. Der Speicherchip-Mangel drückt die Smartphone-Nachfrage; die Prognose für das nächste Quartal fiel deshalb unter den Erwartungen, die Aktie verlor 7 Prozent. Der Druck auf die Preise von Android-Smartphones hält damit an."
+          }
         },
         {
           "alan": "ab",
@@ -113,7 +185,15 @@
           "kaynak": "Avrupa Komisyonu · 4 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2344",
           "foto": "kaynak-bilimteknik",
-          "ig": "Komisyon: Karadağ 2028'de 28. üye olmayı hedefliyor. Türkiye ile müzakerelerdeki durma sürüyor."
+          "ig": "Komisyon: Karadağ 2028'de 28. üye olmayı hedefliyor. Türkiye ile müzakerelerdeki durma sürüyor.",
+          "en": {
+            "baslik": "Enlargement report: Montenegro targets 2028, Türkiye remains stuck",
+            "ozet": "On 4 November the European Commission adopted its 2026 enlargement report covering 10 candidate countries. According to the Commission, Montenegro has closed 21 of 35 chapters; negotiations could end by year-end, the accession treaty could be signed as early as June 2027, and the target is to become the 28th member in 2028. Roadmaps were also drawn up for Albania, Moldova and Ukraine, and the remaining clusters for Ukraine are expected to open by year-end. The Commission finds backsliding in Serbia and a practical standstill in Georgia. Türkiye remains a candidate and strategic partner, its negotiations remain stalled, and judicial independence and press freedom are cited as concerns."
+          },
+          "de": {
+            "baslik": "Erweiterungsbericht: Montenegro peilt 2028 an, Türkei bleibt blockiert",
+            "ozet": "Die Europäische Kommission hat am 4. November ihren Erweiterungsbericht 2026 für 10 Beitrittskandidaten verabschiedet. Laut Kommission hat Montenegro 21 von 35 Kapiteln geschlossen; die Verhandlungen könnten bis Jahresende abgeschlossen werden, der Beitrittsvertrag frühestens im Juni 2027 unterzeichnet werden, das Ziel ist der Beitritt als 28. Mitglied im Jahr 2028. Fahrpläne gibt es auch für Albanien, Moldau und die Ukraine; bei der Ukraine werden die verbleibenden Cluster bis Jahresende erwartet. Die Kommission sieht in Serbien einen Rückschritt und in Georgien einen faktischen Stillstand. Die Türkei bleibt Kandidat und strategischer Partner, die Verhandlungen stocken weiter; Unabhängigkeit der Justiz und Pressefreiheit werden als Sorgen genannt."
+          }
         },
         {
           "alan": "ab",
@@ -122,7 +202,15 @@
           "kaynak": "The Next Web · 29 Ekim 2026",
           "url": "https://thenextweb.com/news/eu-pauses-national-social-media-bans-austria",
           "foto": "dijital",
-          "ig": "AB, ulusal sosyal medya yasaklarını 12 ay durdurdu; önerilen EU KIDS Act henüz yasalaşmadı."
+          "ig": "AB, ulusal sosyal medya yasaklarını 12 ay durdurdu; önerilen EU KIDS Act henüz yasalaşmadı.",
+          "en": {
+            "baslik": "EU pauses national social media bans for children for 12 months",
+            "ozet": "On 29 October the Commission announced it would delay overlapping national drafts by 12 months, in favor of a unified EU-wide rule instead of age limits that vary by country. Austria, which wants a 14-year age limit for video platforms, is the first affected. The EU KIDS Act proposed in September would remove under-13s from most social media and restrict access for under-15s; Parliament and member states have not yet agreed, and according to POLITICO it may not take effect before 2028. Greece, which notified early, will most likely keep its law. Austrian State Secretary Alexander Pröll finds the decision unacceptable."
+          },
+          "de": {
+            "baslik": "EU stoppt nationale Social-Media-Verbote für Kinder für 12 Monate",
+            "ozet": "Die Kommission kündigte am 29. Oktober an, sich überschneidende nationale Entwürfe um 12 Monate zu verschieben; Ziel ist eine einheitliche EU-Regel statt je nach Land unterschiedlicher Altersgrenzen. Als Erstes betroffen ist Österreich, das für Videoplattformen eine Altersgrenze von 14 Jahren fordert. Der im September vorgeschlagene EU KIDS Act würde Kinder unter 13 Jahren von den meisten sozialen Netzwerken ausschließen und den Zugang für Unter-15-Jährige beschränken; Parlament und Mitgliedstaaten haben sich noch nicht geeinigt, und laut POLITICO könnte er vor 2028 nicht in Kraft treten. Griechenland, das früh gemeldet hat, wird sein Gesetz wahrscheinlich beibehalten. Der österreichische Staatssekretär Alexander Pröll hält die Entscheidung für nicht akzeptabel."
+          }
         },
         {
           "alan": "ab",
@@ -133,7 +221,15 @@
           "not": "Mağazanda müşteri verisi uygulamasını değiştirme: metin yasalaşmadı, mevcut GDPR kuralları geçerli.",
           "foto": "stanford",
           "ig": "AB ülkeleri Dijital Omnibus pozisyonunu 21 Ekim'de belirledi. Metin henüz yasa değil; Parlamento'da 1.800'den fazla değişiklik önerisi var.",
-          "igNot": "Metin yasalaşmadı, mevcut GDPR kuralları geçerli."
+          "igNot": "Metin yasalaşmadı, mevcut GDPR kuralları geçerli.",
+          "en": {
+            "baslik": "Digital Omnibus: EU countries set position, Parliament is next",
+            "ozet": "On 21 October EU governments agreed a negotiating position on the Digital Omnibus in the Council; it is not yet law. According to EDRi, the text recognizes that the GDPR's legitimate interest basis can be used for AI development, but states that this is not automatic. Pseudonymized data is not considered personal data for third parties that cannot re-identify it; users who rejected cookies may be asked again after 4 months. Parliament has more than 1,800 amendment proposals. Digital rights group EDRi argues that the text weakens rights."
+          },
+          "de": {
+            "baslik": "Digitaler Omnibus: EU-Staaten haben Position festgelegt, Parlament ist am Zug",
+            "ozet": "Die EU-Regierungen haben am 21. Oktober im Rat eine Verhandlungsposition zum Digitalen Omnibus beschlossen; ein Gesetz ist das noch nicht. Laut EDRi erkennt der Text an, dass das berechtigte Interesse nach der DSGVO für die KI-Entwicklung genutzt werden kann, betont aber, dass dies nicht automatisch gilt. Pseudonymisierte Daten gelten für Dritte, die die Person nicht re-identifizieren können, nicht als personenbezogene Daten; Nutzer, die Cookies abgelehnt haben, können nach 4 Monaten erneut um Zustimmung gebeten werden. Im Parlament liegen mehr als 1.800 Änderungsanträge vor. Die Bürgerrechtsorganisation EDRi kritisiert, dass der Text Rechte schwächt."
+          }
         },
         {
           "alan": "ab",
@@ -142,7 +238,15 @@
           "kaynak": "Avrupa Komisyonu · 5 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2349",
           "foto": "n8n",
-          "ig": "Komisyon, Ukrayna'ya 4,36 milyar euro ödedi; 12 reform koşulu karşılandı."
+          "ig": "Komisyon, Ukrayna'ya 4,36 milyar euro ödedi; 12 reform koşulu karşılandı.",
+          "en": {
+            "baslik": "Ukraine receives 4.36 billion euros: 12 reform conditions met",
+            "ozet": "On 5 November the Commission paid Ukraine 4.36 billion euros from the 90 billion euro Ukraine Support Loan: 3.7 billion as the second tranche of macro-financial assistance and 658 million as the seventh payment of the defence component. According to the Commission, Ukraine met all 12 conditions for this tranche, including taxing digital platform revenues and removing the VAT exemption on low-value parcels. The remaining available amount for the year is 25.2 billion euros; its release depends on conditions. On 4 November the Commission also held talks in Brussels on Ukraine's post-war economy, but no formal agreement was announced."
+          },
+          "de": {
+            "baslik": "Ukraine erhält 4,36 Milliarden Euro: 12 Reformauflagen erfüllt",
+            "ozet": "Die Kommission zahlte am 5. November 4,36 Milliarden Euro aus dem Ukraine-Unterstützungskredit über 90 Milliarden Euro: 3,7 Milliarden als zweite Tranche der makrofinanziellen Hilfe und 658 Millionen als siebte Zahlung der Verteidigungskomponente. Laut Kommission hat die Ukraine alle 12 Auflagen für diese Tranche erfüllt, darunter die Besteuerung von Einnahmen digitaler Plattformen und die Abschaffung der Mehrwertsteuerbefreiung für Kleinsendungen mit geringem Wert. Der verbleibende verfügbare Betrag für dieses Jahr liegt bei 25,2 Milliarden Euro; seine Auszahlung hängt an Bedingungen. Am 4. November führte die Kommission zudem in Brüssel Gespräche über die Nachkriegswirtschaft der Ukraine; eine formelle Vereinbarung wurde nicht bekanntgegeben."
+          }
         },
         {
           "alan": "ab",
@@ -160,7 +264,15 @@
           "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
           "foto": "bolum-arsiv",
-          "ig": "Komisyon, büyük platformların reklam arşivleri için 2 Aralık'a kadar görüş topluyor."
+          "ig": "Komisyon, büyük platformların reklam arşivleri için 2 Aralık'a kadar görüş topluyor.",
+          "en": {
+            "baslik": "Feedback sought on ad archives of large platforms",
+            "ozet": "The Commission is gathering feedback on technical guidelines it will prepare for ad archives under the Digital Services Act. These archives are kept by very large online platforms and search engines; by making ad information public, they help detect fraud, disinformation and the promotion of illegal products. The feedback period runs until 2 December 2026; the guidelines have not yet been adopted."
+          },
+          "de": {
+            "baslik": "Konsultation zu Werbearchiven großer Plattformen",
+            "ozet": "Die Kommission holt Rückmeldungen zu technischen Leitlinien für Werbearchive nach dem Digital Services Act ein. Diese Archive führen sehr große Online-Plattformen und Suchmaschinen; indem sie Werbeinformationen öffentlich machen, helfen sie, Betrug, Desinformation und die Bewerbung illegaler Produkte aufzudecken. Die Konsultationsfrist läuft bis 2. Dezember 2026; die Leitlinien sind noch nicht verabschiedet."
+          }
         },
         {
           "alan": "ab",
@@ -169,7 +281,15 @@
           "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
           "foto": "hinton",
-          "ig": "Komisyon, Siyasi Reklam Tüzüğü'nün birinci yılını paydaşlarla değerlendiriyor."
+          "ig": "Komisyon, Siyasi Reklam Tüzüğü'nün birinci yılını paydaşlarla değerlendiriyor.",
+          "en": {
+            "baslik": "Political advertising rules mark 1 year; Commission reviews them",
+            "ozet": "Commissioner Michael McGrath brought together companies, public bodies, election observers, journalists and academics to mark the first year of full application of the Political Advertising Regulation. The regulation requires disclosure of who paid for political ads, how much was spent and where the funding came from. The Commission is collecting feedback to measure whether the rules are working; no new change has been announced."
+          },
+          "de": {
+            "baslik": "Verordnung zu politischer Werbung wird 1 Jahr alt, Kommission prüft",
+            "ozet": "Kommissar Michael McGrath hat Unternehmen, Behörden, Wahlbeobachter, Journalisten und Wissenschaftler zum ersten Jahr der vollständigen Anwendung der Verordnung über politische Werbung zusammengebracht. Die Verordnung schreibt vor, offenzulegen, wer politische Werbung bezahlt, wie viel dafür ausgegeben wurde und woher die Finanzierung stammt. Die Kommission sammelt Rückmeldungen, um zu messen, ob die Regeln wirken; eine neue Änderung wurde nicht angekündigt."
+          }
         },
         {
           "alan": "ab",
@@ -178,7 +298,15 @@
           "kaynak": "Avrupa Komisyonu · 4 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2281",
           "foto": "arac-caveman",
-          "ig": "Komisyon'un turizm stratejisi yeni yasa getirmiyor; akademi, veri alanı ve ziyaretçi yönetimi modeli içeriyor."
+          "ig": "Komisyon'un turizm stratejisi yeni yasa getirmiyor; akademi, veri alanı ve ziyaretçi yönetimi modeli içeriyor.",
+          "en": {
+            "baslik": "EU tourism strategy: support and action plan, not a law",
+            "ozet": "On 4 November the Commission presented the EU Sustainable Tourism Strategy. The text proposes no new law; it includes an EU Tourism Academy, a tourism observatory, a common data space, an initiative to reduce bureaucracy, a model for managing visitor flows, and a Council recommendation. According to the Commission, tourism accounts for about 10 percent of the EU's gross value added and provides jobs for more than 20 million people; 99 percent of some 5 million businesses are SMEs. No timetable was set for the actions."
+          },
+          "de": {
+            "baslik": "EU-Tourismusstrategie: Unterstützung und Aktionsplan statt Gesetz",
+            "ozet": "Die Kommission hat am 4. November die Strategie für nachhaltigen Tourismus der EU vorgelegt. Der Text schlägt kein neues Gesetz vor, sondern enthält eine EU-Tourismusakademie, eine Tourismusbeobachtungsstelle, einen gemeinsamen Datenraum, eine Initiative zum Abbau von Bürokratie, ein Modell zur Steuerung von Besucherströmen und eine Empfehlung des Rates. Laut Kommission trägt der Tourismus rund 10 Prozent der Bruttowertschöpfung der EU bei und bietet mehr als 20 Millionen Menschen Arbeit; 99 Prozent der rund 5 Millionen Unternehmen sind KMU. Für die Maßnahmen wurde kein Zeitplan genannt."
+          }
         },
         {
           "alan": "ab",
@@ -187,7 +315,15 @@
           "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
           "foto": "kaynak-kurzgesagt",
-          "ig": "AB'nin biyometan eşleştirme turu açıldı; alıcılar 23 Aralık'a kadar başvurabilir."
+          "ig": "AB'nin biyometan eşleştirme turu açıldı; alıcılar 23 Aralık'a kadar başvurabilir.",
+          "en": {
+            "baslik": "First matching round opens for biomethane buyers and sellers",
+            "ozet": "The Commission opened the first matching round of the voluntary and free Biomethane Mechanism, launched in June on the EU Energy and Raw Materials Platform. Buyers can submit their requests until 23 December 2026; when a match is found, the parties receive each other's contact details and move to commercial talks. The Commission also published a table comparing countries' biomethane rules."
+          },
+          "de": {
+            "baslik": "Erste Vermittlungsrunde für Biomethan-Käufer und -Verkäufer gestartet",
+            "ozet": "Die Kommission hat die erste Vermittlungsrunde des freiwilligen und kostenlosen Biomethan-Mechanismus eröffnet, der im Juni auf der EU-Plattform für Energie und Rohstoffe gestartet wurde. Käufer können ihre Anfragen bis zum 23. Dezember 2026 einreichen; bei einer Übereinstimmung erhalten die Parteien die Kontaktdaten des anderen und können in Verhandlungen eintreten. Zudem veröffentlichte die Kommission eine Übersicht, die die Biomethan-Regeln der Länder vergleicht."
+          }
         },
         {
           "alan": "ab",
@@ -196,7 +332,15 @@
           "kaynak": "Avrupa Komisyonu · Günlük Haberler · 4 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
           "foto": "arac-ccswitch",
-          "ig": "Komisyon, Letonya'nın son toparlanma fonu talebi olan 504 milyon euroyu onayladı."
+          "ig": "Komisyon, Letonya'nın son toparlanma fonu talebi olan 504 milyon euroyu onayladı.",
+          "en": {
+            "baslik": "Green light for Latvia's final recovery fund payment",
+            "ozet": "The Commission approved Latvia's fifth and final payment request under NextGenerationEU, worth 504 million euros. According to the Commission, the country satisfactorily met 25 milestones and 31 targets; the reforms cover energy efficiency, health, digitalisation, housing and transport. Once this payment is made, the total Latvia has received will reach 1.97 billion euros."
+          },
+          "de": {
+            "baslik": "Grünes Licht für Lettlands letzte Zahlung aus dem Wiederaufbaufonds",
+            "ozet": "Die Kommission hat den fünften und letzten Zahlungsantrag Lettlands im Rahmen von NextGenerationEU über 504 Millionen Euro genehmigt. Laut Kommission hat das Land 25 Etappenziele und 31 Vorgaben zufriedenstellend erfüllt; die Reformen betreffen Energieeffizienz, Gesundheit, Digitalisierung, Wohnen und Verkehr. Nach dieser Zahlung erhält Lettland insgesamt 1,97 Milliarden Euro."
+          }
         },
         {
           "alan": "kose",
@@ -207,7 +351,15 @@
           "not": "Sermaye tarafındaki sonuç gözlem değil model çıktısı; giriş seviyesi işlere etkinin kanıtı da yazarın kabul ettiği gibi karışık.",
           "foto": "arac-karpathy",
           "ig": "Andrew Leigh'e göre yapay zekâ acemilerin verimini artırıyor, ama asıl kazanç sermaye sahiplerine gidebilir.",
-          "igNot": "Sermaye sonucu gözlem değil, model çıktısı."
+          "igNot": "Sermaye sonucu gözlem değil, model çıktısı.",
+          "en": {
+            "baslik": "AI lifts novices, but capital collects the gains",
+            "ozet": "Australian MP and assistant minister Andrew Leigh, a former economics professor, draws a two-sided picture. According to Leigh, AI could narrow the gap between workers: in a study by Brynjolfsson and colleagues with more than 5,000 customer service agents, productivity rose 15 percent and about 30 percent for novices; in an experiment with about 1,200 adults, the training-driven productivity gap shrank by 75 percent. But he argues the main gain will go to capital owners: an LSE model shows automation raises returns on wealth, and businesses access AI through a small number of providers. He puts big cloud companies' investment this year at about 750 billion dollars. He warns that global inequality could also grow for countries that depend on service exports."
+          },
+          "de": {
+            "baslik": "KI hilft Einsteigern, der Gewinn fließt an das Kapital",
+            "ozet": "Der australische Abgeordnete und Parlamentarische Staatssekretär Andrew Leigh, ein ehemaliger Wirtschaftsprofessor, zeichnet ein zweigeteiltes Bild. Laut Leigh könnte KI die Kluft zwischen Beschäftigten verringern: In einer Studie von Brynjolfsson und Kollegen mit mehr als 5.000 Kundenservice-Mitarbeitenden stieg die Produktivität um 15 Prozent, bei Berufseinsteigern um etwa 30 Prozent; in einem Versuch mit rund 1.200 Erwachsenen sank der durch Training bedingte Produktivitätsunterschied um 75 Prozent. Doch er argumentiert, dass der eigentliche Gewinn an die Kapitalbesitzer geht: Ein Modell der LSE zeigt, dass Automatisierung die Vermögensrendite steigert, und Unternehmen beziehen KI über wenige Anbieter. Er beziffert die diesjährigen Investitionen der großen Cloud-Konzerne auf rund 750 Milliarden Dollar. Für Länder, die von Dienstleistungsexporten leben, warnt er vor wachsender globaler Ungleichheit."
+          }
         },
         {
           "alan": "kose",
@@ -218,7 +370,15 @@
           "not": "Kongre'nin bütçe ve yaptırım yetkileri başkanı yazarın çizdiğinden daha çok bağlayabilir.",
           "foto": "skills",
           "ig": "Jamie Dettmer'e göre Kongre'nin dış politikada sınırlı yetkisi yüzünden Demokrat zaferi Avrupa'ya hemen rahatlama getirmeyebilir.",
-          "igNot": "Kongre'nin bütçe yetkileri bağlayıcı olabilir."
+          "igNot": "Kongre'nin bütçe yetkileri bağlayıcı olabilir.",
+          "en": {
+            "baslik": "Democratic win may not ease Europe's worries",
+            "ozet": "POLITICO foreign policy writer Jamie Dettmer, writing before the US midterm results were final, warns Europe not to celebrate early. According to Dettmer, Congress has few tools to limit the president on foreign policy and trade; Trump, squeezed at home, may turn to these areas, raising the risk of new disputes and harder demands on Europe. He cites former Munich Security Conference chair Wolfgang Ischinger, who said it would be a mistake to assume relations will warm, and that he expects the opposite."
+          },
+          "de": {
+            "baslik": "Demokratischer Wahlsieg könnte Europas Sorgen nicht lindern",
+            "ozet": "POLITICO-Außenpolitikautor Jamie Dettmer warnt in einem Text, der vor dem Abschluss der US-Zwischenwahl geschrieben wurde, Europa solle sich nicht zu früh freuen. Laut Dettmer hat der Kongress wenig Instrumente, um den Präsidenten in Außen- und Handelspolitik zu begrenzen; der innenpolitisch unter Druck stehende Trump könnte sich diesen Feldern zuwenden, was das Risiko neuer Konflikte und härterer Forderungen an Europa erhöht. Er zitiert den früheren Vorsitzenden der Münchner Sicherheitskonferenz, Wolfgang Ischinger, der es für einen Fehler hält, von einer Entspannung der Beziehungen auszugehen, und das Gegenteil erwartet."
+          }
         },
         {
           "alan": "fitness",
@@ -229,7 +389,15 @@
           "not": "Uygula: Evde 11-17 yaş genç varsa haftaya iki sabit 60 dakikalık hareket saati koy.",
           "ig": "140 ülkede 3,2 milyon gencin verisi: Yüzde 25'i haftada hiç aktif gün bildirmedi, ortalama 2,7 gün. Oranlar 15 yılda neredeyse değişmedi.",
           "igNot": "Evde genç varsa haftaya iki sabit hareket saati koy.",
-          "foto": "ekstrem"
+          "foto": "ekstrem",
+          "en": {
+            "baslik": "WHO: 25 percent of young people had no active day in a week",
+            "ozet": "Published in The Lancet Global Health and announced by the WHO on 4 November, the analysis combined 389 surveys from 140 countries conducted between 2010 and 2025, covering 3.2 million participants. Among 11 to 17 year olds, 25 percent, roughly 240 million young people, reported no day last week with 60 minutes of moderate-to-vigorous activity; the average was 2.7 active days, and 14 percent were active every day. Among girls, 28 percent had no active day, compared with 22 percent of boys. The rates have barely changed in 15 years; the data rely on self-reporting and show that school and local sports policies have not reversed the trend."
+          },
+          "de": {
+            "baslik": "WHO: 25 Prozent der Jugendlichen hatten in einer Woche keinen aktiven Tag",
+            "ozet": "Die Analyse, veröffentlicht im Lancet Global Health und am 4. November von der WHO angekündigt, kombinierte 389 Umfragen aus 140 Ländern aus den Jahren 2010 bis 2025 mit 3,2 Millionen Teilnehmenden. Bei den 11- bis 17-Jährigen meldeten 25 Prozent, rund 240 Millionen junge Menschen, in der vergangenen Woche an keinem Tag 60 Minuten mäßige bis intensive Bewegung; im Schnitt waren es 2,7 aktive Tage, 14 Prozent waren täglich aktiv. Bei Mädchen hatten 28 Prozent keinen aktiven Tag, bei Jungen 22 Prozent. Die Quoten haben sich in 15 Jahren kaum verändert; die Daten beruhen auf Selbstangaben und zeigen, dass Schul- und lokale Sportpolitik den Trend nicht gebrochen haben."
+          }
         },
         {
           "alan": "fitness",
@@ -240,7 +408,15 @@
           "not": "Uygula: Omuz hareketin aylardır kısıtlıysa antrenmanı zorlamadan önce ortopedi ya da fizyoterapiye görün.",
           "ig": "189 çalışma, 12.988 yetişkin: Şok dalgası donuk omuz ağrısını kısa vadede 1,97 puan azalttı. Kanıt çoğunlukla üç aylık, yanlılık riski yüksek.",
           "igNot": "Omuz aylardır kısıtlıysa zorlamadan uzmana görün.",
-          "foto": "bolum-saglik"
+          "foto": "bolum-saglik",
+          "en": {
+            "baslik": "Frozen shoulder: shockwave therapy stands out across 189 trials",
+            "ozet": "A network meta-analysis published in The BMJ compared 189 randomized trials covering 12,988 adults with frozen shoulder (average age 54). Extracorporeal shockwave therapy reduced short-term pain by 1.97 points on the 0-10 scale compared with usual care (moderate certainty); manipulation under anesthesia improved arm elevation by 26 to 33 degrees. Most evidence follows patients for about 3 months; many trials are at high risk of bias, and side effects were inconsistently reported. It guides short-term decisions alongside physiotherapy and injection options, but does not prove long-term outcomes."
+          },
+          "de": {
+            "baslik": "Schultersteife: Stoßwellentherapie fällt in 189 Studien positiv auf",
+            "ozet": "Eine im BMJ veröffentlichte Netzwerk-Metaanalyse verglich 189 randomisierte Studien mit 12.988 Erwachsenen mit Schultersteife (Durchschnittsalter 54 Jahre). Die extrakorporale Stoßwellentherapie senkte die Schmerzen kurzfristig gegenüber der üblichen Behandlung um 1,97 Punkte auf der Skala von 0 bis 10 (mittlere Sicherheit); die Manipulation unter Narkose verbesserte das Anheben des Arms um 26 bis 33 Grad. Der Großteil der Evidenz stammt aus rund 3 Monaten Nachbeobachtung; viele Studien bergen ein hohes Verzerrungsrisiko, Nebenwirkungen wurden uneinheitlich erfasst. Die Analyse hilft bei kurzfristigen Entscheidungen neben Physiotherapie und Injektionen, belegt aber keine Langzeitwirkung."
+          }
         },
         {
           "alan": "fitness",
@@ -249,7 +425,15 @@
           "kaynak": "Scientific Reports, ScienceDaily · 4 Kasım 2026",
           "url": "https://doi.org/10.1038/s41598-026-60835-w",
           "ig": "Scientific Reports: LASSS, farelerde kas onarım proteini HGF'yi hasardan korudu. İnsanda denenmedi, kas kütlesi ya da kuvvet artışı gösterilmedi.",
-          "foto": "bolum-bilim"
+          "foto": "bolum-bilim",
+          "en": {
+            "baslik": "Aging muscle repair: new lead, for now only mouse data",
+            "ozet": "A team from Kyushu University reported in Scientific Reports that the compound lipoic acid trisulfide (LASSS) strengthens HGF, the protein that initiates muscle repair. In the lab, at a 1:8000 molar ratio, HGF's binding to the c-met receptor rose by more than 2-fold; in mice in a muscle-wasting model, age-related nitration damage to the protein was reduced. There were no human participants, the article does not state the sample size, and no recovery of muscle mass or strength was shown in mice. As a study in animals and in the lab alone, it offers only one research target for treating aging muscle."
+          },
+          "de": {
+            "baslik": "Reparatur alternder Muskeln: neuer Ansatzpunkt, bisher nur Mausdaten",
+            "ozet": "Ein Team der Universität Kyushu berichtete in Scientific Reports, dass die Verbindung Lipoinsäuretrisulfid (LASSS) das HGF-Protein stärkt, das die Muskelreparatur auslöst. Im Labor verstärkte sich die Bindung von HGF an den c-met-Rezeptor bei einem molaren Verhältnis von 1:8000 um mehr als das 2-Fache; bei Mäusen mit einem Muskelschwund-Modell wurden altersbedingte Nitrierungsschäden am Protein verringert. Es gab keine menschlichen Teilnehmenden, die Stichprobengröße wird nicht genannt, und bei den Mäusen wurde weder Muskelmasse noch Kraft zurückgewonnen. Da es sich um eine Studie nur an Tieren und im Labor handelt, bietet sie lediglich ein Forschungsziel für die Behandlung alternder Muskeln."
+          }
         },
         {
           "alan": "saglik",
@@ -260,7 +444,15 @@
           "not": "Uygula: Bitkisel süt kullanıyorsan etikette iyot, kalsiyum ve B12 eklenmiş mi bak.",
           "ig": "Modelleme: Sütün yüzde 20-35'i bitkisele dönerse ergen kızlarda yetersiz iyot yüzde 54'ten 65'e çıkıyor. Zenginleştirme açığı tek başına kapatmıyor.",
           "igNot": "Bitkisel sütte iyot, kalsiyum ve B12 etiketine bak.",
-          "foto": "bolum-gunluk"
+          "foto": "bolum-gunluk",
+          "en": {
+            "baslik": "Plant-based swaps for milk widen the iodine gap",
+            "ozet": "Researchers at Surrey and Queen's Belfast published, in The Lancet Planetary Health, a modelling study using data from more than 3,500 people in the UK National Diet and Nutrition Survey; it is not an intervention study. If 20 to 35 percent of dairy is replaced with plant alternatives, inadequate iodine intake rises from 54 to 65 percent in adolescent girls and from 32 to 42 percent in women aged 19 to 49; with full replacement, the rate among adolescent girls reaches 80 percent. Mandatory fortification prevents the decline, but the gap among adolescent girls stays at 59 percent, falling to 37 percent with iodized bread added. The findings matter for young women who cut back on milk, given its iodine, calcium, riboflavin and B12 content."
+          },
+          "de": {
+            "baslik": "Pflanzliche Milchersatzprodukte vergrößern die Jodlücke",
+            "ozet": "Forschende der Universität Surrey und der Queen's University Belfast veröffentlichten im Lancet Planetary Health eine Modellierungsstudie mit Daten von mehr als 3.500 Personen aus der nationalen britischen Ernährungserhebung; es handelt sich nicht um eine Interventionsstudie. Wenn 20 bis 35 Prozent der Milchprodukte durch pflanzliche Alternativen ersetzt werden, steigt die unzureichende Jodaufnahme bei Mädchen im Teenageralter von 54 auf 65 Prozent und bei Frauen von 19 bis 49 Jahren von 32 auf 42 Prozent; bei vollständigem Ersatz liegt der Wert bei Mädchen im Teenageralter bei 80 Prozent. Die verpflichtende Anreicherung verhindert den Rückgang, doch die Lücke bei den Teenager-Mädchen bleibt bei 59 Prozent und sinkt mit jodiertem Brot auf 37 Prozent. Betroffen sind vor allem junge Frauen, die weniger Milch trinken, mit Blick auf Jod, Kalzium, Riboflavin und Vitamin B12."
+          }
         },
         {
           "alan": "saglik",
@@ -271,7 +463,15 @@
           "not": "Uygula: Rafine atıştırmalığın yerine meyve koymak makul, ama sonucu tek çalışma ve sektör destekli diye sınırlı say.",
           "ig": "82 prediyabetli yetişkinde günlük avokado ve mango, 8 haftada damar işlevini iyileştirdi; kilo değişmedi. Çalışmayı üretici kurulları destekledi.",
           "igNot": "Sonucu tek ve sektör destekli çalışma olarak sınırlı say.",
-          "foto": "kaynak-examine"
+          "foto": "kaynak-examine",
+          "en": {
+            "baslik": "Avocado and mango improved vessel function in 8 weeks",
+            "ozet": "An Illinois Tech team study in the Journal of the American Heart Association followed 82 adults with prediabetes and excess weight through 8 weeks of calorie-controlled eating; ScienceDaily reported it on 3 November. In the group eating 1 avocado and 1 cup of mango each day, vessel dilation rose to 6.7 percent, while in the carbohydrate-based control group it fell to 4.6 percent; weight, cholesterol and blood sugar changed little. Mango and avocado grower boards funded the research with an unrestricted grant, and what was measured were risk markers, not outcomes such as heart attacks. It is a short study, so for people with prediabetes it counts as preliminary data for carbohydrate choices."
+          },
+          "de": {
+            "baslik": "Avocado und Mango: Gefäßfunktion nach 8 Wochen verbessert",
+            "ozet": "Eine Studie des Teams der Illinois Tech im Journal of the American Heart Association begleitete 82 Erwachsene mit Prädiabetes und Übergewicht über 8 Wochen mit kalorienkontrollierter Ernährung; ScienceDaily berichtete am 3. November darüber. In der Gruppe, die täglich 1 Avocado und 1 Tasse Mango aß, stieg die Gefäßerweiterung auf 6,7 Prozent, in der kohlenhydratbetonten Kontrollgruppe sank sie auf 4,6 Prozent; Gewicht, Cholesterin und Blutzucker änderten sich kaum. Die Forschung wurde von Erzeugerverbänden für Mango und Avocado mit einer uneingeschränkten Spende gefördert; gemessen wurden Risikomarker, keine Ergebnisse wie Herzinfarkte. Da es sich um eine kurze Studie handelt, gelten die Daten für Menschen mit Prädiabetes als vorläufig für die Wahl der Kohlenhydrate."
+          }
         }
       ],
       "videolar": [
