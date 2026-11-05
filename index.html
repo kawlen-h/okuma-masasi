@@ -1042,7 +1042,7 @@ function gunlukCiz(v){
   var saglikVar=false;
   function gun(g){
     g.ogeler.forEach(function(o){ if(uygulaAlani(o.alan)) saglikVar=true; });
-    var og=g.ogeler.slice(0,20),h='<p class="gunluk-tarih">'+kac(tarihYaz(g.tarih))+'</p>';
+    var og=g.ogeler.slice(0,30),h='<p class="gunluk-tarih">'+kac(tarihYaz(g.tarih))+'</p>';
     GRUP.forEach(function(gr){
       var bu=og.filter(function(o){ return gr[2]?GRUP.every(function(x){return x[2]||x[1].indexOf(o.alan)<0;}):gr[1].indexOf(o.alan)>-1; });
       if(!bu.length) return;
