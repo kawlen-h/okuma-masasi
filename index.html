@@ -594,6 +594,9 @@ body.okuma-modu #cubuk{display:none}
 .ayak{gap:16px}
 .kapak .btn.dolu{background:var(--vurgu);color:#fff;text-decoration:none;padding:10px 18px;border-radius:4px}
 .tr-rozet{font-family:var(--ui)}
+.foto-hak{font-family:var(--ui);font-size:.7rem;margin:-4px 0 0;color:var(--soluk)}
+.foto-hak a{color:inherit;text-decoration:none}
+.foto-hak a:hover{text-decoration:underline}
 :focus-visible{outline:2px solid var(--vurgu);outline-offset:2px}
 @media (max-width:760px){
   #cubuk{padding-inline:16px;padding-top:10px}
@@ -1093,11 +1096,12 @@ function tarihYaz(t){
 }
 function gunlukOge(o){
   var a=ALAN[o.alan]||["•","Haber"],url=/^https:\/\//.test(o.url||"")?o.url:"";
-  var f=/^[a-z0-9-]+$/.test(o.foto||"")?"gorseller/"+o.foto+".jpg":(HFOTO[o.alan]||"gorseller/bolum-gunluk.jpg");
+  var w=o.gorsel&&/^https:\/\/(upload|thumb)\.wikimedia\.org\//.test(o.gorsel.url)&&/^https:\/\/commons\.wikimedia\.org\//.test(o.gorsel.sayfa)?o.gorsel:null;
+  var f=w?w.url:/^[a-z0-9-]+$/.test(o.foto||"")?"gorseller/"+o.foto+".jpg":(HFOTO[o.alan]||"gorseller/bolum-gunluk.jpg");
   var tr=DIL==="tr",c=!tr&&o[DIL]&&o[DIL].baslik?o[DIL]:null,bas=c?c.baslik:(o.baslik||""),oz=c?c.ozet:(o.ozet||"");
   return '<div class="kisa-oge" data-ara="'+kac(kucuk([bas,oz,o.baslik,o.ozet,o.kaynak,a[1],o.not||""].join(" ")))+'">'+
     (f?'<span class="kisa-foto" aria-hidden="true"><img src="'+kac(f)+'" alt="" loading="lazy"></span>':'<span class="rozet-kare" aria-hidden="true">'+kac(a[0])+'</span>')+'<div class="kisa-govde">'+
-    '<h3>'+kac(bas)+'</h3><p class="kim"><span>'+kac(a[1])+'</span><span>'+kac(kaynakYaz(o.kaynak||""))+'</span>'+(!tr&&!c?'<span class="tr-rozet">TR</span>':'')+'</p>'+
+    '<h3>'+kac(bas)+'</h3><p class="kim"><span>'+kac(a[1])+'</span><span>'+kac(kaynakYaz(o.kaynak||""))+'</span>'+(!tr&&!c?'<span class="tr-rozet">TR</span>':'')+'</p>'+(w?'<p class="foto-hak"><a href="'+kac(w.sayfa)+'" target="_blank" rel="noopener">Foto: '+kac(w.yazar)+', '+kac(w.lisans)+'</a></p>':'')+
     '<p class="ne">'+kac(oz)+'</p>'+
     (tr&&o.not?'<p class="uygula"><span>'+(o.alan==="kose"?"İtiraz":uygulaAlani(o.alan)?"Uygula":"Bizde")+'</span>'+kac(o.not)+'</p>':'')+
     (url?'<div class="ayak"><a class="btn" href="'+kac(url)+'" target="_blank" rel="noopener">Kaynak</a>'+(tr&&o.alan==="kose"?'<a class="btn" href="https://translate.google.com/translate?sl=auto&amp;tl=tr&amp;u='+encodeURIComponent(url)+'" target="_blank" rel="noopener">Türkçe oku</a>':'')+'</div>':'')+
