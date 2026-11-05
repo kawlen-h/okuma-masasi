@@ -1473,7 +1473,6 @@ yonlendir();
 guncelle();
 kapakCiz();
 if(document.fonts&&document.fonts.ready) document.fonts.ready.then(kapakCiz);
-})();
 // Dil seçici ve dinamik içeriğin çevirisi
 document.documentElement.lang=DIL;
 document.querySelectorAll(".dil-sec").forEach(function(s){
@@ -1484,6 +1483,7 @@ if(DIL!=="tr"){
   ceviriUygula(document.body);
   new MutationObserver(function(ms){ ms.forEach(function(m){ m.addedNodes.forEach(function(n){ if(n.nodeType===1) ceviriUygula(n); }); }); }).observe(document.body,{childList:true,subtree:true});
 }
+})();
 </script>
 
 </html>
