@@ -1093,7 +1093,7 @@ function tarihYaz(t){
 }
 function gunlukOge(o){
   var a=ALAN[o.alan]||["•","Haber"],url=/^https:\/\//.test(o.url||"")?o.url:"";
-  var f=/^[a-z0-9-]+$/.test(o.foto||"")?"gorseller/"+o.foto+".jpg":(HFOTO[o.alan]||"");
+  var f=/^[a-z0-9-]+$/.test(o.foto||"")?"gorseller/"+o.foto+".jpg":(HFOTO[o.alan]||"gorseller/bolum-gunluk.jpg");
   var tr=DIL==="tr",c=!tr&&o[DIL]&&o[DIL].baslik?o[DIL]:null,bas=c?c.baslik:(o.baslik||""),oz=c?c.ozet:(o.ozet||"");
   return '<div class="kisa-oge" data-ara="'+kac(kucuk([bas,oz,o.baslik,o.ozet,o.kaynak,a[1],o.not||""].join(" ")))+'">'+
     (f?'<span class="kisa-foto" aria-hidden="true"><img src="'+kac(f)+'" alt="" loading="lazy"></span>':'<span class="rozet-kare" aria-hidden="true">'+kac(a[0])+'</span>')+'<div class="kisa-govde">'+
