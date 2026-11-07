@@ -6,7 +6,7 @@
       "ogeler": [
         {
           "alan": "ab",
-          "baslik": "TikTok'a ikinci DSA suçlaması: 'Sana Özel' akışı mercek altında",
+          "baslik": "TikTok'a yeni DSA suçlaması: 'Sana Özel' akışı mercek altında",
           "ozet": "Avrupa Komisyonu 6 Kasım'da TikTok'un 'Sana Özel' akışının Dijital Hizmetler Yasası'nı (DSA) ihlal ettiğini ön bulgu olarak açıkladı. Komisyon'a göre kullanıcı ruh sağlığı ve beden imajı içerikleriyle etkileştikçe sistem benzerlerini daha çok öneriyor; bu da savunmasız yetişkinler ve reşit olmayanlar için risk oluşturuyor. Şubat'taki ön bulgu bağımlılık yaratan tasarıma odaklanmıştı, yeni dosya öneri sisteminin risk değerlendirmesine ve önlemlerine bakıyor. Bu henüz nihai karar değil; ihlal kesinleşirse DSA küresel cironun yüzde 6'sına kadar ceza öngörüyor.",
           "kaynak": "Avrupa Komisyonu · 6 Kasım 2026",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2364",
@@ -14,11 +14,11 @@
           "gorselAra": "",
           "foto": "dijital",
           "en": {
-            "baslik": "TikTok faces second DSA charge: 'For You' feed under scrutiny",
+            "baslik": "New DSA charge against TikTok: 'For You' feed under scrutiny",
             "ozet": "On 6 November the European Commission preliminarily found that TikTok's 'For You' feed breaches the Digital Services Act (DSA). According to the Commission, as users engage with mental health and body image content, the system recommends more of the same, posing risk to vulnerable adults and minors. The February preliminary finding focused on addictive design; the new file examines the recommender system's risk assessment and mitigation measures. This is not a final decision; if the breach is confirmed, the DSA allows fines of up to 6 percent of global turnover."
           },
           "de": {
-            "baslik": "TikTok droht zweites DSA-Verfahren: Der „Für dich“-Feed steht unter Prüfung",
+            "baslik": "Neuer DSA-Vorwurf gegen TikTok: Der „Für dich“-Feed steht unter Prüfung",
             "ozet": "Die EU-Kommission hat am 6. November vorläufig festgestellt, dass der „Für dich“-Feed von TikTok gegen den Digital Services Act (DSA) verstößt. Nach Ansicht der Kommission schlägt das System, sobald Nutzer mit Inhalten zu psychischer Gesundheit und Körperbild interagieren, immer mehr ähnliche Inhalte vor. Dadurch seien verletzliche Erwachsene und Minderjährige gefährdet. Die Vorab-Feststellung vom Februar betraf süchtig machendes Design; die neue Akte prüft die Risikobewertung und Schutzmaßnahmen des Empfehlungssystems. Dies ist noch keine endgültige Entscheidung. Sollte der Verstoß bestätigt werden, sieht der DSA Strafen von bis zu 6 Prozent des weltweiten Umsatzes vor."
           }
         },
@@ -106,6 +106,14 @@
             "yazar": "Diego Delso",
             "lisans": "CC BY-SA 4.0",
             "sayfa": "https://commons.wikimedia.org/wiki/File:Plaza_de_%C3%81frica,_Ceuta,_Espa%C3%B1a,_2015-12-10,_DD_02.JPG"
+          },
+          "en": {
+            "baslik": "Second migration cycle: four countries under pressure, Germany on 'risk' list",
+            "ozet": "On 6 November the Commission launched the second annual cycle under the Migration and Asylum Pact. Greece, Cyprus, Italy and Spain were named as under pressure. 15 countries, including Germany, were identified as at risk and gained priority access to EU support tools. According to the Commission, irregular crossings have fallen by more than half over the past two years, asylum applications dropped 19 percent in 2025, and the return rate exceeded 30 percent. The Council will set the 2027 size of the Solidarity Pool and member states' contributions; the proposal is not yet public."
+          },
+          "de": {
+            "baslik": "Zweiter Migrationszyklus: vier Länder unter Druck, Deutschland auf der Risikoliste",
+            "ozet": "Die Kommission hat am 6. November den zweiten jährlichen Zyklus im Rahmen des Migrations- und Asylpakts eingeleitet. Griechenland, Zypern, Italien und Spanien gelten als unter Druck stehend. 15 Länder, darunter Deutschland, wurden als gefährdet eingestuft und erhielten vorrangigen Zugang zu den EU-Unterstützungsinstrumenten. Laut Kommission haben sich die irregulären Grenzübertritte in den letzten zwei Jahren mehr als halbiert, die Asylanträge sanken 2025 um 19 Prozent, und die Rückkehrquote liegt über 30 Prozent. Der Rat wird die Größe des Solidaritätspools für 2027 und die Beiträge der Mitgliedstaaten festlegen; der Vorschlag ist noch nicht öffentlich."
           }
         },
         {
@@ -476,6 +484,10 @@
           "de": {
             "baslik": "Ramp-Daten: Token-Ausgaben der Unternehmen stiegen im August und September nur um 1,5 Prozent",
             "ozet": "Laut Ramp-Daten, über die TechCrunch berichtete, stiegen die Token-Ausgaben der Unternehmen im Juli um 42 Prozent, im August und September aber nur um 1,5 Prozent; im Zeitraum vom 23. September bis 23. Oktober erholten sie sich auf 8,9 Prozent. Das Medianunternehmen gibt pro Mitarbeiter 12 bis 15 Dollar im Monat aus, die obersten 10 Prozent 600 bis 1.000 Dollar. Das Token-Volumen wächst weiter, die Ausgaben bleiben zurück, was auch am Wettbewerb liegt, etwa an der Halbierung der Preise durch OpenAI im September. Die Daten erfassen nur Kunden von Ramp."
+          },
+          "en": {
+            "baslik": "Ramp: Corporate token spending grew just 1.5 percent in August and September",
+            "ozet": "According to Ramp data reported by TechCrunch, companies' token spending grew 42 percent in July but only 1.5 percent in August and September, recovering to 8.9 percent in the 23 September to 23 October period. The median company spends $12-15 per employee per month, while the top 10 percent spend $600-1,000. Token volume keeps rising while spending lags, partly because of competition such as OpenAI's half-price cut in September. The data covers only Ramp customers."
           }
         },
         {
@@ -574,6 +586,10 @@
           "en": {
             "baslik": "Whole milk: 12-week trial shows no worsening of weight or lipids",
             "ozet": "In a randomised study in The Journal of Nutrition, 74 adults who were overweight or obese were assigned to three diets for 12 weeks. Two groups received three servings of whole-fat dairy a day; one followed a calorie-restricted diet with little dairy. In the dairy groups, weight, body composition and blood lipids did not worsen, and blood pressure improved. It is a single small study and does not support conclusions about long-term heart or diabetes risk. Funding came from the Dairy Research Cluster 3 programme in Canada."
+          },
+          "de": {
+            "baslik": "Vollmilch: 12-Wochen-Studie zeigt keine Verschlechterung von Gewicht und Blutfetten",
+            "ozet": "In einer randomisierten Studie im Journal of Nutrition wurden 74 übergewichtige oder adipöse Erwachsene 12 Wochen lang auf drei Diäten verteilt. Zwei Gruppen erhielten täglich drei Portionen Vollfett-Milchprodukte; eine Gruppe hielt eine kalorienreduzierte Diät mit wenig Milchprodukten ein. In den Milchgruppen verschlechterten sich Gewicht, Körperzusammensetzung und Blutfette nicht, der Blutdruck verbesserte sich. Es handelt sich um eine einzelne kleine Studie, die keine Schlüsse auf das langfristige Herz- oder Diabetesrisiko zulässt. Finanziert wurde sie vom Programm Dairy Research Cluster 3 in Kanada."
           }
         },
         {
@@ -646,6 +662,10 @@
           "en": {
             "baslik": "Kratom: poison centre reports rose from 258 to 3,434 in 10 years",
             "ozet": "According to CDC data reported by STAT, US kratom exposure reports rose from 258 in 2015 to 3,434 in 2025; most of the 233 deaths recorded over the decade also involved other substances. Evidence is insufficient: according to NCCIH, kratom has not been shown to be safe and effective for any medical use, and the FDA has not approved it. Its components act on opioid receptors; nausea, seizures, liver problems and dependence have been reported. Researchers believe the risk rises when combined with opioids such as fentanyl and some antidepressants; NCCIH does not provide a separate list of who should not use it."
+          },
+          "de": {
+            "baslik": "Kratom: Meldungen an Giftnotrufzentralen stiegen in 10 Jahren von 258 auf 3.434",
+            "ozet": "Laut CDC-Daten, über die STAT berichtete, stiegen die Meldungen über Kratom-Exposition in den USA von 258 im Jahr 2015 auf 3.434 im Jahr 2025. Bei den 233 Todesfällen, die im Jahrzehnt registriert wurden, waren meist auch andere Substanzen beteiligt. Die Evidenz ist unzureichend: Laut NCCIH wurde nicht gezeigt, dass Kratom für irgendeine medizinische Anwendung sicher und wirksam ist; die FDA hat es nicht zugelassen. Die Wirkstoffe wirken auf Opioidrezeptoren; berichtet wurden Übelkeit, Krampfanfälle, Leberprobleme und Abhängigkeit. Forschende halten das Risiko in Kombination mit Opioiden wie Fentanyl und bestimmten Antidepressiva für erhöht; die NCCIH nennt keine gesonderte Liste der Personen, die es nicht nehmen sollten."
           }
         },
         {
