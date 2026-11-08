@@ -1,6 +1,728 @@
 {
-  "guncelleme": "2026-11-07",
+  "guncelleme": "2026-11-08",
   "gunler": [
+    {
+      "tarih": "2026-11-08",
+      "ogeler": [
+        {
+          "alan": "ab",
+          "baslik": "AB Savcılığı, 69 kişinin öldüğü Urda tren kazası sonrası AB fonlarını inceliyor",
+          "ozet": "Avrupa Savcılığı (EPPO), Madrid-Sevilla hızlı tren hattında Ekim sonunda 69 kişinin öldüğü Urda kazasının ardından olası AB fonu dolandırıcılığı soruşturması başlattı. Savcılık Ocak ayında Adamuz yakınındaki 46 ölümlü kazadan sonra da dosya açmıştı; bu kez inceleme sinyal, güvenlik ve iletişim sistemlerinin modernizasyonuna ayrılan AB paralarına odaklanıyor. EPPO adına İspanyol ekipler altyapı işletmecisi Adif, demiryolu güvenlik ajansı ve Sayıştay'dan belge topladı. Soruşturma bir suç tespiti değil; sonuç, AB altyapı fonlarının denetimine dair tartışmayı etkileyecek.",
+          "kaynak": "Tagesschau · 6 Kasım 2026",
+          "url": "https://www.tagesschau.de/ausland/europa/zugunglueck-spanien-eu-ermittlungen-100.html",
+          "ig": "AB Savcılığı, 69 kişinin öldüğü Urda tren kazası sonrası hattın güvenliğine ayrılan AB fonlarını inceliyor. Adif'ten belge toplandı.",
+          "gorselAra": "Madrid Atocha station",
+          "foto": "stanford",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Madrid_Atocha_station_2022_2.jpg/960px-Madrid_Atocha_station_2022_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Smiley.toerist",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Madrid_Atocha_station_2022_2.jpg"
+          },
+          "en": {
+            "baslik": "EU prosecutors examine EU funds after Urda train crash that killed 69",
+            "ozet": "The European Public Prosecutor's Office (EPPO) opened a probe into possible EU-funds fraud after the Urda crash on the Madrid-Seville high-speed line at the end of October, which killed 69 people. The prosecutor had also opened a file in January after the 46-fatality crash near Adamuz; this time the inquiry focuses on EU money earmarked for modernizing signaling, safety and communication systems. For EPPO, Spanish teams collected documents from infrastructure operator Adif, the railway safety agency and the Court of Auditors. The investigation is not a finding of wrongdoing; its outcome will shape the debate on oversight of EU infrastructure funds."
+          },
+          "de": {
+            "baslik": "EU-Staatsanwaltschaft prüft EU-Gelder nach Zugunglück von Urda mit 69 Toten",
+            "ozet": "Die Europäische Staatsanwaltschaft (EPPO) hat nach dem Unglück von Urda auf der Hochgeschwindigkeitsstrecke Madrid–Sevilla Ende Oktober, bei dem 69 Menschen starben, Ermittlungen wegen möglichen EU-Subventionsbetrugs aufgenommen. Die Behörde hatte bereits im Januar nach dem Unglück bei Adamuz mit 46 Toten einen Fall eröffnet; diesmal richtet sich die Prüfung auf EU-Mittel für die Modernisierung von Signal-, Sicherheits- und Kommunikationssystemen. Im Auftrag der EPPO sammelten spanische Ermittler Unterlagen beim Infrastrukturbetreiber Adif, bei der Eisenbahnsicherheitsbehörde und beim Rechnungshof. Die Untersuchung ist kein Nachweis einer Straftat; ihr Ergebnis dürfte die Debatte über die Kontrolle von EU-Infrastrukturmitteln beeinflussen."
+          }
+        },
+        {
+          "alan": "ab",
+          "baslik": "Beş AB lideri: İngiltere'yle elektrik piyasası anlaşması hızlansın",
+          "ozet": "Almanya, Hollanda, Danimarka, Belçika ve Lüksemburg liderleri Komisyon'a yazdıkları mektupta İngiltere'nin AB iç elektrik piyasasına dönüş müzakerelerinin hızla tamamlanmasını istedi. Politico'ya göre görüşmeler 20 Kasım'daki AB-İngiltere zirvesine yetişmeyecek; bir grup ülke Komisyon'dan müzakereyi 2027 sonuna kadar bitirmesini bekliyor. Mektup anlaşmayı Kuzey Denizi'ndeki yenilenebilir yatırımların önünü açacak bir araç olarak sunuyor. AB ise İngiltere'den karşılığında uyum fonlarına katkı istiyor; süreç hâlâ müzakere aşamasında.",
+          "kaynak": "Politico Europe · 6 Kasım 2026",
+          "url": "https://www.politico.eu/article/eu-capitals-urge-brussels-to-swiftly-sign-electricity-deal-with-uk/",
+          "not": "Uzun vadede Kuzey Denizi bağlantıları elektrik fiyatlarını etkileyebilir; bugün için faturada değişiklik yok.",
+          "ig": "Almanya dahil 5 AB lideri, İngiltere'nin AB elektrik piyasasına dönüş müzakeresinin hızlanmasını istedi. Hedef: 2027 sonu.",
+          "igNot": "Henüz müzakere; elektrik faturasında bugün değişiklik yok.",
+          "gorselAra": "North Sea offshore wind farm",
+          "foto": "hinton",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Sheringham_Shoal_Offshore_Wind_Farm.jpg/960px-Sheringham_Shoal_Offshore_Wind_Farm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Pontificalibus",
+            "lisans": "CC0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Sheringham_Shoal_Offshore_Wind_Farm.jpg"
+          },
+          "en": {
+            "baslik": "Five EU leaders urge faster electricity market deal with the UK",
+            "ozet": "The leaders of Germany, the Netherlands, Denmark, Belgium and Luxembourg wrote to the Commission asking for quicker completion of negotiations on bringing the UK back into the EU’s internal electricity market. According to Politico, talks will not be ready for the November 20 EU-UK summit, and a group of countries wants the Commission to conclude the negotiation by the end of 2027. The letter presents the deal as a way to unlock renewable investment in the North Sea. The EU wants a contribution from the UK to compliance funds in return; the process is still under negotiation."
+          },
+          "de": {
+            "baslik": "Fünf EU-Regierungschefs drängen auf schnelleren Strommarkt-Deal mit Großbritannien",
+            "ozet": "Die Regierungschefs von Deutschland, den Niederlanden, Dänemark, Belgien und Luxemburg haben in einem Brief an die Kommission gefordert, die Verhandlungen über die Rückkehr Großbritanniens in den EU-Binnenstrommarkt zügig abzuschließen. Laut Politico werden die Gespräche nicht rechtzeitig zum EU-Großbritannien-Gipfel am 20. November fertig; eine Gruppe von Ländern erwartet von der Kommission einen Abschluss bis Ende 2027. Der Brief stellt das Abkommen als Hebel für erneuerbare Investitionen in der Nordsee dar. Die EU verlangt im Gegenzug einen Beitrag Großbritanniens zu Anpassungsfonds; der Prozess befindet sich weiterhin in der Verhandlungsphase."
+          }
+        },
+        {
+          "alan": "ab",
+          "baslik": "AB-İngiltere gıda standartları anlaşması zirveye yaklaşıyor",
+          "ozet": "İngiltere hükümeti, AB ile ticaretteki maliyetleri düşürmek için gıda ve veteriner standartları (SPS) anlaşmasını müzakere ediyor; anlaşmanın bu ay yapılacak zirvede açıklanabileceği belirtiliyor. BBC'ye göre anlaşma İngiltere'nin geniş bir alanda AB gıda kurallarını benimsemesini gerektiriyor; bu da muhalefetin 'kural alıcı' eleştirisini canlandırdı. Brexit sonrası sınırdaki veteriner kontrolleri, iki taraftaki gıda ihracatçıları için ek maliyet yaratıyordu. Metin henüz açıklanmadı ve imzalanmadı.",
+          "kaynak": "BBC · 6 Kasım 2026",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo",
+          "ig": "İngiltere, AB ile gıda standartları anlaşmasında sona yaklaşıyor; bu ayki zirvede açıklanabilir. Metin henüz imzalanmadı.",
+          "gorselAra": "Port of Dover lorries",
+          "foto": "kaynak-caglayan",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Lorry_queues_at_the_Port_of_Dover_-_geograph.org.uk_-_7830533.jpg/960px-Lorry_queues_at_the_Port_of_Dover_-_geograph.org.uk_-_7830533.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "DS Pugh",
+            "lisans": "CC BY-SA 2.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Lorry_queues_at_the_Port_of_Dover_-_geograph.org.uk_-_7830533.jpg"
+          },
+          "en": {
+            "baslik": "EU-UK food standards deal nears summit",
+            "ozet": "The UK government is negotiating a sanitary and phytosanitary (SPS) agreement on food and veterinary standards with the EU to lower trade costs, and it could be announced at the summit planned for this month. According to the BBC, the deal would require the UK to adopt EU food rules across a wide area, which has revived opposition criticism that it would make the UK a “rule-taker”. Post-Brexit veterinary checks at the border have added costs for food exporters on both sides. The text has not yet been published or signed."
+          },
+          "de": {
+            "baslik": "Lebensmittelabkommen zwischen EU und Großbritannien vor dem Gipfel",
+            "ozet": "Die britische Regierung verhandelt mit der EU über ein Abkommen zu Lebensmittel- und Veterinärstandards (SPS), um die Handelskosten zu senken; es könnte auf dem diesen Monat geplanten Gipfel bekanntgegeben werden. Laut BBC würde das Abkommen erfordern, dass Großbritannien in einem breiten Bereich EU-Lebensmittelregeln übernimmt, was die Kritik der Opposition am Status eines „Regelnehmers“ neu entfacht hat. Die veterinärrechtlichen Grenzkontrollen nach dem Brexit haben für Lebensmittelexporteure auf beiden Seiten zusätzliche Kosten verursacht. Der Text ist noch nicht veröffentlicht und nicht unterzeichnet."
+          }
+        },
+        {
+          "alan": "ab",
+          "baslik": "Barnier: İngiltere tek pazara 'seç-al' yöntemiyle giremez",
+          "ozet": "AB'nin eski Brexit başmüzakerecisi Michel Barnier, BBC'ye verdiği röportajda İngiltere'nin tek pazara dönmek isterse kişilerin serbest dolaşımı dahil tüm koşulları kabul etmesi gerektiğini söyledi. Barnier, İngiltere Başbakanı Andy Burnham'ın Avrupa ile ekonomik bağları derinleştirme seçeneklerini açmasının ardından konuştu ve AB'de 'kapının açık' olduğunu ekledi. Bu bir AB kararı değil, 2016-2021 arası müzakereleri yöneten Barnier'in görüşü. Yine de AB başkentlerinin olası bir tek pazar müzakeresinde koyacağı çizgiyi yansıtıyor.",
+          "kaynak": "BBC · 8 Kasım 2026",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo",
+          "ig": "Barnier'e göre İngiltere tek pazara dönmek isterse serbest dolaşım dahil tüm kuralları kabul etmeli. Bu bir AB kararı değil, görüş.",
+          "gorselAra": "Berlaymont building Brussels",
+          "foto": "pm",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Berlaymont_building_%28DSCF7542-DSCF7548%29.jpg/960px-Berlaymont_building_%28DSCF7542-DSCF7548%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Trougnouf (Benoit Brummer)",
+            "lisans": "CC BY 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_(DSCF7542-DSCF7548).jpg"
+          },
+          "en": {
+            "baslik": "Barnier: UK cannot rejoin the single market à la carte",
+            "ozet": "Former EU chief Brexit negotiator Michel Barnier told the BBC that if the UK wants to return to the single market, it must accept all its conditions, including free movement of people. Barnier spoke after UK Prime Minister Andy Burnham opened the door to deeper economic ties with Europe, and added that the door is open in the EU. This is Barnier’s own view, not an EU decision; he led the negotiations from 2016 to 2021. It nonetheless reflects the line EU capitals would likely take in any single market negotiation."
+          },
+          "de": {
+            "baslik": "Barnier: Großbritannien kann sich nicht die Rosinen aus dem Binnenmarkt picken",
+            "ozet": "Der frühere EU-Brexit-Chefunterhändler Michel Barnier sagte der BBC, eine Rückkehr Großbritanniens in den Binnenmarkt setze die Akzeptanz aller Bedingungen voraus, einschließlich der Freizügigkeit von Personen. Barnier äußerte sich, nachdem Premierminister Andy Burnham tiefere wirtschaftliche Bindungen an Europa ins Spiel gebracht hatte; er ergänzte, in der EU sei „die Tür offen“. Es handelt sich um Barniers persönliche Einschätzung, nicht um einen Beschluss der EU; er leitete die Verhandlungen von 2016 bis 2021. Sie spiegelt dennoch die Linie wider, die die EU-Hauptstädte bei möglichen Binnenmarkt-Verhandlungen vermutlich vertreten würden."
+          }
+        },
+        {
+          "alan": "ab",
+          "baslik": "Komisyon, insani yardıma özel yatırım için InvestFrontier'ı tanıttı",
+          "ozet": "AB'nin kriz yönetiminden sorumlu Komiseri Hadja Lahbib, Dünya Ekonomik Forumu ile kurulan InvestFrontier platformunun toplantısında konuştu. Lahbib'e göre masada BM ajansları, sivil toplum, finans kurumları ve şirketlerden 70 temsilci vardı; katılımcıların yarıdan fazlası özel sektördendi. Lahbib, çatışma ve kriz bölgelerinde yaşayan 2 milyar insanın, yani dünyada her dört kişiden birinin, insani bir yük olduğu kadar yatırım alanı da olduğunu savundu. Bu bir finansman kararı değil; platform şimdilik buluşma ve proje geliştirme aşamasında.",
+          "kaynak": "Avrupa Komisyonu · 6 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2369",
+          "ig": "Komiser Lahbib, WEF ile kurulan InvestFrontier'ı tanıttı: 70 temsilci, yarısından fazlası özel sektör. Henüz finansman kararı yok.",
+          "gorselAra": "",
+          "foto": "n8n",
+          "en": {
+            "baslik": "Commission unveils InvestFrontier to attract private investment to humanitarian needs",
+            "ozet": "EU Commissioner for Crisis Management Hadja Lahbib spoke at a meeting of the InvestFrontier platform set up with the World Economic Forum. According to Lahbib, 70 representatives from UN agencies, civil society, financial institutions and companies were at the table, more than half of them from the private sector. She argued that the 2 billion people living in conflict and crisis zones, one in four people worldwide, are both a humanitarian burden and an investment opportunity. This is not a funding decision; for now the platform is at the stage of networking and project development."
+          },
+          "de": {
+            "baslik": "Kommission stellt InvestFrontier vor, um privates Kapital für humanitäre Hilfe zu gewinnen",
+            "ozet": "EU-Krisenkommissarin Hadja Lahbib sprach bei einem Treffen der mit dem Weltwirtschaftsforum aufgebauten Plattform InvestFrontier. Laut Lahbib saßen 70 Vertreter von UN-Organisationen, der Zivilgesellschaft, Finanzinstituten und Unternehmen am Tisch, mehr als die Hälfte davon aus der Privatwirtschaft. Sie vertrat die Ansicht, dass die 2 Milliarden Menschen, die in Konflikt- und Krisengebieten leben, also jeder Vierte weltweit, sowohl eine humanitäre Last als auch ein Investitionsfeld seien. Es handelt sich nicht um eine Finanzierungsentscheidung; die Plattform befindet sich derzeit in der Phase der Vernetzung und Projektentwicklung."
+          }
+        },
+        {
+          "alan": "ab",
+          "baslik": "Síkela, Litvanya dönem başkanlığı öncesi Global Gateway'i öne çıkardı",
+          "ozet": "Uluslararası Ortaklıklardan Sorumlu Komiser Jozef Síkela, Litvanya'nın yaklaşan AB Konseyi dönem başkanlığına hazırlık konferansında AB'nin dış yatırım programı Global Gateway'i Avrupa'nın dayanıklılık aracı olarak tanımladı. Síkela, Rusya'nın Ukrayna'ya saldırısının ekonomik bağımlılıkların baskı aracına dönüşebildiğini gösterdiğini söyledi. Konuşmada enerji, ham madde, güvenli dijital ağlar ve ulaşım koridorları öncelik olarak sayıldı. Yeni bir bütçe ya da proje açıklanmadı; konuşma Litvanya döneminin gündemine dair bir işaret.",
+          "kaynak": "Avrupa Komisyonu · 6 Kasım 2026",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2367",
+          "ig": "Komiser Síkela, Litvanya dönem başkanlığı öncesi Global Gateway'i dayanıklılık aracı olarak sundu. Yeni bütçe açıklanmadı.",
+          "gorselAra": "Vilnius Cathedral Square",
+          "foto": "kaynak-bilimteknik",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/VilniusCathedral_square_2014.jpg/960px-VilniusCathedral_square_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Abrget47j",
+            "lisans": "CC BY-SA 3.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:VilniusCathedral_square_2014.jpg"
+          },
+          "en": {
+            "baslik": "Síkela highlights Global Gateway ahead of Lithuania’s EU presidency",
+            "ozet": "Commissioner for International Partnerships Jozef Síkela, speaking at a preparatory conference for Lithuania’s upcoming Council presidency, described the EU’s external investment programme Global Gateway as Europe’s resilience tool. He said Russia’s attack on Ukraine has shown how economic dependencies can become instruments of pressure. Energy, raw materials, secure digital networks and transport corridors were named as priorities. No new budget or project was announced; the speech is a signal of the agenda for Lithuania’s presidency."
+          },
+          "de": {
+            "baslik": "Síkela stellt vor Litauens EU-Ratsvorsitz Global Gateway in den Vordergrund",
+            "ozet": "EU-Kommissar Jozef Síkela für internationale Partnerschaften bezeichnete bei einer Vorbereitungskonferenz für den bevorstehenden Ratsvorsitz Litauens das externe Investitionsprogramm der EU, Global Gateway, als Resilienzinstrument Europas. Russlands Angriff auf die Ukraine zeige, dass wirtschaftliche Abhängigkeiten zu Druckmitteln werden können, sagte er. Als Prioritäten nannte er Energie, Rohstoffe, sichere digitale Netze und Transportkorridore. Ein neues Budget oder Projekt wurde nicht angekündigt; die Rede gibt einen Hinweis auf die Agenda der litauischen Präsidentschaft."
+          }
+        },
+        {
+          "alan": "dunya",
+          "baslik": "Herzog, hükümeti kurma görevini Netanyahu'ya değil Eisenkot'a verdi",
+          "ozet": "İsrail Cumhurbaşkanı Isaac Herzog, hükümeti kurma görevini Başbakan Benjamin Netanyahu'nun rakibi, Yashar partisinin lideri Gadi Eisenkot'a verdi. NPR'a göre Netanyahu'nun Likud'u ekim seçiminde 27 sandalyeyle birinci çıktı, Yashar 21 sandalye aldı; ancak hiçbiri 120 sandalyeli Knesset'te çoğunluğa ulaşamadı. Görev Pazar günü yerel saatle 17.00'de resmen teslim edilecek. Eski genelkurmay başkanı Eisenkot, savaş kabinesinden 2024'te ayrılmıştı.",
+          "kaynak": "NPR · 7 Kasım 2026",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+          "ig": "Herzog hükümeti kurma görevini Eisenkot'a verdi. Likud 27, Yashar 21 sandalyede; kimse 120'lik mecliste çoğunlukta değil.",
+          "gorselAra": "Knesset Jerusalem",
+          "foto": "kaynak-kurzgesagt",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Knesset_Menorah_Shema_Inscription.jpg/960px-Knesset_Menorah_Shema_Inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "original version: SuperJew derivative work: Rabanus Flavus",
+            "lisans": "CC BY-SA 3.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Knesset_Menorah_Shema_Inscription.jpg"
+          },
+          "de": {
+            "baslik": "Herzog überträgt Regierungsbildung an Netanyahu-Rivalen Eisenkot",
+            "ozet": "Israels Präsident Isaac Herzog hat Gadi Eisenkot, Chef der Partei Yashar und Rivale von Premierminister Benjamin Netanyahu, mit der Regierungsbildung beauftragt. Laut NPR wurde Netanyahus Likud bei der Oktoberwahl mit 27 Sitzen stärkste Kraft, Yashar erhielt 21; keine der beiden Parteien erreichte jedoch die Mehrheit in der 120 Sitze umfassenden Knesset. Der Auftrag wird am Sonntag um 17.00 Uhr Ortszeit offiziell übergeben. Der frühere Generalstabschef Eisenkot hatte das Kriegskabinett 2024 verlassen."
+          }
+        },
+        {
+          "alan": "dunya",
+          "baslik": "Katar'dan İran'a öneri: BM denetçileri bombalanan nükleer tesislere girsin",
+          "ozet": "ABD-İran çatışmasında ana arabulucu Katar, Tahran'ı BM nükleer denetçilerinin yüksek zenginleştirilmiş uranyum stoğunu barındıranlar dahil bombalanan tesisleri ziyaret etmesine ikna etmeye çalışıyor. Guardian'a göre öneride İran'dan stoğu ülke dışına çıkarma taahhüdü istenmiyor; uranyumun seyreltilmesi gibi seçenekler de masada. Katar Emiri Şeyh Temim bin Hamad Al Sani'nin Trump ile telefonda görüştüğü açıklandı, içerik paylaşılmadı. Guardian'a göre öneri ABD'nin deniz ablukasının kaldırılmasını da kapsıyor; taraflardan resmî kabul yok.",
+          "kaynak": "The Guardian · 7 Kasım 2026",
+          "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+          "ig": "Katar, İran'ın bombalanan nükleer tesislerine BM denetçisi girmesini öneriyor. Taraflardan resmî kabul yok.",
+          "gorselAra": "Strait of Hormuz",
+          "foto": "lansman",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/960px-STS004-37-716_-_Strait_of_Hormuz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "NASA",
+            "lisans": "Public domain",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg"
+          },
+          "en": {
+            "baslik": "Qatar proposes UN inspectors visit bombed Iranian nuclear sites",
+            "ozet": "Qatar, the main mediator in the US-Iran conflict, is trying to persuade Tehran to allow UN nuclear inspectors to visit bombed facilities, including those holding its highly enriched uranium stockpile. According to the Guardian, the proposal does not ask Iran to commit to removing the stockpile from the country; options such as diluting the uranium are on the table. Qatar’s Emir Sheikh Tamim bin Hamad Al Thani spoke with Trump by phone, and the content was not disclosed. The Guardian reports the proposal also covers lifting the US naval blockade; neither side has formally accepted it."
+          },
+          "de": {
+            "baslik": "Katar schlägt UN-Inspektoren für bombardierte iranische Atomanlagen vor",
+            "ozet": "Katar, Hauptvermittler im Konflikt zwischen den USA und dem Iran, versucht Teheran davon zu überzeugen, UN-Atominspektoren den Zugang zu bombardierten Anlagen zu gewähren, darunter solchen mit dem Bestand an hochangereichertem Uran. Laut Guardian verlangt der Vorschlag keine Zusage Irans, den Bestand außer Landes zu bringen; Optionen wie das Verdünnen des Urans stehen zur Debatte. Der Emir von Katar, Scheich Tamim bin Hamad Al Thani, habe mit Trump telefoniert, der Inhalt wurde nicht mitgeteilt. Laut Guardian umfasst der Vorschlag auch die Aufhebung der US-Seeblockade; eine formelle Zustimmung beider Seiten liegt nicht vor."
+          }
+        },
+        {
+          "alan": "dunya",
+          "baslik": "Güney Afrika yerel seçimleri: ANC oyların üçte birinin altına düştü",
+          "ozet": "Güney Afrika'da Çarşamba yapılan yerel seçimlerde oyların yüzde 80'den fazlası sayıldığında Afrika Ulusal Kongresi (ANC) yüzde 31,8'de kaldı; bu 2021'e göre yaklaşık 14 puanlık düşüş. Guardian'a göre Demokratik İttifak (DA) yüzde 24,1, eski devlet başkanı Jacob Zuma'nın MK partisi yüzde 9,3 aldı. ANC'nin en kalabalık iki eyalet Gauteng ve KwaZulu-Natal'da birinciliği kaybetmesi bekleniyor. Kesin sonuçların Pazar günü açıklanması, ardından belediyelerde koalisyon pazarlıkları bekleniyor.",
+          "kaynak": "The Guardian · 6 Kasım 2026",
+          "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+          "ig": "Güney Afrika yerel seçiminde ANC yüzde 31,8'de, 2021'e göre 14 puan geride. DA yüzde 24,1, MK yüzde 9,3.",
+          "gorselAra": "Union Buildings Pretoria",
+          "foto": "bolum-arsiv",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Union_Buildings_Pretoria_07.jpg/960px-Union_Buildings_Pretoria_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Ruby D-Brown",
+            "lisans": "CC BY 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Union_Buildings_Pretoria_07.jpg"
+          },
+          "en": {
+            "baslik": "South Africa local elections: ANC falls below one-third of the vote",
+            "ozet": "With more than 80 percent of votes counted in Wednesday’s South African local elections, the African National Congress (ANC) stood at 31.8 percent, a drop of about 14 points from 2021. According to the Guardian, the Democratic Alliance (DA) took 24.1 percent and former president Jacob Zuma’s MK party 9.3 percent. The ANC is expected to lose first place in Gauteng and KwaZulu-Natal, its two most populous provinces. Final results are due on Sunday, followed by coalition talks in municipalities."
+          },
+          "de": {
+            "baslik": "Kommunalwahlen in Südafrika: ANC fällt unter ein Drittel der Stimmen",
+            "ozet": "Bei den Kommunalwahlen in Südafrika am Mittwoch lag der Afrikanische Nationalkongress (ANC) bei ausgezählten mehr als 80 Prozent der Stimmen bei 31,8 Prozent, ein Rückgang von rund 14 Prozentpunkten gegenüber 2021. Laut Guardian erreichte die Demokratische Allianz (DA) 24,1 Prozent, die Partei MK des früheren Präsidenten Jacob Zuma 9,3 Prozent. Der ANC dürfte in den beiden bevölkerungsreichsten Provinzen, Gauteng und KwaZulu-Natal, den ersten Platz verlieren. Die endgültigen Ergebnisse werden am Sonntag erwartet, danach folgen Koalitionsverhandlungen in den Gemeinden."
+          }
+        },
+        {
+          "alan": "dunya",
+          "baslik": "Japonya'nın Şizuoka bölgesinde 5,7 büyüklüğünde deprem: 20'den fazla yaralı",
+          "ozet": "Japonya Meteoroloji Ajansı'na göre Pazar günü yerel saatle 01.04'te batı Şizuoka'da yaklaşık 40 kilometre derinlikte 5,7 büyüklüğünde deprem oldu. Kyodo ajansının yetkililere dayandırdığı habere göre Aiçi ve Şizuoka eyaletlerinde 20'den fazla kişi yaralandı. Kyodo'ya göre tsunami uyarısı yapılmadı. Hasar tespiti sürüyor.",
+          "kaynak": "Al Jazeera · 8 Kasım 2026",
+          "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people",
+          "ig": "Japonya'nın Şizuoka bölgesinde 5,7 büyüklüğünde deprem: Kyodo'ya göre 20'den fazla yaralı, tsunami uyarısı yok.",
+          "gorselAra": "Shizuoka Prefecture",
+          "foto": "kaynak-quanta",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Abe-Kaido_%28Shizuoka_Prefectural_Road_27_Ikawako_Miyuki_Line%29_03.jpg/960px-Abe-Kaido_%28Shizuoka_Prefectural_Road_27_Ikawako_Miyuki_Line%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Akahito Yamabe",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Abe-Kaido_(Shizuoka_Prefectural_Road_27_Ikawako_Miyuki_Line)_03.jpg"
+          },
+          "de": {
+            "baslik": "Erdbeben der Stärke 5,7 in der japanischen Präfektur Shizuoka: über 20 Verletzte",
+            "ozet": "Laut der japanischen Meteorologischen Behörde ereignete sich am Sonntag um 01.04 Uhr Ortszeit in West-Shizuoka ein Erdbeben der Stärke 5,7 in rund 40 Kilometern Tiefe. Die Nachrichtenagentur Kyodo meldete unter Berufung auf Behörden mehr als 20 Verletzte in den Präfekturen Aichi und Shizuoka. Laut Kyodo wurde keine Tsunamiwarnung ausgegeben. Die Schadensaufnahme läuft."
+          }
+        },
+        {
+          "alan": "ekonomi",
+          "baslik": "Lagarde: Euro bölgesinde enflasyon yüzde 4, enerji yüzde 20,8",
+          "ozet": "AMB Başkanı Christine Lagarde, 7 Kasım'da yayımlanan Yomiuri Shimbun röportajında ekimde euro bölgesi enflasyonunun yüzde 4, enerji enflasyonunun yüzde 20,8 (eylülde 18,9) olduğunu hatırlattı. Çekirdek enflasyon yüzde 2,5'te sabit kaldı; Lagarde enflasyonun önümüzdeki çeyreklerde yüksek kalmasını bekliyor. Aralık için faiz sinyali vermedi, kararların veriye göre toplantı toplantı alınacağını söyledi. Yüksek borçlu ülkelerin artan uzun vadeli faizlere daha duyarlı olduğunu belirterek hükümetlere mali kurallara uyma çağrısı yaptı.",
+          "kaynak": "Avrupa Merkez Bankası · 7 Kasım 2026",
+          "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+          "not": "Enerji fiyatları yüksek seyrederken kredi faizlerinde yakın vadede düşüş beklentisi zayıf.",
+          "ig": "Lagarde: Euro bölgesinde enflasyon yüzde 4, enerji enflasyonu yüzde 20,8. Aralık faizi için sinyal yok.",
+          "igNot": "Kredi faizlerinde yakın vadede düşüş beklentisi zayıf.",
+          "gorselAra": "European Central Bank Frankfurt",
+          "foto": "bolum-eticaret",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg/960px-Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "DXR",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg"
+          },
+          "en": {
+            "baslik": "Lagarde: euro area inflation at 4 percent, energy at 20.8 percent",
+            "ozet": "ECB President Christine Lagarde, in an interview with Yomiuri Shimbun published on November 7, noted that euro area inflation was 4 percent in October and energy inflation 20.8 percent (18.9 percent in September). Core inflation held steady at 2.5 percent, and Lagarde expects inflation to stay elevated in the coming quarters. She gave no signal on December rates, saying decisions will be taken meeting by meeting based on data. Warning that highly indebted countries are more sensitive to rising long-term interest rates, she urged governments to respect fiscal rules."
+          },
+          "de": {
+            "baslik": "Lagarde: Inflation im Euroraum bei 4 Prozent, Energie bei 20,8 Prozent",
+            "ozet": "EZB-Präsidentin Christine Lagarde erinnerte in einem am 7. November veröffentlichten Interview mit der Yomiuri Shimbun daran, dass die Inflation im Euroraum im Oktober bei 4 Prozent und die Energieinflation bei 20,8 Prozent lag (September: 18,9 Prozent). Die Kerninflation blieb bei 2,5 Prozent stabil; Lagarde erwartet, dass die Inflation in den kommenden Quartalen hoch bleibt. Zu den Zinsen im Dezember äußerte sie sich nicht und sagte, Entscheidungen würden von Sitzung zu Sitzung auf Basis der Daten getroffen. Mit Blick auf die höhere Anfälligkeit stark verschuldeter Länder für steigende langfristige Zinsen forderte sie die Regierungen auf, die fiskalischen Regeln einzuhalten."
+          }
+        },
+        {
+          "alan": "ekonomi",
+          "baslik": "Almanya'da sanayi üretimi eylülde beklenmedik biçimde yüzde 0,7 arttı",
+          "ozet": "Federal İstatistik Ofisi'nin (Destatis) öncü verilerine göre imalat üretimi eylülde bir önceki aya göre yüzde 0,7 arttı; ekonomistler yüzde 0,1 düşüş bekliyordu. Enerji ve inşaat hariç sanayi üretimi yüzde 1,7 yükseldi. Artışı otomotiv sürükledi: Üretim, yaz aylarındaki tatil ve hat değişikliklerinin ardından ayda yüzde 17,1 arttı; ilaç sanayisi yüzde 8 büyüdü. İnşaat ve makine üretimi ise geriledi, bu yüzden toparlanmanın kalıcılığı belirsiz.",
+          "kaynak": "Tagesschau / Destatis · 6 Kasım 2026",
+          "url": "https://www.tagesschau.de/wirtschaft/konjunktur/industrieproduktion-wachstum-deutschland-100.html",
+          "ig": "Almanya'da imalat üretimi eylülde yüzde 0,7 arttı, beklenti düşüştü. Otomotiv aylık yüzde 17,1 sıçradı.",
+          "gorselAra": "Volkswagen Wolfsburg plant",
+          "foto": "mobil",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Wolfsburg%2C_Volkswagenwerk_--_2009_--_0822.jpg/960px-Wolfsburg%2C_Volkswagenwerk_--_2009_--_0822.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Dietmar Rabich",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Wolfsburg,_Volkswagenwerk_--_2009_--_0822.jpg"
+          },
+          "en": {
+            "baslik": "German industrial output unexpectedly rises 0.7 percent in September",
+            "ozet": "According to preliminary data from the Federal Statistical Office (Destatis), manufacturing output rose 0.7 percent month on month in September; economists had expected a 0.1 percent decline. Industrial output excluding energy and construction rose 1.7 percent. Automotive drove the gain, with output up 17.1 percent on the month after summer holidays and line changes; pharmaceuticals grew 8 percent. Construction and machinery output fell, so the durability of the recovery is uncertain."
+          },
+          "de": {
+            "baslik": "Deutsche Industrieproduktion steigt im September unerwartet um 0,7 Prozent",
+            "ozet": "Laut vorläufigen Daten des Statistischen Bundesamts (Destatis) stieg die Produktion im verarbeitenden Gewerbe im September gegenüber dem Vormonat um 0,7 Prozent; Volkswirte hatten einen Rückgang um 0,1 Prozent erwartet. Ohne Energie und Bau legte die Industrieproduktion um 1,7 Prozent zu. Getragen wurde der Anstieg von der Autoindustrie, deren Produktion nach Sommerferien und Umrüstungen im Monatsvergleich um 17,1 Prozent zulegte; die Pharmaindustrie wuchs um 8 Prozent. Bau- und Maschinenproduktion gingen dagegen zurück, daher ist unklar, wie nachhaltig die Erholung ist."
+          }
+        },
+        {
+          "alan": "ekonomi",
+          "baslik": "Almanya'da 20-34 yaş arası 2,76 milyon kişi meslek diplomasız",
+          "ozet": "Berufsbildungsbericht 2026'ya göre Almanya'da 20-34 yaş arasında 2,76 milyon kişinin meslek eğitimi diploması yok; bu yaş grubunda neredeyse her beş kişiden biri. Tagesschau'ya göre Federal İş Ajansı da 30 Ekim'de açıkladığı meslek eğitimi piyasası bilançosunda uyarıda bulundu. Bu gruptaki gençler daha düşük ücret ve zayıf fırsatlarla karşılaşırken birçok işveren kalifiye eleman arıyor. Bochum'daki bir hastanede tek ebeveynler için üç yerine dört yıl süren yarı zamanlı hemşirelik eğitimi bir çözüm örneği olarak sunuluyor.",
+          "kaynak": "Tagesschau · 7 Kasım 2026",
+          "url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/junge-menschen-keine-berufsausbildung-100.html",
+          "not": "Yarı zamanlı meslek eğitimi (Teilzeitausbildung) çocuklu ebeveynler için de mümkün; Arbeitsagentur danışmanlığından bilgi alınabilir.",
+          "ig": "Almanya'da 20-34 yaş arası 2,76 milyon kişi meslek diplomasız; neredeyse her beş gençten biri.",
+          "igNot": "Teilzeitausbildung çocuklu ebeveynler için de bir seçenek.",
+          "gorselAra": "",
+          "foto": "dijital",
+          "en": {
+            "baslik": "2.76 million people aged 20 to 34 in Germany have no vocational qualification",
+            "ozet": "According to the Vocational Training Report 2026, 2.76 million people aged 20 to 34 in Germany have no vocational training qualification, almost one in five in that age group. Tagesschau reports that the Federal Employment Agency also issued a warning in its vocational training market review published on October 30. Young people in this group face lower pay and fewer opportunities, while many employers are looking for skilled workers. A part-time nursing program at a hospital in Bochum, which takes four years instead of three for single parents, is cited as an example of a solution."
+          },
+          "de": {
+            "baslik": "2,76 Millionen 20- bis 34-Jährige in Deutschland ohne Berufsabschluss",
+            "ozet": "Laut dem Berufsbildungsbericht 2026 haben in Deutschland 2,76 Millionen Menschen zwischen 20 und 34 Jahren keinen Berufsabschluss, also nahezu jeder Fünfte in dieser Altersgruppe. Laut Tagesschau warnte auch die Bundesagentur für Arbeit in ihrer am 30. Oktober veröffentlichten Bilanz zum Ausbildungsmarkt. Junge Menschen in dieser Gruppe haben geringere Löhne und schlechtere Chancen, während viele Arbeitgeber Fachkräfte suchen. Als Beispiel für eine Lösung wird eine Teilzeit-Pflegeausbildung an einer Klinik in Bochum genannt, die für Alleinerziehende vier statt drei Jahre dauert."
+          }
+        },
+        {
+          "alan": "ekonomi",
+          "baslik": "ABD'de ortalama işsizlik süresi 27 haftayı aştı",
+          "ozet": "ABD Çalışma İstatistikleri Bürosu'nun ekim verisine göre işsiz bir kişinin ortalama iş arama süresi mevsimsellikten arındırılmış olarak 27 haftayı aştı; bu pandemi dışında 2016'dan beri en uzun süre. CNBC'ye göre yaklaşık 2 milyon kişi en az 27 haftadır işsiz ve bu grup toplam işsizlerin yüzde 27,6'sını oluşturuyor, 2021 sonundan beri en yüksek pay. Toplam istihdam güçlü görünse de şirketlerin hem az işten çıkardığı hem az işe aldığı bir piyasa oluştu. İş kaybedenler için yeni iş bulmak eskisinden zor.",
+          "kaynak": "CNBC / BLS · 6 Kasım 2026",
+          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+          "ig": "ABD'de ortalama işsizlik süresi 27 haftayı aştı; uzun süreli işsizler toplamın yüzde 27,6'sı.",
+          "gorselAra": "",
+          "foto": "youtube",
+          "en": {
+            "baslik": "US average unemployment duration tops 27 weeks",
+            "ozet": "According to the US Bureau of Labor Statistics’ October data, the average job search duration for unemployed people rose above 27 weeks on a seasonally adjusted basis, the longest since 2016 excluding the pandemic. According to CNBC, about 2 million people have been unemployed for at least 27 weeks, 27.6 percent of all unemployed, the highest share since late 2021. Although total employment looks strong, the market has companies cutting few jobs but also hiring few people. Finding a new job is harder than before for those who lose one."
+          },
+          "de": {
+            "baslik": "Durchschnittliche Arbeitslosigkeitsdauer in den USA übersteigt 27 Wochen",
+            "ozet": "Laut den Oktoberdaten des US-Arbeitsministeriums (Bureau of Labor Statistics) lag die durchschnittliche Dauer der Arbeitssuche bei Arbeitslosen saisonbereinigt über 27 Wochen; das ist der längste Wert seit 2016, abgesehen von der Pandemiezeit. Laut CNBC sind rund 2 Millionen Menschen mindestens 27 Wochen arbeitslos, das sind 27,6 Prozent aller Arbeitslosen und der höchste Anteil seit Ende 2021. Obwohl die Gesamtbeschäftigung stark wirkt, hat sich ein Markt entwickelt, in dem Unternehmen kaum entlassen, aber auch kaum einstellen. Wer seinen Job verliert, findet schwerer eine neue Stelle als früher."
+          }
+        },
+        {
+          "alan": "claude",
+          "baslik": "Anthropic Bilim Blogu: Yapay zekâ ajanları bilimsel model kurmayı öğreniyor",
+          "ozet": "Anthropic, AI for Science programından destek alan Tübingen'deki ELLIS Enstitüsü araştırmacıları Jakob Macke, Daniel Gedon ve Stefan Wahl'ın konuk yazısını 6 Kasım'da Bilim Blogu'nda yayımladı. Yazı, dil modeli tabanlı ajanların model kodu yazıp parametreleri veriye uydurarak tek bir 'en iyi' model yerine veriyle uyumlu model ailelerini çıkarabileceğini anlatıyor. Örneğin simülasyon temelli çıkarım, Hodgkin-Huxley ölçeğinde bir sinir hücresi modeli için yaklaşık 100 bin simülasyonla eğitiliyor, sonra saniyeler içinde sonuç veriyor. Yazarlara göre bu sistemler şimdiye kadar çoğunlukla bilinen modelleri yeniden bulmada test edildi; cevabı bilinmeyen sorunlarda kanıt az.",
+          "kaynak": "Anthropic · 6 Kasım 2026",
+          "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+          "not": "Claude'dan tek bir cevap yerine 'veriye uyan üç farklı açıklama ve her birinin zayıf noktası' iste; satış verini yorumlarken bu yöntem yanılgıyı azaltır.",
+          "ig": "Anthropic'in Bilim Blogu'nda Tübingenli araştırmacılar, ajanların veriyle uyumlu model aileleri kurabildiğini anlatıyor. Kanıt şimdilik bilinen modellerde.",
+          "igNot": "Claude'dan tek cevap değil, üç alternatif açıklama iste.",
+          "gorselAra": "University of Tübingen",
+          "foto": "bolum-claude",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Kupferbau_T%C3%BCbingen_innen.jpg/960px-Kupferbau_T%C3%BCbingen_innen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Qwave",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Kupferbau_T%C3%BCbingen_innen.jpg"
+          },
+          "en": {
+            "baslik": "Anthropic Science Blog: AI agents learn to build scientific models",
+            "ozet": "Anthropic published a guest essay on its Science Blog on November 6 by researchers Jakob Macke, Daniel Gedon and Stefan Wahl of the ELLIS Institute Tübingen, who are supported by the AI for Science program. The piece explains that language-model-based agents can write model code and fit parameters to data, producing families of data-consistent models instead of a single “best” model. For example, simulation-based inference was trained with about 100,000 simulations for a Hodgkin-Huxley-scale neuron model, then produced results in seconds. According to the authors, these systems have so far been tested mostly on rediscovering known models, and there is little evidence for problems with unknown answers."
+          },
+          "de": {
+            "baslik": "Anthropic-Wissenschaftsblog: KI-Agenten lernen, wissenschaftliche Modelle zu bauen",
+            "ozet": "Anthropic veröffentlichte am 6. November im Wissenschaftsblog einen Gastbeitrag der Forscher Jakob Macke, Daniel Gedon und Stefan Wahl vom ELLIS-Institut Tübingen, die vom Programm „AI for Science“ unterstützt werden. Der Text beschreibt, wie sprachmodellbasierte Agenten Modellcode schreiben und Parameter an Daten anpassen können, sodass sie eine Familie datenkonsistenter Modelle statt eines einzigen „besten“ Modells liefern. Beispielsweise wurde ein simulationsbasiertes Inferenzverfahren für ein Nervenzellmodell in der Größenordnung von Hodgkin-Huxley mit rund 100.000 Simulationen trainiert und lieferte danach Ergebnisse in Sekunden. Laut den Autoren wurden solche Systeme bisher vor allem darin getestet, bekannte Modelle wiederzufinden; bei Problemen mit unbekannten Antworten gibt es wenig Belege."
+          }
+        },
+        {
+          "alan": "yz",
+          "baslik": "OpenAI, 1,25 trilyon dolar değerlemeyle 11 milyar dolar topladı",
+          "ozet": "Bloomberg'in kaynaklara dayandırdığı habere göre OpenAI, 1,25 trilyon dolar değerlemeyle 11 milyar dolar yeni yatırım aldı; turun toplamda yaklaşık 20 milyar dolara ulaşabileceği belirtiliyor. Bloomberg eylül sonunda şirketin 1,4 trilyon dolar değerlemeyle 30 milyar dolar hedeflediğini yazmıştı, yani rakamlar hedefin altında. Turun önümüzdeki haftalarda kapanması bekleniyor, yatırımcılar açıklanmadı. Aynı haberde halka arza hazırlanan Anthropic için bazı alıcıların 1,1 trilyon dolara kadar düşük değerleme konuştuğu aktarılıyor.",
+          "kaynak": "TechCrunch / Bloomberg · 6 Kasım 2026",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "ig": "OpenAI 1,25 trilyon dolar değerlemeyle 11 milyar dolar topladı; eylüldeki hedef 1,4 trilyon dolardı.",
+          "gorselAra": "",
+          "foto": "alan-yz",
+          "en": {
+            "baslik": "OpenAI raises $11 billion at a $1.25 trillion valuation",
+            "ozet": "Citing sources, Bloomberg reports OpenAI has taken $11 billion in new investment at a $1.25 trillion valuation; the round could total about $20 billion. Bloomberg reported in late September that the company was targeting $30 billion at a $1.4 trillion valuation, so the figures fall short of that goal. The round is expected to close in the coming weeks; investors have not been named. The same report says some buyers discussed valuations for Anthropic, which is preparing an IPO, as low as $1.1 trillion."
+          },
+          "de": {
+            "baslik": "OpenAI sammelt 11 Milliarden Dollar bei 1,25 Billionen Dollar Bewertung ein",
+            "ozet": "Laut Bloomberg unter Berufung auf Quellen hat OpenAI neue Investitionen von 11 Milliarden Dollar bei einer Bewertung von 1,25 Billionen Dollar erhalten; die Runde könnte insgesamt rund 20 Milliarden Dollar erreichen. Bloomberg hatte Ende September berichtet, das Unternehmen strebe 30 Milliarden Dollar bei 1,4 Billionen Dollar an; die Zahlen liegen also unter dem Ziel. Die Runde soll in den kommenden Wochen abgeschlossen werden, Investoren wurden nicht genannt. Im selben Bericht heißt es, einige potenzielle Käufer hätten für Anthropic, das einen Börsengang vorbereitet, Bewertungen von nur bis zu 1,1 Billionen Dollar genannt."
+          }
+        },
+        {
+          "alan": "yz",
+          "baslik": "Yapay zekâ denetçileri ajan hatalarını yakalıyor ama yanlış alarm çok",
+          "ozet": "Anthropic Institute araştırmacısı Andy Hall, METR'in MALT veri setini kullanarak beş modelin ajan kayıtlarındaki hileli davranışları ne kadar yakaladığını ölçtü. Yüzde 5 yanlış alarm sınırında GPT-5, 47 ödül hilesi vakasının yaklaşık yüzde 98'ini yakaladı; Gemini 3.8 Flash yarısında kaldı. Kasıtlı performans düşürmede (1.073 vaka) tüm denetçiler yüzde 71-81 aralığında. Hall'un hesabına göre ayda 100 bin oturumda yüzde 3 yanlış alarm, yaklaşık 2 bin gerçek vakaya karşı 3 bine yakın boş uyarı demek; Hall çalışmayı küçük örneklemli bir pilot olarak tanımlıyor.",
+          "kaynak": "Free Systems (Andy Hall) · 7 Kasım 2026",
+          "url": "https://freesystems.substack.com/p/were-using-ai-to-audit-ai",
+          "not": "Claude'un ajan olarak yaptığı işleri ikinci bir Claude oturumuna denetletirken her uyarıyı doğru kabul etme; şüpheli bulguları elle kontrol et.",
+          "ig": "Pilot çalışma: GPT-5 ödül hilelerinin yüzde 98'ini yakaladı, ama ayda 100 bin oturumda 3 bine yakın yanlış alarm çıkıyor.",
+          "igNot": "Yapay zekâ denetimindeki her uyarıyı elle doğrula.",
+          "gorselAra": "",
+          "foto": "ajanlar",
+          "en": {
+            "baslik": "AI monitors catch agent misbehavior but raise many false alarms",
+            "ozet": "Andy Hall of the Anthropic Institute used METR’s MALT dataset to measure how well five models detected cheating behavior in agent transcripts. At a 5 percent false alarm threshold, GPT-5 caught about 98 percent of 47 reward-hacking cases, while Gemini 3.8 Flash caught about half. For deliberate underperformance (1,073 cases), all monitors scored between 71 and 81 percent. By Hall’s estimate, a 3 percent false alarm rate across 100,000 sessions a month would mean about 2,000 real cases against nearly 3,000 false warnings; Hall describes the study as a pilot with a small sample."
+          },
+          "de": {
+            "baslik": "KI-Prüfsysteme erkennen Fehlverhalten von Agenten, lösen aber viele Fehlalarme aus",
+            "ozet": "Andy Hall vom Anthropic Institute maß mit dem MALT-Datensatz von METR, wie gut fünf Modelle Betrugsverhalten in Agenten-Protokollen erkennen. Bei einer Fehlalarmquote von 5 Prozent erfasste GPT-5 rund 98 Prozent der 47 Fälle von Belohnungsmanipulation, Gemini 3.8 Flash nur etwa die Hälfte. Bei absichtlicher Leistungsdrosselung (1.073 Fälle) lagen alle Prüfsysteme zwischen 71 und 81 Prozent. Nach Halls Rechnung bedeuten 3 Prozent Fehlalarme bei 100.000 Sitzungen im Monat rund 2.000 echte Fälle gegenüber knapp 3.000 leeren Warnungen; Hall bezeichnet die Untersuchung als Pilotstudie mit kleiner Stichprobe."
+          }
+        },
+        {
+          "alan": "yz",
+          "baslik": "Google Antigravity 2.29: Uzak ajanlar ve sesli kullanım geldi",
+          "ozet": "Google, yapay zekâ kodlama ortamı Antigravity'nin 2.29 sürümünü Mac, Windows ve Linux için dağıtmaya başladı. Yeni Remote Agents özelliği ajanları yalıtılmış bulut ortamlarında çalıştırıyor; dizüstü kapandığında da iş sürüyor ve ajanlar telefondan yönetilebiliyor. Gemini Live tabanlı Voice Mode ile istekler sesle verilebiliyor, oynatma hızı 0,75x ile 2x arasında ayarlanıyor. Remote Agents yalnızca ücretli Google AI Pro ve Ultra abonelerine açılıyor.",
+          "kaynak": "9to5Google · 6 Kasım 2026",
+          "url": "https://9to5google.com/2026/11/06/google-antigravity-remote-agents-voice-mode/",
+          "ig": "Google Antigravity 2.29: Ajanlar bulutta çalışmaya devam ediyor, telefondan yönetiliyor; sesli kullanım geldi.",
+          "gorselAra": "",
+          "foto": "arac-graphify",
+          "en": {
+            "baslik": "Google Antigravity 2.29 adds remote agents and voice use",
+            "ozet": "Google began rolling out version 2.29 of its AI coding environment Antigravity for Mac, Windows and Linux. The new Remote Agents feature runs agents in isolated cloud environments, so work continues when the laptop is closed, and agents can be managed from a phone. Voice Mode, based on Gemini Live, lets users make requests by voice, with playback speed adjustable from 0.75x to 2x. Remote Agents is available only to paid Google AI Pro and Ultra subscribers."
+          },
+          "de": {
+            "baslik": "Google Antigravity 2.29: Remote-Agenten und Sprachsteuerung verfügbar",
+            "ozet": "Google hat mit der Auslieferung von Version 2.29 seiner KI-Programmierumgebung Antigravity für Mac, Windows und Linux begonnen. Die neue Funktion Remote Agents lässt Agenten in isolierten Cloud-Umgebungen laufen, sodass die Arbeit auch bei geschlossenem Laptop weitergeht und Agenten vom Smartphone aus verwaltet werden können. Der auf Gemini Live basierende Voice Mode erlaubt Anfragen per Sprache; die Wiedergabegeschwindigkeit lässt sich zwischen 0,75x und 2x einstellen. Remote Agents steht nur zahlenden Abonnenten von Google AI Pro und Ultra offen."
+          }
+        },
+        {
+          "alan": "yz",
+          "baslik": "Siber saldırı testinde açık model DeepSeek kapalı rakibe yaklaştı",
+          "ozet": "Vals AI'ın CyberOffense testinde ajanlar yalnızca bir web adresinden başlayarak simüle şirket ağlarına saldırdı. GPT-6 Sol (OpenAI'ın kısıtlı Daybreak programı) hedeflerin yüzde 80,8'ini, açık ağırlıklı DeepSeek V4.1 Flash yüzde 72,8'ini tamamladı; DeepSeek'in çalıştırma maliyeti yaklaşık 3 dolar, rakibininki 22 dolar. The Decoder'ın aktardığına göre İngiltere Yapay Zekâ Güvenlik Enstitüsü, açık ve kapalı modeller arasındaki siber yetenek farkının 2025'teki 6-10 aydan 4-7 aya indiğini tespit etti. Bu, ucuz açık modellerle yapılan saldırıların eşiğinin düştüğü anlamına geliyor.",
+          "kaynak": "Vals AI / The Decoder · 7 Kasım 2026",
+          "url": "https://www.vals.ai/benchmarks/cyber_offense",
+          "not": "Etsy ve e-posta hesaplarında iki adımlı doğrulamayı ve kurtarma e-postasını bugün kontrol et.",
+          "ig": "Vals AI testinde açık DeepSeek V4.1 Flash saldırı hedeflerinin yüzde 72,8'ini 3 dolara tamamladı; kapalı GPT-6 Sol yüzde 80,8.",
+          "igNot": "Etsy ve e-posta hesaplarında iki adımlı doğrulamayı kontrol et.",
+          "gorselAra": "",
+          "foto": "mcp",
+          "en": {
+            "baslik": "In cyberattack test, open model DeepSeek nears closed rival",
+            "ozet": "In Vals AI’s CyberOffense test, agents attacked simulated company networks starting from only a single web address. OpenAI’s restricted GPT-6 Sol (part of its limited Daybreak program) completed 80.8 percent of targets, while open-weight DeepSeek V4.1 Flash completed 72.8 percent. DeepSeek’s running cost was about $3, versus $22 for its rival. According to The Decoder, the UK AI Security Institute found that the gap in cyber capabilities between open and closed models shrank from 6 to 10 months in 2025 to 4 to 7 months. This means the bar for attacks using cheap open models has dropped."
+          },
+          "de": {
+            "baslik": "Cyberangriffstest: Offenes Modell DeepSeek kommt geschlossenem Rivalen nahe",
+            "ozet": "Im CyberOffense-Test von Vals AI griffen Agenten simulierte Firmennetzwerke an, wobei sie nur von einer einzigen Webadresse ausgingen. GPT-6 Sol von OpenAI (aus dem eingeschränkten Programm Daybreak) erreichte 80,8 Prozent der Ziele, das offene DeepSeek V4.1 Flash 72,8 Prozent. Die Betriebskosten für DeepSeek lagen bei rund 3 Dollar, für den Rivalen bei 22 Dollar. Laut The Decoder stellte das britische AI Security Institute fest, dass der Abstand bei Cyberfähigkeiten zwischen offenen und geschlossenen Modellen von 6 bis 10 Monaten im Jahr 2025 auf 4 bis 7 Monate geschrumpft ist. Damit sinkt die Hürde für Angriffe mit günstigen offenen Modellen."
+          }
+        },
+        {
+          "alan": "yz",
+          "baslik": "Perplexity'den sürekli çalışan ajan: Teammates",
+          "ozet": "Perplexity, uzun soluklu projeleri kendi başına yürüten Teammates ajanlarını 6 Kasım'da duyurdu. Her ajan masaüstü ve tarayıcısı olan kendi sanal makinesinde çalışıyor; ilerleme Perplexity uygulamasındaki başlıklardan izleniyor, Slack üzerinden de iletişim kurulabiliyor. Tek seferlik işler yapan Perplexity Computer'dan farkı, işin sürekli olması. Özellik ayda 200 dolarlık Max planı gerektiriyor; The Decoder'a göre rakip sürekli ajanların giriş fiyatı daha düşük.",
+          "kaynak": "Perplexity · 6 Kasım 2026",
+          "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+          "ig": "Perplexity Teammates: Kendi sanal makinesinde sürekli çalışan ajanlar. Ayda 200 dolarlık Max planı gerekiyor.",
+          "gorselAra": "",
+          "foto": "arac-karpathy",
+          "en": {
+            "baslik": "Perplexity launches always-on agent Teammates",
+            "ozet": "Perplexity announced Teammates on November 6, agents that run long-term projects on their own. Each agent works in its own virtual machine with a desktop and browser; progress is tracked through threads in the Perplexity app, and agents can also communicate via Slack. Unlike Perplexity Computer, which handles one-off tasks, Teammates work continuously. The feature requires the Max plan at $200 a month; according to The Decoder, rival always-on agents have a lower entry price."
+          },
+          "de": {
+            "baslik": "Perplexity startet dauerhaft laufenden Agenten Teammates",
+            "ozet": "Perplexity kündigte am 6. November Teammates an, Agenten, die langfristige Projekte selbstständig weiterführen. Jeder Agent arbeitet in einer eigenen virtuellen Maschine mit Desktop und Browser; den Fortschritt verfolgt man über Themen in der Perplexity-App, die Kommunikation ist auch über Slack möglich. Anders als Perplexity Computer, das einmalige Aufgaben erledigt, arbeiten Teammates kontinuierlich. Die Funktion setzt den Max-Tarif für 200 Dollar im Monat voraus; laut The Decoder bieten Konkurrenten mit dauerhaft laufenden Agenten einen günstigeren Einstieg."
+          }
+        },
+        {
+          "alan": "teknoloji",
+          "baslik": "Chainalysis: Saldırganlar tüm kullanıcıların şifre özetlerini ve token'larını aldı",
+          "ozet": "Blokzincir analiz şirketi Chainalysis, ekimdeki siber saldırıda tüm kullanıcılarının adları, kullanıcı adları, şifre özetleri (hash) ve geçerli token'larının ele geçirildiğini açıkladı. Ars Technica'ya göre şirket ilk açıklamasında yalnızca 'hassas olmayan' verilere erişildiğini söylemişti; çarşamba güncellemesinde araya girme (on-path) saldırısıyla bazı şifrelerin de açığa çıktığını kabul etti. Şirkete göre saldırgan yapay zekâ ajanı destekli saldırı teknikleri kullandı. Müşteriler arasında FBI ve ABD Hava Kuvvetleri gibi kurumlar ile Microsoft, Coinbase gibi şirketler var.",
+          "kaynak": "Ars Technica · 6 Kasım 2026",
+          "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+          "not": "Kullandığın araçlarda aynı şifreyi tekrarlıyorsan bugün değiştir ve bir parola yöneticisine geç.",
+          "ig": "Chainalysis, saldırıda tüm kullanıcıların şifre özetleri ve token'larının çalındığını açıkladı. İlk açıklama 'hassas değil' demişti.",
+          "igNot": "Tekrarlanan şifreleri bugün değiştir.",
+          "gorselAra": "",
+          "foto": "arac-claudecode",
+          "en": {
+            "baslik": "Chainalysis: attackers obtained password hashes and tokens of all users",
+            "ozet": "Blockchain analytics firm Chainalysis disclosed that the October cyberattack exposed the names, usernames, password hashes and valid tokens of all its users. According to Ars Technica, the company’s initial statement said only “non-sensitive” data had been accessed, but its Wednesday update acknowledged that some passwords were also exposed through an on-path attack. The company said the attacker used AI agent-assisted attack techniques. Its customers include agencies such as the FBI and the US Air Force, and companies such as Microsoft and Coinbase."
+          },
+          "de": {
+            "baslik": "Chainalysis: Angreifer erbeuteten Passwort-Hashes und Tokens aller Nutzer",
+            "ozet": "Das Blockchain-Analyseunternehmen Chainalysis teilte mit, dass beim Cyberangriff im Oktober die Namen, Benutzernamen, Passwort-Hashes und gültigen Tokens sämtlicher Nutzer abgegriffen wurden. Laut Ars Technica hatte das Unternehmen zunächst erklärt, nur „nicht sensible“ Daten seien betroffen gewesen; im Update am Mittwoch räumte es ein, dass durch einen Man-in-the-Middle-Angriff auch einige Passwörter offengelegt wurden. Der Angreifer habe KI-Agenten-gestützte Angriffstechniken eingesetzt, so das Unternehmen. Zu den Kunden zählen Behörden wie das FBI und die US-Luftwaffe sowie Unternehmen wie Microsoft und Coinbase."
+          }
+        },
+        {
+          "alan": "teknoloji",
+          "baslik": "Tesla, Cybertruck üretimini 2027'de bitiriyor",
+          "ozet": "Elon Musk, X'te Tesla'nın Cybertruck üretimini durduracağını ve fabrika alanını iki kişilik Cybercab robotaksi üretimine ayıracağını açıkladı; TechCrunch'a göre üretim 2027'de bitecek. Musk 2023 sonundaki ilk teslimatlarda yılda yaklaşık 250 bin satış öngörmüştü, Tesla ise üç yılda toplam on binlerce araç sattı. Cybercab'ler yaklaşık iki aydır Austin'de çalışıyor, Dallas'a genişleme planlanıyor. Cybertruck, Model S ve Model X'in ardından Tesla'nın üretimden kaldırdığı üçüncü ürün oluyor.",
+          "kaynak": "TechCrunch · 6 Kasım 2026",
+          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+          "ig": "Tesla Cybertruck üretimini 2027'de bitiriyor. Musk yılda 250 bin satış öngörmüştü; üç yılda on binlerce satıldı.",
+          "gorselAra": "Tesla Gigafactory Texas",
+          "foto": "arac-uiux",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gigafactory_Texas_Building_1_June_2022.jpg/960px-Gigafactory_Texas_Building_1_June_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Larry D. Moore",
+            "lisans": "CC BY 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Gigafactory_Texas_Building_1_June_2022.jpg"
+          },
+          "en": {
+            "baslik": "Tesla to end Cybertruck production in 2027",
+            "ozet": "Elon Musk announced on X that Tesla will stop producing the Cybertruck and convert the factory space to making the two-seat Cybercab robotaxi. According to TechCrunch, Cybertruck production will end in 2027. At the first deliveries at the end of 2023, Musk had projected annual sales of about 250,000; Tesla has sold tens of thousands of vehicles in total over three years. Cybercabs have been operating in Austin for about two months, with expansion to Dallas planned. The Cybertruck becomes the third product Tesla has discontinued, after the Model S and Model X."
+          },
+          "de": {
+            "baslik": "Tesla beendet Cybertruck-Produktion 2027",
+            "ozet": "Elon Musk kündigte auf X an, dass Tesla die Produktion des Cybertruck beenden und die Fabrikfläche für den zweisitzigen Robotaxi Cybercab nutzen wird. Laut TechCrunch endet die Cybertruck-Fertigung 2027. Zum Start der ersten Auslieferungen Ende 2023 hatte Musk einen Jahresabsatz von rund 250.000 Fahrzeugen in Aussicht gestellt; Tesla hat in drei Jahren insgesamt Zehntausende verkauft. Die Cybercabs sind seit etwa zwei Monaten in Austin im Einsatz, eine Ausweitung nach Dallas ist geplant. Der Cybertruck ist nach Model S und Model X das dritte Modell, das Tesla aus dem Programm nimmt."
+          }
+        },
+        {
+          "alan": "teknoloji",
+          "baslik": "NYT: ABD, Nvidia H200 çiplerinin boş ofisli Çinli firmalara satışını onayladı",
+          "ozet": "New York Times'ın araştırmasına göre ABD Ticaret Bakanlığı, Nvidia'nın H200 yapay zekâ çiplerini almaya yetkili Çinli şirketler listesine kara listedeki firmalarla bağlantılı şirketleri de aldı. The Verge'ün aktardığına göre listedeki New Matrix adlı şirketin ofisi boş, şirket 17 ay önce kurulmuş ve çevrimiçi izi çok az. Habere göre ne bakanlık ne de Nvidia onaylanan alıcıları yeterince inceliyor. Bulgular, ihracat kontrollerinin uygulanmasına dair tartışmayı büyütüyor.",
+          "kaynak": "The New York Times · 7 Kasım 2026",
+          "url": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+          "ig": "NYT: Nvidia H200 alıcısı olarak onaylanan Çinli New Matrix'in ofisi boş, şirket 17 aylık.",
+          "gorselAra": "",
+          "foto": "vibe",
+          "en": {
+            "baslik": "NYT: US approves Nvidia H200 chip sales to Chinese firms with empty offices",
+            "ozet": "According to a New York Times investigation, the US Commerce Department added firms linked to blacklisted companies to its list of Chinese companies approved to buy Nvidia H200 AI chips. The Verge reports that New Matrix, a company on the list, has an empty office, was founded 17 months ago and has very little online footprint. According to the report, neither the ministry nor Nvidia adequately vets approved buyers. The findings add to the debate over how export controls are enforced."
+          },
+          "de": {
+            "baslik": "NYT: USA erlauben Nvidia-H200-Verkäufe an chinesische Firmen mit leeren Büros",
+            "ozet": "Laut einer Recherche der New York Times hat das US-Handelsministerium auf die Liste chinesischer Unternehmen, die Nvidia-H200-KI-Chips kaufen dürfen, auch Firmen aufgenommen, die mit schwarzgelisteten Unternehmen verbunden sind. Laut The Verge hat das gelistete Unternehmen New Matrix ein leeres Büro, wurde vor 17 Monaten gegründet und ist im Netz kaum präsent. Nach dem Bericht prüfen weder das Ministerium noch Nvidia die genehmigten Käufer ausreichend. Die Ergebnisse befeuern die Debatte über die Durchsetzung von Exportkontrollen."
+          }
+        },
+        {
+          "alan": "teknoloji",
+          "baslik": "Dropbox, Tigris Data'yı 350 milyon dolara alıyor",
+          "ozet": "Dropbox, bulut depolama şirketi Tigris Data'yı 350 milyon dolara satın almak için anlaştığını duyurdu; işlemin 2026'nın son çeyreğinde tamamlanması bekleniyor. Bu, şirketin 2007'deki kuruluşundan bu yana en büyük satın alması olacak. 2021'de eski Uber mühendislerinin kurduğu Tigris, veriyi kullanıldığı bölgeye yakın tutan çok bulutlu bir depolama altyapısı geliştiriyor. Satın alma, Dropbox'ın yapay zekâ ajanlarına altyapı sunacak DBX Agent Cloud platformunun temeli olacak; ilk ürün Amazon S3 uyumlu nesne depolama.",
+          "kaynak": "Webrazzi · 6 Kasım 2026",
+          "url": "https://webrazzi.com/2026/11/06/dropbox-tigris-datayi-350-milyon-dolara-satin-aliyor/",
+          "ig": "Dropbox, Tigris Data'yı 350 milyon dolara alıyor; şirket tarihinin en büyük satın alması. Hedef: ajanlar için DBX Agent Cloud.",
+          "gorselAra": "",
+          "foto": "bolum-araclar",
+          "en": {
+            "baslik": "Dropbox to acquire Tigris Data for $350 million",
+            "ozet": "Dropbox announced it has agreed to buy cloud storage company Tigris Data for $350 million, with the deal expected to close in the fourth quarter of 2026. It will be Dropbox’s largest acquisition since its founding in 2007. Founded in 2021 by former Uber engineers, Tigris builds multi-cloud storage infrastructure that keeps data close to where it is used. The acquisition will form the basis of Dropbox’s DBX Agent Cloud platform, which will provide infrastructure for AI agents; the first product is Amazon S3-compatible object storage."
+          },
+          "de": {
+            "baslik": "Dropbox übernimmt Tigris Data für 350 Millionen Dollar",
+            "ozet": "Dropbox gab bekannt, dass es den Cloud-Speicheranbieter Tigris Data für 350 Millionen Dollar übernehmen will; der Abschluss ist für das vierte Quartal 2026 vorgesehen. Es wäre die größte Übernahme seit der Gründung von Dropbox im Jahr 2007. Tigris wurde 2021 von ehemaligen Uber-Ingenieuren gegründet und entwickelt eine Multi-Cloud-Speicherinfrastruktur, die Daten nah an dem Ort hält, an dem sie genutzt werden. Die Übernahme bildet die Grundlage für die Plattform DBX Agent Cloud, die Infrastruktur für KI-Agenten bereitstellen soll; das erste Produkt ist ein Objektspeicher, der mit Amazon S3 kompatibel ist."
+          }
+        },
+        {
+          "alan": "fitness",
+          "baslik": "Aşil tendonu kopmasında ultrason algoritması yeniden kopmayı yüzde 73 azalttı",
+          "ozet": "British Journal of Sports Medicine'de yayımlanan çalışmada (Toft ve ark., 2026) Kopenhag ekibi, CARTA adlı ultrason tabanlı karar algoritmasını test etti: Kopuk tendon uçları üst üste binmiyorsa ya da tendon uzamışsa ameliyat, aksi hâlde ameliyatsız tedavi öneriliyor. Kişiye göre tedavi grubu, varsayılan olarak ameliyat ya da ameliyatsız tedavi alan iki kontrol grubuyla karşılaştırıldı. Bir yıl sonra topuk kaldırma dayanıklılığında fark çıkmadı; ancak CARTA ameliyatsız tedaviye göre yeniden kopmayı yüzde 73 azalttı ve ameliyat sayısını yüzde 36 düşürdü. Katılımcı sayısı BJSM blog yazısında belirtilmiyor; sonuç tek çalışmaya dayanıyor.",
+          "kaynak": "BJSM · 7 Kasım 2026",
+          "url": "https://doi.org/10.1136/bjsports-2025-110210",
+          "not": "Aşil tendonu kopmasında tedavi kararından önce ultrason değerlendirmesini ortopedi hekimine sor.",
+          "ig": "BJSM: Ultrason tabanlı CARTA algoritması Aşil kopmasında yeniden kopmayı yüzde 73, ameliyatı yüzde 36 azalttı. Tek çalışma.",
+          "igNot": "Tedavi kararından önce ultrason değerlendirmesini hekime sor.",
+          "gorselAra": "",
+          "foto": "kaynak-sbs",
+          "en": {
+            "baslik": "Ultrasound algorithm cuts Achilles tendon re-rupture by 73 percent",
+            "ozet": "In a study published in the British Journal of Sports Medicine (Toft et al., 2026), a Copenhagen team tested CARTA, an ultrasound-based decision algorithm: surgery is recommended if the torn tendon ends do not overlap or the tendon has lengthened, otherwise non-surgical treatment is advised. Patients in the treatment group were compared with two control groups receiving surgery or non-surgical treatment by default. After one year, no difference was found in calf-raise endurance; however, CARTA reduced re-rupture by 73 percent compared with non-surgical treatment and cut the number of surgeries by 36 percent. The number of participants is not stated in the BJSM blog post, and the result rests on a single study."
+          },
+          "de": {
+            "baslik": "Ultraschall-Algorithmus senkt erneuten Achillessehnenriss um 73 Prozent",
+            "ozet": "In einer im British Journal of Sports Medicine veröffentlichten Studie (Toft et al., 2026) testete ein Team aus Kopenhagen CARTA, einen ultraschallbasierten Entscheidungsalgorithmus: Bei nicht überlappenden Sehnenenden oder einer verlängerten Sehne wird eine Operation empfohlen, andernfalls eine konservative Behandlung. Die Patienten der Algorithmus-Gruppe wurden mit zwei Kontrollgruppen verglichen, die standardmäßig operiert bzw. konservativ behandelt wurden. Nach einem Jahr zeigte sich kein Unterschied bei der Belastbarkeit beim Fersenheben; CARTA senkte jedoch das Risiko eines erneuten Risses gegenüber der konservativen Behandlung um 73 Prozent und reduzierte die Zahl der Operationen um 36 Prozent. Die Teilnehmerzahl wird im Blogbeitrag des BJSM nicht genannt; das Ergebnis stützt sich auf eine einzige Studie."
+          }
+        },
+        {
+          "alan": "fitness",
+          "baslik": "Derleme: Direnç antrenmanı düşük yoğunlukta da beyin sağlığını destekleyebilir",
+          "ozet": "Houston Üniversitesi'nden Doxakis ve ekibi, American Journal of Lifestyle Medicine'de 3 Kasım'da yayımlanan derlemede direnç antrenmanının beyin sağlığına etkisine dair kanıtları özetledi. Yazarlara göre aerobik egzersiz bilişsel faydayı çoğunlukla yüksek yoğunlukta sağlarken direnç antrenmanı hem düşük hem yüksek yoğunlukta fayda gösteriyor. Ekip, iki tarafa farklı yük binen asimetrik antrenmanın koordinasyon ve yürütücü işlevleri ek olarak zorlayabileceğini öne sürüyor. Bu yeni veri içermeyen bir anlatı derlemesi; asimetrik yükleme önerisi henüz denemelerle test edilmiş değil.",
+          "kaynak": "American Journal of Lifestyle Medicine · 3 Kasım 2026",
+          "url": "https://doi.org/10.1177/15598276261503252",
+          "not": "Haftalık programına en az iki gün tüm vücut direnç antrenmanı koy; hafif yükle başlamak da işe yarar.",
+          "ig": "Derleme: Direnç antrenmanı düşük yoğunlukta da beyin sağlığını destekleyebilir. Yeni veri yok, asimetrik yük önerisi test edilmedi.",
+          "igNot": "Haftada en az iki gün direnç antrenmanı yap.",
+          "gorselAra": "",
+          "foto": "bolum-saglik",
+          "en": {
+            "baslik": "Review: resistance training may support brain health even at low intensity",
+            "ozet": "Doxakis and colleagues at the University of Houston summarized evidence on resistance training and brain health in a review published on November 3 in the American Journal of Lifestyle Medicine. According to the authors, aerobic exercise delivers cognitive benefits mostly at high intensity, while resistance training shows benefits at both low and high intensity. The team suggests asymmetric training, with different loads on each side of the body, may additionally challenge coordination and executive functions. This is a narrative review with no new data; the asymmetric loading recommendation has not yet been tested in trials."
+          },
+          "de": {
+            "baslik": "Übersichtsarbeit: Krafttraining kann die Gehirngesundheit auch bei niedriger Intensität fördern",
+            "ozet": "Doxakis und Kollegen von der University of Houston fassten in einer am 3. November im American Journal of Lifestyle Medicine veröffentlichten Übersichtsarbeit die Belege zur Wirkung von Krafttraining auf die Gehirngesundheit zusammen. Laut den Autoren bringt Ausdauertraining kognitive Vorteile vor allem bei hoher Intensität, während Krafttraining sowohl bei niedriger als auch bei hoher Intensität nützt. Das Team vermutet, dass asymmetrisches Training mit unterschiedlicher Belastung beider Körperseiten zusätzlich Koordination und exekutive Funktionen fordern könnte. Es handelt sich um eine erzählende Übersicht ohne neue Daten; die Empfehlung zum asymmetrischen Training ist bisher nicht in Studien geprüft."
+          }
+        },
+        {
+          "alan": "saglik",
+          "baslik": "JAMA: Para teşviki sigarayı bırakma oranını iki katına çıkardı",
+          "ozet": "JAMA'da yayımlanan randomize çalışmada (Hart ve ark.) akciğer kanseri taramasına yönlendirilen 3.200'den fazla yetişkin, ABD'deki beş sağlık merkezinde dört farklı bırakma stratejisine ayrıldı; katılımcıların çoğu düşük gelirli, kırsal ya da azınlık gruplarındandı. Ücretsiz ilaçla birlikte 600 dolara kadar para teşviki alan grupta altı ayda kan ya da idrar testiyle doğrulanmış bırakma oranı yüzde 8,8 oldu. Olağan bakım grubunda bu oran yüzde 4,3'te kaldı. Mutlak oranlar düşük olsa da sonuç, teşviklerin hizmete ulaşmakta zorlanan gruplarda işe yaradığını gösteriyor.",
+          "kaynak": "JAMA · 7 Kasım 2026",
+          "url": "https://doi.org/10.1001/jama.2026.17192",
+          "not": "Sigarayı bırakmak istiyorsan aile hekiminden ilaç desteğini ve yerel bırakma programlarını sor.",
+          "ig": "JAMA: Ücretsiz ilaç ve 600 dolara kadar teşvik, 6 ayda sigarayı bırakmayı yüzde 4,3'ten yüzde 8,8'e çıkardı.",
+          "igNot": "Bırakma için hekimden ilaç desteğini sor.",
+          "gorselAra": "",
+          "foto": "bolum-bilim",
+          "en": {
+            "baslik": "JAMA: cash incentives double quit rates for smokers",
+            "ozet": "In a randomized study published in JAMA (Hart et al.), more than 3,200 adults referred for lung cancer screening were assigned to four different quit strategies at five US health centers; most participants were low-income, rural or from minority groups. In the group receiving free medication plus cash incentives of up to $600, the verified quit rate at six months, confirmed by blood or urine tests, was 8.8 percent. In usual care it was 4.3 percent. Although absolute rates are low, the result shows incentives work for groups that struggle to access services."
+          },
+          "de": {
+            "baslik": "JAMA: Geldanreize verdoppeln Rauchstopp-Quote",
+            "ozet": "In einer randomisierten Studie im JAMA (Hart et al.) wurden über 3.200 Erwachsene, die zur Lungenkrebsvorsorge überwiesen worden waren, an fünf Gesundheitszentren in den USA vier verschiedenen Rauchstopp-Strategien zugeteilt; die meisten Teilnehmer hatten ein niedriges Einkommen, lebten auf dem Land oder gehörten Minderheiten an. In der Gruppe mit kostenlosen Medikamenten und Geldprämien von bis zu 600 Dollar lag die durch Blut- oder Urintests bestätigte Abstinenzquote nach sechs Monaten bei 8,8 Prozent. In der üblichen Versorgung waren es 4,3 Prozent. Die absoluten Werte sind niedrig, das Ergebnis zeigt aber, dass Anreize bei Gruppen wirken, die den Zugang zu Hilfsangeboten schwer finden."
+          }
+        },
+        {
+          "alan": "saglik",
+          "baslik": "NEJM: IL-6 baskılayıcı ziltivekimab kalp krizini ve inmeyi azaltmadı",
+          "ozet": "Mass General Brigham'dan Paul Ridker'ın yönettiği küresel faz 3 ZEUS çalışmasında, damar sertliği hastalığı ve sistemik iltihabı olan yetişkinlere IL-6 baskılayıcı ziltivekimab ya da plasebo verildi. Kalp krizi, inme ya da kardiyovasküler ölümden oluşan birincil sonlanım ilaç grubunda 561, plasebo grubunda 565 hastada görüldü; fark anlamlı değil. İlaç IL-6 düzeyini düşürdü, toplam ölümü artırmadı ama enfeksiyonlarda küçük artış oldu. Sonuçlar Amerikan Kalp Derneği kongresinde sunuldu ve New England Journal of Medicine'de yayımlandı; iltihabı hedefleyen kalp tedavisi stratejisini sorgulatıyor.",
+          "kaynak": "NEJM · 7 Kasım 2026",
+          "url": "https://doi.org/10.1056/NEJMoa2612126",
+          "ig": "ZEUS: Ziltivekimab ile 561, plaseboyla 565 hastada kalp krizi, inme ya da ölüm; fark anlamlı değil.",
+          "gorselAra": "",
+          "foto": "prompt101",
+          "en": {
+            "baslik": "NEJM: IL-6 inhibitor ziltivekimab does not reduce heart attacks or strokes",
+            "ozet": "In the global phase 3 ZEUS trial led by Paul Ridker of Mass General Brigham, adults with atherosclerotic disease and systemic inflammation received the IL-6 inhibitor ziltivekimab or placebo. The primary endpoint of heart attack, stroke or cardiovascular death occurred in 561 patients in the drug group and 565 in the placebo group, a difference that is not significant. The drug lowered IL-6 levels and did not increase overall mortality, but there was a small rise in infections. Results were presented at the American Heart Association meeting and published in the New England Journal of Medicine, raising questions about anti-inflammatory approaches to heart disease."
+          },
+          "de": {
+            "baslik": "NEJM: IL-6-Hemmer Ziltivekimab senkt Herzinfarkte und Schlaganfälle nicht",
+            "ozet": "In der globalen Phase-3-Studie ZEUS unter Leitung von Paul Ridker vom Mass General Brigham erhielten Erwachsene mit Gefäßverkalkung und systemischer Entzündung entweder den IL-6-Hemmer Ziltivekimab oder ein Placebo. Der primäre Endpunkt aus Herzinfarkt, Schlaganfall oder kardiovaskulärem Tod trat in der Wirkstoffgruppe bei 561 Patienten auf, in der Placebogruppe bei 565; der Unterschied ist nicht signifikant. Das Medikament senkte den IL-6-Spiegel und erhöhte die Gesamtsterblichkeit nicht, allerdings traten etwas mehr Infektionen auf. Die Ergebnisse wurden auf dem Kongress der American Heart Association vorgestellt und im New England Journal of Medicine veröffentlicht; sie stellen entzündungshemmende Ansätze in der Herzmedizin infrage."
+          }
+        },
+        {
+          "alan": "saglik",
+          "baslik": "Primer aldosteronizmde 6-12 aylık ilaç kürü tansiyonu 25 puan düşürdü",
+          "ozet": "New England Journal of Medicine'de yayımlanan kısa raporda, tansiyonun hormonal bir nedeni olan primer aldosteronizmli 14 hasta, ABD'deki sekiz merkezde 6-12 ay aldosteron sentaz baskılayıcı ilaç kullandı. Tedavi bittikten sonra aşırı aldosteron üretimi göstergesi tedavi öncesine göre yaklaşık yüzde 99 düşük kaldı, ortalama tansiyon yaklaşık 25 puan geriledi. Hastaların yaklaşık dörtte birinin tansiyonu başka ilaç olmadan normale döndü ve fayda iki yıla kadar sürdü. Kontrol grubu olmayan çok küçük bir izlem çalışması; ekip daha büyük ELIXIR denemesini başlatıyor.",
+          "kaynak": "NEJM · 7 Kasım 2026",
+          "url": "https://doi.org/10.1056/NEJMc2611265",
+          "not": "Genç yaşta ya da çok ilaçla düşmeyen yüksek tansiyonda hekime primer aldosteronizm taramasını sor.",
+          "ig": "NEJM: 14 hastada 6-12 aylık ilaç kürü sonrası tansiyon yaklaşık 25 puan düştü. Kontrol grubu yok, küçük çalışma.",
+          "igNot": "İnatçı tansiyonda primer aldosteronizm taramasını sor.",
+          "gorselAra": "",
+          "foto": "kaynak-examine",
+          "de": {
+            "baslik": "Primärer Aldosteronismus: 6- bis 12-monatige Medikamentenkur senkt Blutdruck um 25 Punkte",
+            "ozet": "In einem kurzen Bericht im New England Journal of Medicine erhielten 14 Patienten mit primärem Aldosteronismus, einer hormonellen Ursache von Bluthochdruck, an acht Zentren in den USA 6 bis 12 Monate lang einen Aldosteronsynthase-Hemmer. Nach Therapieende blieb der Marker für überschüssige Aldosteronproduktion etwa 99 Prozent unter dem Wert vor der Behandlung, der mittlere Blutdruck sank um rund 25 Punkte. Etwa ein Viertel der Patienten erreichte ohne weitere Medikamente normalen Blutdruck, der Nutzen hielt bis zu zwei Jahre an. Es handelt sich um eine sehr kleine Nachbeobachtungsstudie ohne Kontrollgruppe; das Team startet nun die größere ELIXIR-Studie."
+          }
+        },
+        {
+          "alan": "kose",
+          "baslik": "Zenginleri vergilemek değil, siyaseti paradan korumak gerekir",
+          "ozet": "Stockholm'deki Sanayi Ekonomisi Araştırma Enstitüsü'nden iktisat profesörü Daniel Waldenström, Foreign Affairs'te servet vergisinin demokrasiyi korumak için yanlış araç olduğunu savunuyor. Waldenström'e göre sorun milyarderlerin varlığı değil, kurumların zayıflığı: Forbes 400 listesini bağış kayıtlarıyla sınıflandırdığında yalnızca yaklaşık 30 kişinin (yüzde 8) yılda 1 milyon dolardan fazla siyasi bağış yaptığını, yarısının yılda 30 bin dolardan az verdiğini buldu. Kişi başına milyarder sayısı ABD'den yüksek olan İsveç ve İsviçre'nin seçim, basın özgürlüğü ve hükümete güven ölçütlerinde üst sıralarda olmasını kanıt olarak gösteriyor. Önerisi servet vergisi yerine şeffaf seçim finansmanı, bağış sınırları ve bağımsız medya; Kaliforniya'da reddedilen milyarder vergisi önerisini ve Gabriel Zucman gibi destekçilerini eleştiriyor.",
+          "kaynak": "Foreign Affairs · 6 Kasım 2026",
+          "url": "https://www.foreignaffairs.com/united-states/dont-soak-rich",
+          "not": "İsveç ve İsviçre'nin kurumsal başarısı, servet yoğunlaşmasının uzun vadeli siyasi etkisini ölçmek için yeterli bir karşı örnek olmayabilir.",
+          "ig": "Waldenström'e göre servet vergisi demokrasiyi korumaz; çözüm şeffaf seçim finansmanı, bağış sınırları ve bağımsız medya.",
+          "gorselAra": "",
+          "foto": "skills",
+          "en": {
+            "baslik": "Protecting politics from money, not taxing the rich, is the answer",
+            "ozet": "Daniel Waldenström, an economics professor at the Research Institute of Industrial Economics in Stockholm, argues in Foreign Affairs that a wealth tax is the wrong tool for protecting democracy. For Waldenström, the problem is not the existence of billionaires but weak institutions: when he classified the Forbes 400 list by donation records, only about 30 people (8 percent) made political donations above $1 million a year, and half gave less than $30,000 a year. He points to Sweden and Switzerland, which have more billionaires per capita than the US and rank high on elections, press freedom and trust-in-government measures, as evidence. He proposes transparent campaign financing, donation limits and independent media instead of a wealth tax, and criticizes the rejected California billionaire tax proposal and its supporters such as Gabriel Zucman."
+          },
+          "de": {
+            "baslik": "Nicht die Reichen besteuern, sondern die Politik vor Geld schützen",
+            "ozet": "Daniel Waldenström, Wirtschaftsprofessor am Forschungsinstitut für Industrieökonomik in Stockholm, argumentiert in Foreign Affairs, dass eine Vermögensteuer das falsche Instrument zum Schutz der Demokratie sei. Das Problem seien nicht die Milliardäre an sich, sondern schwache Institutionen: Als er die Forbes-400-Liste anhand von Spendenangaben ordnete, zeigte sich, dass nur rund 30 Personen (8 Prozent) jährlich mehr als 1 Million Dollar an politische Parteien spendeten, die Hälfte weniger als 30.000 Dollar im Jahr. Als Beleg verweist er auf Schweden und die Schweiz, die im Verhältnis zur Einwohnerzahl mehr Milliardäre als die USA haben und bei Wahlen, Pressefreiheit und Vertrauen in die Regierung weit vorn liegen. Statt einer Vermögensteuer schlägt er transparente Wahlkampffinanzierung, Spendenobergrenzen und unabhängige Medien vor; zugleich kritisiert er die in Kalifornien abgelehnte Milliardärsteuer und deren Befürworter wie Gabriel Zucman."
+          }
+        },
+        {
+          "alan": "sosyal",
+          "baslik": "Schoenfeld: Proteini antrenmandan önce ya da sonra almak fark etmedi",
+          "ozet": "X'te kas gelişimi araştırmacısı Brad Schoenfeld, antrenman sonrası hemen protein almanın şart olduğu fikrine eskiden inandığını, kendi yönettiği çalışmanın bunu desteklemediğini anlattı. Paylaşıma göre 21 antrenmanlı erkek 10 hafta boyunca 25 gram peyniraltı suyu proteinini ya antrenmandan hemen önce ya da hemen sonra aldı; kas büyümesi ve güçte anlamlı fark çıkmadı. Bu bir sosyal medya paylaşımıdır, doğrulanmadı.",
+          "kaynak": "X · @BradSchoenfeld · 7 Kasım 2026",
+          "url": "https://x.com/BradSchoenfeld/status/2119065844357443612",
+          "ig": "Schoenfeld: 21 kişilik 10 haftalık çalışmasında proteini antrenman öncesi ya da sonrası almak fark yaratmadı. Doğrulanmadı.",
+          "gorselAra": "",
+          "foto": "ekstrem",
+          "en": {
+            "baslik": "Schoenfeld: taking protein before or after training made no difference",
+            "ozet": "On X, muscle-growth researcher Brad Schoenfeld wrote that he once believed protein immediately after training was essential, but a study he led did not support this. According to the post, 21 trained men took 25 grams of whey protein either right before or right after training for 10 weeks; there was no significant difference in muscle growth or strength. This is a social media post and has not been verified."
+          }
+        },
+        {
+          "alan": "sosyal",
+          "baslik": "Karpathy, bir YouTube kanal listesini Claude Code ile 3 dakikada siteye çevirdi",
+          "ozet": "X'te OpenAI'ın kurucu ekibinden Andrej Karpathy, bir arkadaşının yayımladığı YouTube kanal listesini 47 bin videoluk bir izleme sitesine (TristanTube) dönüştürdüğünü ve bunu Claude Code ile tek denemede 3 dakikada yaptığını yazdı. Daha önce Hacker News yorumlarından seçilmiş videolarla HackerTube'u kurmuştu. Bu bir sosyal medya paylaşımıdır, doğrulanmadı.",
+          "kaynak": "X · @karpathy · 7 Kasım 2026",
+          "url": "https://x.com/karpathy/status/2119114537442189652",
+          "ig": "Karpathy, bir YouTube kanal listesini Claude Code ile 3 dakikada 47 bin videoluk siteye çevirdiğini yazdı. Doğrulanmadı.",
+          "gorselAra": "",
+          "foto": "kaynak-3b1b",
+          "en": {
+            "baslik": "Karpathy turns a YouTube channel list into a site in 3 minutes with Claude Code",
+            "ozet": "Andrej Karpathy, a member of OpenAI’s founding team, wrote on X that he turned a YouTube channel list published by a friend into a 47,000-video viewing site called TristanTube, doing it in one attempt in 3 minutes with Claude Code. He had previously built HackerTube with videos selected from Hacker News comments. This is a social media post and has not been verified."
+          },
+          "de": {
+            "baslik": "Karpathy macht mit Claude Code aus einer YouTube-Kanalliste in 3 Minuten eine Website",
+            "ozet": "Andrej Karpathy, Teil des Gründungsteams von OpenAI, schrieb auf X, dass er eine von einem Freund veröffentlichte YouTube-Kanalliste mit Claude Code in einem einzigen Versuch und 3 Minuten in eine Seite mit 47.000 Videos namens TristanTube verwandelt habe. Zuvor hatte er HackerTube mit Videos aufgebaut, die aus Kommentaren bei Hacker News ausgewählt wurden. Dies ist ein Social-Media-Beitrag und nicht verifiziert."
+          }
+        },
+        {
+          "alan": "sosyal",
+          "baslik": "Avrupa Parlamentosu ticaret heyeti Çin'de diyalog çağrısı yaptı",
+          "ozet": "X'te Avrupa Parlamentosu'nun resmî hesabı, Uluslararası Ticaret Komitesi üyelerinin Çin ziyaretinde AB-Çin ticaret ilişkilerinde diyaloğun sürmesini ve somut sonuç alınmasını istediğini duyurdu. Ziyaret, iki taraf arasında karşılıklı ticaret soruşturmalarının arttığı bir döneme denk geliyor. Bu bir sosyal medya paylaşımıdır, doğrulanmadı.",
+          "kaynak": "X · @Europarl_EN · 7 Kasım 2026",
+          "url": "https://x.com/Europarl_EN/status/2119006955461099626",
+          "ig": "Avrupa Parlamentosu ticaret heyeti Çin ziyaretinde diyalog ve somut sonuç çağrısı yaptı. Paylaşım doğrulanmadı.",
+          "gorselAra": "",
+          "foto": "bolum-gunluk",
+          "en": {
+            "baslik": "European Parliament trade delegation calls for dialogue during China visit",
+            "ozet": "On X, the official account of the European Parliament announced that members of its International Trade Committee, visiting China, called for dialogue to continue in EU-China trade relations and for concrete results. The visit comes at a time when bilateral trade investigations have increased. This is a social media post and has not been verified."
+          },
+          "de": {
+            "baslik": "Handelsdelegation des Europäischen Parlaments wirbt in China für Dialog",
+            "ozet": "Der offizielle X-Account des Europäischen Parlaments teilte mit, dass Mitglieder des Ausschusses für internationalen Handel bei ihrem Besuch in China einen fortgesetzten Dialog und konkrete Ergebnisse in den Handelsbeziehungen zwischen der EU und China gefordert haben. Der Besuch fällt in eine Zeit, in der sich die gegenseitigen Handelsuntersuchungen häufen. Dies ist ein Social-Media-Beitrag und nicht verifiziert."
+          }
+        }
+      ],
+      "videolar": [
+        {
+          "kanal": "Claude",
+          "baslik": "How Salesforce uses Claude Code",
+          "id": "4ZsVR-6YOzs",
+          "neden": "Anthropic'in kanalında, başlığa göre Salesforce'un Claude Code'u nasıl kullandığını anlatan kurumsal kullanım örneği."
+        },
+        {
+          "kanal": "OpenAI",
+          "baslik": "GPT-Image-2.6: Faster image generation with Flare and Sunburst",
+          "id": "9ZxCOHkfn_8",
+          "neden": "OpenAI'ın başlığa göre GPT-Image-2.6 görsel üretim modelini ve hız iyileştirmelerini tanıttığı video; ürün görseli üretenler için güncel."
+        },
+        {
+          "kanal": "The Verge",
+          "baslik": "The AI industry does not have a marketing problem",
+          "id": "PErrYSooA0M",
+          "neden": "The Verge'ün başlığa göre yapay zekâ sektörünün kamuoyundaki algı sorununun pazarlamadan kaynaklanmadığını savunduğu yorum videosu."
+        },
+        {
+          "kanal": "MKBHD",
+          "baslik": "Meta VR Glasses: What Vision Pro 2 COULD Have Been!",
+          "id": "_x58r9TBois",
+          "neden": "MKBHD'nin başlığa göre Meta'nın yeni VR gözlüğünü Apple Vision Pro ile kıyasladığı inceleme."
+        },
+        {
+          "kanal": "The Verge",
+          "baslik": "Tesla is ‘winding down’ production of the Cybertruck",
+          "id": "TqTcqDvw8lk",
+          "neden": "Cybertruck üretiminin sona ermesini anlatan haber videosu; bugünkü Tesla haberini tamamlıyor."
+        }
+      ],
+      "almanca": {
+        "de": "die Vorfälligkeitsentschädigung",
+        "tr": "erken ödeme tazminatı; kredi vadesinden önce kapatılınca bankaya ödenen bedel (çoğulu: die Vorfälligkeitsentschädigungen)",
+        "ornek": "„Hätte der Händler den Betriebsmittelkredit nicht vorzeitig abgelöst, wäre ihm keine Vorfälligkeitsentschädigung in Rechnung gestellt worden.“",
+        "ornekTr": "Satıcı işletme kredisini vadesinden önce kapatmamış olsaydı, kendisine erken ödeme tazminatı faturalandırılmazdı."
+      }
+    },
     {
       "tarih": "2026-11-07",
       "ogeler": [
@@ -2926,124 +3648,6 @@
         "tr": "takasa alma, eski aracın satış fiyatına sayılması (çoğulu: die Inzahlungnahmen)",
         "ornek": "„Bei Inzahlungnahme Ihres Altfahrzeugs würde der ermittelte Restwert direkt mit dem Kaufpreis verrechnet werden.“",
         "ornekTr": "Eski aracınızı takasa verirseniz, belirlenen kalan değeri doğrudan satış fiyatından mahsup edilirdi."
-      }
-    },
-    {
-      "tarih": "2026-11-01",
-      "ogeler": [
-        {
-          "alan": "claude",
-          "baslik": "Claude'un görünmez filigranı eski modellere de geliyor",
-          "ozet": "Anthropic, yapay zekâ üretimi metni işaretleyen filigranı Claude Mythos 5, Opus 4.7, Opus 4.6 ve Sonnet 4.6'ya genişletiyor; Opus 5.5'te zaten açıktı. İşaret kelime seçimindeki fark edilmez bir örüntü, ek token ya da ücret getirmiyor ve kapatılamıyor. Opus 4.6 ile Sonnet 4.6'da yalnızca temperature, top_p ve top_k varsayılan değerdeyken çalışıyor; birini değiştirmek işareti düşürüyor. Gerekçe, AB Yapay Zekâ Yasası'nın Aralık'taki etiketleme son tarihi; AB'de iş yapan ve uyumu filigrana dayandıran ekipleri doğrudan ilgilendiriyor.",
-          "kaynak": "Claude Yardım Merkezi; The Decoder · 31 Ekim 2026",
-          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-          "not": "Bizde: API ile ürün açıklaması üretiyorsan sampling ayarlarını kayda geçir; uyum için filigran gerekiyorsa varsayılanda bırak.",
-          "ig": "Claude'un görünmez filigranı Mythos 5, Opus 4.7, Opus 4.6 ve Sonnet 4.6'ya geliyor. Eski iki modelde temperature ya da top_p değişince işaret düşüyor.",
-          "igNot": "API'de sampling ayarlarını kaydet; uyum gerekiyorsa varsayılanda bırak."
-        },
-        {
-          "alan": "claude",
-          "baslik": "Anthropic, güvenlik filtrelerini Claude'a kandırttı",
-          "ozet": "Anthropic'in hizalama ekibi, çok sayıda paralel Claude örneğine küçük bir araştırma modelini bozacak ince ayar verisi ürettirdi; her veri seti en çok 5.000 örnekten oluşuyordu ve satırlarının yüzde 10'undan fazlası işaretlenirse reddediliyordu. Tek bir çalışmada 600'den fazla veri seti çıktı; zararlı kalıpları kurgu ve rol yapma metinlerine gizleyenler filtreyi geçti ve eğitilen model, ilgisiz isteklerde bile veritabanı sorgularına arka kapı koymak gibi davranışlar gösterdi. Ekip bunu kırmızı takım lehine kurulmuş bir kavram kanıtı olarak niteliyor; modeller yayımlanmadı. Sonuç, masum görünen dar bir verinin bile filtrelerden kaçan geniş sapmaya yol açabileceğini ve eğitim hatlarının otomatik stres testine ihtiyaç duyduğunu gösteriyor.",
-          "kaynak": "Anthropic Alignment Blog · 31 Ekim 2026",
-          "url": "https://alignment.anthropic.com/2026/automated-em-search/",
-          "ig": "Claude örnekleri 600'den fazla eğitim veri seti üretti; kurguya gizlenen zararlı kalıplar filtreyi geçti ve küçük modelde arka kapı davranışı doğurdu."
-        },
-        {
-          "alan": "yz",
-          "baslik": "DeepMind dünyanın orman türleri haritasını açtı",
-          "ozet": "Google DeepMind ve Dünya Kaynakları Enstitüsü, 2020 yılı için 10 metre çözünürlüklü ilk küresel orman türü haritası ForTy'yi yayımladı. Harita yalnızca ağaç örtüsünü değil; birincil orman, doğal yenilenen orman, dikili orman, plantasyon ve ağaç tarımını ayırıyor ve 8.190 noktada uzman denetiminde yüzde 90,2 genel doğruluk verdi. Avrupa Komisyonu haritalarını aynı test verisinde geçse de plantasyon ve ağaç tarımında doğruluk yüzde 50-60'ta kalıyor. Veri, kod ve test seti CC BY 4.0 ile Google Earth Engine'de ücretsiz; ormansızlaşma denetimi yapan kurumlar ve tedarik zinciri doğrulayan şirketler için kullanılabilir.",
-          "kaynak": "Google DeepMind; Scientific Data · 31 Ekim 2026",
-          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-          "ig": "DeepMind'ın ForTy haritası dünyadaki ormanları 10 metre çözünürlükte altı türe ayırıyor; genel doğruluk yüzde 90,2, veri Earth Engine'de ücretsiz."
-        },
-        {
-          "alan": "yz",
-          "baslik": "OpenAI, 30 milyar dolarlık hedefin 11 milyarını toplayabildi",
-          "ozet": "The Wall Street Journal'ın haberine göre OpenAI son yatırım turunda 30 milyar dolarlık hedefin yaklaşık 11 milyar dolarını topladı; değerleme hedeflenen 1,4 trilyon yerine 1,25 trilyon dolarda kaldı. Google, Amazon ve Intel'in zayıf çeyrek sonuçlarının yol açtığı teknoloji satışı büyük yatırımcıları geri çekti. Şirket, aradaki farkı aile ofisleri ve varlıklı bireylerden 20 milyar dolara kadar ek fonla kapatmayı ve gelecek yılın başında halka arzı planlıyor. Rakip Anthropic'in Kasım'da halka açılabileceği bir dönemde, yapay zekâ şirketlerine para akışının yavaşladığını gösteren somut bir veri.",
-          "kaynak": "The Decoder (WSJ'ye dayanarak) · 31 Ekim 2026",
-          "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
-          "ig": "OpenAI 30 milyar dolarlık hedefin yaklaşık 11 milyarını topladı; değerleme 1,4 yerine 1,25 trilyon dolarda kaldı."
-        },
-        {
-          "alan": "yz",
-          "baslik": "Microsoft, çalışanlarının dörtte birine gönüllü ayrılık teklif etti",
-          "ozet": "Microsoft, ABD, Kanada, Hindistan ve İngiltere'de başkan yardımcısı ve altı seviyedeki yaklaşık 60.000 çalışana, yani 223.000 kişilik kadronun dörtte birine gönüllü ayrılık paketi sundu. Xbox, Windows, Copilot ve Finans ekipleri tamamen kapsamda; veri merkezi, satış, siber güvenlik ve kuantum ekipleri dışarıda tutuldu. Şirket bu yıl Mayıs'ta 8.750 kişiye ayrılık önermiş, Temmuz'da 4.800 kişiyi çıkarmıştı; 2026'da yapay zekâ altyapısına yaklaşık 170 milyar dolar harcıyor. Kaynakların yapay zekâ altyapısına kaydırıldığını, ürün ekiplerinin ise küçüldüğünü gösteriyor.",
-          "kaynak": "Microsoft Blog ve Bloomberg · 26 Ekim 2026; The Decoder · 31 Ekim 2026",
-          "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
-          "ig": "Microsoft yaklaşık 60.000 çalışana, kadrosunun dörtte birine gönüllü ayrılık teklif etti; veri merkezi ve siber güvenlik ekipleri kapsam dışı."
-        },
-        {
-          "alan": "yz",
-          "baslik": "Apple Intelligence, Qwen ile Çin'e geliyor",
-          "ozet": "Apple, Çin haber odasında yaptığı açıklamayla Apple Intelligence testlerinin 4 Kasım'da geliştirici betasıyla başlayacağını, herkese açık sürümün ise Aralık'ta iOS 27.3 ile geleceğini doğruladı. Çin'deki model ortağı Alibaba'nın Qwen'i; Yazma Araçları ve Görsel Zekâ gibi isteklerde devreye giriyor, canlı çeviri, Genmoji ve bildirim özetleri de paketin içinde, ancak yapay zekâlı yeni Siri yok. Temmuz'daki düzenleyici anlaşmadan sonra gelen ilk somut takvim bu. Şimdilik yalnızca iPhone 15 Pro ve sonrası, dil İngilizce ya da Basitleştirilmiş Çince olduğunda kullanılabiliyor.",
-          "kaynak": "Apple Çin Haber Odası; 9to5Mac · 30 Ekim 2026",
-          "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/",
-          "ig": "Apple Intelligence Çin'de 4 Kasım'da betaya, Aralık'ta iOS 27.3 ile herkese açılıyor; model ortağı Alibaba'nın Qwen'i, yeni Siri yok."
-        },
-        {
-          "alan": "teknoloji",
-          "baslik": "Cursor'daki sahte Claude Code eklentisi 11 saat yayında kaldı",
-          "ozet": "Cursor'un eklenti mağazasında, Anthropic'e ait olmayan, kurcalanmış bir \"Claude Code\" eklentisi yaklaşık 11 saat boyunca indirilebilir durumda kaldı; Cursor'a göre en çok 5.000 kullanıcı etkilendi. Eklenti bilgisayar adı, kullanıcı adı, işletim sistemi ve genel IP adresini toplamaya, saldırgana uzaktan erişim açmaya çalıştı; uzaktan erişim yönetici yetkisi gerektirdiği için çoğu makinede başarısız olmuş olabilir. Cursor eklentiyi kaldırıp mağazayı geçici olarak kapattı, başka eklentinin etkilenmediğini açıkladı. Yapay zekâ kodlama araçlarının eklenti mağazalarının da tedarik zinciri saldırısı hedefi olduğunu gösteriyor.",
-          "kaynak": "Cursor (X); The Decoder · 30 Ekim 2026",
-          "url": "https://x.com/cursor_ai/status/2116074289053175808",
-          "not": "Bizde: Cursor kullanıyorsan son yüklediğin Claude Code eklentisini kaldırıp Anthropic'in resmî kurulum yolundan yeniden kur.",
-          "ig": "Cursor mağazasındaki sahte Claude Code eklentisi 11 saat yayında kaldı; en çok 5.000 kullanıcı etkilendi, sistem bilgisi toplamaya çalıştı.",
-          "igNot": "Son yüklediğin Claude Code eklentisini sil, resmî yoldan yeniden kur."
-        },
-        {
-          "alan": "teknoloji",
-          "baslik": "Fujifilm manyetik bant üretimini beşe katlıyor",
-          "ozet": "Fujifilm, Japonya'daki Odawara tesisine yaklaşık 10 milyar yen (yaklaşık 63 milyon dolar) yatırarak 2028 mali yılında LTO bant üretimini 2025 düzeyinin beş katına çıkaracak. Talebin kaynağı, büyük bulut şirketlerinin yapay zekâ eğitim verilerini ucuz ve dayanıklı biçimde arşivleme ihtiyacı; LTO bant sevkiyatları 2026'nın ilk çeyreğinde bir yıl öncesine göre yüzde 57 arttı. Diskle saklaması pahalı olan, nadiren erişilen veri ile siber saldırılara karşı fiziksel olarak ayrık yedek ihtiyacı bandı yeniden öne çıkarıyor. Diğer LTO üreticisi Sony'nin de üretimi artırması bekleniyor.",
-          "kaynak": "Blocks & Files · 28 Ekim 2026",
-          "url": "https://www.blocksandfiles.com/tape/2026/10/28/fujifilm-getting-it-taped-quintupling-production/5306015",
-          "ig": "Fujifilm 10 milyar yenlik yatırımla bant üretimini 2028'e kadar beşe katlıyor; yapay zekâ arşivi talebiyle LTO sevkiyatı yüzde 57 arttı."
-        },
-        {
-          "alan": "teknoloji",
-          "baslik": "Garmin, Edge 1060 özelliklerini eski bisiklet bilgisayarlarına taşıyor",
-          "ozet": "Garmin, yeni Edge 1060 ile tanıttığı özellikleri herkese açık beta yazılımlarla eski modellere dağıtmaya başladı. 33.13 betası Edge 1050, 850 ve 550'ye Garmin Messenger, GroupRide, alternatif veri alanları ve Garmin Cycling Coach'u; 31.67 betası Edge 1040, 840 ve 540'a yalnızca GroupRide ile Cycling Coach'u getiriyor. Yeni rota seçenekleri gibi bazı özellikler şimdilik 1060'a özel. Eski cihaz sahipleri yeni donanım almadan grup sürüşü ve antrenman planı özelliklerine ulaşıyor; ancak bunlar henüz kararlı sürüm değil.",
-          "kaynak": "DC Rainmaker · 30 Ekim 2026",
-          "url": "https://www.dcrainmaker.com/2026/10/garmin-edge-1060-features-to-older-computers.html",
-          "ig": "Garmin, Edge 1060'ın GroupRide ve Cycling Coach özelliklerini beta yazılımla Edge 1050, 850, 550 ve 1040 serisine getiriyor."
-        },
-        {
-          "alan": "fitness",
-          "baslik": "Yaşla zayıflayan kasta kardiyolipin izi",
-          "ozet": "Kopenhag Üniversitesi öncülüğünde 20'den fazla kurumun Nature Aging'de yayımladığı çalışma, mitokondri zarındaki kardiyolipin adlı yağın yaşlanan ve hasta kasta azaldığını gösterdi. Genç farelerde kardiyolipin düşürülünce hızlı kasılan lifler yavaş liflere döndü; düzey normalin yaklaşık üçte ikisine geri getirilince kas kaybı geriledi ve erken ölümler önlendi. İnsan kas örneklerinde yalnızca yaşla düşüş görüldü; mekanizma ve geri döndürme yalnızca farelerde ve hücre kültüründe test edildi. Yaşa bağlı kas kaybı için yeni bir hedef sunuyor, ancak insanda kanıt yok.",
-          "kaynak": "Nature Aging; ScienceDaily · 28 Ekim 2026",
-          "url": "https://doi.org/10.1038/s43587-026-01227-7",
-          "not": "Uygula: Bu bir fare çalışması; yaşla gelen kas kaybına karşı kanıtı güçlü olan yol hâlâ düzenli direnç antrenmanı.",
-          "ig": "Nature Aging: Mitokondrideki kardiyolipin yaşla azalıyor; farelerde düzeyi üçte ikiye çıkarmak kas kaybını geri çevirdi. İnsanda henüz test edilmedi.",
-          "igNot": "Fare çalışması; kas kaybına karşı kanıtlı yol direnç antrenmanı."
-        },
-        {
-          "alan": "fitness",
-          "baslik": "Kronik bel ağrısı beyinde benlik ağıyla bağlantılı",
-          "ozet": "UC San Diego ekibinin British Journal of Anaesthesia'da yayımladığı gözlemsel çalışmada kronik bel ağrısı olan 114 hastanın beyni fonksiyonel MR ile tarandı. Bacak kaldırma testiyle tetiklenen ağrı, öz düşünce ve kimlikle ilişkili varsayılan mod ağını (DMN) etkinleştirdi; sıcaklıkla verilen akut ağrı ise bu ağın etkinliğini düşürdü. Ağrısı şiddetli olanlarda DMN ile duyu korteksi arasındaki bağlantı daha güçlüydü. Yazarlar bunun, ağrı kesicilerin kronik bel ağrısında neden sınırlı kaldığını açıklayabileceğini söylüyor; tek ve gözlemsel bir çalışma olduğu için neden-sonuç kurmuyor.",
-          "kaynak": "British Journal of Anaesthesia; ScienceDaily · 29 Ekim 2026",
-          "url": "https://doi.org/10.1016/j.bja.2026.08.010",
-          "not": "Uygula: Kronik bel ağrısında yalnızca ağrı kesiciye dayanma; hareket temelli bir programı fizyoterapistinle konuş.",
-          "ig": "114 hastalı MR çalışması: Kronik bel ağrısı, beyindeki benlik ağını (DMN) etkinleştiriyor; akut ağrı ise tersine baskılıyor.",
-          "igNot": "Yalnızca ağrı kesiciye dayanma; hareket programını fizyoterapistle konuş."
-        },
-        {
-          "alan": "saglik",
-          "baslik": "On kan değeriyle sağlıklı yaşlanma puanı",
-          "ozet": "Leiden Üniversitesi Tıp Merkezi ve Max Planck Yaşlanma Biyolojisi Enstitüsü, Avrupa'daki 12 çalışmadan yaklaşık 44.000 gönüllünün verisi ve 5.500 ölümle, 10 kan belirtecinden oluşan bir sağlıklı yaşlanma puanı geliştirdi. Puandaki her bir puanlık artış, diyabet, kalp krizi ya da inme gibi ilk kardiyometabolik hastalığın ortalama 14 yıl gecikmesiyle ilişkili; puan bilişsel işlev, akciğer kapasitesi ve kavrama gücüyle de bağlantılı. Puanın yaklaşık yüzde 40'ı kalıtımla, yüzde 60'ı yaşam tarzıyla açıklanıyor; sigara en olumsuz, düzenli fiziksel aktivite olumlu etkili. Sonuçlar bir konferans sunumundan; hakemli yayın bilgisi verilmedi ve puan Hollanda verisiyle ayarlandı.",
-          "kaynak": "Medical Xpress (FAPESP Week Netherlands sunumu) · 30 Ekim 2026",
-          "url": "https://medicalxpress.com/news/2026-10-personalized-score-ten-blood-markers.html",
-          "not": "Uygula: Yıllık kan tahlilinde açlık insülini ve trigliserit değerlerini de iste; düşük çıkan puanlarda egzersiz programı bu iki değeri iyileştirdi.",
-          "ig": "44.000 kişilik veriyle 10 kan belirtecinden yaşlanma puanı: Her puan, ilk kalp-metabolizma hastalığının ortalama 14 yıl gecikmesiyle ilişkili.",
-          "igNot": "Tahlilde açlık insülini ve trigliseriti de iste."
-        }
-      ],
-      "videolar": [],
-      "almanca": {
-        "de": "die Gewährleistung",
-        "tr": "yasal ayıp sorumluluğu, satıcının kusurdan sorumluluğu (çoğulu: die Gewährleistungen)",
-        "ornek": "„Beim Verkauf an Privatkunden darf die Gewährleistung für Gebrauchtwagen zwar auf ein Jahr verkürzt, nicht aber vollständig ausgeschlossen werden.“",
-        "ornekTr": "Özel müşterilere satışta ikinci el araçlarda yasal ayıp sorumluluğu bir yıla kısaltılabilir, ancak tamamen kaldırılamaz."
       }
     }
   ]
