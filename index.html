@@ -1235,7 +1235,7 @@ function aylikHtml(v,gunlukH){
         vd=(Array.isArray(ay.videolar)?ay.videolar:[]).filter(function(x){return x&&gr[1].indexOf(x.alan)>-1&&/^[A-Za-z0-9_-]{11}$/.test(x.id||"");});
     if(!og.length&&!vd.length) return;
     var id="g-"+GID[gr[0]],bos=gunlukH.indexOf('id="'+id+'"')<0;
-    h+='<div class="gunluk-grup aylik"'+(bos?' id="'+id+'"':'')+'><p class="grup-bas" style="--g:'+gr[3]+'"><i></i>'+kac(gr[0])+' · <span class="ay-ad">'+kac(adi)+'</span>&nbsp;<em>Aylık arşiv</em><span>'+(og.length+vd.length)+'</span></p>'+
+    h+='<div class="gunluk-grup aylik"'+(bos?' id="'+id+'"':'')+'><p class="grup-bas" style="--g:'+gr[3]+'"><i></i>'+kac(gr[0])+' · <em>'+kac(adi)+'</em> <em>Aylık arşiv</em><span>'+(og.length+vd.length)+'</span></p>'+
       '<details class="onceki"'+(bos?' open':'')+'><summary>Bu ayın tüm haberleri ve videoları</summary>'+
       (vd.length?'<div class="yt-seri">'+vd.map(ytKart).join("")+'</div>':'')+'<div class="kisa-liste">'+og.map(gunlukOge).join("")+'</div></details></div>';
   });
