@@ -1,0 +1,533 @@
+{
+ "aylar": [
+  {
+   "ay": "2026-11",
+   "ogeler": [
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-23",
+     "baslik": "VW, 2030'a kadar Çin'de ürettiği yılda 300.000 aracı ihraç edecek",
+     "ozet": "Düşen satışlar ve ucuz Çinli rakiplerin baskısı altındaki Volkswagen, 2030'a kadar Çin'de üretilen yaklaşık 300.000 aracı her yıl dışarı satmayı planlıyor. Hedef pazarlar Meksika, Güney Amerika, Orta Doğu, Afrika ve Güneydoğu Asya; ABD bayilerine bu araçlar şimdilik gelmeyecek. Electrek'e göre VW, Avrupa'daki temel model gamının yüzde 75'ine kadarında Xpeng'in teknoloji altyapısını kullanmayı da değerlendiriyor.",
+     "kaynak": "Electrek · 23 Kasım 2026",
+     "url": "https://electrek.co/2026/11/23/if-you-cant-beat-em-vw-to-export-300000-chinese-built-cars-per-year-by-2030/",
+     "en": {
+      "baslik": "VW to export 300,000 China-built cars a year by 2030",
+      "ozet": "Under pressure from falling sales and cheap Chinese rivals, Volkswagen plans to export roughly 300,000 China-built cars a year by 2030. Target markets are Mexico, South America, the Middle East, Africa and Southeast Asia; US dealers will not get these cars for now. According to Electrek, VW is also considering Xpeng's technology stack for up to 75% of its core European lineup."
+     },
+     "de": {
+      "baslik": "VW will bis 2030 jährlich 300.000 in China gebaute Autos exportieren",
+      "ozet": "Unter dem Druck sinkender Verkäufe und günstiger chinesischer Konkurrenz plant Volkswagen, bis 2030 jährlich rund 300.000 in China gebaute Autos zu exportieren. Zielmärkte sind Mexiko, Südamerika, der Nahe Osten, Afrika und Südostasien; US-Händler bekommen diese Autos vorerst nicht. Laut Electrek erwägt VW außerdem, Xpengs Technikplattform für bis zu 75 % seiner europäischen Kernmodelle zu nutzen."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-23",
+     "baslik": "Berlin'de konut kavgası: Vonovia CEO'su Mucic diyalog çağrısı yaptı",
+     "ozet": "Almanya'nın en büyük konut şirketi Vonovia'nın CEO'su Luka Mucic, Bochum'daki çeyrek sonuçları toplantısında Berlin'deki konut tartışmasında diyaloğa hazır olduğunu yineledi, ama siyasi bir gösteriye değil yapıcı bir görüşmeye. Berlin'deki kırmızı-yeşil-kırmızı koalisyon büyük konut şirketlerinin kamulaştırılmasını planlarken Mucic kamulaştırma yerine yatırımı savunuyor. Daha önce Sol Parti ile planlanan bir görüşme gerçekleşmemişti.",
+     "kaynak": "Haufe Immobilien · 23 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/vonovia-steigert-mieteinnahmen-und-gewinn_84342_489382.html",
+     "en": {
+      "baslik": "Berlin housing dispute: Vonovia CEO Mucic calls for dialogue",
+      "ozet": "At the presentation of quarterly results in Bochum, Luka Mucic, CEO of Germany's largest residential landlord Vonovia, repeated his readiness for dialogue in Berlin's housing dispute, but in the form of a constructive exchange rather than political staging. While Berlin's red-green-red coalition plans to socialise large housing companies, Mucic argues for investment instead of expropriation. An earlier meeting with the Left party had not taken place."
+     },
+     "de": {
+      "baslik": "Berliner Wohnungsstreit: Vonovia-Chef Mucic drängt auf Dialog",
+      "ozet": "Bei der Vorstellung der Quartalszahlen in Bochum bekräftigte Luka Mucic, Chef des größten deutschen Wohnungskonzerns Vonovia, seine Bereitschaft zum Austausch im Berliner Wohnungsstreit, allerdings nicht als politische Inszenierung, sondern als konstruktives Gespräch. Während Rot-Grün-Rot in Berlin die Vergesellschaftung großer Wohnungsunternehmen plant, setzt Mucic auf Investitionen statt Enteignung. Ein früheres Treffen mit der Linken war nicht zustande gekommen."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-22",
+     "baslik": "İkinci el elektrikli otomobile ilgi artıyor",
+     "ozet": "Yüksek akaryakıt fiyatları elektrikli otomobil talebini artırırken bu ilgi gecikmeyle ikinci el bayilerine de yansıyor. tagesschau'nun örneğindeki çift, 4 yaşında ve 58.000 kilometrede bir Ford Mustang Mach-E aldı; hesaplarına göre halka açık istasyonda şarj ederek 100 kilometrede 10 euroya kadar tasarruf ediyorlar, evde şarjla daha fazla. Habere göre elektrikli otomobiller 2020 ile 2025 arasında yaklaşık yüzde 18 ucuzladı; ikinci el alımında batarya durumu belirleyici.",
+     "kaynak": "tagesschau · 22 Kasım 2026",
+     "url": "https://www.tagesschau.de/wirtschaft/verbraucher/gebrauchte-elektroautos-100.html",
+     "en": {
+      "baslik": "Demand for used electric cars is rising",
+      "ozet": "High fuel prices are boosting demand for electric cars, and the interest is now reaching used-car dealers with a delay. A couple in the tagesschau report bought a 4-year-old Ford Mustang Mach-E with 58,000 km; by their calculation, charging at public stations saves up to 10 euros per 100 km, more when charging at home. According to the report, electric cars became about 18% cheaper between 2020 and 2025; when buying used, the battery's condition is decisive."
+     },
+     "de": {
+      "baslik": "Gebrauchte Elektroautos sind gefragter",
+      "ozet": "Hohe Spritpreise steigern die Nachfrage nach E-Autos, und mit Verzögerung kommt der Boom nun bei Gebrauchtwagenhändlern an. Ein Paar im tagesschau-Bericht kaufte einen 4 Jahre alten Ford Mustang Mach-E mit 58.000 Kilometern; nach eigener Rechnung sparen sie an öffentlichen Ladesäulen bis zu 10 Euro auf 100 Kilometer, zu Hause noch mehr. E-Autos sind laut Bericht zwischen 2020 und 2025 um rund 18 % günstiger geworden; beim Gebrauchtkauf entscheidet der Zustand der Batterie."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-21",
+     "baslik": "Otoyol benzinlikleri akaryakıt fiyat tavanının dışında kalabilir",
+     "ozet": "Benzin ve dizel için ocakta başlaması planlanan fiyat tavanından otoyol benzinliklerinin muaf tutulması gündemde. Handelsblatt ve dpa'ya göre Ekonomi Bakanı Katherina Reiche, bu istasyonların daha yüksek kira ödemesi ve 24 saat açık olması nedeniyle maliyetlerinin yüksek olduğunu gerekçe gösteriyor. Otoyol çıkışlarındaki dinlenme tesisleri (Autohof) ise tavana tabi olacak. İran savaşı sonrası yapılan akaryakıt vergisi indirimi yıl sonunda bitiyor; taslak bakanlıklar arasında hâlâ görüşülüyor.",
+     "kaynak": "tagesschau · 21 Kasım 2026",
+     "url": "https://www.tagesschau.de/inland/spritpreis-autobahntankstellen-ausnahme-100.html",
+     "en": {
+      "baslik": "Motorway petrol stations may be exempt from the fuel price cap",
+      "ozet": "Motorway petrol stations could be exempted from the price cap for petrol and diesel planned to start in January. According to Handelsblatt and dpa, Economy Minister Katherina Reiche argues that these stations have higher costs because they pay higher rents and are open 24 hours. Truck stops near motorway exits (Autohöfe) would still fall under the cap. The fuel tax cut introduced after the Iran war ends at the turn of the year; the draft is still being coordinated between ministries."
+     },
+     "de": {
+      "baslik": "Autobahntankstellen sollen vom Spritpreisdeckel ausgenommen werden",
+      "ozet": "Autobahntankstellen könnten vom Preisdeckel für Benzin und Diesel ausgenommen werden, der ab Januar gelten soll. Laut Handelsblatt und dpa begründet Wirtschaftsministerin Katherina Reiche das mit höheren Pachten und dem 24-Stunden-Betrieb. Autohöfe an Autobahnausfahrten sollen unter den Deckel fallen. Die nach dem Iran-Krieg gesenkten Steuern auf Kraftstoff laufen zum Jahreswechsel aus; der Entwurf ist noch in der Ressortabstimmung."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-20",
+     "baslik": "İtalya, Tesla'nın destekli sürüş sistemine geçici onay verdi",
+     "ozet": "İtalya Ulaştırma Bakanlığı, Tesla'nın Avrupa'da \"Assisted Driving\" adıyla sunduğu FSD (Supervised) sistemine geçici onay verdi. İtalya bu sisteme izin veren 12. Avrupa ülkesi ve AB'nin büyük pazarları arasında ilki oldu. Karar Brüksel'i beklemeden alındı: AB genelinde tanıma için oylamanın en erken aralıkta yapılması bekleniyor. Tesla, dağıtımın yakında başlayacağını duyurdu.",
+     "kaynak": "Electrek · 20 Kasım 2026",
+     "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/",
+     "en": {
+      "baslik": "Italy provisionally approves Tesla's assisted driving system",
+      "ozet": "Italy's transport ministry has provisionally approved Tesla Assisted Driving, the name Tesla uses for FSD (Supervised) in Europe. Italy is the 12th European country to allow the system and the first of the EU's big markets. The decision did not wait for Brussels: the vote on EU-wide recognition is expected in December at the earliest. Tesla said the rollout will begin soon."
+     },
+     "de": {
+      "baslik": "Italien erteilt Teslas Fahrassistenz vorläufige Zulassung",
+      "ozet": "Das italienische Verkehrsministerium hat Tesla Assisted Driving, wie Tesla FSD (Supervised) in Europa nennt, vorläufig zugelassen. Italien ist das 12. europäische Land und der erste große EU-Markt, der das System erlaubt. Die Entscheidung kam ohne Brüssel: Die Abstimmung über eine EU-weite Anerkennung wird frühestens im Dezember erwartet. Tesla kündigte den baldigen Start an."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-20",
+     "baslik": "Hessen kira frenini uzattı: 49 yerine 71 belediye",
+     "ozet": "Hessen'in 20 Kasım'da yürürlüğe giren yeni kiracı koruma yönetmeliğiyle kira freni 2029 sonuna kadar uzatıldı. Kapsama 36 belediye eklendi, 14 belediye çıktı; böylece 49 yerine 71 belediye kapsamda. Kira artış sınırı (Kappungsgrenze) ve satış sonrası tahliye yasağı süresi de uzatıldı. Yeni bilirkişi raporu 76 belediyede gergin konut piyasası tespit etti; bunların beşi kapsama alınmayı reddetti.",
+     "kaynak": "Haufe Immobilien · 20 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-hessen_84342_328508.html",
+     "en": {
+      "baslik": "Hesse extends rent brake: 71 instead of 49 municipalities",
+      "ozet": "With Hesse's new tenant protection ordinance, in force since 20 November, the rent brake has been extended until the end of 2029. 36 municipalities were added and 14 dropped, so 71 instead of 49 are now covered. The cap on rent increases and the waiting period before termination after a sale also apply longer. A new expert report found a tight housing market in 76 municipalities; five of them declined to be included."
+     },
+     "de": {
+      "baslik": "Hessen verlängert die Mietpreisbremse: 71 statt 49 Kommunen",
+      "ozet": "Mit der neuen Mieterschutzverordnung, die am 20. November in Kraft trat, gilt die Mietpreisbremse in Hessen bis Ende 2029. 36 Kommunen kamen hinzu, 14 fielen heraus, damit sind 71 statt 49 erfasst. Auch Kappungsgrenze und Kündigungssperrfrist gelten länger. Ein neues Gutachten weist für 76 Kommunen einen angespannten Wohnungsmarkt aus; fünf davon lehnten die Aufnahme ab."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-20",
+     "baslik": "Kira sözleşmesi 2027'den itibaren dijital kimlik cüzdanıyla imzalanabilecek",
+     "ozet": "Federal Konsey 20 Kasım'da Dijital Kimlikler Yasası'nı onayladı. Almanya'nın AB dijital kimlik cüzdanı \"d-you\" 2 Ocak 2027'de başlıyor ve kira sözleşmeleri bununla hukuken geçerli şekilde dijital olarak imzalanabilecek. Kimlik doğrulamadan sözleşme imzasına ve kredi notu belgesine kadar sürecin tamamen dijital yürümesi hedefleniyor; kira sözleşmesi ilk büyük sınav olacak.",
+     "kaynak": "Haufe Immobilien · 20 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eudi-wallet-d-you-mietvertrag-digital-2027_84342_702834.html",
+     "en": {
+      "baslik": "From 2027, leases can be signed with a digital identity wallet",
+      "ozet": "On 20 November, the Bundesrat approved the Digital Identities Act. Germany's EU digital identity wallet \"d-you\" launches on 2 January 2027, and leases can then be signed digitally with legal certainty. The aim is a fully digital process from identity checks and signing to proof of creditworthiness; the lease will be the first big test."
+     },
+     "de": {
+      "baslik": "Mietverträge ab 2027 per digitaler Identitäts-Wallet unterschreiben",
+      "ozet": "Der Bundesrat hat am 20. November dem Digitalen Identitätengesetz zugestimmt. Die deutsche EUDI-Wallet „d-you“ startet am 2. Januar 2027; Mietverträge können damit rechtssicher digital unterzeichnet werden. Von der Identitätsprüfung über die Unterschrift bis zum Bonitätsnachweis soll alles digital laufen; der Mietvertrag wird die erste Bewährungsprobe."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-19",
+     "baslik": "Volkswagen toplu sözleşmede iki yıl sıfır zam istiyor",
+     "ozet": "Volkswagen, başlayacak toplu sözleşme görüşmelerinde 2027 ve 2028 için ücret artışı yapılmamasını istiyor. Şirket ayrıca ortalama aylık kazancın yüzde 27,5'i kadar olan ve 6 izin gününe çevrilebilen ek ödemenin ve ayda 167 euroluk zammın kaldırılmasını, haftalık 35 saatlik çalışma süresinin de ücret telafisi olmadan iş yüküne göre esnetilmesini talep ediyor. IG Metall sendikası şirketi çalışanları sırtından bıçaklamakla suçladı.",
+     "kaynak": "tagesschau · 19 Kasım 2026",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-nullrunde-100.html",
+     "en": {
+      "baslik": "Volkswagen wants two years without pay rises",
+      "ozet": "In the upcoming wage talks, Volkswagen wants no pay rises for 2027 and 2028. The company also wants to scrap a supplementary payment worth 27.5% of average monthly earnings, which can be converted into 6 days off, and a monthly allowance of 167 euros, and to flex the 35-hour week to workload without pay compensation. The IG Metall union accused the company of stabbing employees in the back."
+     },
+     "de": {
+      "baslik": "Volkswagen will zwei Nullrunden",
+      "ozet": "Volkswagen fordert in der anstehenden Tarifrunde Nullrunden für 2027 und 2028. Zudem sollen die tarifliche Zusatzvergütung von 27,5 % eines durchschnittlichen Monatsverdienstes, die in 6 freie Tage umgewandelt werden kann, und die Zulage von 167 Euro im Monat entfallen; die 35-Stunden-Woche soll ohne Entgeltausgleich an die Auslastung angepasst werden. Die IG Metall wirft dem Konzern vor, den Beschäftigten in den Rücken zu fallen."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-19",
+     "baslik": "Benzinli VW Polo'ya veda testi",
+     "ozet": "FAZ, benzin motorlu VW Polo için muhtemelen son büyük sürüş testini yayımladı. Marka yöneticisi Thomas Schäfer, Polo'nun yakında yalnız elektrikli olarak sunulacağını açıklamıştı. 1975'ten beri satılan modelin benzinli sürümü, gazeteye göre hâlâ başarılı ve elektrikli ID. Polo'dan daha uygun fiyatlı. İkinci el piyasasında benzinli Polo'nun bir süre daha aranan model olmayı sürdürmesi beklenebilir.",
+     "kaynak": "FAZ · 19 Kasım 2026",
+     "url": "https://www.faz.net/aktuell/technik-motor/motor/vw-polo-im-fahrbericht-hommage-an-den-dauerbrenner-accg-201673716.html",
+     "en": {
+      "baslik": "A farewell test of the petrol VW Polo",
+      "ozet": "FAZ has published what is probably its last big road test of a petrol-engined VW Polo. Brand chief Thomas Schäfer had announced that the Polo will soon be offered only as an electric car. According to the paper, the petrol version of the model, on sale since 1975, is still convincing and cheaper than the electric ID. Polo. The petrol Polo can be expected to remain in demand on the used-car market for some time."
+     },
+     "de": {
+      "baslik": "Abschiedstest für den Polo mit Benzinmotor",
+      "ozet": "Die FAZ hat den wohl letzten großen Fahrbericht über einen VW Polo mit Verbrennungsmotor veröffentlicht. Markenchef Thomas Schäfer hatte angekündigt, dass es den Polo bald nur noch elektrisch geben wird. Laut der Zeitung überzeugt der seit 1975 verkaufte Benziner noch immer und ist günstiger als der elektrische ID. Polo. Auf dem Gebrauchtwagenmarkt dürfte der Benzin-Polo noch eine Weile gefragt bleiben."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-19",
+     "baslik": "İklim raporu: binalar yine hedefin gerisinde, evlerin yüzde 70'inden fazlasında gaz ya da petrol",
+     "ozet": "2026 İklim Koruma Raporu'na göre bina sektörü 2025'te 103 milyon ton CO2 saldı ve hedeflerini yine tutturamadı. Isı pompası satışları rekor seviyede, ama binaların yüzde 70'inden fazlasında hâlâ gaz ya da petrol kazanı var. 2021–2030 için birikimli hedefteki açık şimdiden 110 milyon ton CO2 eşdeğerine ulaştı. Uzmanlar ve konut sektörünün bir kısmı, Bina Modernizasyon Yasası'nın bu açığı kapatmaya yetmeyeceğini düşünüyor.",
+     "kaynak": "Haufe Immobilien · 19 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/klimaschutzbericht_84342_523630.html",
+     "en": {
+      "baslik": "Climate report: buildings miss targets again, over 70% still heat with gas or oil",
+      "ozet": "According to the 2026 Climate Protection Report, the building sector emitted 103 million tonnes of CO2 in 2025 and again missed its targets. Heat pump sales are at a record, but more than 70% of buildings still have gas or oil heating. The gap in the cumulative target for 2021–2030 has already reached 110 million tonnes of CO2 equivalent. Experts and parts of the housing industry doubt that the Building Modernisation Act is enough to close it."
+     },
+     "de": {
+      "baslik": "Klimaschutzbericht: Gebäude verfehlen erneut die Ziele, über 70 % heizen mit Gas oder Öl",
+      "ozet": "Laut Klimaschutzbericht 2026 stieß der Gebäudesektor 2025 insgesamt 103 Millionen Tonnen CO2 aus und verfehlte seine Ziele erneut. Wärmepumpen verkaufen sich so gut wie nie, doch in mehr als 70 % der Gebäude hängt noch eine Gas- oder Ölheizung. Die Lücke bei den kumulierten Zielmengen für 2021–2030 beträgt bereits 110 Millionen Tonnen CO2-Äquivalente. Experten und Teile der Wohnungswirtschaft bezweifeln, dass das Gebäudemodernisierungsgesetz reicht."
+     },
+     "not": "Enerji sınıfı ve ısıtma türü alıcının ilk sorduğu şey olacak; ilanda Energieausweis bilgilerini eksiksiz ver (GEG § 87)."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-18",
+     "baslik": "VW CEO'su Blume sert tasarruf planını savundu",
+     "ozet": "Volkswagen ile IG Metall arasındaki toplu sözleşme görüşmeleri Emden'de başlıyor ve şirket tarihinin en zorlu görüşmeleri olabilir. NDR'ye konuşan CEO Oliver Blume, şirketin ekonomik olarak çok gergin bir durumda olduğunu, görüşmelerde ne kadar çok tasarruf sağlanırsa o kadar çok istihdamın korunabileceğini söyledi. Blume masada olmayacak ama süreci yakından izleyecek.",
+     "kaynak": "tagesschau · 18 Kasım 2026",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-volkswagen-blume-zukunftsstrategie-100.html",
+     "en": {
+      "baslik": "VW CEO Blume defends tough savings plan",
+      "ozet": "Wage talks between Volkswagen and IG Metall are starting in Emden and could be the toughest in the group's history. Speaking to NDR, CEO Oliver Blume said the company is in a very tense economic situation and that the more the talks achieve, the more jobs can be secured. Blume will not sit at the table but will follow the talks closely."
+     },
+     "de": {
+      "baslik": "VW-Chef Blume verteidigt harten Sparkurs",
+      "ozet": "In Emden beginnen die Tarifgespräche zwischen Volkswagen und der IG Metall, und es könnten die härtesten in der Konzerngeschichte werden. Im NDR-Interview sagt Konzernchef Oliver Blume, das Unternehmen sei wirtschaftlich in einer sehr angespannten Lage; je mehr in den Gesprächen gelinge, desto mehr Beschäftigung lasse sich sichern. Blume sitzt nicht mit am Tisch, verfolgt die Gespräche aber genau."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-18",
+     "baslik": "Tesla Avrupa'da sürücü izlemeyi sıkılaştırıyor",
+     "ozet": "Hollanda araç kurumu RDW'nin 16 Kasım'da onayladığı güncellemeyle Tesla'nın destekli sürüş sistemi Avrupa'da sürücüyü daha sıkı izleyecek: uyarılar daha erken gelecek, manevra sırasında yola bakmayan sürücü doğrudan ceza puanı alacak ve saatte 130 kilometrenin üzerinde eller direksiyonda olmak zorunda. Güncelleme HW4 donanımlı araçlara internet üzerinden dağıtılıyor. ABD'de ise Tesla son bir yılda ters yönde ilerleyip uyarıları azalttı.",
+     "kaynak": "Electrek · 18 Kasım 2026",
+     "url": "https://electrek.co/2026/11/18/tesla-fsd-driver-monitoring-europe-stricter-than-us/",
+     "en": {
+      "baslik": "Tesla tightens driver monitoring in Europe",
+      "ozet": "With an update approved by the Dutch vehicle authority RDW on 16 November, Tesla's assisted driving system will monitor drivers more strictly in Europe: warnings come earlier, a driver who looks away during a manoeuvre gets a full strike, and hands must be on the wheel above 130 km/h. The update goes out over the air to HW4 vehicles. In the US, Tesla has gone the other way over the past year and reduced warnings."
+     },
+     "de": {
+      "baslik": "Tesla verschärft Fahrerüberwachung in Europa",
+      "ozet": "Mit einem Update, das die niederländische Zulassungsbehörde RDW am 16. November freigegeben hat, überwacht Teslas Fahrassistenz in Europa die Fahrer strenger: Warnungen kommen früher, wer während eines Manövers wegschaut, bekommt direkt einen Strike, und über 130 km/h müssen die Hände am Lenkrad sein. Das Update kommt per Funk auf HW4-Fahrzeuge. In den USA hat Tesla im vergangenen Jahr den umgekehrten Weg eingeschlagen und Warnungen reduziert."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-18",
+     "baslik": "Elektrikli otomobil ve ısı pompası: elektrik ne kadar ucuz kalacak?",
+     "ozet": "FAZ'ın yorumuna göre elektrik artık hem otomobili hem ısıtmayı taşıyacak, ama bunun için hem uygun fiyatlı hem de güvenilir biçimde yeterli olması gerekiyor. Yazara göre Almanya'daki yüksek elektrik tarifeleri, özellikle uzun yolda hızlı şarj fiyatları, akaryakıt fiyatları düştüğünde elektrikli otomobil heyecanının sürüp sürmeyeceği sorusunu doğuruyor. Yazı, geçişin hedeflerle değil fiyat ve şebeke güvenliğiyle kazanılacağını savunuyor.",
+     "kaynak": "FAZ · 18 Kasım 2026",
+     "url": "https://www.faz.net/aktuell/technik-motor/strom-als-neuer-alleskoenner-wie-bezahlbar-werden-e-auto-und-waermepumpe-201670762.html",
+     "en": {
+      "baslik": "Electric cars and heat pumps: how cheap will electricity stay?",
+      "ozet": "According to a FAZ commentary, electricity is now supposed to power both cars and heating, but for that it must be affordable and reliably available. The author argues that Germany's high electricity tariffs, especially fast-charging prices on long trips, raise the question of whether enthusiasm for electric cars will last once fuel prices fall. The piece says the transition will be won on price and grid security, not on targets."
+     },
+     "de": {
+      "baslik": "E-Auto und Wärmepumpe: Wie bezahlbar bleibt der Strom?",
+      "ozet": "Strom soll laut einem FAZ-Kommentar künftig Auto fahren und heizen, muss dafür aber bezahlbar und verlässlich verfügbar sein. Die hohen Stromtarife in Deutschland, besonders beim Laden auf der Langstrecke, werfen nach Ansicht des Autors die Frage auf, ob die Begeisterung für E-Autos anhält, wenn die Spritpreise wieder sinken. Der Text argumentiert, dass der Wandel über Preis und Netzsicherheit entschieden wird, nicht über Ziele."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-18",
+     "baslik": "Konut inşaat izinleri eylülde yüzde 14,8 düştü",
+     "ozet": "Federal İstatistik Ofisi'ne göre eylülde yeni konutlar için verilen inşaat izinleri bir önceki yılın aynı ayına göre yüzde 14,8 azalarak 20.800 daireye indi; sekiz aylık artış dönemi sona erdi. Yeni binalarda düşüş yüzde 20'ye yakın. Haufe'ye göre nedenler yüzde 4,4'lük konut kredisi faizleri, İran savaşıyla artan malzeme maliyetleri ve Ocak 2027'den itibaren beklenen KfW destek boşluğu. 2025'te 35.000 izin kullanılmadan süresi doldu.",
+     "kaynak": "Haufe Immobilien · 18 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-baugenehmigungen-fuer-wohnungen-deutlich-gestiegen_84324_511962.html",
+     "en": {
+      "baslik": "Housing permits fell 14.8% in September",
+      "ozet": "According to the Federal Statistical Office, permits for new homes fell 14.8% year on year in September to 20,800 dwellings, ending eight months of growth. For new buildings the drop was close to 20%. Haufe names mortgage rates of 4.4%, higher material costs due to the Iran war and an expected gap in KfW funding from January 2027 as causes. In 2025, 35,000 permits expired unused."
+     },
+     "de": {
+      "baslik": "Baugenehmigungen im September um 14,8 % eingebrochen",
+      "ozet": "Laut Statistischem Bundesamt sank die Zahl der Baugenehmigungen für neue Wohnungen im September gegenüber dem Vorjahresmonat um 14,8 % auf 20.800, nach acht Monaten mit Zuwächsen. Im Neubau lag das Minus bei knapp 20 %. Als Ursachen nennt Haufe Bauzinsen von 4,4 %, durch den Iran-Krieg gestiegene Materialkosten und die drohende KfW-Förderlücke ab Januar 2027. 2025 verfielen 35.000 Genehmigungen ungenutzt."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-18",
+     "baslik": "Engelsiz tadilat desteği 2027'de 60 milyon euroyla dönüyor",
+     "ozet": "Engelsiz konut tadilatını destekleyen KfW 455-B programı, Nisan 2026'da yeniden başladıktan yaklaşık dört ay sonra, ayrılan 50 milyon euro bitince temmuz sonunda durduruldu. Federal hükümet 2027 için 60 milyon euro ayırmayı planlıyor. Bakan Verena Hubertz, insanların ömür boyu yaşadıkları evde yaşlanabilmesi için tadilatın desteklendiğini söyledi. Destek en erken 2027'de yeniden alınabilecek.",
+     "kaynak": "Haufe Immobilien · 18 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kfw-zuschuesse-fuer-barrierefreies-wohnen_84342_464458.html",
+     "en": {
+      "baslik": "Grants for barrier-free renovation return in 2027 with 60 million euros",
+      "ozet": "The KfW 455-B programme for barrier-free home renovation was halted at the end of July, about four months after its restart in April 2026, once its 50 million euros were used up. The federal government plans 60 million euros for 2027. Minister Verena Hubertz said the grants help people grow old in the homes they have lived in all their lives. Funding will be available again in 2027 at the earliest."
+     },
+     "de": {
+      "baslik": "Förderung für barrierefreien Umbau kommt 2027 mit 60 Millionen Euro zurück",
+      "ozet": "Das KfW-Programm 455-B für barrierefreien Wohnungsumbau wurde Ende Juli gestoppt, knapp vier Monate nach dem Neustart im April 2026, als die 50 Millionen Euro ausgeschöpft waren. Für 2027 stellt der Bund 60 Millionen Euro in Aussicht. Bauministerin Verena Hubertz sagte, wer sein Leben lang in seiner Wohnung gelebt habe, solle dort auch alt werden können. Förderung gibt es frühestens 2027 wieder."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-18",
+     "baslik": "Elektrik vergisi 2027'de herkes için düşüyor, ama yalnız bir yıllığına",
+     "ozet": "Hükümet ortakları, Başbakanlıkta sekiz saati aşan bir toplantının ardından elektrik vergisinin herkes için düşürülmesinde anlaştı. İndirim 2027'de geçerli olacak ama finansmanı şimdilik yalnız bir yıl için hazır; kalıcı indirim 2028 bütçesinde karşılık bulunmasına bağlı. Finansman yenilenebilir enerji (EEG) hesabındaki fazladan sağlanacak; yetmezse sübvansiyon kesintisi gibi adımlar gündeme gelebilir.",
+     "kaynak": "Haufe Immobilien · 18 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizkosten-vielerorts-drohen-nachzahlungen_84342_440906.html",
+     "en": {
+      "baslik": "Electricity tax will fall for everyone in 2027, but only for one year",
+      "ozet": "After more than eight hours of talks at the Chancellery, the coalition partners agreed to cut the electricity tax for everyone. The cut applies in 2027, but funding is secured for only one year so far; a permanent cut depends on financing in the 2028 budget. It is to be financed from surpluses in the renewable energy (EEG) account; if these are not enough, steps such as subsidy cuts could follow."
+     },
+     "de": {
+      "baslik": "Stromsteuer sinkt 2027 für alle, aber vorerst nur für ein Jahr",
+      "ozet": "Nach mehr als acht Stunden Verhandlung im Kanzleramt haben sich Union und SPD auf eine Senkung der Stromsteuer für alle geeinigt. Sie gilt 2027, finanziert ist sie bislang nur für ein Jahr; eine dauerhafte Senkung setzt eine Gegenfinanzierung im Haushalt 2028 voraus. Bezahlt werden soll sie aus Spielräumen auf dem EEG-Konto; reichen diese nicht, sind etwa Subventionskürzungen denkbar."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-17",
+     "baslik": "Emlakçıların iyimserliği eriyor: 2027'de büyüme bekleyenler yüzde 25'e indi",
+     "ozet": "Kasım 2026'daki ankette 366 emlakçının yalnız yüzde 25'i 2027'de büyüme bekliyor; haziranda bu oran yüzde 37'ydi. Emlakçıların yüzde 55'i mevcut piyasayı geçen yıldan kötü buluyor (haziranda yüzde 50). Yüksek faizler, zayıf talep ve alıcıyla satıcı arasında uzayan fiyat pazarlığı, ilkbaharda geçici sanılan durgunluğu birçok emlakçının gözünde yapısal bir soruna çeviriyor.",
+     "kaynak": "Haufe Immobilien · 17 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/was-kunden-von-ihrem-immobilienmakler-erwarten_84342_524784.html",
+     "en": {
+      "baslik": "Brokers' optimism is fading: only 25% expect growth in 2027",
+      "ozet": "In a November 2026 survey, only 25% of 366 estate agents expect growth in 2027, down from 37% in June. 55% rate the current market as worse than last year (June: 50%). High interest rates, weak demand and drawn-out price negotiations between buyers and sellers are turning what looked like a temporary dip in spring into a structural problem for many agents."
+     },
+     "de": {
+      "baslik": "Makler verlieren den Optimismus: nur noch 25 % erwarten 2027 Wachstum",
+      "ozet": "In einer Umfrage vom November 2026 rechnen nur noch 25 % der 366 befragten Makler 2027 mit Wachstum, im Juni waren es 37 %. 55 % bewerten die aktuelle Marktlage schlechter als im Vorjahr (Juni: 50 %). Hohe Zinsen, schwache Nachfrage und zähe Preisfindung zwischen Käufern und Verkäufern machen aus der vermeintlichen Delle im Frühjahr für viele Makler ein Strukturproblem."
+     },
+     "not": "Satış videolarında fiyatı gerçekçi göster; alıcılar pazarlık payı bekliyor. Güçlü yanları (enerji, konum, aylık gider) net sayılarla ver."
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-17",
+     "baslik": "Konut sektöründen hükümete sert eleştiri: \"Sorun yöntem ve güven krizi\"",
+     "ozet": "Konut şirketlerinin çatı birliği GdW'nin başkanı Axel Gedaschko, 17 Kasım'da Berlin'deki Konut Sektörü Günü'nde konut inşaatının yıllardır en ağır krizinde olduğunu söyledi. Gedaschko'ya göre sorun yatırımcı eksikliği değil, inşaatı sistematik olarak zorlaştıran devlet: \"Hedeflerin değil, yöntemin, karar alabilmenin ve güvenin krizini yaşıyoruz.\" Toplantıda Wohnen.2050 girişiminin yeni uygulama raporu da sunuldu.",
+     "kaynak": "Haufe Immobilien · 17 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gdw-tag-der-wohnungswirtschaft_260_529700.html",
+     "en": {
+      "baslik": "Housing industry criticises the government: \"a crisis of method and trust\"",
+      "ozet": "Axel Gedaschko, president of the housing companies' federation GdW, said at the Housing Industry Day in Berlin on 17 November that residential construction is in its worst crisis for years. In his view the problem is not a lack of investors but a state that systematically makes building harder: \"We are not suffering from a crisis of goals but of method, decision-making and trust.\" A new practice report by the Wohnen.2050 initiative was also presented."
+     },
+     "de": {
+      "baslik": "Wohnungswirtschaft rechnet ab: \"Krise der Methode und des Vertrauens\"",
+      "ozet": "GdW-Präsident Axel Gedaschko sagte beim Tag der Wohnungswirtschaft am 17. November in Berlin, der Wohnungsbau stecke in seiner schwersten Krise seit Jahren. Nicht fehlende Investoren bremsten, sondern ein Staat, der das Bauen systematisch erschwere: „Wir leiden nicht an einer Krise der Ziele, sondern der Methode, der Entscheidungsfähigkeit und des Vertrauens.“ Vorgestellt wurde auch der neue Praxisbericht der Initiative Wohnen.2050."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-16",
+     "baslik": "VW ID. Polo'ya talep yüksek: en ucuz sürüm için bekleme neredeyse 2 yıl",
+     "ozet": "Volkswagen'in en ucuz elektrikli modeli ID. Polo Trend 24.995 eurodan başlıyor; 37 kWh bataryayla WLTP'ye göre 334 kilometre menzil sunuyor. 52 kWh'lik sürüm 33.795 eurodan satışta. Electrek'e göre en ucuz sürüm için bekleme süresi 2 yıla yaklaştı. FAZ'ın haberine göre ID. Polo için 50.000'den fazla sipariş var; Seat ve Skoda'daki kardeş modellerle birlikte bu sayı 150.000'e çıkıyor.",
+     "kaynak": "Electrek · 16 Kasım 2026",
+     "url": "https://electrek.co/2026/11/16/volkswagens-cheapest-ev-buyers-waiting-nearly-2-years/",
+     "en": {
+      "baslik": "High demand for VW ID. Polo: nearly 2-year wait for the cheapest version",
+      "ozet": "Volkswagen's cheapest electric model, the ID. Polo Trend, starts at 24,995 euros and offers 334 km of WLTP range with a 37 kWh battery. The 52 kWh version sells from 33,795 euros. According to Electrek, the wait for the cheapest version is approaching 2 years. FAZ reports more than 50,000 orders for the ID. Polo; including its sister models at Seat and Skoda the figure rises to 150,000."
+     },
+     "de": {
+      "baslik": "Hohe Nachfrage nach dem VW ID. Polo: fast 2 Jahre Wartezeit für die günstigste Version",
+      "ozet": "Volkswagens günstigstes E-Auto, der ID. Polo Trend, startet bei 24.995 Euro und schafft mit 37-kWh-Akku 334 Kilometer nach WLTP. Die 52-kWh-Version kostet ab 33.795 Euro. Laut Electrek nähert sich die Wartezeit für die günstigste Version 2 Jahren. Die FAZ berichtet von mehr als 50.000 Bestellungen für den ID. Polo, mit den Konzerngeschwistern von Seat und Skoda von 150.000."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-16",
+     "baslik": "Federal hükümet 2027 inşaat bütçesini 8,5 milyar euroya çıkardı",
+     "ozet": "Federal Meclis bütçe komisyonu, Konut, Kentsel Gelişim ve İnşaat Bakanlığı'nın 2027 bütçesini 8,5 milyar euro olarak kabul etti. Yazın tasarruf taslağı olarak sunulan bütçe 7,51 milyar euro öngörüyor ve konut yardımında kesinti içeriyordu. Haufe bunu bir dönüş olarak değerlendiriyor; bütçede yeni kurulacak federal konut inşaat şirketinin payı da yer alıyor.",
+     "kaynak": "Haufe Immobilien · 16 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundeshaushalt_84342_634714.html",
+     "en": {
+      "baslik": "Federal government raises 2027 construction budget to 8.5 billion euros",
+      "ozet": "The Bundestag budget committee approved a 2027 budget of 8.5 billion euros for the Ministry for Housing, Urban Development and Building. Presented in summer as a consolidation draft, it had foreseen 7.51 billion euros and cuts to housing benefit. Haufe calls it a U-turn; the budget also includes funding for the new federal housing construction company."
+     },
+     "de": {
+      "baslik": "Bund stockt den Bauetat 2027 auf 8,5 Milliarden Euro auf",
+      "ozet": "Der Haushaltsausschuss des Bundestags hat für das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen 2027 einen Etat von 8,5 Milliarden Euro beschlossen. Der im Sommer vorgelegte Konsolidierungsentwurf sah 7,51 Milliarden Euro und Kürzungen beim Wohngeld vor. Haufe spricht von einer Kehrtwende; enthalten ist auch das Budget für die neue Bundeswohnungsbaugesellschaft."
+     }
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-13",
+     "baslik": "VW elektrikli Golf'ün ardından bir SSP modelini daha erteledi",
+     "ozet": "Maliyet kesmeye çalışan Volkswagen, elektrikli Golf'ün geliştirmesini Wolfsburg'da ertelemesinin ardından SSP platformuna dayanan bir modeli daha erteliyor. Grup üçüncü çeyrekte 5,9 milyar euro faaliyet zararı açıkladı; bu 2015'teki dizel skandalından beri en büyük çeyreklik zarar. Reuters'ın gördüğü iç yazışmaya göre Wolfsburg fabrikası tasarruf hedefinin yaklaşık 300 milyon euro gerisinde. Elektrikli Golf başlangıçta 2028 için planlanıyordu.",
+     "kaynak": "Electrek · 13 Kasım 2026",
+     "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/",
+     "en": {
+      "baslik": "VW delays another SSP model after the electric Golf",
+      "ozet": "Cutting costs, Volkswagen is delaying another model based on its SSP platform after postponing development of the electric Golf in Wolfsburg. The group reported an operating loss of 5.9 billion euros in the third quarter, its biggest quarterly loss since the 2015 diesel scandal. According to an internal memo seen by Reuters, the Wolfsburg plant is about 300 million euros short of its savings target. The electric Golf was originally planned for 2028."
+     },
+     "de": {
+      "baslik": "VW verschiebt nach dem E-Golf ein weiteres SSP-Modell",
+      "ozet": "Auf Sparkurs verschiebt Volkswagen nach der Entwicklung des elektrischen Golf in Wolfsburg ein weiteres Modell auf der SSP-Plattform. Der Konzern meldete im dritten Quartal einen operativen Verlust von 5,9 Milliarden Euro, den größten Quartalsverlust seit dem Dieselskandal 2015. Laut einem von Reuters eingesehenen internen Schreiben liegt das Werk Wolfsburg rund 300 Millionen Euro hinter seinem Sparziel. Der E-Golf war ursprünglich für 2028 geplant."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-13",
+     "baslik": "Bundesbank uyarıyor: yeni konut kredilerinin onda dördünde kredi oranı yüzde 90'ın üzerinde",
+     "ozet": "Bundesbank yönetim kurulu üyesi Michael Theurer, 12 Kasım'da sunduğu finansal istikrar raporunda iki risk odağına dikkat çekti. Yeni konut kredilerinin onda dördünde kredi tutarı mülk değerinin yüzde 90'ını aşıyor; veriler 2025'in son çeyreğinden beri tutulan yeni WIFSta istatistiğinden geliyor. İkinci risk, 2023'ten beri yoğun para çıkışı yaşayan açık uçlu gayrimenkul fonları.",
+     "kaynak": "Haufe Immobilien · 13 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/investment/bafin-immobilien-risiko-fuer-finanzstabilitaet_256_640920.html",
+     "en": {
+      "baslik": "Bundesbank warns: four in ten new mortgages have a loan-to-value above 90%",
+      "ozet": "Presenting the financial stability report on 12 November, Bundesbank board member Michael Theurer pointed to two sources of risk. In four out of ten new residential mortgages the loan exceeds 90% of the property's value; the figures come from the new WIFSta statistics collected since the fourth quarter of 2025. The second risk is open-ended real estate funds, which have seen heavy outflows since 2023."
+     },
+     "de": {
+      "baslik": "Bundesbank warnt: Vier von zehn neuen Wohnkrediten mit Beleihung über 90 %",
+      "ozet": "Bei der Vorstellung des Finanzstabilitätsberichts am 12. November nannte Bundesbank-Vorstand Michael Theurer zwei Risikoherde. Bei vier von zehn neuen Wohnimmobilienkrediten liegt die Beleihungsquote über 90 %; die Zahlen stammen aus der neuen Statistik WIFSta, die seit dem vierten Quartal 2025 erhoben wird. Das zweite Risiko sind offene Immobilienfonds, die seit 2023 massiv Kapital verlieren."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-13",
+     "baslik": "2026 Yıllık Vergi Kanunu: gayrimenkul sahiplerini etkileyen üç değişiklik",
+     "ozet": "Federal Meclis 12 Kasım'da 2026 Yıllık Vergi Kanunu'nu kabul etti; yasa için Federal Konsey onayı da gerekiyor. Gayrimenkul tarafında üç yenilik öne çıkıyor: binalı arsalarda satış bedelinin arsa ve bina arasında nasıl bölüneceği ilk kez yasayla düzenleniyor, boşanma sonrası yapılan gayrimenkul satışı vergiden muaf tutuluyor ve enerji verimliliği tadilatlarına yönelik vergi indirimi yeniden düzenleniyor.",
+     "kaynak": "Haufe Immobilien · 13 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/jahressteuergesetz_84342_582300.html",
+     "en": {
+      "baslik": "Annual Tax Act 2026: three changes for property owners",
+      "ozet": "The Bundestag passed the Annual Tax Act 2026 on 12 November; the Bundesrat still has to approve it. For real estate, three changes stand out: for the first time the law regulates how the purchase price of a built-on plot is split between land and building, a property sale after a divorce becomes tax-free, and the tax reduction for energy-efficient renovation is adjusted."
+     },
+     "de": {
+      "baslik": "Jahressteuergesetz 2026: drei Änderungen für Immobilieneigentümer",
+      "ozet": "Der Bundestag hat am 12. November das Jahressteuergesetz 2026 beschlossen; der Bundesrat muss noch zustimmen. Für Immobilien sind drei Neuregelungen wichtig: Die Kaufpreisaufteilung bei bebauten Grundstücken auf Grund und Boden sowie Gebäude wird erstmals gesetzlich geregelt, der Immobilienverkauf nach einer Scheidung wird steuerfrei, und die Steuerermäßigung für energetische Sanierungen wird angepasst."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-12",
+     "baslik": "Empirica balon endeksi: 400 bölgenin 262'sinde risk orta ile yüksek arasında",
+     "ozet": "Empirica'nın 2026 üçüncü çeyrek balon endeksine göre Almanya'daki 400 il ve şehrin 262'sinde konut piyasasında balon riski orta ile yüksek arasında kalıyor. Fiyatlarla kiralar arasındaki fark kapanıyor ama yavaş: en büyük yedi şehirde birikimli satış fiyatları kira artışının hâlâ yüzde 28 üzerinde, dört yıl önce bu fark yüzde 47'ydi. Farkı kapatan fiyat düşüşü değil, konut darlığıyla yükselen kiralar.",
+     "kaynak": "Haufe Immobilien · 12 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-empirica-blasenindex-steigt_84324_326394.html",
+     "en": {
+      "baslik": "Empirica bubble index: moderate to high risk in 262 of 400 districts",
+      "ozet": "According to Empirica's bubble index for the third quarter of 2026, the risk of a housing bubble remains moderate to high in 262 of Germany's 400 districts and cities. The gap between prices and rents is closing, but slowly: in the seven largest cities cumulative purchase prices are still 28% above rent growth, compared with 47% four years ago. What closes the gap is not falling prices but rents rising because housing is scarce."
+     },
+     "de": {
+      "baslik": "Empirica-Blasenindex: In 262 von 400 Kreisen mäßiges bis hohes Risiko",
+      "ozet": "Laut Empirica-Blasenindex für das dritte Quartal 2026 bleibt das Blasenrisiko in 262 von 400 deutschen Kreisen und Städten mäßig bis hoch. Die Schere zwischen Preisen und Mieten schließt sich, aber langsam: In den sieben größten Städten liegen die kumulierten Kaufpreise noch 28 % über dem Mietanstieg, vor vier Jahren waren es 47 %. Treiber ist kein Preisverfall, sondern der Mietanstieg infolge knappen Wohnraums."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-12",
+     "baslik": "Berlin kiralık dairelerin mülk daireye dönüştürülmesine izin şartını 2031'e uzatıyor",
+     "ozet": "Berlin Senatosu 10 Kasım'da, kiralık konutların mülk daireye dönüştürülmesini izne bağlayan İmar Kanunu 201a maddesine dayalı yönetmeliğin uzatılmasını başlattı. Yeni yönetmelik 1 Ocak 2027'den 31 Aralık 2031'e kadar geçerli olacak ve tüm şehri gergin konut piyasası sayacak; böylece yasanın izin verdiği en uzun süre kullanılıyor. Altı ve daha fazla daireli binalarda dönüşüm için resmî izin gerekmeye devam ediyor. Yönetmeliğin resmî kabulü ve ilanı henüz bekleniyor.",
+     "kaynak": "Haufe Immobilien · 12 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baulandmobilisierungsgesetz-das-planen-die-bundeslaender_84342_547308.html",
+     "en": {
+      "baslik": "Berlin extends permit requirement for converting rental flats until 2031",
+      "ozet": "On 10 November, Berlin's Senate started extending the ordinance under Section 201a of the Building Code that makes converting rental flats into condominiums subject to approval. The new ordinance is to apply from 1 January 2027 to 31 December 2031 and to designate the entire city as a tight housing market, using the longest period the law allows. Buildings with six or more flats still need official approval for conversion. Formal adoption and publication are still pending."
+     },
+     "de": {
+      "baslik": "Berlin verlängert den Umwandlungsschutz für Mietwohnungen bis 2031",
+      "ozet": "Der Berliner Senat hat am 10. November die Verlängerung der Rechtsverordnung nach § 201a BauGB auf den Weg gebracht, die die Umwandlung von Miet- in Eigentumswohnungen genehmigungspflichtig macht. Sie soll vom 1. Januar 2027 bis 31. Dezember 2031 gelten und das gesamte Stadtgebiet als angespannten Wohnungsmarkt ausweisen; damit schöpft Berlin die maximal mögliche Dauer aus. Häuser ab sechs Wohnungen brauchen weiter eine Genehmigung. Beschlussfassung und Verkündung stehen noch aus."
+     }
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-11",
+     "baslik": "Baden-Württemberg kira freni uygulamasını 2029 sonuna uzattı",
+     "ozet": "Baden-Württemberg kabinesi 10 Kasım'da kira frenini 2029 sonuna kadar uzattı ve kapsamını 133 şehir ve belediyeye genişletti; Mannheim, Konstanz ve Kehl listeye yeni girdi. Uygulama 1 Ocak 2027'den itibaren kesintisiz sürecek. Kira freni olan yerlerde yeni kira sözleşmelerinde kira, bölgedeki emsal kiranın en fazla yüzde 10 üzerinde olabiliyor.",
+     "kaynak": "Haufe Immobilien · 11 Kasım 2026",
+     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-baden-wuerttemberg_84342_321932.html",
+     "en": {
+      "baslik": "Baden-Württemberg extends rent brake to the end of 2029",
+      "ozet": "On 10 November, the Baden-Württemberg cabinet extended the rent brake until the end of 2029 and widened it to 133 cities and municipalities; Mannheim, Konstanz and Kehl were newly added. It continues without a gap from 1 January 2027. Where the rent brake applies, rent in new leases may be at most 10% above the local comparative rent."
+     },
+     "de": {
+      "baslik": "Baden-Württemberg verlängert die Mietpreisbremse bis Ende 2029",
+      "ozet": "Das Landeskabinett hat am 10. November beschlossen, die Mietpreisbremse bis Ende 2029 zu verlängern und auf 133 Städte und Gemeinden auszuweiten; neu dabei sind Mannheim, Konstanz und Kehl. Ab dem 1. Januar 2027 greift sie nahtlos weiter. Bei neuen Mietverträgen darf die Miete dort höchstens 10 % über der ortsüblichen Vergleichsmiete liegen."
+     }
+    }
+   ],
+   "videolar": [
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-22",
+     "kanal": "ADAC",
+     "baslik": "Wenn das auf eurem Führerschein steht müsst ihr ihn 2027 umtauschen",
+     "id": "wXGz1K5ua9w",
+     "neden": "Eski ehliyetlerin 2027'deki değişim takvimi; Almanya'da araç kullanan herkesi ilgilendiriyor."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-21",
+     "kanal": "ADAC",
+     "baslik": "Geely Monjaro EM-i Ultra im Fahrbericht: Überraschend gut oder nur viel Ausstattung?",
+     "id": "rk2dDzO_9DM",
+     "neden": "Çinli markaların Almanya pazarına girişine ADAC'ın test gözüyle bakış."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-20",
+     "kanal": "AUTO BILD",
+     "baslik": "VW ID. Polo GTI Clubsport: Zu krass für die Serie?",
+     "id": "5-pUXsSi0cM",
+     "neden": "ID. Polo'nun sportif sürümü; Volkswagen'in elektrikli küçük sınıftaki iddiası."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-19",
+     "kanal": "ADAC",
+     "baslik": "Lackstift richtig anwenden: Kleine Lackschäden in 5 Schritten selbst ausbessern",
+     "id": "DS-BoDgAh-Q",
+     "neden": "Küçük boya hasarını 5 adımda gidermek; ikinci el satış öncesi işe yarar."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-17",
+     "kanal": "auto motor und sport",
+     "baslik": "\"Klingt nach Playstation\" | So fährt der elektrische BMW M3",
+     "id": "PRpGhSmDp50",
+     "neden": "BMW'nin elektrikli M3'ü ilk sürüşte: performans arabasında ses ve his tartışması."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-16",
+     "kanal": "AUTO BILD",
+     "baslik": "„Der Oscar der Autos“: 50 Jahre Goldenes Lenkrad",
+     "id": "1Ibb3JPsBps",
+     "neden": "Almanya'nın en bilinen otomobil ödülünün 50 yılı."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-14",
+     "kanal": "ADAC",
+     "baslik": "Leapmotor B03X ProMax im ADAC Fahrbericht – Wie gut ist der günstige Stromer wirklich?",
+     "id": "QHs_usH0qTQ",
+     "neden": "Ucuz elektrikli SUV'un ADAC sürüş testi."
+    },
+    {
+     "alan": "otomotiv",
+     "tarih": "2026-11-10",
+     "kanal": "ADAC",
+     "baslik": "SUV, Bus oder Van? Familien-E-Autos | Unter Strom",
+     "id": "1gluQbQfOOo",
+     "neden": "Aileler için elektrikli SUV, minibüs ve van seçeneklerinin karşılaştırması."
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-22",
+     "kanal": "immocation",
+     "baslik": "Verzockt? 6 Millionen bald weg? Unser Immobilienhandel mit allen Zahlen",
+     "id": "lRugH5hq1hc",
+     "neden": "Bir alım-satım projesinin rakamlarla anlatımı. Kanal kendi kurslarını da satıyor; yatırımcı bakışıyla izle."
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-19",
+     "kanal": "immocation",
+     "baslik": "Bauzins sinkt, Kaufpreise fallen: Warum ihr jetzt nicht zum Angebotspreis kaufen solltet",
+     "id": "N0SEix_L_pU",
+     "neden": "Faizler ve fiyatlar düşerken alıcının pazarlık payı; satıcı tarafında fiyatlamayı anlamak için de yararlı."
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-15",
+     "kanal": "immocation",
+     "baslik": "Das Eigenkapital ist alle. 6 Wege, wie ihr trotzdem die nächste Immobilie kauft",
+     "id": "0VkLuC-jnAc",
+     "neden": "Özsermaye bittiğinde finansman seçenekleri; yatırımcı alıcıların nasıl düşündüğünü gösteriyor."
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-10",
+     "kanal": "immocation",
+     "baslik": "Ohne eigenes Geld: So holst du Investoren in dein Immobilienprojekt",
+     "id": "KP4vGedOuvs",
+     "neden": "Projeye yatırımcı ortak almak; iddialı başlık, eleştirel izle."
+    },
+    {
+     "alan": "emlak",
+     "tarih": "2026-11-09",
+     "kanal": "immocation",
+     "baslik": "Ingenieur kauft 22 Wohnungen, bevor er kündigt",
+     "id": "Wl5em6H0T0M",
+     "neden": "Bir yatırımcının 22 daireye nasıl ulaştığı; tek bir örnek, genelleme değil."
+    }
+   ]
+  }
+ ]
+}
