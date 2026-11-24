@@ -1,41 +1,41 @@
 {
- "guncelleme": "2026-11-23",
+ "guncelleme": "2026-11-24",
  "yeni": [
   {
    "ad": "heydamir/unslop",
    "link": "https://github.com/heydamir/unslop",
-   "yildiz": 20454,
+   "yildiz": 20949,
    "not": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
   },
   {
    "ad": "patch-gg/pixelfx",
    "link": "https://github.com/patch-gg/pixelfx",
-   "yildiz": 8807,
+   "yildiz": 8928,
    "not": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
   },
   {
    "ad": "mromidev/claude-animated-shorts",
    "link": "https://github.com/mromidev/claude-animated-shorts",
-   "yildiz": 4620,
+   "yildiz": 4727,
    "not": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion"
-  },
-  {
-   "ad": "t3dotgg/tstack",
-   "link": "https://github.com/t3dotgg/tstack",
-   "yildiz": 4308,
-   "not": "The agent skills I use every day. Works with Claude Code and Codex."
   },
   {
    "ad": "elvarofficial/teardown",
    "link": "https://github.com/elvarofficial/teardown",
-   "yildiz": 4050,
+   "yildiz": 4100,
    "not": "A Claude Code skill that turns any machine into a 3D simulator you can take apart"
   },
   {
    "ad": "DenisSergeevitch/ex-ussr-kinship-research",
    "link": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
-   "yildiz": 2737,
+   "yildiz": 2752,
    "not": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across "
+  },
+  {
+   "ad": "Motionsites-AI/claude-skill",
+   "link": "https://github.com/Motionsites-AI/claude-skill",
+   "yildiz": 2491,
+   "not": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites."
   }
  ]
 }
