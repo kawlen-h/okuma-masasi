@@ -1,789 +1,961 @@
 {
- "aylar": [
-  {
-   "ay": "2026-11",
-   "ogeler": [
+  "aylar": [
     {
-     "alan": "otomotiv",
-     "baslik": "VW ve Elli Almanya'da araçtan şebekeye şarjı Aralık'ta başlatıyor: çift yönlü wallbox 1.995 avro",
-     "ozet": "Volkswagen ve enerji iştiraki Elli, Almanya'daki ilk araçtan şebekeye (V2G) paketini Aralık 2026'da başlatıyor. \"Elli BiDi Charger\" KDV ve kargo dahil 1.995 avro; 11 kW'a kadar güç veriyor, 400 ve 800 volt mimarileri destekliyor ve uyumlu bir akıllı sayaç gerektiriyor. Araç en az üç saat bağlı kaldığında saat başına 24 sent ödeniyor: ayda en çok 60 avro, ilk sözleşme yılında 720 avro. Başlangıçta VW, VW Ticari, Cupra ve Skoda markaları destekleniyor; yazın yapılan duyuruda Skoda yoktu. VW'ye göre Avrupa'da 1 milyondan fazla, Almanya'da yaklaşık 360.000 MEB aracı çift yönlü şarja hazır; eve enerji aktarımı (V2H) 2027 için planlanıyor.",
-     "kaynak": "electrive · 24 Kasım 2026",
-     "url": "https://www.electrive.net/2026/11/24/vw-und-elli-starten-v2g-angebot-bidi-wallbox-kostet-1-995-euro/",
-     "not": "İkinci el MEB tabanlı araç satışında çift yönlü şarja uygunluğu ilana yazın; ilk yıl 720 avroya kadar ödeme somut bir satış argümanı.",
-     "ig": "VW ve Elli Aralık'ta Almanya'da V2G'yi başlatıyor: çift yönlü wallbox 1.995 avro, bağlı kalınan saat başına 24 sent, ilk yıl en çok 720 avro.",
-     "igNot": "İkinci el MEB araç ilanına \"çift yönlü şarja hazır\" bilgisini ekleyin.",
-     "gorselAra": "Volkswagen ID.4",
-     "foto": "mobil",
-     "gorsel": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Volkswagen_ID.5_GTX_1X7A0318.jpg/960px-Volkswagen_ID.5_GTX_1X7A0318.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "yazar": "Alexander Migl",
-      "lisans": "CC BY-SA 4.0",
-      "sayfa": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.5_GTX_1X7A0318.jpg"
-     },
-     "en": {
-      "baslik": "VW and Elli start vehicle-to-grid charging in Germany in December: bidirectional wallbox costs 1,995 euros",
-      "ozet": "Volkswagen and its energy subsidiary Elli are launching their first vehicle-to-grid (V2G) package in Germany in December 2026. The 'Elli BiDi Charger' costs 1,995 euros including VAT and shipping; it delivers up to 11 kW, supports 400- and 800-volt architectures and requires a compatible smart meter. Vehicles are paid 24 cents per hour when connected for at least 3 hours: up to 60 euros a month, and 720 euros in the first contract year. Initially the VW, VW Commercial Vehicles, Cupra and Skoda brands are supported; Skoda was not included in the announcement made over the summer. According to VW, more than 1 million MEB vehicles in Europe and about 360,000 in Germany are ready for bidirectional charging; home energy transfer (V2H) is planned for 2027."
-     },
-     "de": {
-      "baslik": "VW und Elli starten im Dezember Laden vom Auto ins Netz in Deutschland: bidirektionale Wallbox kostet 1.995 Euro",
-      "ozet": "Volkswagen und die Energietochter Elli starten im Dezember 2026 in Deutschland ihr erstes Paket für Vehicle-to-Grid (V2G). Die „Elli BiDi Charger“ kostet inklusive Mehrwertsteuer und Versand 1.995 Euro; sie liefert bis zu 11 kW, unterstützt 400- und 800-Volt-Architekturen und setzt einen kompatiblen intelligenten Zähler voraus. Bei einer Verbindung von mindestens 3 Stunden werden 24 Cent pro Stunde vergütet: maximal 60 Euro im Monat und 720 Euro im 1. Vertragsjahr. Zunächst werden die Marken VW, VW Nutzfahrzeuge, Cupra und Skoda unterstützt; in der Ankündigung im Sommer war Skoda noch nicht genannt. Laut VW sind in Europa mehr als 1 Million und in Deutschland rund 360.000 MEB-Fahrzeuge für bidirektionales Laden bereit; die Energieübertragung ins Eigenheim (V2H) ist für 2027 geplant."
-     },
-     "tarih": "2026-11-25"
-    },
-    {
-     "alan": "otomotiv",
-     "baslik": "ACEA: Ekim'de AB'de satılan her 10 otomobilin 3'ü elektrikli; Almanya'da tescil yaklaşık yüzde 80 arttı",
-     "ozet": "Avrupa Otomobil Üreticileri Birliği'nin (ACEA) verisine göre Ekim 2026'da AB'de 279.799 tam elektrikli otomobil tescil edildi; bu yüzde 61,4 artış ve yüzde 29,8 pazar payı demek. Toplam pazar yüzde 2,6 büyüyerek 939.447 araca ulaştı; şarjsız hibritler yüzde 34 payla ilk sırada, benzinli tesciller yüzde 30, dizel yüzde 31 geriledi. Almanya 94.086, Fransa 61.958 elektrikli tescille yaklaşık yüzde 80'er büyüdü. Ocak-Ekim toplamı 2.211.071 araç ve yüzde 23,4 pay. Çinli markalarda BYD 30.974 araçla (yüzde 128 artış) Tesla'nın 10.166'lık tescilinin üç katına çıktı; Leapmotor yüzde 279 büyüdü.",
-     "kaynak": "electrive (ACEA verisi) · 24 Kasım 2026",
-     "url": "https://www.electrive.net/2026/11/24/acea-elektroautos-ergattern-in-der-eu-30-prozent-vom-pkw-kuchen/",
-     "not": "Yeni araçta benzinli ve dizel tescilleri yüzde 30 düşerken elektrikli payı arttı; stok planında elektrikli ve hibrit ağırlığını gözden geçirin.",
-     "ig": "ACEA: Ekim'de AB'de 279.799 elektrikli otomobil tescil edildi, pay yüzde 29,8. Almanya 94.086 araçla yaklaşık yüzde 80 büyüdü; BYD, Tesla'nın üç katı sattı.",
-     "igNot": "Benzinli ve dizel tescili yüzde 30 düştü; stokta elektrikli payını gözden geçirin.",
-     "gorselAra": "",
-     "foto": "alan-yz",
-     "en": {
-      "baslik": "ACEA: in October, 3 in 10 new cars sold in the EU were electric; registrations in Germany up around 80%",
-      "ozet": "According to ACEA, 279,799 fully electric cars were registered in the EU in October 2026, a 61.4% increase and a 29.8% market share. The total market grew 2.6% to 939,447 vehicles; non-plug-in hybrids led with a 34% share, while petrol registrations fell 30% and diesel 31%. Germany (94,086) and France (61,958) both grew about 80% in electric registrations. The January-October total was 2,211,071 vehicles and a 23.4% share. Among Chinese brands, BYD reached 30,974 cars (up 128%), triple Tesla's 10,166 registrations; Leapmotor grew 279%."
-     },
-     "tarih": "2026-11-25",
-     "de": {
-      "baslik": "ACEA: Im Oktober waren 3 von 10 in der EU verkauften Pkw elektrisch; Zulassungen in Deutschland steigen um rund 80 Prozent",
-      "ozet": "Laut dem Verband ACEA wurden im Oktober 2026 in der EU 279.799 vollelektrische Pkw zugelassen; das ist ein Plus von 61,4 Prozent und ein Marktanteil von 29,8 Prozent. Der Gesamtmarkt wuchs um 2,6 Prozent auf 939.447 Fahrzeuge; Hybride ohne Steckdose lagen mit 34 Prozent Anteil vorn, während die Zulassungen von Benzinern um 30 Prozent und von Dieseln um 31 Prozent zurückgingen. Deutschland (94.086) und Frankreich (61.958) wuchsen bei den Elektro-Zulassungen jeweils um rund 80 Prozent. Von Januar bis Oktober summierten sich die Zulassungen auf 2.211.071 Fahrzeuge bzw. einen Anteil von 23,4 Prozent. Unter den chinesischen Marken kam BYD auf 30.974 Fahrzeuge (plus 128 Prozent), das Dreifache der 10.166 Zulassungen von Tesla; Leapmotor wuchs um 279 Prozent."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "baslik": "Opel ve Leapmotor elektrikli SUV için anlaştı: 2028'den itibaren Zaragoza'da üretilecek",
-     "ozet": "Opel CEO'su Florian Huettl ile Leapmotor CEO'su Zhu Jiangming, C segmentinde yeni bir elektrikli SUV için iş birliği anlaşmasını imzaladı. Opel'e göre yaklaşık 4,50 metrelik model Frontera ile Grandland arasına yerleşecek; geliştirme Rüsselsheim ve Hangzhou'daki ortak merkezlerde 2026 ortasında başladı ve iki yılın altında tamamlanması hedefleniyor. Üretim 2028'den itibaren Stellantis'in İspanya'daki Zaragoza fabrikasında yapılacak. Leapmotor B10'un parçalarının kullanılıp kullanılmayacağı doğrulanmadı. Stellantis, Leapmotor'un yüzde 20'sine ve Leapmotor International'ın yüzde 51'ine sahip.",
-     "kaynak": "electrive · 23 Kasım 2026",
-     "url": "https://www.electrive.net/2026/11/23/opel-und-leapmotor-e-suv-kooperation/",
-     "ig": "Opel ve Leapmotor yaklaşık 4,50 metrelik elektrikli SUV için anlaştı. Geliştirme iki yılın altında bitecek, üretim 2028'de Zaragoza'da başlayacak.",
-     "gorselAra": "Opel Russelsheim plant",
-     "foto": "bolum-araclar",
-     "gorsel": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Opel-Mokka_weiss_Ruesselsheim150J_Seitenansicht-hoch_LWS1406.jpg/960px-Opel-Mokka_weiss_Ruesselsheim150J_Seitenansicht-hoch_LWS1406.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "yazar": "L.Willms",
-      "lisans": "CC BY-SA 3.0",
-      "sayfa": "https://commons.wikimedia.org/wiki/File:Opel-Mokka_weiss_Ruesselsheim150J_Seitenansicht-hoch_LWS1406.jpg"
-     },
-     "en": {
-      "baslik": "Opel and Leapmotor agree on electric SUV: to be built in Zaragoza from 2028",
-      "ozet": "Opel CEO Florian Huettl and Leapmotor CEO Zhu Jiangming signed a cooperation agreement for a new electric SUV in the C segment. According to Opel, the roughly 4.50-metre model will sit between Frontera and Grandland; development began in mid-2026 at the joint centres in Rüsselsheim and Hangzhou and is targeted for completion in under 2 years. Production will take place from 2028 at Stellantis' Zaragoza plant in Spain. Whether parts of the Leapmotor B10 will be used has not been confirmed. Stellantis owns 20% of Leapmotor and 51% of Leapmotor International."
-     },
-     "de": {
-      "baslik": "Opel und Leapmotor vereinbaren Elektro-SUV: Produktion ab 2028 in Zaragoza",
-      "ozet": "Opel-Chef Florian Huettl und Leapmotor-Chef Zhu Jiangming haben eine Kooperationsvereinbarung für ein neues Elektro-SUV im C-Segment unterzeichnet. Laut Opel wird das rund 4,50 Meter lange Modell zwischen Frontera und Grandland positioniert; die Entwicklung begann Mitte 2026 in den gemeinsamen Zentren in Rüsselsheim und Hangzhou und soll in weniger als 2 Jahren abgeschlossen sein. Die Produktion erfolgt ab 2028 im Stellantis-Werk in Zaragoza (Spanien). Ob Teile des Leapmotor B10 verwendet werden, ist nicht bestätigt. Stellantis hält 20 Prozent an Leapmotor und 51 Prozent an Leapmotor International."
-     },
-     "tarih": "2026-11-25"
-    },
-    {
-     "alan": "emlak",
-     "baslik": "ImmoScout24: 30.000 avroluk destek, alıcının ulaşabildiği ilan sayısını yüzde 19 artırırdı",
-     "ozet": "ImmoScout24, 15 Ekim 2026 itibarıyla yayındaki 214.337 satılık ilan üzerinden bir senaryo analizi yaptı; Haufe 24 Kasım'da aktardı. Alıcıya 10.000 avro ek destek verilse bütçeye uyan ilan sayısı yüzde 6,7, 20.000 avroda yüzde 12,1, 30.000 avroda yüzde 19 artıyor. 30.000 avroyla ülke genelinde ilanların yaklaşık onda dördü ulaşılabilir oluyor; desteksiz durumda bu oran yaklaşık üçte bir. En büyük etki Aşağı Saksonya (yüzde 25,4), Baden-Württemberg (yüzde 24,2) ve Hamburg'da (yüzde 24,1). Analiz belirli bir devlet programını değil varsayımsal tutarları modelliyor. Satın almak şu an 418 bölgenin 45'inde kiradan ucuz; beş yıl sonra bu sayı 213'e çıkıyor.",
-     "kaynak": "Haufe Immobilien (ImmoScout24 analizi) · 24 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kreditvergabe-fuer-wohnungsbau-stark-ruecklaeufig_84342_120650.html",
-     "not": "İlan videosunda aylık kredi taksitini bölgedeki kira ile yan yana gösterin; satın almanın kiradan ucuz olduğu bölgelerde en güçlü argüman bu.",
-     "ig": "ImmoScout24: 30.000 avro destek, alıcının bütçesine uyan ilan sayısını yüzde 19 artırırdı. Satın almak 418 bölgenin yalnızca 45'inde kiradan ucuz.",
-     "igNot": "İlan videosunda kredi taksitini bölge kirasıyla yan yana gösterin.",
-     "gorselAra": "",
-     "foto": "bolum-eticaret",
-     "en": {
-      "baslik": "ImmoScout24: a 30,000-euro buyer subsidy would raise the number of affordable listings by 19%",
-      "ozet": "ImmoScout24 ran a scenario analysis on the 214,337 sale listings online as of 15 October 2026; Haufe reported it on 24 November. With an additional 10,000-euro buyer subsidy, the number of listings within budget rises 6.7%; at 20,000 euros, 12.1%; at 30,000 euros, 19%. With 30,000 euros, about 4 in 10 listings nationwide become affordable, compared with about 1 in 3 without a subsidy. The largest effects are in Lower Saxony (25.4%), Baden-Württemberg (24.2%) and Hamburg (24.1%). The analysis models hypothetical amounts, not a specific state programme. Buying is currently cheaper than renting in 45 of 418 districts; in 5 years this number rises to 213."
-     },
-     "de": {
-      "baslik": "ImmoScout24: 30.000 Euro Kaufzuschuss würde Zahl der erschwinglichen Angebote um 19 Prozent erhöhen",
-      "ozet": "ImmoScout24 hat eine Szenarioanalyse auf Basis der 214.337 zum Stand 15. Oktober 2026 online verfügbaren Kaufangebote durchgeführt; Haufe berichtete am 24. November darüber. Mit einem zusätzlichen Käuferzuschuss von 10.000 Euro steigt die Zahl der budgetpassenden Angebote um 6,7 Prozent, bei 20.000 Euro um 12,1 Prozent und bei 30.000 Euro um 19 Prozent. Mit 30.000 Euro werden bundesweit rund 4 von 10 Angeboten erreichbar, ohne Zuschuss etwa ein Drittel. Den größten Effekt gibt es in Niedersachsen (25,4 Prozent), Baden-Württemberg (24,2 Prozent) und Hamburg (24,1 Prozent). Die Analyse modelliert hypothetische Beträge, kein konkretes Landesprogramm. Derzeit ist der Kauf in 45 der 418 Regionen günstiger als die Miete; in 5 Jahren steigt diese Zahl auf 213."
-     },
-     "tarih": "2026-11-25"
-    },
-    {
-     "alan": "emlak",
-     "baslik": "Noel süsü ve kira hukuku: balkonda ışık serbest, cepheye matkap için ev sahibi onayı şart",
-     "ozet": "Haufe, Noel süslemelerine ilişkin mahkeme kararlarını 24 Kasım'da derledi. Eschweiler Sulh Mahkemesi'ne göre (26 C 43/14) balkondaki ışık zincirine katlanılması gerekiyor; Berlin Eyalet Mahkemesi (65 S 390/09) ışık süsü nedeniyle feshi kabul etmedi. Buna karşılık bütün merdiven boşluğunun süslenmesi kaldırtılabiliyor (AG Münster, 38 C 1858/08) ve cepheye delik açmak ev sahibinin onayını gerektiriyor. Federal Mahkeme'ye göre (BGH, VIII ZR 67/06) advent çelengi yangınında basit ihmal varsa zararı ev sahibinin bina sigortası karşılar. Işıkların en geç saat 22.00'de kapatılması öneriliyor.",
-     "kaynak": "Haufe Immobilien · 24 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/verwaltung/weihnachtsdeko-wie-bunt-darfs-sein_258_556544.html",
-     "not": "Çok daireli binalarda sakinlere kısa bir bilgi notu işe yarar: balkon serbest, cephe ve merdiven boşluğu onaya bağlı.",
-     "ig": "Noel süsü ve kira hukuku: balkonda ışık zinciri serbest (AG Eschweiler), cepheye delik için ev sahibi onayı şart. Işıklar en geç 22.00'de kapanmalı.",
-     "igNot": "Bina sakinlerine kısa not: balkon süsü serbest, cephe ve merdiven onaya bağlı.",
-     "gorselAra": "",
-     "foto": "bolum-gunluk",
-     "tarih": "2026-11-25",
-     "en": {
-      "baslik": "Christmas decorations and tenancy law: balcony light strings must be tolerated; drilling into the facade needs landlord consent",
-      "ozet": "On 24 November Haufe compiled court rulings on Christmas decorations. According to the Eschweiler Local Court (26 C 43/14), a string of lights on a balcony must be tolerated; the Berlin Regional Court (65 S 390/09) did not accept termination over light decorations. By contrast, decorating the entire stairwell can be ordered removed (Münster Local Court, 38 C 1858/08), and drilling holes in the facade requires the landlord's consent. According to the Federal Court of Justice (BGH, VIII ZR 67/06), if an Advent wreath causes a fire through simple negligence, the landlord's building insurance covers the damage. Switching lights off by 22.00 at the latest is recommended."
-     },
-     "de": {
-      "baslik": "Weihnachtsdeko und Mietrecht: Lichterketten auf dem Balkon sind hinzunehmen, Bohren in die Fassade braucht Zustimmung des Vermieters",
-      "ozet": "Haufe hat am 24. November Gerichtsentscheidungen zu Weihnachtsdekorationen zusammengestellt. Laut Amtsgericht Eschweiler (26 C 43/14) ist eine Lichterkette auf dem Balkon hinzunehmen; das Landgericht Berlin (65 S 390/09) ließ eine Kündigung wegen Lichtdekoration nicht gelten. Dagegen kann die Dekoration des gesamten Treppenhauses zur Entfernung verpflichten (AG Münster, 38 C 1858/08), und Löcher in die Fassade zu bohren erfordert die Zustimmung des Vermieters. Nach Auffassung des Bundesgerichtshofs (BGH, VIII ZR 67/06) deckt die Gebäudeversicherung des Vermieters den Schaden, wenn ein Adventskranz aus einfacher Fahrlässigkeit einen Brand verursacht. Empfohlen wird, die Lichter spätestens um 22.00 Uhr auszuschalten."
-     }
-    },
-    {
-     "alan": "emlak",
-     "baslik": "Kiralık dairede evcil hayvan: genel yasak geçersiz, ama köpek ve kedi için onay gerekiyor",
-     "ozet": "Haufe'nin 24 Kasım tarihli derlemesi kira hukukunda evcil hayvan kurallarını özetliyor. Federal Mahkeme'nin 20 Mart 2013 tarihli kararına göre (BGH, VIII ZR 168/12) tip sözleşmedeki genel evcil hayvan yasağı geçersiz; kafeste tutulan küçük hayvanlar için onay gerekmiyor, köpek ve kedi için ise genellikle gerekiyor. Sınır örnekleri: Münih Sulh Mahkemesi 2,5 odalı dairede birden fazla köpeği kural olarak sözleşmeye aykırı buldu (424 C 28654/13), Wiesbaden 57 metrekarede dört kediden üçüne izin verdi (91 C 3026/12), Menden 60-80 kuş nedeniyle feshi onadı (4 C 286/13). Kuzey Ren-Vestfalya Yüksek İdare Mahkemesi 7 Ekim 2025'te birinci kuşak Savannah kedisini yasakladı.",
-     "kaynak": "Haufe Immobilien · 24 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/haustiere-in-der-mietwohnung-rechte-und-pflichten_84342_658938.html",
-     "not": "Kiralık ilanda \"evcil hayvan yasak\" yazmak yerine \"köpek ve kedi ev sahibi onayına bağlıdır\" ifadesini kullanın.",
-     "ig": "Kiralık dairede genel evcil hayvan yasağı geçersiz (BGH, 2013). Küçük kafes hayvanı onaysız tutulabilir; köpek ve kedi için genellikle ev sahibi onayı gerekir.",
-     "igNot": "İlanda \"evcil hayvan yasak\" yerine \"onaya bağlıdır\" yazın.",
-     "gorselAra": "",
-     "foto": "kaynak-caglayan",
-     "en": {
-      "baslik": "Pets in rented flats: general ban void, but dogs and cats need consent",
-      "ozet": "Haufe's 24 November compilation summarises pet rules in tenancy law. According to the Federal Court of Justice ruling of 20 March 2013 (BGH, VIII ZR 168/12), the general pet ban in standard lease contracts is void; small animals kept in cages need no consent, while dogs and cats generally do. Border cases: the Munich Local Court found several dogs in a 2.5-room flat generally in breach of the contract (424 C 28654/13); Wiesbaden allowed 3 of 4 cats in 57 square metres (91 C 3026/12); the Menden Local Court upheld termination over 60-80 birds (4 C 286/13). On 7 October 2025 the Higher Administrative Court of North Rhine-Westphalia banned a 1st-generation Savannah cat."
-     },
-     "de": {
-      "baslik": "Haustiere in Mietwohnungen: Pauschales Verbot unwirksam, bei Hunden und Katzen ist aber Zustimmung nötig",
-      "ozet": "Haufe fasst am 24. November Gerichtsentscheidungen zu Haustierregeln im Mietrecht zusammen. Laut Urteil des Bundesgerichtshofs vom 20. März 2013 (BGH, VIII ZR 168/12) ist das pauschale Haustierverbot im Formularmietvertrag unwirksam; in Käfigen gehaltene Kleintiere bedürfen keiner Zustimmung, bei Hunden und Katzen ist sie in der Regel erforderlich. Grenzfälle: Das Amtsgericht München sah mehrere Hunde in einer 2,5-Zimmer-Wohnung grundsätzlich als vertragswidrig an (424 C 28654/13); das Amtsgericht Wiesbaden erlaubte bei 57 Quadratmetern 3 von 4 Katzen (91 C 3026/12); das Amtsgericht Menden bestätigte die Kündigung wegen 60 bis 80 Vögeln (4 C 286/13). Das Oberverwaltungsgericht Nordrhein-Westfalen untersagte am 7. Oktober 2025 eine Savannah-Katze der 1. Generation."
-     },
-     "tarih": "2026-11-25"
-    },
-    {
-     "alan": "otomotiv",
-     "baslik": "Hollanda mahkemesi BYD Ti7'nin AB'de satışını durdurdu: Land Rover Defender'a fazla benziyor",
-     "ozet": "Lahey'deki bir mahkeme 20 Kasım'da acil tedbir kararıyla on BYD iştirakine Ti7 SUV'unu AB'de üretme ve satmayı yasakladı; mahkemeye göre model JLR'nin Defender tasarımına ön değerlendirmede fazla benziyor. BYD farklılıkların uzun bir listesini sunmuştu; asıl dava henüz görülmedi. Ti7 Çin'de Eylül 2025'ten beri Fang Cheng Bao markasıyla satılıyor ve orada en çok satan on model arasında. Birleşik Krallık AB dışında olduğu için Ocak 2027'de başlayacak İngiltere teslimatları karardan etkilenmiyor, ancak JLR orada da yasal yola gitmek istiyor.",
-     "kaynak": "electrive · 23 Kasım 2026",
-     "url": "https://www.electrive.net/2026/11/23/gerichtsverfuegung-byd-ti7-sieht-dem-jlr-defender-zu-aehnlich/",
-     "not": "Paralel ithalatla Ti7 getirmeyi düşünen satıcılar AB'de satış yasağı kalkmadan stok almamalı.",
-     "ig": "Lahey mahkemesi BYD Ti7'nin AB'de satışını tasarım benzerliği nedeniyle geçici olarak durdurdu; asıl dava sürüyor.",
-     "igNot": "Yasak kalkmadan Ti7 stoklamayın.",
-     "gorselAra": "Land Rover Defender",
-     "foto": "ekstrem",
-     "gorsel": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Land_Rover_Defender_110_Station_Wagon_2016_-_rear.jpg/960px-Land_Rover_Defender_110_Station_Wagon_2016_-_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "yazar": "DeFacto",
-      "lisans": "CC BY-SA 4.0",
-      "sayfa": "https://commons.wikimedia.org/wiki/File:Land_Rover_Defender_110_Station_Wagon_2016_-_rear.jpg"
-     },
-     "en": {
-      "baslik": "Dutch court halts sales of BYD Ti7 in the EU: it looks too much like the Land Rover Defender",
-      "ozet": "A court in The Hague on 20 November issued an interim injunction banning ten BYD subsidiaries from producing and selling the Ti7 SUV in the EU; the court found, at a preliminary stage, that the model looks too much like JLR's Defender design. BYD submitted a long list of differences; the main case has not yet been heard. The Ti7 has been sold in China since September 2025 under the Fang Cheng Bao brand and is among the ten best-selling models there. Because the UK is outside the EU, UK deliveries, which begin in January 2027, are not affected by the ruling, but JLR wants to pursue legal action there too."
-     },
-     "de": {
-      "baslik": "Niederländisches Gericht stoppt Verkauf des BYD Ti7 in der EU: zu große Ähnlichkeit mit dem Land Rover Defender",
-      "ozet": "Ein Gericht in Den Haag hat am 20. November im Eilverfahren zehn BYD-Tochtergesellschaften untersagt, das SUV Ti7 in der EU herzustellen und zu verkaufen; nach vorläufiger Einschätzung ähnelt das Modell zu stark dem Defender-Design von JLR. BYD hat eine lange Liste von Unterschieden vorgelegt; das Hauptverfahren hat noch nicht stattgefunden. Der Ti7 wird in China seit September 2025 unter der Marke Fang Cheng Bao verkauft und gehört dort zu den zehn meistverkauften Modellen. Da das Vereinigte Königreich nicht zur EU gehört, sind die britischen Auslieferungen, die im Januar 2027 beginnen, von dem Urteil nicht betroffen; JLR will aber auch dort rechtlich vorgehen."
-     },
-     "tarih": "2026-11-24"
-    },
-    {
-     "alan": "otomotiv",
-     "baslik": "Mercedes, Almanya'da kapıdan kapıya sürüş asistanı için KBA onayı alan ilk üretici oldu",
-     "ozet": "Federal Motorlu Taşıtlar Dairesi (KBA), Mercedes-Benz'in MB.Drive Assist Pro sistemine BM'nin R171 düzenlemesi kapsamında onay verdi; Mercedes Almanya'da noktadan noktaya sürüş asistanı için onay alan ilk üretici oldu. Sistem, navigasyon etkinken şerit değiştirip kavşaklarda dönebiliyor, ışıklarda durup kalkabiliyor ve otoyola girip çıkabiliyor; bu SAE Seviye 2, yani sürücü sorumluluğu sürüyor. 10 kamera, 5 radar ve 12 ultrasonik sensör dahil 27 sensör kullanılıyor; sürücü direksiyona müdahale ettiğinde sistem kapanmıyor.",
-     "kaynak": "electrive · 23 Kasım 2026",
-     "url": "https://www.electrive.net/2026/11/23/mercedes-erhaelt-kba-zulassung-fuer-tuer-zu-tuer-fahrassistent/",
-     "not": "Müşteriye anlatırken bunun otonom sürüş değil Seviye 2 olduğunu, sorumluluğun sürücüde kaldığını açıkça söyle.",
-     "ig": "KBA, Mercedes'in kapıdan kapıya sürüş asistanını onayladı: şehir içinde dönebiliyor, ışıkta duruyor. Seviye 2, sürücü sorumlu.",
-     "igNot": "Müşteriye Seviye 2 olduğunu net söyle.",
-     "gorselAra": "Mercedes-Benz Museum",
-     "foto": "kaynak-sbs",
-     "gorsel": {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mercedes-Benz_Museum_201312_08_blue_hour.jpg/960px-Mercedes-Benz_Museum_201312_08_blue_hour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "yazar": "Julian Herzog ( Website )",
-      "lisans": "CC BY 4.0",
-      "sayfa": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Museum_201312_08_blue_hour.jpg"
-     },
-     "en": {
-      "baslik": "Mercedes becomes first manufacturer with KBA approval for door-to-door driving assistant in Germany",
-      "ozet": "Germany's Federal Motor Transport Authority (KBA) approved Mercedes-Benz's MB.Drive Assist Pro system under UN Regulation R171; Mercedes is the first manufacturer to receive approval in Germany for point-to-point driver assistance. The system can change lanes and turn at junctions while navigation is active, stop and start at traffic lights, and enter and leave motorways. This is SAE Level 2, meaning the driver remains responsible. It uses 27 sensors, including 10 cameras, 5 radars and 12 ultrasonic sensors; the system does not switch off when the driver intervenes on the steering wheel."
-     },
-     "de": {
-      "baslik": "Mercedes erhält als erster Hersteller KBA-Zulassung für Tür-zu-Tür-Fahrassistenten in Deutschland",
-      "ozet": "Das Kraftfahrt-Bundesamt (KBA) hat das System MB.Drive Assist Pro von Mercedes-Benz nach der UN-Regelung R171 genehmigt; Mercedes ist damit der erste Hersteller, der in Deutschland eine Zulassung für einen Fahrassistenten von Ort zu Ort erhält. Das System kann bei aktiver Navigation die Spur wechseln und an Kreuzungen abbiegen, an Ampeln anhalten und anfahren sowie auf die Autobahn auf- und abfahren. Es entspricht SAE-Stufe 2, der Fahrer bleibt also verantwortlich. Eingesetzt werden 27 Sensoren, darunter 10 Kameras, 5 Radare und 12 Ultraschallsensoren; greift der Fahrer ins Lenkrad ein, schaltet sich das System nicht ab."
-     },
-     "tarih": "2026-11-24"
-    },
-    {
-     "alan": "otomotiv",
-     "baslik": "VW ID. Polo için bekleme süresi bir yılı aştı; en ucuz donanımda 21 ay",
-     "ozet": "electrive'ın Automobilwoche ve Motor.es'e dayanan haberine göre Volkswagen'in elektrikli küçük otomobili ID. Polo için bayiler bir yılı aşan bekleme süreleri bildiriyor. Eylül sonunda yaklaşık 53.000 sipariş vardı. Almanya'da 24.995 euro başlangıç fiyatlı Trend donanımında teslimat 21 aya kadar uzayabilirken Sportline için yaklaşık beş, GTI için yedi ay bekleniyor. VW İspanya'daki üretimi hızlandırmak istiyor, ancak eksik batarya hücreleri de üretimi frenliyor.",
-     "kaynak": "electrive · 23 Kasım 2026",
-     "url": "https://www.electrive.net/2026/11/23/vw-id-polo-ein-jahr-wartezeit/",
-     "not": "Ucuz elektrikli küçük araç arayan müşteriyi genç ikinci el ID.3 ya da e-Up stoğuna yönlendirebilirsin.",
-     "ig": "VW ID. Polo'da bekleme bir yılı aştı; 24.995 euroluk Trend donanımında 21 aya kadar. Eylül sonunda 53.000 sipariş vardı.",
-     "igNot": "Bekleyen müşteriye genç ikinci el EV öner.",
-     "gorselAra": "",
-     "foto": "lansman",
-     "en": {
-      "baslik": "VW ID. Polo waiting time exceeds a year; 21 months for the cheapest trim",
-      "ozet": "According to electrive's report, based on Automobilwoche and Motor.es, dealers report waiting times of more than a year for Volkswagen's electric small car, the ID. Polo. Around 53,000 orders were in by the end of September. For the Trend trim, which starts at 24,995 euros in Germany, delivery can take up to 21 months, while about five months are expected for the Sportline and seven for the GTI. VW wants to speed up production in Spain, but missing battery cells are also slowing it down."
-     },
-     "de": {
-      "baslik": "Wartezeit für VW ID. Polo liegt über einem Jahr; 21 Monate bei der günstigsten Ausstattung",
-      "ozet": "Laut einem Bericht von electrive, der sich auf Automobilwoche und Motor.es stützt, melden Händler Wartezeiten von über einem Jahr für den elektrischen Kleinwagen ID. Polo von Volkswagen. Ende September lagen rund 53.000 Bestellungen vor. Bei der Ausstattung Trend, die in Deutschland bei 24.995 Euro beginnt, kann sich die Lieferung auf bis zu 21 Monate verzögern, für den Sportline werden etwa fünf und für den GTI etwa sieben Monate erwartet. VW möchte die Produktion in Spanien beschleunigen, doch fehlende Batteriezellen bremsen sie zusätzlich."
-     },
-     "tarih": "2026-11-24"
-    },
-    {
-     "alan": "emlak",
-     "baslik": "Almanya'da konut izinleri Eylül'de yüzde 14,8 düştü, ilk dokuz ayda ise yüzde 8,4 arttı",
-     "ozet": "Federal İstatistik Dairesi Destatis'e göre Eylül 2026'da 20.800 konutun yapımına izin verildi; bu, bir yıl öncesine göre yüzde 14,8 ya da 3.600 izin az. Yeni binalarda izinler yüzde 19,9 düşerek 16.800'e indi; Destatis düşüşü kısmen geçen yılın aynı ayındaki yüksek sayıya bağlıyor. Mevcut binaların dönüştürülmesiyle oluşan konut izinleri ise yüzde 15,8 artarak 4.000'e çıktı. Ocak-Eylül döneminde 190.200 konuta izin verildi, yüzde 8,4 artış; müstakil evlerde yüzde 4,8, iki daireli evlerde yüzde 17,7 artış var.",
-     "kaynak": "Destatis · 18 Kasım 2026",
-     "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_402_3111.html",
-     "not": "İlan videosunda yeni inşaat arzının sınırlı kaldığını Destatis rakamıyla göstermek alıcıya somut gerekçe sunar.",
-     "ig": "Almanya'da Eylül'de 20.800 konuta izin verildi, yıllık yüzde 14,8 düşüş; ilk dokuz ayda ise izinler yüzde 8,4 arttı.",
-     "igNot": "Destatis rakamıyla yeni arzın sınırlı olduğunu göster.",
-     "gorselAra": "",
-     "foto": "n8n",
-     "en": {
-      "baslik": "Building permits in Germany fell 14.8 percent in September but rose 8.4 percent in the first nine months",
-      "ozet": "According to Destatis, the Federal Statistical Office, permits were granted for 20,800 dwellings in September 2026, down 14.8 percent or 3,600 permits from a year earlier. Permits for new buildings fell 19.9 percent to 16,800; Destatis partly attributes the decline to the high figure in the same month last year. Permits for dwellings created by converting existing buildings rose 15.8 percent to 4,000. From January to September, permits were issued for 190,200 dwellings, an increase of 8.4 percent; single-family homes rose 4.8 percent and two-family homes rose 17.7 percent."
-     },
-     "de": {
-      "baslik": "Baugenehmigungen in Deutschland im September um 14,8 Prozent gesunken, in den ersten neun Monaten um 8,4 Prozent gestiegen",
-      "ozet": "Laut dem Statistischen Bundesamt Destatis wurde im September 2026 der Bau von 20.800 Wohnungen genehmigt; das sind 14,8 Prozent oder 3.600 Genehmigungen weniger als ein Jahr zuvor. Bei Neubauten sanken die Genehmigungen um 19,9 Prozent auf 16.800; Destatis führt den Rückgang teilweise auf den hohen Wert im Vorjahresmonat zurück. Wohnungen, die durch Umbau bestehender Gebäude entstehen, stiegen um 15,8 Prozent auf 4.000. Von Januar bis September wurden Baugenehmigungen für 190.200 Wohnungen erteilt, ein Plus von 8,4 Prozent; bei Einfamilienhäusern betrug das Plus 4,8 Prozent, bei Zweifamilienhäusern 17,7 Prozent."
-     },
-     "tarih": "2026-11-24"
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-23",
-     "baslik": "VW, 2030'a kadar Çin'de ürettiği yılda 300.000 aracı ihraç edecek",
-     "ozet": "Düşen satışlar ve ucuz Çinli rakiplerin baskısı altındaki Volkswagen, 2030'a kadar Çin'de üretilen yaklaşık 300.000 aracı her yıl dışarı satmayı planlıyor. Hedef pazarlar Meksika, Güney Amerika, Orta Doğu, Afrika ve Güneydoğu Asya; ABD bayilerine bu araçlar şimdilik gelmeyecek. Electrek'e göre VW, Avrupa'daki temel model gamının yüzde 75'ine kadarında Xpeng'in teknoloji altyapısını kullanmayı da değerlendiriyor.",
-     "kaynak": "Electrek · 23 Kasım 2026",
-     "url": "https://electrek.co/2026/11/23/if-you-cant-beat-em-vw-to-export-300000-chinese-built-cars-per-year-by-2030/",
-     "en": {
-      "baslik": "VW to export 300,000 China-built cars a year by 2030",
-      "ozet": "Under pressure from falling sales and cheap Chinese rivals, Volkswagen plans to export roughly 300,000 China-built cars a year by 2030. Target markets are Mexico, South America, the Middle East, Africa and Southeast Asia; US dealers will not get these cars for now. According to Electrek, VW is also considering Xpeng's technology stack for up to 75% of its core European lineup."
-     },
-     "de": {
-      "baslik": "VW will bis 2030 jährlich 300.000 in China gebaute Autos exportieren",
-      "ozet": "Unter dem Druck sinkender Verkäufe und günstiger chinesischer Konkurrenz plant Volkswagen, bis 2030 jährlich rund 300.000 in China gebaute Autos zu exportieren. Zielmärkte sind Mexiko, Südamerika, der Nahe Osten, Afrika und Südostasien; US-Händler bekommen diese Autos vorerst nicht. Laut Electrek erwägt VW außerdem, Xpengs Technikplattform für bis zu 75 % seiner europäischen Kernmodelle zu nutzen."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-23",
-     "baslik": "Berlin'de konut kavgası: Vonovia CEO'su Mucic diyalog çağrısı yaptı",
-     "ozet": "Almanya'nın en büyük konut şirketi Vonovia'nın CEO'su Luka Mucic, Bochum'daki çeyrek sonuçları toplantısında Berlin'deki konut tartışmasında diyaloğa hazır olduğunu yineledi, ama siyasi bir gösteriye değil yapıcı bir görüşmeye. Berlin'deki kırmızı-yeşil-kırmızı koalisyon büyük konut şirketlerinin kamulaştırılmasını planlarken Mucic kamulaştırma yerine yatırımı savunuyor. Daha önce Sol Parti ile planlanan bir görüşme gerçekleşmemişti.",
-     "kaynak": "Haufe Immobilien · 23 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/vonovia-steigert-mieteinnahmen-und-gewinn_84342_489382.html",
-     "en": {
-      "baslik": "Berlin housing dispute: Vonovia CEO Mucic calls for dialogue",
-      "ozet": "At the presentation of quarterly results in Bochum, Luka Mucic, CEO of Germany's largest residential landlord Vonovia, repeated his readiness for dialogue in Berlin's housing dispute, but in the form of a constructive exchange rather than political staging. While Berlin's red-green-red coalition plans to socialise large housing companies, Mucic argues for investment instead of expropriation. An earlier meeting with the Left party had not taken place."
-     },
-     "de": {
-      "baslik": "Berliner Wohnungsstreit: Vonovia-Chef Mucic drängt auf Dialog",
-      "ozet": "Bei der Vorstellung der Quartalszahlen in Bochum bekräftigte Luka Mucic, Chef des größten deutschen Wohnungskonzerns Vonovia, seine Bereitschaft zum Austausch im Berliner Wohnungsstreit, allerdings nicht als politische Inszenierung, sondern als konstruktives Gespräch. Während Rot-Grün-Rot in Berlin die Vergesellschaftung großer Wohnungsunternehmen plant, setzt Mucic auf Investitionen statt Enteignung. Ein früheres Treffen mit der Linken war nicht zustande gekommen."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-22",
-     "baslik": "İkinci el elektrikli otomobile ilgi artıyor",
-     "ozet": "Yüksek akaryakıt fiyatları elektrikli otomobil talebini artırırken bu ilgi gecikmeyle ikinci el bayilerine de yansıyor. tagesschau'nun örneğindeki çift, 4 yaşında ve 58.000 kilometrede bir Ford Mustang Mach-E aldı; hesaplarına göre halka açık istasyonda şarj ederek 100 kilometrede 10 euroya kadar tasarruf ediyorlar, evde şarjla daha fazla. Habere göre elektrikli otomobiller 2020 ile 2025 arasında yaklaşık yüzde 18 ucuzladı; ikinci el alımında batarya durumu belirleyici.",
-     "kaynak": "tagesschau · 22 Kasım 2026",
-     "url": "https://www.tagesschau.de/wirtschaft/verbraucher/gebrauchte-elektroautos-100.html",
-     "en": {
-      "baslik": "Demand for used electric cars is rising",
-      "ozet": "High fuel prices are boosting demand for electric cars, and the interest is now reaching used-car dealers with a delay. A couple in the tagesschau report bought a 4-year-old Ford Mustang Mach-E with 58,000 km; by their calculation, charging at public stations saves up to 10 euros per 100 km, more when charging at home. According to the report, electric cars became about 18% cheaper between 2020 and 2025; when buying used, the battery's condition is decisive."
-     },
-     "de": {
-      "baslik": "Gebrauchte Elektroautos sind gefragter",
-      "ozet": "Hohe Spritpreise steigern die Nachfrage nach E-Autos, und mit Verzögerung kommt der Boom nun bei Gebrauchtwagenhändlern an. Ein Paar im tagesschau-Bericht kaufte einen 4 Jahre alten Ford Mustang Mach-E mit 58.000 Kilometern; nach eigener Rechnung sparen sie an öffentlichen Ladesäulen bis zu 10 Euro auf 100 Kilometer, zu Hause noch mehr. E-Autos sind laut Bericht zwischen 2020 und 2025 um rund 18 % günstiger geworden; beim Gebrauchtkauf entscheidet der Zustand der Batterie."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-21",
-     "baslik": "Otoyol benzinlikleri akaryakıt fiyat tavanının dışında kalabilir",
-     "ozet": "Benzin ve dizel için ocakta başlaması planlanan fiyat tavanından otoyol benzinliklerinin muaf tutulması gündemde. Handelsblatt ve dpa'ya göre Ekonomi Bakanı Katherina Reiche, bu istasyonların daha yüksek kira ödemesi ve 24 saat açık olması nedeniyle maliyetlerinin yüksek olduğunu gerekçe gösteriyor. Otoyol çıkışlarındaki dinlenme tesisleri (Autohof) ise tavana tabi olacak. İran savaşı sonrası yapılan akaryakıt vergisi indirimi yıl sonunda bitiyor; taslak bakanlıklar arasında hâlâ görüşülüyor.",
-     "kaynak": "tagesschau · 21 Kasım 2026",
-     "url": "https://www.tagesschau.de/inland/spritpreis-autobahntankstellen-ausnahme-100.html",
-     "en": {
-      "baslik": "Motorway petrol stations may be exempt from the fuel price cap",
-      "ozet": "Motorway petrol stations could be exempted from the price cap for petrol and diesel planned to start in January. According to Handelsblatt and dpa, Economy Minister Katherina Reiche argues that these stations have higher costs because they pay higher rents and are open 24 hours. Truck stops near motorway exits (Autohöfe) would still fall under the cap. The fuel tax cut introduced after the Iran war ends at the turn of the year; the draft is still being coordinated between ministries."
-     },
-     "de": {
-      "baslik": "Autobahntankstellen sollen vom Spritpreisdeckel ausgenommen werden",
-      "ozet": "Autobahntankstellen könnten vom Preisdeckel für Benzin und Diesel ausgenommen werden, der ab Januar gelten soll. Laut Handelsblatt und dpa begründet Wirtschaftsministerin Katherina Reiche das mit höheren Pachten und dem 24-Stunden-Betrieb. Autohöfe an Autobahnausfahrten sollen unter den Deckel fallen. Die nach dem Iran-Krieg gesenkten Steuern auf Kraftstoff laufen zum Jahreswechsel aus; der Entwurf ist noch in der Ressortabstimmung."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-20",
-     "baslik": "İtalya, Tesla'nın destekli sürüş sistemine geçici onay verdi",
-     "ozet": "İtalya Ulaştırma Bakanlığı, Tesla'nın Avrupa'da \"Assisted Driving\" adıyla sunduğu FSD (Supervised) sistemine geçici onay verdi. İtalya bu sisteme izin veren 12. Avrupa ülkesi ve AB'nin büyük pazarları arasında ilki oldu. Karar Brüksel'i beklemeden alındı: AB genelinde tanıma için oylamanın en erken aralıkta yapılması bekleniyor. Tesla, dağıtımın yakında başlayacağını duyurdu.",
-     "kaynak": "Electrek · 20 Kasım 2026",
-     "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/",
-     "en": {
-      "baslik": "Italy provisionally approves Tesla's assisted driving system",
-      "ozet": "Italy's transport ministry has provisionally approved Tesla Assisted Driving, the name Tesla uses for FSD (Supervised) in Europe. Italy is the 12th European country to allow the system and the first of the EU's big markets. The decision did not wait for Brussels: the vote on EU-wide recognition is expected in December at the earliest. Tesla said the rollout will begin soon."
-     },
-     "de": {
-      "baslik": "Italien erteilt Teslas Fahrassistenz vorläufige Zulassung",
-      "ozet": "Das italienische Verkehrsministerium hat Tesla Assisted Driving, wie Tesla FSD (Supervised) in Europa nennt, vorläufig zugelassen. Italien ist das 12. europäische Land und der erste große EU-Markt, der das System erlaubt. Die Entscheidung kam ohne Brüssel: Die Abstimmung über eine EU-weite Anerkennung wird frühestens im Dezember erwartet. Tesla kündigte den baldigen Start an."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-20",
-     "baslik": "Hessen kira frenini uzattı: 49 yerine 71 belediye",
-     "ozet": "Hessen'in 20 Kasım'da yürürlüğe giren yeni kiracı koruma yönetmeliğiyle kira freni 2029 sonuna kadar uzatıldı. Kapsama 36 belediye eklendi, 14 belediye çıktı; böylece 49 yerine 71 belediye kapsamda. Kira artış sınırı (Kappungsgrenze) ve satış sonrası tahliye yasağı süresi de uzatıldı. Yeni bilirkişi raporu 76 belediyede gergin konut piyasası tespit etti; bunların beşi kapsama alınmayı reddetti.",
-     "kaynak": "Haufe Immobilien · 20 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-hessen_84342_328508.html",
-     "en": {
-      "baslik": "Hesse extends rent brake: 71 instead of 49 municipalities",
-      "ozet": "With Hesse's new tenant protection ordinance, in force since 20 November, the rent brake has been extended until the end of 2029. 36 municipalities were added and 14 dropped, so 71 instead of 49 are now covered. The cap on rent increases and the waiting period before termination after a sale also apply longer. A new expert report found a tight housing market in 76 municipalities; five of them declined to be included."
-     },
-     "de": {
-      "baslik": "Hessen verlängert die Mietpreisbremse: 71 statt 49 Kommunen",
-      "ozet": "Mit der neuen Mieterschutzverordnung, die am 20. November in Kraft trat, gilt die Mietpreisbremse in Hessen bis Ende 2029. 36 Kommunen kamen hinzu, 14 fielen heraus, damit sind 71 statt 49 erfasst. Auch Kappungsgrenze und Kündigungssperrfrist gelten länger. Ein neues Gutachten weist für 76 Kommunen einen angespannten Wohnungsmarkt aus; fünf davon lehnten die Aufnahme ab."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-20",
-     "baslik": "Kira sözleşmesi 2027'den itibaren dijital kimlik cüzdanıyla imzalanabilecek",
-     "ozet": "Federal Konsey 20 Kasım'da Dijital Kimlikler Yasası'nı onayladı. Almanya'nın AB dijital kimlik cüzdanı \"d-you\" 2 Ocak 2027'de başlıyor ve kira sözleşmeleri bununla hukuken geçerli şekilde dijital olarak imzalanabilecek. Kimlik doğrulamadan sözleşme imzasına ve kredi notu belgesine kadar sürecin tamamen dijital yürümesi hedefleniyor; kira sözleşmesi ilk büyük sınav olacak.",
-     "kaynak": "Haufe Immobilien · 20 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eudi-wallet-d-you-mietvertrag-digital-2027_84342_702834.html",
-     "en": {
-      "baslik": "From 2027, leases can be signed with a digital identity wallet",
-      "ozet": "On 20 November, the Bundesrat approved the Digital Identities Act. Germany's EU digital identity wallet \"d-you\" launches on 2 January 2027, and leases can then be signed digitally with legal certainty. The aim is a fully digital process from identity checks and signing to proof of creditworthiness; the lease will be the first big test."
-     },
-     "de": {
-      "baslik": "Mietverträge ab 2027 per digitaler Identitäts-Wallet unterschreiben",
-      "ozet": "Der Bundesrat hat am 20. November dem Digitalen Identitätengesetz zugestimmt. Die deutsche EUDI-Wallet „d-you“ startet am 2. Januar 2027; Mietverträge können damit rechtssicher digital unterzeichnet werden. Von der Identitätsprüfung über die Unterschrift bis zum Bonitätsnachweis soll alles digital laufen; der Mietvertrag wird die erste Bewährungsprobe."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-19",
-     "baslik": "Volkswagen toplu sözleşmede iki yıl sıfır zam istiyor",
-     "ozet": "Volkswagen, başlayacak toplu sözleşme görüşmelerinde 2027 ve 2028 için ücret artışı yapılmamasını istiyor. Şirket ayrıca ortalama aylık kazancın yüzde 27,5'i kadar olan ve 6 izin gününe çevrilebilen ek ödemenin ve ayda 167 euroluk zammın kaldırılmasını, haftalık 35 saatlik çalışma süresinin de ücret telafisi olmadan iş yüküne göre esnetilmesini talep ediyor. IG Metall sendikası şirketi çalışanları sırtından bıçaklamakla suçladı.",
-     "kaynak": "tagesschau · 19 Kasım 2026",
-     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-nullrunde-100.html",
-     "en": {
-      "baslik": "Volkswagen wants two years without pay rises",
-      "ozet": "In the upcoming wage talks, Volkswagen wants no pay rises for 2027 and 2028. The company also wants to scrap a supplementary payment worth 27.5% of average monthly earnings, which can be converted into 6 days off, and a monthly allowance of 167 euros, and to flex the 35-hour week to workload without pay compensation. The IG Metall union accused the company of stabbing employees in the back."
-     },
-     "de": {
-      "baslik": "Volkswagen will zwei Nullrunden",
-      "ozet": "Volkswagen fordert in der anstehenden Tarifrunde Nullrunden für 2027 und 2028. Zudem sollen die tarifliche Zusatzvergütung von 27,5 % eines durchschnittlichen Monatsverdienstes, die in 6 freie Tage umgewandelt werden kann, und die Zulage von 167 Euro im Monat entfallen; die 35-Stunden-Woche soll ohne Entgeltausgleich an die Auslastung angepasst werden. Die IG Metall wirft dem Konzern vor, den Beschäftigten in den Rücken zu fallen."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-19",
-     "baslik": "Benzinli VW Polo'ya veda testi",
-     "ozet": "FAZ, benzin motorlu VW Polo için muhtemelen son büyük sürüş testini yayımladı. Marka yöneticisi Thomas Schäfer, Polo'nun yakında yalnız elektrikli olarak sunulacağını açıklamıştı. 1975'ten beri satılan modelin benzinli sürümü, gazeteye göre hâlâ başarılı ve elektrikli ID. Polo'dan daha uygun fiyatlı. İkinci el piyasasında benzinli Polo'nun bir süre daha aranan model olmayı sürdürmesi beklenebilir.",
-     "kaynak": "FAZ · 19 Kasım 2026",
-     "url": "https://www.faz.net/aktuell/technik-motor/motor/vw-polo-im-fahrbericht-hommage-an-den-dauerbrenner-accg-201673716.html",
-     "en": {
-      "baslik": "A farewell test of the petrol VW Polo",
-      "ozet": "FAZ has published what is probably its last big road test of a petrol-engined VW Polo. Brand chief Thomas Schäfer had announced that the Polo will soon be offered only as an electric car. According to the paper, the petrol version of the model, on sale since 1975, is still convincing and cheaper than the electric ID. Polo. The petrol Polo can be expected to remain in demand on the used-car market for some time."
-     },
-     "de": {
-      "baslik": "Abschiedstest für den Polo mit Benzinmotor",
-      "ozet": "Die FAZ hat den wohl letzten großen Fahrbericht über einen VW Polo mit Verbrennungsmotor veröffentlicht. Markenchef Thomas Schäfer hatte angekündigt, dass es den Polo bald nur noch elektrisch geben wird. Laut der Zeitung überzeugt der seit 1975 verkaufte Benziner noch immer und ist günstiger als der elektrische ID. Polo. Auf dem Gebrauchtwagenmarkt dürfte der Benzin-Polo noch eine Weile gefragt bleiben."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-19",
-     "baslik": "İklim raporu: binalar yine hedefin gerisinde, evlerin yüzde 70'inden fazlasında gaz ya da petrol",
-     "ozet": "2026 İklim Koruma Raporu'na göre bina sektörü 2025'te 103 milyon ton CO2 saldı ve hedeflerini yine tutturamadı. Isı pompası satışları rekor seviyede, ama binaların yüzde 70'inden fazlasında hâlâ gaz ya da petrol kazanı var. 2021–2030 için birikimli hedefteki açık şimdiden 110 milyon ton CO2 eşdeğerine ulaştı. Uzmanlar ve konut sektörünün bir kısmı, Bina Modernizasyon Yasası'nın bu açığı kapatmaya yetmeyeceğini düşünüyor.",
-     "kaynak": "Haufe Immobilien · 19 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/klimaschutzbericht_84342_523630.html",
-     "en": {
-      "baslik": "Climate report: buildings miss targets again, over 70% still heat with gas or oil",
-      "ozet": "According to the 2026 Climate Protection Report, the building sector emitted 103 million tonnes of CO2 in 2025 and again missed its targets. Heat pump sales are at a record, but more than 70% of buildings still have gas or oil heating. The gap in the cumulative target for 2021–2030 has already reached 110 million tonnes of CO2 equivalent. Experts and parts of the housing industry doubt that the Building Modernisation Act is enough to close it."
-     },
-     "de": {
-      "baslik": "Klimaschutzbericht: Gebäude verfehlen erneut die Ziele, über 70 % heizen mit Gas oder Öl",
-      "ozet": "Laut Klimaschutzbericht 2026 stieß der Gebäudesektor 2025 insgesamt 103 Millionen Tonnen CO2 aus und verfehlte seine Ziele erneut. Wärmepumpen verkaufen sich so gut wie nie, doch in mehr als 70 % der Gebäude hängt noch eine Gas- oder Ölheizung. Die Lücke bei den kumulierten Zielmengen für 2021–2030 beträgt bereits 110 Millionen Tonnen CO2-Äquivalente. Experten und Teile der Wohnungswirtschaft bezweifeln, dass das Gebäudemodernisierungsgesetz reicht."
-     },
-     "not": "Enerji sınıfı ve ısıtma türü alıcının ilk sorduğu şey olacak; ilanda Energieausweis bilgilerini eksiksiz ver (GEG § 87)."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-18",
-     "baslik": "VW CEO'su Blume sert tasarruf planını savundu",
-     "ozet": "Volkswagen ile IG Metall arasındaki toplu sözleşme görüşmeleri Emden'de başlıyor ve şirket tarihinin en zorlu görüşmeleri olabilir. NDR'ye konuşan CEO Oliver Blume, şirketin ekonomik olarak çok gergin bir durumda olduğunu, görüşmelerde ne kadar çok tasarruf sağlanırsa o kadar çok istihdamın korunabileceğini söyledi. Blume masada olmayacak ama süreci yakından izleyecek.",
-     "kaynak": "tagesschau · 18 Kasım 2026",
-     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-volkswagen-blume-zukunftsstrategie-100.html",
-     "en": {
-      "baslik": "VW CEO Blume defends tough savings plan",
-      "ozet": "Wage talks between Volkswagen and IG Metall are starting in Emden and could be the toughest in the group's history. Speaking to NDR, CEO Oliver Blume said the company is in a very tense economic situation and that the more the talks achieve, the more jobs can be secured. Blume will not sit at the table but will follow the talks closely."
-     },
-     "de": {
-      "baslik": "VW-Chef Blume verteidigt harten Sparkurs",
-      "ozet": "In Emden beginnen die Tarifgespräche zwischen Volkswagen und der IG Metall, und es könnten die härtesten in der Konzerngeschichte werden. Im NDR-Interview sagt Konzernchef Oliver Blume, das Unternehmen sei wirtschaftlich in einer sehr angespannten Lage; je mehr in den Gesprächen gelinge, desto mehr Beschäftigung lasse sich sichern. Blume sitzt nicht mit am Tisch, verfolgt die Gespräche aber genau."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-18",
-     "baslik": "Tesla Avrupa'da sürücü izlemeyi sıkılaştırıyor",
-     "ozet": "Hollanda araç kurumu RDW'nin 16 Kasım'da onayladığı güncellemeyle Tesla'nın destekli sürüş sistemi Avrupa'da sürücüyü daha sıkı izleyecek: uyarılar daha erken gelecek, manevra sırasında yola bakmayan sürücü doğrudan ceza puanı alacak ve saatte 130 kilometrenin üzerinde eller direksiyonda olmak zorunda. Güncelleme HW4 donanımlı araçlara internet üzerinden dağıtılıyor. ABD'de ise Tesla son bir yılda ters yönde ilerleyip uyarıları azalttı.",
-     "kaynak": "Electrek · 18 Kasım 2026",
-     "url": "https://electrek.co/2026/11/18/tesla-fsd-driver-monitoring-europe-stricter-than-us/",
-     "en": {
-      "baslik": "Tesla tightens driver monitoring in Europe",
-      "ozet": "With an update approved by the Dutch vehicle authority RDW on 16 November, Tesla's assisted driving system will monitor drivers more strictly in Europe: warnings come earlier, a driver who looks away during a manoeuvre gets a full strike, and hands must be on the wheel above 130 km/h. The update goes out over the air to HW4 vehicles. In the US, Tesla has gone the other way over the past year and reduced warnings."
-     },
-     "de": {
-      "baslik": "Tesla verschärft Fahrerüberwachung in Europa",
-      "ozet": "Mit einem Update, das die niederländische Zulassungsbehörde RDW am 16. November freigegeben hat, überwacht Teslas Fahrassistenz in Europa die Fahrer strenger: Warnungen kommen früher, wer während eines Manövers wegschaut, bekommt direkt einen Strike, und über 130 km/h müssen die Hände am Lenkrad sein. Das Update kommt per Funk auf HW4-Fahrzeuge. In den USA hat Tesla im vergangenen Jahr den umgekehrten Weg eingeschlagen und Warnungen reduziert."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-18",
-     "baslik": "Elektrikli otomobil ve ısı pompası: elektrik ne kadar ucuz kalacak?",
-     "ozet": "FAZ'ın yorumuna göre elektrik artık hem otomobili hem ısıtmayı taşıyacak, ama bunun için hem uygun fiyatlı hem de güvenilir biçimde yeterli olması gerekiyor. Yazara göre Almanya'daki yüksek elektrik tarifeleri, özellikle uzun yolda hızlı şarj fiyatları, akaryakıt fiyatları düştüğünde elektrikli otomobil heyecanının sürüp sürmeyeceği sorusunu doğuruyor. Yazı, geçişin hedeflerle değil fiyat ve şebeke güvenliğiyle kazanılacağını savunuyor.",
-     "kaynak": "FAZ · 18 Kasım 2026",
-     "url": "https://www.faz.net/aktuell/technik-motor/strom-als-neuer-alleskoenner-wie-bezahlbar-werden-e-auto-und-waermepumpe-201670762.html",
-     "en": {
-      "baslik": "Electric cars and heat pumps: how cheap will electricity stay?",
-      "ozet": "According to a FAZ commentary, electricity is now supposed to power both cars and heating, but for that it must be affordable and reliably available. The author argues that Germany's high electricity tariffs, especially fast-charging prices on long trips, raise the question of whether enthusiasm for electric cars will last once fuel prices fall. The piece says the transition will be won on price and grid security, not on targets."
-     },
-     "de": {
-      "baslik": "E-Auto und Wärmepumpe: Wie bezahlbar bleibt der Strom?",
-      "ozet": "Strom soll laut einem FAZ-Kommentar künftig Auto fahren und heizen, muss dafür aber bezahlbar und verlässlich verfügbar sein. Die hohen Stromtarife in Deutschland, besonders beim Laden auf der Langstrecke, werfen nach Ansicht des Autors die Frage auf, ob die Begeisterung für E-Autos anhält, wenn die Spritpreise wieder sinken. Der Text argumentiert, dass der Wandel über Preis und Netzsicherheit entschieden wird, nicht über Ziele."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-18",
-     "baslik": "Konut inşaat izinleri eylülde yüzde 14,8 düştü",
-     "ozet": "Federal İstatistik Ofisi'ne göre eylülde yeni konutlar için verilen inşaat izinleri bir önceki yılın aynı ayına göre yüzde 14,8 azalarak 20.800 daireye indi; sekiz aylık artış dönemi sona erdi. Yeni binalarda düşüş yüzde 20'ye yakın. Haufe'ye göre nedenler yüzde 4,4'lük konut kredisi faizleri, İran savaşıyla artan malzeme maliyetleri ve Ocak 2027'den itibaren beklenen KfW destek boşluğu. 2025'te 35.000 izin kullanılmadan süresi doldu.",
-     "kaynak": "Haufe Immobilien · 18 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-baugenehmigungen-fuer-wohnungen-deutlich-gestiegen_84324_511962.html",
-     "en": {
-      "baslik": "Housing permits fell 14.8% in September",
-      "ozet": "According to the Federal Statistical Office, permits for new homes fell 14.8% year on year in September to 20,800 dwellings, ending eight months of growth. For new buildings the drop was close to 20%. Haufe names mortgage rates of 4.4%, higher material costs due to the Iran war and an expected gap in KfW funding from January 2027 as causes. In 2025, 35,000 permits expired unused."
-     },
-     "de": {
-      "baslik": "Baugenehmigungen im September um 14,8 % eingebrochen",
-      "ozet": "Laut Statistischem Bundesamt sank die Zahl der Baugenehmigungen für neue Wohnungen im September gegenüber dem Vorjahresmonat um 14,8 % auf 20.800, nach acht Monaten mit Zuwächsen. Im Neubau lag das Minus bei knapp 20 %. Als Ursachen nennt Haufe Bauzinsen von 4,4 %, durch den Iran-Krieg gestiegene Materialkosten und die drohende KfW-Förderlücke ab Januar 2027. 2025 verfielen 35.000 Genehmigungen ungenutzt."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-18",
-     "baslik": "Engelsiz tadilat desteği 2027'de 60 milyon euroyla dönüyor",
-     "ozet": "Engelsiz konut tadilatını destekleyen KfW 455-B programı, Nisan 2026'da yeniden başladıktan yaklaşık dört ay sonra, ayrılan 50 milyon euro bitince temmuz sonunda durduruldu. Federal hükümet 2027 için 60 milyon euro ayırmayı planlıyor. Bakan Verena Hubertz, insanların ömür boyu yaşadıkları evde yaşlanabilmesi için tadilatın desteklendiğini söyledi. Destek en erken 2027'de yeniden alınabilecek.",
-     "kaynak": "Haufe Immobilien · 18 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kfw-zuschuesse-fuer-barrierefreies-wohnen_84342_464458.html",
-     "en": {
-      "baslik": "Grants for barrier-free renovation return in 2027 with 60 million euros",
-      "ozet": "The KfW 455-B programme for barrier-free home renovation was halted at the end of July, about four months after its restart in April 2026, once its 50 million euros were used up. The federal government plans 60 million euros for 2027. Minister Verena Hubertz said the grants help people grow old in the homes they have lived in all their lives. Funding will be available again in 2027 at the earliest."
-     },
-     "de": {
-      "baslik": "Förderung für barrierefreien Umbau kommt 2027 mit 60 Millionen Euro zurück",
-      "ozet": "Das KfW-Programm 455-B für barrierefreien Wohnungsumbau wurde Ende Juli gestoppt, knapp vier Monate nach dem Neustart im April 2026, als die 50 Millionen Euro ausgeschöpft waren. Für 2027 stellt der Bund 60 Millionen Euro in Aussicht. Bauministerin Verena Hubertz sagte, wer sein Leben lang in seiner Wohnung gelebt habe, solle dort auch alt werden können. Förderung gibt es frühestens 2027 wieder."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-18",
-     "baslik": "Elektrik vergisi 2027'de herkes için düşüyor, ama yalnız bir yıllığına",
-     "ozet": "Hükümet ortakları, Başbakanlıkta sekiz saati aşan bir toplantının ardından elektrik vergisinin herkes için düşürülmesinde anlaştı. İndirim 2027'de geçerli olacak ama finansmanı şimdilik yalnız bir yıl için hazır; kalıcı indirim 2028 bütçesinde karşılık bulunmasına bağlı. Finansman yenilenebilir enerji (EEG) hesabındaki fazladan sağlanacak; yetmezse sübvansiyon kesintisi gibi adımlar gündeme gelebilir.",
-     "kaynak": "Haufe Immobilien · 18 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizkosten-vielerorts-drohen-nachzahlungen_84342_440906.html",
-     "en": {
-      "baslik": "Electricity tax will fall for everyone in 2027, but only for one year",
-      "ozet": "After more than eight hours of talks at the Chancellery, the coalition partners agreed to cut the electricity tax for everyone. The cut applies in 2027, but funding is secured for only one year so far; a permanent cut depends on financing in the 2028 budget. It is to be financed from surpluses in the renewable energy (EEG) account; if these are not enough, steps such as subsidy cuts could follow."
-     },
-     "de": {
-      "baslik": "Stromsteuer sinkt 2027 für alle, aber vorerst nur für ein Jahr",
-      "ozet": "Nach mehr als acht Stunden Verhandlung im Kanzleramt haben sich Union und SPD auf eine Senkung der Stromsteuer für alle geeinigt. Sie gilt 2027, finanziert ist sie bislang nur für ein Jahr; eine dauerhafte Senkung setzt eine Gegenfinanzierung im Haushalt 2028 voraus. Bezahlt werden soll sie aus Spielräumen auf dem EEG-Konto; reichen diese nicht, sind etwa Subventionskürzungen denkbar."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-17",
-     "baslik": "Emlakçıların iyimserliği eriyor: 2027'de büyüme bekleyenler yüzde 25'e indi",
-     "ozet": "Kasım 2026'daki ankette 366 emlakçının yalnız yüzde 25'i 2027'de büyüme bekliyor; haziranda bu oran yüzde 37'ydi. Emlakçıların yüzde 55'i mevcut piyasayı geçen yıldan kötü buluyor (haziranda yüzde 50). Yüksek faizler, zayıf talep ve alıcıyla satıcı arasında uzayan fiyat pazarlığı, ilkbaharda geçici sanılan durgunluğu birçok emlakçının gözünde yapısal bir soruna çeviriyor.",
-     "kaynak": "Haufe Immobilien · 17 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/was-kunden-von-ihrem-immobilienmakler-erwarten_84342_524784.html",
-     "en": {
-      "baslik": "Brokers' optimism is fading: only 25% expect growth in 2027",
-      "ozet": "In a November 2026 survey, only 25% of 366 estate agents expect growth in 2027, down from 37% in June. 55% rate the current market as worse than last year (June: 50%). High interest rates, weak demand and drawn-out price negotiations between buyers and sellers are turning what looked like a temporary dip in spring into a structural problem for many agents."
-     },
-     "de": {
-      "baslik": "Makler verlieren den Optimismus: nur noch 25 % erwarten 2027 Wachstum",
-      "ozet": "In einer Umfrage vom November 2026 rechnen nur noch 25 % der 366 befragten Makler 2027 mit Wachstum, im Juni waren es 37 %. 55 % bewerten die aktuelle Marktlage schlechter als im Vorjahr (Juni: 50 %). Hohe Zinsen, schwache Nachfrage und zähe Preisfindung zwischen Käufern und Verkäufern machen aus der vermeintlichen Delle im Frühjahr für viele Makler ein Strukturproblem."
-     },
-     "not": "Satış videolarında fiyatı gerçekçi göster; alıcılar pazarlık payı bekliyor. Güçlü yanları (enerji, konum, aylık gider) net sayılarla ver."
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-17",
-     "baslik": "Konut sektöründen hükümete sert eleştiri: \"Sorun yöntem ve güven krizi\"",
-     "ozet": "Konut şirketlerinin çatı birliği GdW'nin başkanı Axel Gedaschko, 17 Kasım'da Berlin'deki Konut Sektörü Günü'nde konut inşaatının yıllardır en ağır krizinde olduğunu söyledi. Gedaschko'ya göre sorun yatırımcı eksikliği değil, inşaatı sistematik olarak zorlaştıran devlet: \"Hedeflerin değil, yöntemin, karar alabilmenin ve güvenin krizini yaşıyoruz.\" Toplantıda Wohnen.2050 girişiminin yeni uygulama raporu da sunuldu.",
-     "kaynak": "Haufe Immobilien · 17 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gdw-tag-der-wohnungswirtschaft_260_529700.html",
-     "en": {
-      "baslik": "Housing industry criticises the government: \"a crisis of method and trust\"",
-      "ozet": "Axel Gedaschko, president of the housing companies' federation GdW, said at the Housing Industry Day in Berlin on 17 November that residential construction is in its worst crisis for years. In his view the problem is not a lack of investors but a state that systematically makes building harder: \"We are not suffering from a crisis of goals but of method, decision-making and trust.\" A new practice report by the Wohnen.2050 initiative was also presented."
-     },
-     "de": {
-      "baslik": "Wohnungswirtschaft rechnet ab: \"Krise der Methode und des Vertrauens\"",
-      "ozet": "GdW-Präsident Axel Gedaschko sagte beim Tag der Wohnungswirtschaft am 17. November in Berlin, der Wohnungsbau stecke in seiner schwersten Krise seit Jahren. Nicht fehlende Investoren bremsten, sondern ein Staat, der das Bauen systematisch erschwere: „Wir leiden nicht an einer Krise der Ziele, sondern der Methode, der Entscheidungsfähigkeit und des Vertrauens.“ Vorgestellt wurde auch der neue Praxisbericht der Initiative Wohnen.2050."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-16",
-     "baslik": "VW ID. Polo'ya talep yüksek: en ucuz sürüm için bekleme neredeyse 2 yıl",
-     "ozet": "Volkswagen'in en ucuz elektrikli modeli ID. Polo Trend 24.995 eurodan başlıyor; 37 kWh bataryayla WLTP'ye göre 334 kilometre menzil sunuyor. 52 kWh'lik sürüm 33.795 eurodan satışta. Electrek'e göre en ucuz sürüm için bekleme süresi 2 yıla yaklaştı. FAZ'ın haberine göre ID. Polo için 50.000'den fazla sipariş var; Seat ve Skoda'daki kardeş modellerle birlikte bu sayı 150.000'e çıkıyor.",
-     "kaynak": "Electrek · 16 Kasım 2026",
-     "url": "https://electrek.co/2026/11/16/volkswagens-cheapest-ev-buyers-waiting-nearly-2-years/",
-     "en": {
-      "baslik": "High demand for VW ID. Polo: nearly 2-year wait for the cheapest version",
-      "ozet": "Volkswagen's cheapest electric model, the ID. Polo Trend, starts at 24,995 euros and offers 334 km of WLTP range with a 37 kWh battery. The 52 kWh version sells from 33,795 euros. According to Electrek, the wait for the cheapest version is approaching 2 years. FAZ reports more than 50,000 orders for the ID. Polo; including its sister models at Seat and Skoda the figure rises to 150,000."
-     },
-     "de": {
-      "baslik": "Hohe Nachfrage nach dem VW ID. Polo: fast 2 Jahre Wartezeit für die günstigste Version",
-      "ozet": "Volkswagens günstigstes E-Auto, der ID. Polo Trend, startet bei 24.995 Euro und schafft mit 37-kWh-Akku 334 Kilometer nach WLTP. Die 52-kWh-Version kostet ab 33.795 Euro. Laut Electrek nähert sich die Wartezeit für die günstigste Version 2 Jahren. Die FAZ berichtet von mehr als 50.000 Bestellungen für den ID. Polo, mit den Konzerngeschwistern von Seat und Skoda von 150.000."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-16",
-     "baslik": "Federal hükümet 2027 inşaat bütçesini 8,5 milyar euroya çıkardı",
-     "ozet": "Federal Meclis bütçe komisyonu, Konut, Kentsel Gelişim ve İnşaat Bakanlığı'nın 2027 bütçesini 8,5 milyar euro olarak kabul etti. Yazın tasarruf taslağı olarak sunulan bütçe 7,51 milyar euro öngörüyor ve konut yardımında kesinti içeriyordu. Haufe bunu bir dönüş olarak değerlendiriyor; bütçede yeni kurulacak federal konut inşaat şirketinin payı da yer alıyor.",
-     "kaynak": "Haufe Immobilien · 16 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundeshaushalt_84342_634714.html",
-     "en": {
-      "baslik": "Federal government raises 2027 construction budget to 8.5 billion euros",
-      "ozet": "The Bundestag budget committee approved a 2027 budget of 8.5 billion euros for the Ministry for Housing, Urban Development and Building. Presented in summer as a consolidation draft, it had foreseen 7.51 billion euros and cuts to housing benefit. Haufe calls it a U-turn; the budget also includes funding for the new federal housing construction company."
-     },
-     "de": {
-      "baslik": "Bund stockt den Bauetat 2027 auf 8,5 Milliarden Euro auf",
-      "ozet": "Der Haushaltsausschuss des Bundestags hat für das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen 2027 einen Etat von 8,5 Milliarden Euro beschlossen. Der im Sommer vorgelegte Konsolidierungsentwurf sah 7,51 Milliarden Euro und Kürzungen beim Wohngeld vor. Haufe spricht von einer Kehrtwende; enthalten ist auch das Budget für die neue Bundeswohnungsbaugesellschaft."
-     }
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-13",
-     "baslik": "VW elektrikli Golf'ün ardından bir SSP modelini daha erteledi",
-     "ozet": "Maliyet kesmeye çalışan Volkswagen, elektrikli Golf'ün geliştirmesini Wolfsburg'da ertelemesinin ardından SSP platformuna dayanan bir modeli daha erteliyor. Grup üçüncü çeyrekte 5,9 milyar euro faaliyet zararı açıkladı; bu 2015'teki dizel skandalından beri en büyük çeyreklik zarar. Reuters'ın gördüğü iç yazışmaya göre Wolfsburg fabrikası tasarruf hedefinin yaklaşık 300 milyon euro gerisinde. Elektrikli Golf başlangıçta 2028 için planlanıyordu.",
-     "kaynak": "Electrek · 13 Kasım 2026",
-     "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/",
-     "en": {
-      "baslik": "VW delays another SSP model after the electric Golf",
-      "ozet": "Cutting costs, Volkswagen is delaying another model based on its SSP platform after postponing development of the electric Golf in Wolfsburg. The group reported an operating loss of 5.9 billion euros in the third quarter, its biggest quarterly loss since the 2015 diesel scandal. According to an internal memo seen by Reuters, the Wolfsburg plant is about 300 million euros short of its savings target. The electric Golf was originally planned for 2028."
-     },
-     "de": {
-      "baslik": "VW verschiebt nach dem E-Golf ein weiteres SSP-Modell",
-      "ozet": "Auf Sparkurs verschiebt Volkswagen nach der Entwicklung des elektrischen Golf in Wolfsburg ein weiteres Modell auf der SSP-Plattform. Der Konzern meldete im dritten Quartal einen operativen Verlust von 5,9 Milliarden Euro, den größten Quartalsverlust seit dem Dieselskandal 2015. Laut einem von Reuters eingesehenen internen Schreiben liegt das Werk Wolfsburg rund 300 Millionen Euro hinter seinem Sparziel. Der E-Golf war ursprünglich für 2028 geplant."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-13",
-     "baslik": "Bundesbank uyarıyor: yeni konut kredilerinin onda dördünde kredi oranı yüzde 90'ın üzerinde",
-     "ozet": "Bundesbank yönetim kurulu üyesi Michael Theurer, 12 Kasım'da sunduğu finansal istikrar raporunda iki risk odağına dikkat çekti. Yeni konut kredilerinin onda dördünde kredi tutarı mülk değerinin yüzde 90'ını aşıyor; veriler 2025'in son çeyreğinden beri tutulan yeni WIFSta istatistiğinden geliyor. İkinci risk, 2023'ten beri yoğun para çıkışı yaşayan açık uçlu gayrimenkul fonları.",
-     "kaynak": "Haufe Immobilien · 13 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/investment/bafin-immobilien-risiko-fuer-finanzstabilitaet_256_640920.html",
-     "en": {
-      "baslik": "Bundesbank warns: four in ten new mortgages have a loan-to-value above 90%",
-      "ozet": "Presenting the financial stability report on 12 November, Bundesbank board member Michael Theurer pointed to two sources of risk. In four out of ten new residential mortgages the loan exceeds 90% of the property's value; the figures come from the new WIFSta statistics collected since the fourth quarter of 2025. The second risk is open-ended real estate funds, which have seen heavy outflows since 2023."
-     },
-     "de": {
-      "baslik": "Bundesbank warnt: Vier von zehn neuen Wohnkrediten mit Beleihung über 90 %",
-      "ozet": "Bei der Vorstellung des Finanzstabilitätsberichts am 12. November nannte Bundesbank-Vorstand Michael Theurer zwei Risikoherde. Bei vier von zehn neuen Wohnimmobilienkrediten liegt die Beleihungsquote über 90 %; die Zahlen stammen aus der neuen Statistik WIFSta, die seit dem vierten Quartal 2025 erhoben wird. Das zweite Risiko sind offene Immobilienfonds, die seit 2023 massiv Kapital verlieren."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-13",
-     "baslik": "2026 Yıllık Vergi Kanunu: gayrimenkul sahiplerini etkileyen üç değişiklik",
-     "ozet": "Federal Meclis 12 Kasım'da 2026 Yıllık Vergi Kanunu'nu kabul etti; yasa için Federal Konsey onayı da gerekiyor. Gayrimenkul tarafında üç yenilik öne çıkıyor: binalı arsalarda satış bedelinin arsa ve bina arasında nasıl bölüneceği ilk kez yasayla düzenleniyor, boşanma sonrası yapılan gayrimenkul satışı vergiden muaf tutuluyor ve enerji verimliliği tadilatlarına yönelik vergi indirimi yeniden düzenleniyor.",
-     "kaynak": "Haufe Immobilien · 13 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/jahressteuergesetz_84342_582300.html",
-     "en": {
-      "baslik": "Annual Tax Act 2026: three changes for property owners",
-      "ozet": "The Bundestag passed the Annual Tax Act 2026 on 12 November; the Bundesrat still has to approve it. For real estate, three changes stand out: for the first time the law regulates how the purchase price of a built-on plot is split between land and building, a property sale after a divorce becomes tax-free, and the tax reduction for energy-efficient renovation is adjusted."
-     },
-     "de": {
-      "baslik": "Jahressteuergesetz 2026: drei Änderungen für Immobilieneigentümer",
-      "ozet": "Der Bundestag hat am 12. November das Jahressteuergesetz 2026 beschlossen; der Bundesrat muss noch zustimmen. Für Immobilien sind drei Neuregelungen wichtig: Die Kaufpreisaufteilung bei bebauten Grundstücken auf Grund und Boden sowie Gebäude wird erstmals gesetzlich geregelt, der Immobilienverkauf nach einer Scheidung wird steuerfrei, und die Steuerermäßigung für energetische Sanierungen wird angepasst."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-12",
-     "baslik": "Empirica balon endeksi: 400 bölgenin 262'sinde risk orta ile yüksek arasında",
-     "ozet": "Empirica'nın 2026 üçüncü çeyrek balon endeksine göre Almanya'daki 400 il ve şehrin 262'sinde konut piyasasında balon riski orta ile yüksek arasında kalıyor. Fiyatlarla kiralar arasındaki fark kapanıyor ama yavaş: en büyük yedi şehirde birikimli satış fiyatları kira artışının hâlâ yüzde 28 üzerinde, dört yıl önce bu fark yüzde 47'ydi. Farkı kapatan fiyat düşüşü değil, konut darlığıyla yükselen kiralar.",
-     "kaynak": "Haufe Immobilien · 12 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-empirica-blasenindex-steigt_84324_326394.html",
-     "en": {
-      "baslik": "Empirica bubble index: moderate to high risk in 262 of 400 districts",
-      "ozet": "According to Empirica's bubble index for the third quarter of 2026, the risk of a housing bubble remains moderate to high in 262 of Germany's 400 districts and cities. The gap between prices and rents is closing, but slowly: in the seven largest cities cumulative purchase prices are still 28% above rent growth, compared with 47% four years ago. What closes the gap is not falling prices but rents rising because housing is scarce."
-     },
-     "de": {
-      "baslik": "Empirica-Blasenindex: In 262 von 400 Kreisen mäßiges bis hohes Risiko",
-      "ozet": "Laut Empirica-Blasenindex für das dritte Quartal 2026 bleibt das Blasenrisiko in 262 von 400 deutschen Kreisen und Städten mäßig bis hoch. Die Schere zwischen Preisen und Mieten schließt sich, aber langsam: In den sieben größten Städten liegen die kumulierten Kaufpreise noch 28 % über dem Mietanstieg, vor vier Jahren waren es 47 %. Treiber ist kein Preisverfall, sondern der Mietanstieg infolge knappen Wohnraums."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-12",
-     "baslik": "Berlin kiralık dairelerin mülk daireye dönüştürülmesine izin şartını 2031'e uzatıyor",
-     "ozet": "Berlin Senatosu 10 Kasım'da, kiralık konutların mülk daireye dönüştürülmesini izne bağlayan İmar Kanunu 201a maddesine dayalı yönetmeliğin uzatılmasını başlattı. Yeni yönetmelik 1 Ocak 2027'den 31 Aralık 2031'e kadar geçerli olacak ve tüm şehri gergin konut piyasası sayacak; böylece yasanın izin verdiği en uzun süre kullanılıyor. Altı ve daha fazla daireli binalarda dönüşüm için resmî izin gerekmeye devam ediyor. Yönetmeliğin resmî kabulü ve ilanı henüz bekleniyor.",
-     "kaynak": "Haufe Immobilien · 12 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baulandmobilisierungsgesetz-das-planen-die-bundeslaender_84342_547308.html",
-     "en": {
-      "baslik": "Berlin extends permit requirement for converting rental flats until 2031",
-      "ozet": "On 10 November, Berlin's Senate started extending the ordinance under Section 201a of the Building Code that makes converting rental flats into condominiums subject to approval. The new ordinance is to apply from 1 January 2027 to 31 December 2031 and to designate the entire city as a tight housing market, using the longest period the law allows. Buildings with six or more flats still need official approval for conversion. Formal adoption and publication are still pending."
-     },
-     "de": {
-      "baslik": "Berlin verlängert den Umwandlungsschutz für Mietwohnungen bis 2031",
-      "ozet": "Der Berliner Senat hat am 10. November die Verlängerung der Rechtsverordnung nach § 201a BauGB auf den Weg gebracht, die die Umwandlung von Miet- in Eigentumswohnungen genehmigungspflichtig macht. Sie soll vom 1. Januar 2027 bis 31. Dezember 2031 gelten und das gesamte Stadtgebiet als angespannten Wohnungsmarkt ausweisen; damit schöpft Berlin die maximal mögliche Dauer aus. Häuser ab sechs Wohnungen brauchen weiter eine Genehmigung. Beschlussfassung und Verkündung stehen noch aus."
-     }
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-11",
-     "baslik": "Baden-Württemberg kira freni uygulamasını 2029 sonuna uzattı",
-     "ozet": "Baden-Württemberg kabinesi 10 Kasım'da kira frenini 2029 sonuna kadar uzattı ve kapsamını 133 şehir ve belediyeye genişletti; Mannheim, Konstanz ve Kehl listeye yeni girdi. Uygulama 1 Ocak 2027'den itibaren kesintisiz sürecek. Kira freni olan yerlerde yeni kira sözleşmelerinde kira, bölgedeki emsal kiranın en fazla yüzde 10 üzerinde olabiliyor.",
-     "kaynak": "Haufe Immobilien · 11 Kasım 2026",
-     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-baden-wuerttemberg_84342_321932.html",
-     "en": {
-      "baslik": "Baden-Württemberg extends rent brake to the end of 2029",
-      "ozet": "On 10 November, the Baden-Württemberg cabinet extended the rent brake until the end of 2029 and widened it to 133 cities and municipalities; Mannheim, Konstanz and Kehl were newly added. It continues without a gap from 1 January 2027. Where the rent brake applies, rent in new leases may be at most 10% above the local comparative rent."
-     },
-     "de": {
-      "baslik": "Baden-Württemberg verlängert die Mietpreisbremse bis Ende 2029",
-      "ozet": "Das Landeskabinett hat am 10. November beschlossen, die Mietpreisbremse bis Ende 2029 zu verlängern und auf 133 Städte und Gemeinden auszuweiten; neu dabei sind Mannheim, Konstanz und Kehl. Ab dem 1. Januar 2027 greift sie nahtlos weiter. Bei neuen Mietverträgen darf die Miete dort höchstens 10 % über der ortsüblichen Vergleichsmiete liegen."
-     }
+      "ay": "2026-11",
+      "ogeler": [
+        {
+          "alan": "otomotiv",
+          "baslik": "BYD, Fransa'daki eski Smart fabrikasını Ineos'tan almak için münhasır görüşmede",
+          "ozet": "BYD ve Ineos Automotive, Almanya sınırına yakın Hambach'taki (Fransa) fabrikanın satışı için görüştüklerini resmen açıkladı; BYD görüşmelerin münhasır olduğunu belirtiyor. electrive'e göre işlem yalnızca işyeri temsilcileriyle istişare koşuluna bağlı; Handelsblatt'a göre gerçekleşirse bir Çinli üreticinin Avrupa'da bir otomobil fabrikasını ilk kez bütünüyle devralması olacak. BYD Başkan Yardımcısı Stella Li, Hambach'ta Avrupalı sürücülere göre tasarlanmış araçlar üretmeyi ve yerel istihdamı korumayı hedeflediklerini söyledi. Şirket Haziran'da Manisa'daki montaj fabrikası planını askıya almıştı; Macaristan'daki ilk Avrupa fabrikası tamamlanmak üzere.",
+          "kaynak": "electrive · 25 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/25/byd-will-ehemaliges-smart-werk-in-hambach-kaufen/",
+          "not": "AB'de üretilen BYD modelleri Çin'den ithalata uygulanan ek gümrük vergisinin dışında kalır; galeride BYD fiyatlarını ve ikinci el değerini 2027'de yeniden değerlendir.",
+          "ig": "BYD, Fransa'nın Hambach kentindeki eski Smart fabrikasını Ineos'tan almak için münhasır görüşmede. Gerçekleşirse bir Çinli üreticinin Avrupa'da ilk fabrika devralması olacak.",
+          "igNot": "AB'de üretilen BYD ek gümrük vergisinin dışında kalır; fiyatları izle.",
+          "gorselAra": "Smartville Hambach",
+          "foto": "ekstrem",
+          "en": {
+            "baslik": "BYD in exclusive talks to buy former Smart plant in France from Ineos",
+            "ozet": "BYD and Ineos Automotive have officially confirmed that they are in talks over the sale of the plant in Hambach, France, near the German border, and BYD states that the talks are exclusive. According to electrive, the transaction depends only on consulting employee representatives. According to Handelsblatt, if it goes ahead it would be the first time a Chinese manufacturer has fully taken over a car factory in Europe. BYD Deputy President Stella Li said the aim is to build vehicles designed for European drivers in Hambach and to protect local jobs. In June the company suspended its plan for an assembly plant in Manisa, Turkey. Its first European factory, in Hungary, is nearing completion."
+          },
+          "de": {
+            "baslik": "BYD in exklusiven Gesprächen über den Kauf des ehemaligen Smart-Werks in Frankreich von Ineos",
+            "ozet": "BYD und Ineos Automotive haben offiziell bestätigt, dass sie über den Verkauf des Werks in Hambach (Frankreich) nahe der deutschen Grenze verhandeln; BYD betont, die Gespräche seien exklusiv. Laut electrive hängt die Transaktion nur davon ab, dass die Arbeitnehmervertretungen angehört werden. Laut Handelsblatt wäre es, falls es zustande kommt, das erste Mal, dass ein chinesischer Hersteller ein Automobilwerk in Europa vollständig übernimmt. Die stellvertretende BYD-Vorsitzende Stella Li sagte, man wolle in Hambach Fahrzeuge bauen, die auf europäische Fahrer zugeschnitten sind, und die lokalen Arbeitsplätze erhalten. Im Juni hatte das Unternehmen seine Pläne für ein Montagewerk in Manisa (Türkei) auf Eis gelegt. Das erste europäische Werk in Ungarn steht kurz vor der Fertigstellung."
+          },
+          "tarih": "2026-11-26"
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "AB komitesi Tesla'nın sürüş asistanı oylamasını yine erteledi: toplantı 15 Aralık'ta",
+          "ozet": "Tesla'nın Avrupa'da 'Tesla Assisted Driving' adıyla satılan 'Full Self-Driving' sistemine AB genelinde onay verebilecek Motorlu Araçlar Teknik Komitesi (TCMV) 1 Aralık yerine 15 Aralık'ta toplanacak; Komisyon sözcüsü tarihi Reuters'a doğruladı. Komite dosyayı iki toplantıda oylamadan görüşmüştü. Onay için 27 üyeden en az 15'inin ve AB nüfusunun en az yüzde 65'inin desteği gerekiyor; Hollanda onayını şimdiye kadar 12 ülke tanıdı ve Electrek'in hesabına göre bunlar nüfusun yaklaşık yüzde 29'u. Almanya, 'Full Self-Driving' adının bırakılması ve hız toleransının yüzde 50'den yüzde 10'a indirilmesi karşılığında destek verecek; bu, evet cephesini yaklaşık yüzde 47'ye çıkarır.",
+          "kaynak": "Electrek · 25 Kasım 2026",
+          "url": "https://electrek.co/2026/11/25/eu-delays-tesla-fsd-vote-december-15-tcmv/",
+          "not": "Almanya'da Tesla satarken sistemi tam otonom diye tanıtma: AB genelinde onay yok ve 'Full Self-Driving' adı Avrupa'da kullanılmıyor.",
+          "ig": "AB'nin araç teknik komitesi Tesla'nın sürüş asistanı dosyasını 15 Aralık'a erteledi. Onay için 15 ülke ve nüfusun yüzde 65'i gerekiyor; şimdilik 12 ülke, yaklaşık yüzde 29.",
+          "igNot": "Tesla'yı tam otonom diye tanıtma; AB genelinde onay yok.",
+          "gorselAra": "Tesla Model Y",
+          "foto": "prompt101",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Tesla_Model_Y_1X7A6211.jpg/960px-Tesla_Model_Y_1X7A6211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Alexander Migl",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_1X7A6211.jpg"
+          },
+          "en": {
+            "baslik": "EU committee postpones Tesla driving assistant vote again: meeting moved to 15 December",
+            "ozet": "The Technical Committee on Motor Vehicles (TCMV), which could approve Tesla's 'Full Self-Driving' system across the EU, sold in Europe as 'Tesla Assisted Driving', will meet on 15 December instead of 1 December. A Commission spokesperson confirmed the date to Reuters. The committee had already discussed the file over two meetings without a vote. Approval requires support from at least 15 of the 27 members, representing at least 65 percent of the EU population. According to Electrek's count, 12 countries have so far recognised the Dutch approval, representing about 29 percent of the population. Germany will support it in exchange for dropping the name 'Full Self-Driving' and lowering the speed tolerance from 50 percent to 10 percent. That would bring the yes camp to about 47 percent."
+          },
+          "de": {
+            "baslik": "EU-Ausschuss verschiebt Abstimmung über Teslas Fahrassistenten erneut: Sitzung am 15. Dezember",
+            "ozet": "Der Technische Ausschuss für Kraftfahrzeuge (TCMV), der das in Europa als 'Tesla Assisted Driving' verkaufte System 'Full Self-Driving' EU-weit zulassen könnte, tagt statt am 1. Dezember am 15. Dezember; eine Kommissionssprecherin bestätigte den Termin gegenüber Reuters. Der Ausschuss hatte die Akte bereits in zwei Sitzungen beraten, ohne abzustimmen. Für eine Zulassung sind die Stimmen von mindestens 15 der 27 Mitglieder nötig, die zusammen mindestens 65 Prozent der EU-Bevölkerung vertreten. Laut einer Zählung von Electrek haben bisher 12 Länder die niederländische Zulassung anerkannt, was rund 29 Prozent der Bevölkerung entspricht. Deutschland würde zustimmen, wenn der Name 'Full Self-Driving' aufgegeben und die Geschwindigkeitstoleranz von 50 auf 10 Prozent gesenkt wird. Damit läge das Ja-Lager bei etwa 47 Prozent."
+          },
+          "tarih": "2026-11-26"
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "Almanya'da dijital ehliyet Aralık ortasına kaldı; ilk dönemde kimlik taşımak zorunlu",
+          "ozet": "Federal Ulaştırma Bakanlığı sözcüsü dpa'ya, Kasım sonunda i-Kfz uygulamasında açılması planlanan dijital ehliyetin Aralık ortasında başlayacağını söyledi. Gecikmenin nedeni, Federal Motorlu Taşıtlar Dairesi'nin (KBA) başvuranın fotoğrafını pasaport ve kimlik dairelerinden çekmesini sağlayacak teknik bağlantının henüz hazır olmaması; bakanlığa göre pilot aşama başarıyla tamamlandı. Fotoğraf entegre edilene kadar sürücüler dijital ehliyetin yanında kimlik kartı ya da pasaport taşımak zorunda olacak. Dijital ehliyet başlangıçta yalnızca Almanya'da geçerli; kart ehliyet evde bırakılabilecek.",
+          "kaynak": "Tagesschau · 26 Kasım 2026",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/digitaler-fuehrerschein-start-mitte-dezember-100.html",
+          "not": "Deneme sürüşünde dijital ehliyet gösteren müşteriden kimliğini de iste; sistem ilk dönemde bunu şart koşuyor ve yurt dışında geçmiyor.",
+          "ig": "Almanya'da dijital ehliyet Kasım sonu yerine Aralık ortasında başlıyor. Fotoğraf entegre edilene kadar yanında kimlik ya da pasaport taşımak zorunlu.",
+          "igNot": "Deneme sürüşünde dijital ehliyetle birlikte kimlik de iste.",
+          "gorselAra": "Kraftfahrt-Bundesamt Flensburg",
+          "foto": "bolum-arsiv",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Hausmeisterhaus_vom_Kraftfahrt-Bundesamt_%28Flensburg-M%C3%BCrwik_2014-11-17%29.jpg/960px-Hausmeisterhaus_vom_Kraftfahrt-Bundesamt_%28Flensburg-M%C3%BCrwik_2014-11-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Soenke Rahn",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Hausmeisterhaus_vom_Kraftfahrt-Bundesamt_(Flensburg-M%C3%BCrwik_2014-11-17).jpg"
+          },
+          "en": {
+            "baslik": "Germany's digital driving licence delayed to mid-December; ID must be carried in the first phase",
+            "ozet": "A spokesperson for the Federal Ministry of Transport told dpa that the digital driving licence, planned to launch in the i-Kfz app at the end of November, will start in mid-December. The delay is because the technical link that will allow the Federal Motor Transport Authority (KBA) to retrieve the applicant's photo from passport and ID offices is not yet ready. According to the ministry, the pilot phase was completed successfully. Until the photo is integrated, drivers must carry an identity card or passport alongside the digital licence. The digital licence will initially be valid only in Germany, and the physical licence card can be left at home."
+          },
+          "de": {
+            "baslik": "Digitaler Führerschein verschiebt sich auf Mitte Dezember; in der ersten Phase Ausweispflicht",
+            "ozet": "Eine Sprecherin des Bundesverkehrsministeriums sagte der dpa, dass der digitale Führerschein, der Ende November in der App i-Kfz starten sollte, Mitte Dezember beginnt. Die Verzögerung liegt daran, dass die technische Anbindung, mit der das Kraftfahrt-Bundesamt (KBA) das Passfoto des Antragstellers bei den Pass- und Personalausweisbehörden abrufen kann, noch nicht fertig ist. Laut Ministerium wurde die Pilotphase erfolgreich abgeschlossen. Bis das Foto eingebunden ist, müssen Fahrer Personalausweis oder Reisepass zusammen mit dem digitalen Führerschein mit sich führen. Der digitale Führerschein gilt zunächst nur in Deutschland; der Kartenführerschein kann zu Hause bleiben."
+          },
+          "tarih": "2026-11-26"
+        },
+        {
+          "alan": "emlak",
+          "baslik": "Maliye Bakanlığı taslağı: 1 Temmuz 2027'den itibaren hisse devriyle alımlarda da emlak alım vergisi",
+          "ozet": "Federal Maliye Bakanlığı 23 Kasım'da emlak alım vergisinin (Grunderwerbsteuer) geliştirilmesine ilişkin bakanlık taslağını yayımladı; yasanın 1 Temmuz 2027'de yürürlüğe girmesi hedefleniyor. Taslak, gayrimenkulü doğrudan değil şirket hissesi üzerinden devrederek vergiden kaçınmada (share deal) kalan boşlukları kapatmayı, buna karşılık şirket grubu içi yeniden yapılanmalardaki muafiyeti (Konzernklausel) genişletmeyi öngörüyor; 2021'deki ilk sıkılaştırmanın devamı. Vergi oranına dokunulmuyor: oranı eyaletler belirliyor, Bavyera yüzde 3,5'te, diğerleri yüzde 5 ile 6,5 arasında. Bu bir taslak; kabine kararı ve parlamento süreci önünde.",
+          "kaynak": "Haufe Immobilien · 25 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/grunderwerbsteuer-laender-nehmen-rekordsummen-ein_84342_440652.html",
+          "not": "Bireysel alıcıya netleştir: oran ve ödeme değişmiyor; banka vergiyi finanse etmediği için yüzde 3,5-6,5'i öz kaynaktan ayırması gerekiyor.",
+          "ig": "Almanya Maliye Bakanlığı taslağı: 1 Temmuz 2027'den itibaren hisse devriyle yapılan gayrimenkul alımlarında vergi boşlukları kapanıyor. Bireysel alıcıda oran değişmiyor.",
+          "igNot": "Bireysel alıcıda oran değişmiyor; vergi öz kaynaktan ödeniyor.",
+          "gorselAra": "Bundesministerium der Finanzen Berlin",
+          "foto": "bolum-gunluk",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bundesministerium_f%C3%BCr_Wirtschaft_und_Technologie_Berlin.jpg/960px-Bundesministerium_f%C3%BCr_Wirtschaft_und_Technologie_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Mr. Siegal",
+            "lisans": "CC BY-SA 2.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesministerium_f%C3%BCr_Wirtschaft_und_Technologie_Berlin.jpg"
+          },
+          "en": {
+            "baslik": "Finance Ministry draft: real estate transfer tax on share deals from 1 July 2027",
+            "ozet": "On 23 November, the Federal Ministry of Finance published a ministerial draft to develop the real estate transfer tax (Grunderwerbsteuer), with the law targeted to take effect on 1 July 2027. The draft aims to close the gaps that allow tax to be avoided by transferring real estate through company shares (share deals). At the same time, it expands the exemption for restructurings within company groups (Konzernklausel). It continues the tightening begun in 2021. The tax rate is not changed: it is set by the states, with Bavaria at 3.5 percent and the others between 5 and 6.5 percent. This is a draft, pending a cabinet decision and the parliamentary process."
+          },
+          "de": {
+            "baslik": "Referentenentwurf des Finanzministeriums: Grunderwerbsteuer auch bei Anteilsübertragungen ab 1. Juli 2027",
+            "ozet": "Das Bundesfinanzministerium hat am 23. November einen Referentenentwurf zur Weiterentwicklung der Grunderwerbsteuer veröffentlicht; das Gesetz soll am 1. Juli 2027 in Kraft treten. Der Entwurf zielt darauf, die Lücken zu schließen, durch die sich Steuern vermeiden lassen, indem Immobilien über die Übertragung von Gesellschaftsanteilen (Share Deal) übertragen werden. Gleichzeitig soll die Befreiung bei Umstrukturierungen innerhalb von Konzernen (Konzernklausel) ausgeweitet werden; er setzt die Verschärfung aus dem Jahr 2021 fort. Der Steuersatz bleibt unverändert: Er wird von den Ländern festgelegt, Bayern liegt bei 3,5 Prozent, die übrigen zwischen 5 und 6,5 Prozent. Es handelt sich um einen Entwurf; Kabinettsbeschluss und parlamentarisches Verfahren stehen noch aus."
+          },
+          "tarih": "2026-11-26"
+        },
+        {
+          "alan": "emlak",
+          "baslik": "Fraunhofer ISE: mevcut binalardaki ısı pompaları on yılda yüzde 10 verimlileşti",
+          "ozet": "Fraunhofer Güneş Enerjisi Sistemleri Enstitüsü (ISE) dört yıllık projede bir ila üç ailelik mevcut evlerdeki 77 ısı pompasını ölçtü: hava-su tipi cihazların yıllık performans katsayısı ortalama 3,4 çıktı, yani 1 kWh elektrikten 3,4 kWh ısı. Önceki araştırmada değer 3,1'di; artış yaklaşık yüzde 10. Enstitüye göre ısı pompası gazlı ısıtmaya kıyasla yüzde 64 daha az CO2 salıyor ve yaz 2026 tarihli ayrı bir çalışmasında müstakil evde 20 yılda senaryoya göre 49.000 avroya kadar daha ucuz. Destatis verisiyle 2020'den beri gaz yüzde 91,2, kalorifer yakıtı yüzde 88,8, elektrik yüzde 24,6 zamlandı; hesap eski bina sahiplerini ve alıcılarını doğrudan ilgilendiriyor.",
+          "kaynak": "Haufe Immobilien · 25 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/neue-wohnhaeuser-heizen-ueberwiegend-mit-erneuerbaren-energien_84324_454212.html",
+          "not": "Eski binalı ilanlarda ısı pompasına uygunluk sorusuna hazırlan: ölçülen 3,4 katsayısını ve enerji belgesindeki değeri ilan videosunda yan yana göster.",
+          "ig": "Fraunhofer ISE mevcut evlerdeki 77 ısı pompasını ölçtü: yıllık performans katsayısı 3,1'den 3,4'e çıktı. Gaza göre yüzde 64 daha az CO2.",
+          "igNot": "Eski bina ilanında ısı pompası uygunluğunu ve enerji belgesini göster.",
+          "gorselAra": "Fraunhofer ISE Freiburg",
+          "foto": "kaynak-caglayan",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Wasserstoff-Tankstelle_700_bar_beim_Fraunhofer_ISE_in_Freiburg_a.jpg/960px-Wasserstoff-Tankstelle_700_bar_beim_Fraunhofer_ISE_in_Freiburg_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Dr. Artur Braun (Arturbraun)",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Wasserstoff-Tankstelle_700_bar_beim_Fraunhofer_ISE_in_Freiburg_a.jpg"
+          },
+          "en": {
+            "baslik": "Fraunhofer ISE: heat pumps in existing buildings became 10 percent more efficient in a decade",
+            "ozet": "In a four-year project, the Fraunhofer Institute for Solar Energy Systems (ISE) measured 77 heat pumps in one-to-three-family existing homes. The average annual performance factor of air-to-water units was 3.4, meaning 3.4 kWh of heat from 1 kWh of electricity. The previous study had found 3.1, an increase of about 10 percent. According to the institute, a heat pump emits 64 percent less CO2 than gas heating. In a separate study from summer 2026, depending on the scenario, it is up to 49,000 euros cheaper over 20 years in a detached house. Using Destatis data, since 2020 gas prices have risen 91.2 percent, heating oil 88.8 percent and electricity 24.6 percent. The calculation directly concerns owners of older buildings and buyers."
+          },
+          "de": {
+            "baslik": "Fraunhofer ISE: Wärmepumpen im Altbau in einem Jahrzehnt 10 Prozent effizienter",
+            "ozet": "Das Fraunhofer-Institut für Solare Energiesysteme (ISE) hat in einem vierjährigen Projekt 77 Wärmepumpen in bestehenden Ein- bis Dreifamilienhäusern gemessen. Die durchschnittliche Jahresarbeitszahl der Luft-Wasser-Geräte lag bei 3,4, das heißt 3,4 kWh Wärme aus 1 kWh Strom. Die vorherige Untersuchung hatte 3,1 ergeben; der Anstieg beträgt etwa 10 Prozent. Laut Institut stößt eine Wärmepumpe 64 Prozent weniger CO2 aus als eine Gasheizung. In einer separaten Studie aus dem Sommer 2026 ist sie je nach Szenario in einem freistehenden Haus über 20 Jahre bis zu 49.000 Euro günstiger. Laut Destatis-Daten sind die Gaspreise seit 2020 um 91,2 Prozent, Heizöl um 88,8 Prozent und Strom um 24,6 Prozent gestiegen. Die Rechnung betrifft unmittelbar Eigentümer älterer Gebäude und Käufer."
+          },
+          "tarih": "2026-11-26"
+        },
+        {
+          "alan": "emlak",
+          "baslik": "BGH: kat maliki, anlaşmanın uyarlanmasını ister diğer maliklere ister topluluğa karşı dava edebilir",
+          "ozet": "Federal Mahkeme (BGH, V ZR 158/25) dört bağımsız bölümlü bir kat mülkiyeti topluluğundaki otopark anlaşmazlığında karar verdi: 1991'deki paylaşım planına çizilen park yerlerinin bir bölümü yapılaşmış alana denk geldiği için bir malikin kullanılabilir park yeri yoktu. Mahkemeye göre malik, Kat Mülkiyeti Yasası'nın (WEG) 10. maddesinin 2. fıkrası uyarınca ağır nedenlerle hakkaniyete aykırı hale gelen bir anlaşmanın uyarlanmasını isteyebilir ve bunun için ister diğer malikleri ister kat malikleri topluluğunu dava edebilir. 1 Aralık 2020 tarihli WEG reformundan sonra hangi yolun açık olduğu tartışmalıydı. Hangisinin daha avantajlı olduğu somut olaya göre değişiyor.",
+          "kaynak": "Haufe Immobilien · 25 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/verwaltung/bgh-anpassung-von-vereinbarungen_258_703760.html",
+          "not": "Daire satarken paylaşım planındaki (Aufteilungsplan) park yeri ve özel kullanım hakkı çizimini sahadaki durumla karşılaştır; uyuşmazlık varsa alıcıya önceden bildir.",
+          "ig": "BGH: yanlış çizilmiş park yeri gibi hakkaniyete aykırı bir anlaşmanın uyarlanması için kat maliki diğer malikleri de topluluğu da dava edebilir.",
+          "igNot": "Satıştan önce paylaşım planındaki park yerini sahayla karşılaştır.",
+          "gorselAra": "Bundesgerichtshof Karlsruhe",
+          "foto": "ajanlar",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Karlsruhe-Bundesgerichtshof-02-2018-gje.jpg/960px-Karlsruhe-Bundesgerichtshof-02-2018-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Gerd Eichmann",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Karlsruhe-Bundesgerichtshof-02-2018-gje.jpg"
+          },
+          "en": {
+            "baslik": "BGH: unit owner may sue other owners or the community to adjust an agreement",
+            "ozet": "The Federal Court of Justice (BGH, V ZR 158/25) ruled in a parking dispute in a condominium community with four separately owned units. Because part of the parking spaces drawn in the 1991 division plan fell on built-up land, one owner had no usable parking space. According to the court, an owner may demand the adjustment of an agreement that has become unreasonable for serious reasons, under Section 10(2) of the Condominium Act (WEG), and may sue either the other owners or the community of owners for this. Which route is open after the WEG reform of 1 December 2020 was disputed. Which of them is more advantageous depends on the specific case."
+          },
+          "de": {
+            "baslik": "BGH: Wohnungseigentümer kann Anpassung einer Vereinbarung gegen andere Eigentümer oder die Gemeinschaft einklagen",
+            "ozet": "Der Bundesgerichtshof (BGH, V ZR 158/25) hat in einem Streit um Stellplätze in einer Wohnungseigentümergemeinschaft mit vier Sondereigentumseinheiten entschieden. Da ein Teil der im Aufteilungsplan von 1991 eingezeichneten Stellplätze auf bebaute Fläche fiel, hatte ein Eigentümer keinen nutzbaren Stellplatz. Nach Ansicht des Gerichts kann ein Eigentümer gemäß § 10 Abs. 2 WEG die Anpassung einer Vereinbarung verlangen, die aus schwerwiegenden Gründen unbillig geworden ist, und dafür wahlweise die übrigen Eigentümer oder die Wohnungseigentümergemeinschaft verklagen. Welcher Weg nach der WEG-Reform vom 1. Dezember 2020 offensteht, war umstritten. Welcher davon vorteilhafter ist, hängt vom konkreten Fall ab."
+          },
+          "tarih": "2026-11-26"
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "VW ve Elli Almanya'da araçtan şebekeye şarjı Aralık'ta başlatıyor: çift yönlü wallbox 1.995 avro",
+          "ozet": "Volkswagen ve enerji iştiraki Elli, Almanya'daki ilk araçtan şebekeye (V2G) paketini Aralık 2026'da başlatıyor. \"Elli BiDi Charger\" KDV ve kargo dahil 1.995 avro; 11 kW'a kadar güç veriyor, 400 ve 800 volt mimarileri destekliyor ve uyumlu bir akıllı sayaç gerektiriyor. Araç en az üç saat bağlı kaldığında saat başına 24 sent ödeniyor: ayda en çok 60 avro, ilk sözleşme yılında 720 avro. Başlangıçta VW, VW Ticari, Cupra ve Skoda markaları destekleniyor; yazın yapılan duyuruda Skoda yoktu. VW'ye göre Avrupa'da 1 milyondan fazla, Almanya'da yaklaşık 360.000 MEB aracı çift yönlü şarja hazır; eve enerji aktarımı (V2H) 2027 için planlanıyor.",
+          "kaynak": "electrive · 24 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/24/vw-und-elli-starten-v2g-angebot-bidi-wallbox-kostet-1-995-euro/",
+          "not": "İkinci el MEB tabanlı araç satışında çift yönlü şarja uygunluğu ilana yazın; ilk yıl 720 avroya kadar ödeme somut bir satış argümanı.",
+          "ig": "VW ve Elli Aralık'ta Almanya'da V2G'yi başlatıyor: çift yönlü wallbox 1.995 avro, bağlı kalınan saat başına 24 sent, ilk yıl en çok 720 avro.",
+          "igNot": "İkinci el MEB araç ilanına \"çift yönlü şarja hazır\" bilgisini ekleyin.",
+          "gorselAra": "Volkswagen ID.4",
+          "foto": "mobil",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Volkswagen_ID.5_GTX_1X7A0318.jpg/960px-Volkswagen_ID.5_GTX_1X7A0318.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Alexander Migl",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.5_GTX_1X7A0318.jpg"
+          },
+          "en": {
+            "baslik": "VW and Elli start vehicle-to-grid charging in Germany in December: bidirectional wallbox costs 1,995 euros",
+            "ozet": "Volkswagen and its energy subsidiary Elli are launching their first vehicle-to-grid (V2G) package in Germany in December 2026. The 'Elli BiDi Charger' costs 1,995 euros including VAT and shipping; it delivers up to 11 kW, supports 400- and 800-volt architectures and requires a compatible smart meter. Vehicles are paid 24 cents per hour when connected for at least 3 hours: up to 60 euros a month, and 720 euros in the first contract year. Initially the VW, VW Commercial Vehicles, Cupra and Skoda brands are supported; Skoda was not included in the announcement made over the summer. According to VW, more than 1 million MEB vehicles in Europe and about 360,000 in Germany are ready for bidirectional charging; home energy transfer (V2H) is planned for 2027."
+          },
+          "de": {
+            "baslik": "VW und Elli starten im Dezember Laden vom Auto ins Netz in Deutschland: bidirektionale Wallbox kostet 1.995 Euro",
+            "ozet": "Volkswagen und die Energietochter Elli starten im Dezember 2026 in Deutschland ihr erstes Paket für Vehicle-to-Grid (V2G). Die „Elli BiDi Charger“ kostet inklusive Mehrwertsteuer und Versand 1.995 Euro; sie liefert bis zu 11 kW, unterstützt 400- und 800-Volt-Architekturen und setzt einen kompatiblen intelligenten Zähler voraus. Bei einer Verbindung von mindestens 3 Stunden werden 24 Cent pro Stunde vergütet: maximal 60 Euro im Monat und 720 Euro im 1. Vertragsjahr. Zunächst werden die Marken VW, VW Nutzfahrzeuge, Cupra und Skoda unterstützt; in der Ankündigung im Sommer war Skoda noch nicht genannt. Laut VW sind in Europa mehr als 1 Million und in Deutschland rund 360.000 MEB-Fahrzeuge für bidirektionales Laden bereit; die Energieübertragung ins Eigenheim (V2H) ist für 2027 geplant."
+          },
+          "tarih": "2026-11-25"
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "ACEA: Ekim'de AB'de satılan her 10 otomobilin 3'ü elektrikli; Almanya'da tescil yaklaşık yüzde 80 arttı",
+          "ozet": "Avrupa Otomobil Üreticileri Birliği'nin (ACEA) verisine göre Ekim 2026'da AB'de 279.799 tam elektrikli otomobil tescil edildi; bu yüzde 61,4 artış ve yüzde 29,8 pazar payı demek. Toplam pazar yüzde 2,6 büyüyerek 939.447 araca ulaştı; şarjsız hibritler yüzde 34 payla ilk sırada, benzinli tesciller yüzde 30, dizel yüzde 31 geriledi. Almanya 94.086, Fransa 61.958 elektrikli tescille yaklaşık yüzde 80'er büyüdü. Ocak-Ekim toplamı 2.211.071 araç ve yüzde 23,4 pay. Çinli markalarda BYD 30.974 araçla (yüzde 128 artış) Tesla'nın 10.166'lık tescilinin üç katına çıktı; Leapmotor yüzde 279 büyüdü.",
+          "kaynak": "electrive (ACEA verisi) · 24 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/24/acea-elektroautos-ergattern-in-der-eu-30-prozent-vom-pkw-kuchen/",
+          "not": "Yeni araçta benzinli ve dizel tescilleri yüzde 30 düşerken elektrikli payı arttı; stok planında elektrikli ve hibrit ağırlığını gözden geçirin.",
+          "ig": "ACEA: Ekim'de AB'de 279.799 elektrikli otomobil tescil edildi, pay yüzde 29,8. Almanya 94.086 araçla yaklaşık yüzde 80 büyüdü; BYD, Tesla'nın üç katı sattı.",
+          "igNot": "Benzinli ve dizel tescili yüzde 30 düştü; stokta elektrikli payını gözden geçirin.",
+          "gorselAra": "",
+          "foto": "alan-yz",
+          "en": {
+            "baslik": "ACEA: in October, 3 in 10 new cars sold in the EU were electric; registrations in Germany up around 80%",
+            "ozet": "According to ACEA, 279,799 fully electric cars were registered in the EU in October 2026, a 61.4% increase and a 29.8% market share. The total market grew 2.6% to 939,447 vehicles; non-plug-in hybrids led with a 34% share, while petrol registrations fell 30% and diesel 31%. Germany (94,086) and France (61,958) both grew about 80% in electric registrations. The January-October total was 2,211,071 vehicles and a 23.4% share. Among Chinese brands, BYD reached 30,974 cars (up 128%), triple Tesla's 10,166 registrations; Leapmotor grew 279%."
+          },
+          "tarih": "2026-11-25",
+          "de": {
+            "baslik": "ACEA: Im Oktober waren 3 von 10 in der EU verkauften Pkw elektrisch; Zulassungen in Deutschland steigen um rund 80 Prozent",
+            "ozet": "Laut dem Verband ACEA wurden im Oktober 2026 in der EU 279.799 vollelektrische Pkw zugelassen; das ist ein Plus von 61,4 Prozent und ein Marktanteil von 29,8 Prozent. Der Gesamtmarkt wuchs um 2,6 Prozent auf 939.447 Fahrzeuge; Hybride ohne Steckdose lagen mit 34 Prozent Anteil vorn, während die Zulassungen von Benzinern um 30 Prozent und von Dieseln um 31 Prozent zurückgingen. Deutschland (94.086) und Frankreich (61.958) wuchsen bei den Elektro-Zulassungen jeweils um rund 80 Prozent. Von Januar bis Oktober summierten sich die Zulassungen auf 2.211.071 Fahrzeuge bzw. einen Anteil von 23,4 Prozent. Unter den chinesischen Marken kam BYD auf 30.974 Fahrzeuge (plus 128 Prozent), das Dreifache der 10.166 Zulassungen von Tesla; Leapmotor wuchs um 279 Prozent."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "Opel ve Leapmotor elektrikli SUV için anlaştı: 2028'den itibaren Zaragoza'da üretilecek",
+          "ozet": "Opel CEO'su Florian Huettl ile Leapmotor CEO'su Zhu Jiangming, C segmentinde yeni bir elektrikli SUV için iş birliği anlaşmasını imzaladı. Opel'e göre yaklaşık 4,50 metrelik model Frontera ile Grandland arasına yerleşecek; geliştirme Rüsselsheim ve Hangzhou'daki ortak merkezlerde 2026 ortasında başladı ve iki yılın altında tamamlanması hedefleniyor. Üretim 2028'den itibaren Stellantis'in İspanya'daki Zaragoza fabrikasında yapılacak. Leapmotor B10'un parçalarının kullanılıp kullanılmayacağı doğrulanmadı. Stellantis, Leapmotor'un yüzde 20'sine ve Leapmotor International'ın yüzde 51'ine sahip.",
+          "kaynak": "electrive · 23 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/23/opel-und-leapmotor-e-suv-kooperation/",
+          "ig": "Opel ve Leapmotor yaklaşık 4,50 metrelik elektrikli SUV için anlaştı. Geliştirme iki yılın altında bitecek, üretim 2028'de Zaragoza'da başlayacak.",
+          "gorselAra": "Opel Russelsheim plant",
+          "foto": "bolum-araclar",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Opel-Mokka_weiss_Ruesselsheim150J_Seitenansicht-hoch_LWS1406.jpg/960px-Opel-Mokka_weiss_Ruesselsheim150J_Seitenansicht-hoch_LWS1406.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "L.Willms",
+            "lisans": "CC BY-SA 3.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Opel-Mokka_weiss_Ruesselsheim150J_Seitenansicht-hoch_LWS1406.jpg"
+          },
+          "en": {
+            "baslik": "Opel and Leapmotor agree on electric SUV: to be built in Zaragoza from 2028",
+            "ozet": "Opel CEO Florian Huettl and Leapmotor CEO Zhu Jiangming signed a cooperation agreement for a new electric SUV in the C segment. According to Opel, the roughly 4.50-metre model will sit between Frontera and Grandland; development began in mid-2026 at the joint centres in Rüsselsheim and Hangzhou and is targeted for completion in under 2 years. Production will take place from 2028 at Stellantis' Zaragoza plant in Spain. Whether parts of the Leapmotor B10 will be used has not been confirmed. Stellantis owns 20% of Leapmotor and 51% of Leapmotor International."
+          },
+          "de": {
+            "baslik": "Opel und Leapmotor vereinbaren Elektro-SUV: Produktion ab 2028 in Zaragoza",
+            "ozet": "Opel-Chef Florian Huettl und Leapmotor-Chef Zhu Jiangming haben eine Kooperationsvereinbarung für ein neues Elektro-SUV im C-Segment unterzeichnet. Laut Opel wird das rund 4,50 Meter lange Modell zwischen Frontera und Grandland positioniert; die Entwicklung begann Mitte 2026 in den gemeinsamen Zentren in Rüsselsheim und Hangzhou und soll in weniger als 2 Jahren abgeschlossen sein. Die Produktion erfolgt ab 2028 im Stellantis-Werk in Zaragoza (Spanien). Ob Teile des Leapmotor B10 verwendet werden, ist nicht bestätigt. Stellantis hält 20 Prozent an Leapmotor und 51 Prozent an Leapmotor International."
+          },
+          "tarih": "2026-11-25"
+        },
+        {
+          "alan": "emlak",
+          "baslik": "ImmoScout24: 30.000 avroluk destek, alıcının ulaşabildiği ilan sayısını yüzde 19 artırırdı",
+          "ozet": "ImmoScout24, 15 Ekim 2026 itibarıyla yayındaki 214.337 satılık ilan üzerinden bir senaryo analizi yaptı; Haufe 24 Kasım'da aktardı. Alıcıya 10.000 avro ek destek verilse bütçeye uyan ilan sayısı yüzde 6,7, 20.000 avroda yüzde 12,1, 30.000 avroda yüzde 19 artıyor. 30.000 avroyla ülke genelinde ilanların yaklaşık onda dördü ulaşılabilir oluyor; desteksiz durumda bu oran yaklaşık üçte bir. En büyük etki Aşağı Saksonya (yüzde 25,4), Baden-Württemberg (yüzde 24,2) ve Hamburg'da (yüzde 24,1). Analiz belirli bir devlet programını değil varsayımsal tutarları modelliyor. Satın almak şu an 418 bölgenin 45'inde kiradan ucuz; beş yıl sonra bu sayı 213'e çıkıyor.",
+          "kaynak": "Haufe Immobilien (ImmoScout24 analizi) · 24 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kreditvergabe-fuer-wohnungsbau-stark-ruecklaeufig_84342_120650.html",
+          "not": "İlan videosunda aylık kredi taksitini bölgedeki kira ile yan yana gösterin; satın almanın kiradan ucuz olduğu bölgelerde en güçlü argüman bu.",
+          "ig": "ImmoScout24: 30.000 avro destek, alıcının bütçesine uyan ilan sayısını yüzde 19 artırırdı. Satın almak 418 bölgenin yalnızca 45'inde kiradan ucuz.",
+          "igNot": "İlan videosunda kredi taksitini bölge kirasıyla yan yana gösterin.",
+          "gorselAra": "",
+          "foto": "bolum-eticaret",
+          "en": {
+            "baslik": "ImmoScout24: a 30,000-euro buyer subsidy would raise the number of affordable listings by 19%",
+            "ozet": "ImmoScout24 ran a scenario analysis on the 214,337 sale listings online as of 15 October 2026; Haufe reported it on 24 November. With an additional 10,000-euro buyer subsidy, the number of listings within budget rises 6.7%; at 20,000 euros, 12.1%; at 30,000 euros, 19%. With 30,000 euros, about 4 in 10 listings nationwide become affordable, compared with about 1 in 3 without a subsidy. The largest effects are in Lower Saxony (25.4%), Baden-Württemberg (24.2%) and Hamburg (24.1%). The analysis models hypothetical amounts, not a specific state programme. Buying is currently cheaper than renting in 45 of 418 districts; in 5 years this number rises to 213."
+          },
+          "de": {
+            "baslik": "ImmoScout24: 30.000 Euro Kaufzuschuss würde Zahl der erschwinglichen Angebote um 19 Prozent erhöhen",
+            "ozet": "ImmoScout24 hat eine Szenarioanalyse auf Basis der 214.337 zum Stand 15. Oktober 2026 online verfügbaren Kaufangebote durchgeführt; Haufe berichtete am 24. November darüber. Mit einem zusätzlichen Käuferzuschuss von 10.000 Euro steigt die Zahl der budgetpassenden Angebote um 6,7 Prozent, bei 20.000 Euro um 12,1 Prozent und bei 30.000 Euro um 19 Prozent. Mit 30.000 Euro werden bundesweit rund 4 von 10 Angeboten erreichbar, ohne Zuschuss etwa ein Drittel. Den größten Effekt gibt es in Niedersachsen (25,4 Prozent), Baden-Württemberg (24,2 Prozent) und Hamburg (24,1 Prozent). Die Analyse modelliert hypothetische Beträge, kein konkretes Landesprogramm. Derzeit ist der Kauf in 45 der 418 Regionen günstiger als die Miete; in 5 Jahren steigt diese Zahl auf 213."
+          },
+          "tarih": "2026-11-25"
+        },
+        {
+          "alan": "emlak",
+          "baslik": "Noel süsü ve kira hukuku: balkonda ışık serbest, cepheye matkap için ev sahibi onayı şart",
+          "ozet": "Haufe, Noel süslemelerine ilişkin mahkeme kararlarını 24 Kasım'da derledi. Eschweiler Sulh Mahkemesi'ne göre (26 C 43/14) balkondaki ışık zincirine katlanılması gerekiyor; Berlin Eyalet Mahkemesi (65 S 390/09) ışık süsü nedeniyle feshi kabul etmedi. Buna karşılık bütün merdiven boşluğunun süslenmesi kaldırtılabiliyor (AG Münster, 38 C 1858/08) ve cepheye delik açmak ev sahibinin onayını gerektiriyor. Federal Mahkeme'ye göre (BGH, VIII ZR 67/06) advent çelengi yangınında basit ihmal varsa zararı ev sahibinin bina sigortası karşılar. Işıkların en geç saat 22.00'de kapatılması öneriliyor.",
+          "kaynak": "Haufe Immobilien · 24 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/verwaltung/weihnachtsdeko-wie-bunt-darfs-sein_258_556544.html",
+          "not": "Çok daireli binalarda sakinlere kısa bir bilgi notu işe yarar: balkon serbest, cephe ve merdiven boşluğu onaya bağlı.",
+          "ig": "Noel süsü ve kira hukuku: balkonda ışık zinciri serbest (AG Eschweiler), cepheye delik için ev sahibi onayı şart. Işıklar en geç 22.00'de kapanmalı.",
+          "igNot": "Bina sakinlerine kısa not: balkon süsü serbest, cephe ve merdiven onaya bağlı.",
+          "gorselAra": "",
+          "foto": "bolum-gunluk",
+          "tarih": "2026-11-25",
+          "en": {
+            "baslik": "Christmas decorations and tenancy law: balcony light strings must be tolerated; drilling into the facade needs landlord consent",
+            "ozet": "On 24 November Haufe compiled court rulings on Christmas decorations. According to the Eschweiler Local Court (26 C 43/14), a string of lights on a balcony must be tolerated; the Berlin Regional Court (65 S 390/09) did not accept termination over light decorations. By contrast, decorating the entire stairwell can be ordered removed (Münster Local Court, 38 C 1858/08), and drilling holes in the facade requires the landlord's consent. According to the Federal Court of Justice (BGH, VIII ZR 67/06), if an Advent wreath causes a fire through simple negligence, the landlord's building insurance covers the damage. Switching lights off by 22.00 at the latest is recommended."
+          },
+          "de": {
+            "baslik": "Weihnachtsdeko und Mietrecht: Lichterketten auf dem Balkon sind hinzunehmen, Bohren in die Fassade braucht Zustimmung des Vermieters",
+            "ozet": "Haufe hat am 24. November Gerichtsentscheidungen zu Weihnachtsdekorationen zusammengestellt. Laut Amtsgericht Eschweiler (26 C 43/14) ist eine Lichterkette auf dem Balkon hinzunehmen; das Landgericht Berlin (65 S 390/09) ließ eine Kündigung wegen Lichtdekoration nicht gelten. Dagegen kann die Dekoration des gesamten Treppenhauses zur Entfernung verpflichten (AG Münster, 38 C 1858/08), und Löcher in die Fassade zu bohren erfordert die Zustimmung des Vermieters. Nach Auffassung des Bundesgerichtshofs (BGH, VIII ZR 67/06) deckt die Gebäudeversicherung des Vermieters den Schaden, wenn ein Adventskranz aus einfacher Fahrlässigkeit einen Brand verursacht. Empfohlen wird, die Lichter spätestens um 22.00 Uhr auszuschalten."
+          }
+        },
+        {
+          "alan": "emlak",
+          "baslik": "Kiralık dairede evcil hayvan: genel yasak geçersiz, ama köpek ve kedi için onay gerekiyor",
+          "ozet": "Haufe'nin 24 Kasım tarihli derlemesi kira hukukunda evcil hayvan kurallarını özetliyor. Federal Mahkeme'nin 20 Mart 2013 tarihli kararına göre (BGH, VIII ZR 168/12) tip sözleşmedeki genel evcil hayvan yasağı geçersiz; kafeste tutulan küçük hayvanlar için onay gerekmiyor, köpek ve kedi için ise genellikle gerekiyor. Sınır örnekleri: Münih Sulh Mahkemesi 2,5 odalı dairede birden fazla köpeği kural olarak sözleşmeye aykırı buldu (424 C 28654/13), Wiesbaden 57 metrekarede dört kediden üçüne izin verdi (91 C 3026/12), Menden 60-80 kuş nedeniyle feshi onadı (4 C 286/13). Kuzey Ren-Vestfalya Yüksek İdare Mahkemesi 7 Ekim 2025'te birinci kuşak Savannah kedisini yasakladı.",
+          "kaynak": "Haufe Immobilien · 24 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/haustiere-in-der-mietwohnung-rechte-und-pflichten_84342_658938.html",
+          "not": "Kiralık ilanda \"evcil hayvan yasak\" yazmak yerine \"köpek ve kedi ev sahibi onayına bağlıdır\" ifadesini kullanın.",
+          "ig": "Kiralık dairede genel evcil hayvan yasağı geçersiz (BGH, 2013). Küçük kafes hayvanı onaysız tutulabilir; köpek ve kedi için genellikle ev sahibi onayı gerekir.",
+          "igNot": "İlanda \"evcil hayvan yasak\" yerine \"onaya bağlıdır\" yazın.",
+          "gorselAra": "",
+          "foto": "kaynak-caglayan",
+          "en": {
+            "baslik": "Pets in rented flats: general ban void, but dogs and cats need consent",
+            "ozet": "Haufe's 24 November compilation summarises pet rules in tenancy law. According to the Federal Court of Justice ruling of 20 March 2013 (BGH, VIII ZR 168/12), the general pet ban in standard lease contracts is void; small animals kept in cages need no consent, while dogs and cats generally do. Border cases: the Munich Local Court found several dogs in a 2.5-room flat generally in breach of the contract (424 C 28654/13); Wiesbaden allowed 3 of 4 cats in 57 square metres (91 C 3026/12); the Menden Local Court upheld termination over 60-80 birds (4 C 286/13). On 7 October 2025 the Higher Administrative Court of North Rhine-Westphalia banned a 1st-generation Savannah cat."
+          },
+          "de": {
+            "baslik": "Haustiere in Mietwohnungen: Pauschales Verbot unwirksam, bei Hunden und Katzen ist aber Zustimmung nötig",
+            "ozet": "Haufe fasst am 24. November Gerichtsentscheidungen zu Haustierregeln im Mietrecht zusammen. Laut Urteil des Bundesgerichtshofs vom 20. März 2013 (BGH, VIII ZR 168/12) ist das pauschale Haustierverbot im Formularmietvertrag unwirksam; in Käfigen gehaltene Kleintiere bedürfen keiner Zustimmung, bei Hunden und Katzen ist sie in der Regel erforderlich. Grenzfälle: Das Amtsgericht München sah mehrere Hunde in einer 2,5-Zimmer-Wohnung grundsätzlich als vertragswidrig an (424 C 28654/13); das Amtsgericht Wiesbaden erlaubte bei 57 Quadratmetern 3 von 4 Katzen (91 C 3026/12); das Amtsgericht Menden bestätigte die Kündigung wegen 60 bis 80 Vögeln (4 C 286/13). Das Oberverwaltungsgericht Nordrhein-Westfalen untersagte am 7. Oktober 2025 eine Savannah-Katze der 1. Generation."
+          },
+          "tarih": "2026-11-25"
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "Hollanda mahkemesi BYD Ti7'nin AB'de satışını durdurdu: Land Rover Defender'a fazla benziyor",
+          "ozet": "Lahey'deki bir mahkeme 20 Kasım'da acil tedbir kararıyla on BYD iştirakine Ti7 SUV'unu AB'de üretme ve satmayı yasakladı; mahkemeye göre model JLR'nin Defender tasarımına ön değerlendirmede fazla benziyor. BYD farklılıkların uzun bir listesini sunmuştu; asıl dava henüz görülmedi. Ti7 Çin'de Eylül 2025'ten beri Fang Cheng Bao markasıyla satılıyor ve orada en çok satan on model arasında. Birleşik Krallık AB dışında olduğu için Ocak 2027'de başlayacak İngiltere teslimatları karardan etkilenmiyor, ancak JLR orada da yasal yola gitmek istiyor.",
+          "kaynak": "electrive · 23 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/23/gerichtsverfuegung-byd-ti7-sieht-dem-jlr-defender-zu-aehnlich/",
+          "not": "Paralel ithalatla Ti7 getirmeyi düşünen satıcılar AB'de satış yasağı kalkmadan stok almamalı.",
+          "ig": "Lahey mahkemesi BYD Ti7'nin AB'de satışını tasarım benzerliği nedeniyle geçici olarak durdurdu; asıl dava sürüyor.",
+          "igNot": "Yasak kalkmadan Ti7 stoklamayın.",
+          "gorselAra": "Land Rover Defender",
+          "foto": "ekstrem",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Land_Rover_Defender_110_Station_Wagon_2016_-_rear.jpg/960px-Land_Rover_Defender_110_Station_Wagon_2016_-_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "DeFacto",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Land_Rover_Defender_110_Station_Wagon_2016_-_rear.jpg"
+          },
+          "en": {
+            "baslik": "Dutch court halts sales of BYD Ti7 in the EU: it looks too much like the Land Rover Defender",
+            "ozet": "A court in The Hague on 20 November issued an interim injunction banning ten BYD subsidiaries from producing and selling the Ti7 SUV in the EU; the court found, at a preliminary stage, that the model looks too much like JLR's Defender design. BYD submitted a long list of differences; the main case has not yet been heard. The Ti7 has been sold in China since September 2025 under the Fang Cheng Bao brand and is among the ten best-selling models there. Because the UK is outside the EU, UK deliveries, which begin in January 2027, are not affected by the ruling, but JLR wants to pursue legal action there too."
+          },
+          "de": {
+            "baslik": "Niederländisches Gericht stoppt Verkauf des BYD Ti7 in der EU: zu große Ähnlichkeit mit dem Land Rover Defender",
+            "ozet": "Ein Gericht in Den Haag hat am 20. November im Eilverfahren zehn BYD-Tochtergesellschaften untersagt, das SUV Ti7 in der EU herzustellen und zu verkaufen; nach vorläufiger Einschätzung ähnelt das Modell zu stark dem Defender-Design von JLR. BYD hat eine lange Liste von Unterschieden vorgelegt; das Hauptverfahren hat noch nicht stattgefunden. Der Ti7 wird in China seit September 2025 unter der Marke Fang Cheng Bao verkauft und gehört dort zu den zehn meistverkauften Modellen. Da das Vereinigte Königreich nicht zur EU gehört, sind die britischen Auslieferungen, die im Januar 2027 beginnen, von dem Urteil nicht betroffen; JLR will aber auch dort rechtlich vorgehen."
+          },
+          "tarih": "2026-11-24"
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "Mercedes, Almanya'da kapıdan kapıya sürüş asistanı için KBA onayı alan ilk üretici oldu",
+          "ozet": "Federal Motorlu Taşıtlar Dairesi (KBA), Mercedes-Benz'in MB.Drive Assist Pro sistemine BM'nin R171 düzenlemesi kapsamında onay verdi; Mercedes Almanya'da noktadan noktaya sürüş asistanı için onay alan ilk üretici oldu. Sistem, navigasyon etkinken şerit değiştirip kavşaklarda dönebiliyor, ışıklarda durup kalkabiliyor ve otoyola girip çıkabiliyor; bu SAE Seviye 2, yani sürücü sorumluluğu sürüyor. 10 kamera, 5 radar ve 12 ultrasonik sensör dahil 27 sensör kullanılıyor; sürücü direksiyona müdahale ettiğinde sistem kapanmıyor.",
+          "kaynak": "electrive · 23 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/23/mercedes-erhaelt-kba-zulassung-fuer-tuer-zu-tuer-fahrassistent/",
+          "not": "Müşteriye anlatırken bunun otonom sürüş değil Seviye 2 olduğunu, sorumluluğun sürücüde kaldığını açıkça söyle.",
+          "ig": "KBA, Mercedes'in kapıdan kapıya sürüş asistanını onayladı: şehir içinde dönebiliyor, ışıkta duruyor. Seviye 2, sürücü sorumlu.",
+          "igNot": "Müşteriye Seviye 2 olduğunu net söyle.",
+          "gorselAra": "Mercedes-Benz Museum",
+          "foto": "kaynak-sbs",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mercedes-Benz_Museum_201312_08_blue_hour.jpg/960px-Mercedes-Benz_Museum_201312_08_blue_hour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Julian Herzog ( Website )",
+            "lisans": "CC BY 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Museum_201312_08_blue_hour.jpg"
+          },
+          "en": {
+            "baslik": "Mercedes becomes first manufacturer with KBA approval for door-to-door driving assistant in Germany",
+            "ozet": "Germany's Federal Motor Transport Authority (KBA) approved Mercedes-Benz's MB.Drive Assist Pro system under UN Regulation R171; Mercedes is the first manufacturer to receive approval in Germany for point-to-point driver assistance. The system can change lanes and turn at junctions while navigation is active, stop and start at traffic lights, and enter and leave motorways. This is SAE Level 2, meaning the driver remains responsible. It uses 27 sensors, including 10 cameras, 5 radars and 12 ultrasonic sensors; the system does not switch off when the driver intervenes on the steering wheel."
+          },
+          "de": {
+            "baslik": "Mercedes erhält als erster Hersteller KBA-Zulassung für Tür-zu-Tür-Fahrassistenten in Deutschland",
+            "ozet": "Das Kraftfahrt-Bundesamt (KBA) hat das System MB.Drive Assist Pro von Mercedes-Benz nach der UN-Regelung R171 genehmigt; Mercedes ist damit der erste Hersteller, der in Deutschland eine Zulassung für einen Fahrassistenten von Ort zu Ort erhält. Das System kann bei aktiver Navigation die Spur wechseln und an Kreuzungen abbiegen, an Ampeln anhalten und anfahren sowie auf die Autobahn auf- und abfahren. Es entspricht SAE-Stufe 2, der Fahrer bleibt also verantwortlich. Eingesetzt werden 27 Sensoren, darunter 10 Kameras, 5 Radare und 12 Ultraschallsensoren; greift der Fahrer ins Lenkrad ein, schaltet sich das System nicht ab."
+          },
+          "tarih": "2026-11-24"
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "VW ID. Polo için bekleme süresi bir yılı aştı; en ucuz donanımda 21 ay",
+          "ozet": "electrive'ın Automobilwoche ve Motor.es'e dayanan haberine göre Volkswagen'in elektrikli küçük otomobili ID. Polo için bayiler bir yılı aşan bekleme süreleri bildiriyor. Eylül sonunda yaklaşık 53.000 sipariş vardı. Almanya'da 24.995 euro başlangıç fiyatlı Trend donanımında teslimat 21 aya kadar uzayabilirken Sportline için yaklaşık beş, GTI için yedi ay bekleniyor. VW İspanya'daki üretimi hızlandırmak istiyor, ancak eksik batarya hücreleri de üretimi frenliyor.",
+          "kaynak": "electrive · 23 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/23/vw-id-polo-ein-jahr-wartezeit/",
+          "not": "Ucuz elektrikli küçük araç arayan müşteriyi genç ikinci el ID.3 ya da e-Up stoğuna yönlendirebilirsin.",
+          "ig": "VW ID. Polo'da bekleme bir yılı aştı; 24.995 euroluk Trend donanımında 21 aya kadar. Eylül sonunda 53.000 sipariş vardı.",
+          "igNot": "Bekleyen müşteriye genç ikinci el EV öner.",
+          "gorselAra": "",
+          "foto": "lansman",
+          "en": {
+            "baslik": "VW ID. Polo waiting time exceeds a year; 21 months for the cheapest trim",
+            "ozet": "According to electrive's report, based on Automobilwoche and Motor.es, dealers report waiting times of more than a year for Volkswagen's electric small car, the ID. Polo. Around 53,000 orders were in by the end of September. For the Trend trim, which starts at 24,995 euros in Germany, delivery can take up to 21 months, while about five months are expected for the Sportline and seven for the GTI. VW wants to speed up production in Spain, but missing battery cells are also slowing it down."
+          },
+          "de": {
+            "baslik": "Wartezeit für VW ID. Polo liegt über einem Jahr; 21 Monate bei der günstigsten Ausstattung",
+            "ozet": "Laut einem Bericht von electrive, der sich auf Automobilwoche und Motor.es stützt, melden Händler Wartezeiten von über einem Jahr für den elektrischen Kleinwagen ID. Polo von Volkswagen. Ende September lagen rund 53.000 Bestellungen vor. Bei der Ausstattung Trend, die in Deutschland bei 24.995 Euro beginnt, kann sich die Lieferung auf bis zu 21 Monate verzögern, für den Sportline werden etwa fünf und für den GTI etwa sieben Monate erwartet. VW möchte die Produktion in Spanien beschleunigen, doch fehlende Batteriezellen bremsen sie zusätzlich."
+          },
+          "tarih": "2026-11-24"
+        },
+        {
+          "alan": "emlak",
+          "baslik": "Almanya'da konut izinleri Eylül'de yüzde 14,8 düştü, ilk dokuz ayda ise yüzde 8,4 arttı",
+          "ozet": "Federal İstatistik Dairesi Destatis'e göre Eylül 2026'da 20.800 konutun yapımına izin verildi; bu, bir yıl öncesine göre yüzde 14,8 ya da 3.600 izin az. Yeni binalarda izinler yüzde 19,9 düşerek 16.800'e indi; Destatis düşüşü kısmen geçen yılın aynı ayındaki yüksek sayıya bağlıyor. Mevcut binaların dönüştürülmesiyle oluşan konut izinleri ise yüzde 15,8 artarak 4.000'e çıktı. Ocak-Eylül döneminde 190.200 konuta izin verildi, yüzde 8,4 artış; müstakil evlerde yüzde 4,8, iki daireli evlerde yüzde 17,7 artış var.",
+          "kaynak": "Destatis · 18 Kasım 2026",
+          "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_402_3111.html",
+          "not": "İlan videosunda yeni inşaat arzının sınırlı kaldığını Destatis rakamıyla göstermek alıcıya somut gerekçe sunar.",
+          "ig": "Almanya'da Eylül'de 20.800 konuta izin verildi, yıllık yüzde 14,8 düşüş; ilk dokuz ayda ise izinler yüzde 8,4 arttı.",
+          "igNot": "Destatis rakamıyla yeni arzın sınırlı olduğunu göster.",
+          "gorselAra": "",
+          "foto": "n8n",
+          "en": {
+            "baslik": "Building permits in Germany fell 14.8 percent in September but rose 8.4 percent in the first nine months",
+            "ozet": "According to Destatis, the Federal Statistical Office, permits were granted for 20,800 dwellings in September 2026, down 14.8 percent or 3,600 permits from a year earlier. Permits for new buildings fell 19.9 percent to 16,800; Destatis partly attributes the decline to the high figure in the same month last year. Permits for dwellings created by converting existing buildings rose 15.8 percent to 4,000. From January to September, permits were issued for 190,200 dwellings, an increase of 8.4 percent; single-family homes rose 4.8 percent and two-family homes rose 17.7 percent."
+          },
+          "de": {
+            "baslik": "Baugenehmigungen in Deutschland im September um 14,8 Prozent gesunken, in den ersten neun Monaten um 8,4 Prozent gestiegen",
+            "ozet": "Laut dem Statistischen Bundesamt Destatis wurde im September 2026 der Bau von 20.800 Wohnungen genehmigt; das sind 14,8 Prozent oder 3.600 Genehmigungen weniger als ein Jahr zuvor. Bei Neubauten sanken die Genehmigungen um 19,9 Prozent auf 16.800; Destatis führt den Rückgang teilweise auf den hohen Wert im Vorjahresmonat zurück. Wohnungen, die durch Umbau bestehender Gebäude entstehen, stiegen um 15,8 Prozent auf 4.000. Von Januar bis September wurden Baugenehmigungen für 190.200 Wohnungen erteilt, ein Plus von 8,4 Prozent; bei Einfamilienhäusern betrug das Plus 4,8 Prozent, bei Zweifamilienhäusern 17,7 Prozent."
+          },
+          "tarih": "2026-11-24"
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-23",
+          "baslik": "VW, 2030'a kadar Çin'de ürettiği yılda 300.000 aracı ihraç edecek",
+          "ozet": "Düşen satışlar ve ucuz Çinli rakiplerin baskısı altındaki Volkswagen, 2030'a kadar Çin'de üretilen yaklaşık 300.000 aracı her yıl dışarı satmayı planlıyor. Hedef pazarlar Meksika, Güney Amerika, Orta Doğu, Afrika ve Güneydoğu Asya; ABD bayilerine bu araçlar şimdilik gelmeyecek. Electrek'e göre VW, Avrupa'daki temel model gamının yüzde 75'ine kadarında Xpeng'in teknoloji altyapısını kullanmayı da değerlendiriyor.",
+          "kaynak": "Electrek · 23 Kasım 2026",
+          "url": "https://electrek.co/2026/11/23/if-you-cant-beat-em-vw-to-export-300000-chinese-built-cars-per-year-by-2030/",
+          "en": {
+            "baslik": "VW to export 300,000 China-built cars a year by 2030",
+            "ozet": "Under pressure from falling sales and cheap Chinese rivals, Volkswagen plans to export roughly 300,000 China-built cars a year by 2030. Target markets are Mexico, South America, the Middle East, Africa and Southeast Asia; US dealers will not get these cars for now. According to Electrek, VW is also considering Xpeng's technology stack for up to 75% of its core European lineup."
+          },
+          "de": {
+            "baslik": "VW will bis 2030 jährlich 300.000 in China gebaute Autos exportieren",
+            "ozet": "Unter dem Druck sinkender Verkäufe und günstiger chinesischer Konkurrenz plant Volkswagen, bis 2030 jährlich rund 300.000 in China gebaute Autos zu exportieren. Zielmärkte sind Mexiko, Südamerika, der Nahe Osten, Afrika und Südostasien; US-Händler bekommen diese Autos vorerst nicht. Laut Electrek erwägt VW außerdem, Xpengs Technikplattform für bis zu 75 % seiner europäischen Kernmodelle zu nutzen."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-23",
+          "baslik": "Berlin'de konut kavgası: Vonovia CEO'su Mucic diyalog çağrısı yaptı",
+          "ozet": "Almanya'nın en büyük konut şirketi Vonovia'nın CEO'su Luka Mucic, Bochum'daki çeyrek sonuçları toplantısında Berlin'deki konut tartışmasında diyaloğa hazır olduğunu yineledi, ama siyasi bir gösteriye değil yapıcı bir görüşmeye. Berlin'deki kırmızı-yeşil-kırmızı koalisyon büyük konut şirketlerinin kamulaştırılmasını planlarken Mucic kamulaştırma yerine yatırımı savunuyor. Daha önce Sol Parti ile planlanan bir görüşme gerçekleşmemişti.",
+          "kaynak": "Haufe Immobilien · 23 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/vonovia-steigert-mieteinnahmen-und-gewinn_84342_489382.html",
+          "en": {
+            "baslik": "Berlin housing dispute: Vonovia CEO Mucic calls for dialogue",
+            "ozet": "At the presentation of quarterly results in Bochum, Luka Mucic, CEO of Germany's largest residential landlord Vonovia, repeated his readiness for dialogue in Berlin's housing dispute, but in the form of a constructive exchange rather than political staging. While Berlin's red-green-red coalition plans to socialise large housing companies, Mucic argues for investment instead of expropriation. An earlier meeting with the Left party had not taken place."
+          },
+          "de": {
+            "baslik": "Berliner Wohnungsstreit: Vonovia-Chef Mucic drängt auf Dialog",
+            "ozet": "Bei der Vorstellung der Quartalszahlen in Bochum bekräftigte Luka Mucic, Chef des größten deutschen Wohnungskonzerns Vonovia, seine Bereitschaft zum Austausch im Berliner Wohnungsstreit, allerdings nicht als politische Inszenierung, sondern als konstruktives Gespräch. Während Rot-Grün-Rot in Berlin die Vergesellschaftung großer Wohnungsunternehmen plant, setzt Mucic auf Investitionen statt Enteignung. Ein früheres Treffen mit der Linken war nicht zustande gekommen."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-22",
+          "baslik": "İkinci el elektrikli otomobile ilgi artıyor",
+          "ozet": "Yüksek akaryakıt fiyatları elektrikli otomobil talebini artırırken bu ilgi gecikmeyle ikinci el bayilerine de yansıyor. tagesschau'nun örneğindeki çift, 4 yaşında ve 58.000 kilometrede bir Ford Mustang Mach-E aldı; hesaplarına göre halka açık istasyonda şarj ederek 100 kilometrede 10 euroya kadar tasarruf ediyorlar, evde şarjla daha fazla. Habere göre elektrikli otomobiller 2020 ile 2025 arasında yaklaşık yüzde 18 ucuzladı; ikinci el alımında batarya durumu belirleyici.",
+          "kaynak": "tagesschau · 22 Kasım 2026",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/gebrauchte-elektroautos-100.html",
+          "en": {
+            "baslik": "Demand for used electric cars is rising",
+            "ozet": "High fuel prices are boosting demand for electric cars, and the interest is now reaching used-car dealers with a delay. A couple in the tagesschau report bought a 4-year-old Ford Mustang Mach-E with 58,000 km; by their calculation, charging at public stations saves up to 10 euros per 100 km, more when charging at home. According to the report, electric cars became about 18% cheaper between 2020 and 2025; when buying used, the battery's condition is decisive."
+          },
+          "de": {
+            "baslik": "Gebrauchte Elektroautos sind gefragter",
+            "ozet": "Hohe Spritpreise steigern die Nachfrage nach E-Autos, und mit Verzögerung kommt der Boom nun bei Gebrauchtwagenhändlern an. Ein Paar im tagesschau-Bericht kaufte einen 4 Jahre alten Ford Mustang Mach-E mit 58.000 Kilometern; nach eigener Rechnung sparen sie an öffentlichen Ladesäulen bis zu 10 Euro auf 100 Kilometer, zu Hause noch mehr. E-Autos sind laut Bericht zwischen 2020 und 2025 um rund 18 % günstiger geworden; beim Gebrauchtkauf entscheidet der Zustand der Batterie."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-21",
+          "baslik": "Otoyol benzinlikleri akaryakıt fiyat tavanının dışında kalabilir",
+          "ozet": "Benzin ve dizel için ocakta başlaması planlanan fiyat tavanından otoyol benzinliklerinin muaf tutulması gündemde. Handelsblatt ve dpa'ya göre Ekonomi Bakanı Katherina Reiche, bu istasyonların daha yüksek kira ödemesi ve 24 saat açık olması nedeniyle maliyetlerinin yüksek olduğunu gerekçe gösteriyor. Otoyol çıkışlarındaki dinlenme tesisleri (Autohof) ise tavana tabi olacak. İran savaşı sonrası yapılan akaryakıt vergisi indirimi yıl sonunda bitiyor; taslak bakanlıklar arasında hâlâ görüşülüyor.",
+          "kaynak": "tagesschau · 21 Kasım 2026",
+          "url": "https://www.tagesschau.de/inland/spritpreis-autobahntankstellen-ausnahme-100.html",
+          "en": {
+            "baslik": "Motorway petrol stations may be exempt from the fuel price cap",
+            "ozet": "Motorway petrol stations could be exempted from the price cap for petrol and diesel planned to start in January. According to Handelsblatt and dpa, Economy Minister Katherina Reiche argues that these stations have higher costs because they pay higher rents and are open 24 hours. Truck stops near motorway exits (Autohöfe) would still fall under the cap. The fuel tax cut introduced after the Iran war ends at the turn of the year; the draft is still being coordinated between ministries."
+          },
+          "de": {
+            "baslik": "Autobahntankstellen sollen vom Spritpreisdeckel ausgenommen werden",
+            "ozet": "Autobahntankstellen könnten vom Preisdeckel für Benzin und Diesel ausgenommen werden, der ab Januar gelten soll. Laut Handelsblatt und dpa begründet Wirtschaftsministerin Katherina Reiche das mit höheren Pachten und dem 24-Stunden-Betrieb. Autohöfe an Autobahnausfahrten sollen unter den Deckel fallen. Die nach dem Iran-Krieg gesenkten Steuern auf Kraftstoff laufen zum Jahreswechsel aus; der Entwurf ist noch in der Ressortabstimmung."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-20",
+          "baslik": "İtalya, Tesla'nın destekli sürüş sistemine geçici onay verdi",
+          "ozet": "İtalya Ulaştırma Bakanlığı, Tesla'nın Avrupa'da \"Assisted Driving\" adıyla sunduğu FSD (Supervised) sistemine geçici onay verdi. İtalya bu sisteme izin veren 12. Avrupa ülkesi ve AB'nin büyük pazarları arasında ilki oldu. Karar Brüksel'i beklemeden alındı: AB genelinde tanıma için oylamanın en erken aralıkta yapılması bekleniyor. Tesla, dağıtımın yakında başlayacağını duyurdu.",
+          "kaynak": "Electrek · 20 Kasım 2026",
+          "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/",
+          "en": {
+            "baslik": "Italy provisionally approves Tesla's assisted driving system",
+            "ozet": "Italy's transport ministry has provisionally approved Tesla Assisted Driving, the name Tesla uses for FSD (Supervised) in Europe. Italy is the 12th European country to allow the system and the first of the EU's big markets. The decision did not wait for Brussels: the vote on EU-wide recognition is expected in December at the earliest. Tesla said the rollout will begin soon."
+          },
+          "de": {
+            "baslik": "Italien erteilt Teslas Fahrassistenz vorläufige Zulassung",
+            "ozet": "Das italienische Verkehrsministerium hat Tesla Assisted Driving, wie Tesla FSD (Supervised) in Europa nennt, vorläufig zugelassen. Italien ist das 12. europäische Land und der erste große EU-Markt, der das System erlaubt. Die Entscheidung kam ohne Brüssel: Die Abstimmung über eine EU-weite Anerkennung wird frühestens im Dezember erwartet. Tesla kündigte den baldigen Start an."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-20",
+          "baslik": "Hessen kira frenini uzattı: 49 yerine 71 belediye",
+          "ozet": "Hessen'in 20 Kasım'da yürürlüğe giren yeni kiracı koruma yönetmeliğiyle kira freni 2029 sonuna kadar uzatıldı. Kapsama 36 belediye eklendi, 14 belediye çıktı; böylece 49 yerine 71 belediye kapsamda. Kira artış sınırı (Kappungsgrenze) ve satış sonrası tahliye yasağı süresi de uzatıldı. Yeni bilirkişi raporu 76 belediyede gergin konut piyasası tespit etti; bunların beşi kapsama alınmayı reddetti.",
+          "kaynak": "Haufe Immobilien · 20 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-hessen_84342_328508.html",
+          "en": {
+            "baslik": "Hesse extends rent brake: 71 instead of 49 municipalities",
+            "ozet": "With Hesse's new tenant protection ordinance, in force since 20 November, the rent brake has been extended until the end of 2029. 36 municipalities were added and 14 dropped, so 71 instead of 49 are now covered. The cap on rent increases and the waiting period before termination after a sale also apply longer. A new expert report found a tight housing market in 76 municipalities; five of them declined to be included."
+          },
+          "de": {
+            "baslik": "Hessen verlängert die Mietpreisbremse: 71 statt 49 Kommunen",
+            "ozet": "Mit der neuen Mieterschutzverordnung, die am 20. November in Kraft trat, gilt die Mietpreisbremse in Hessen bis Ende 2029. 36 Kommunen kamen hinzu, 14 fielen heraus, damit sind 71 statt 49 erfasst. Auch Kappungsgrenze und Kündigungssperrfrist gelten länger. Ein neues Gutachten weist für 76 Kommunen einen angespannten Wohnungsmarkt aus; fünf davon lehnten die Aufnahme ab."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-20",
+          "baslik": "Kira sözleşmesi 2027'den itibaren dijital kimlik cüzdanıyla imzalanabilecek",
+          "ozet": "Federal Konsey 20 Kasım'da Dijital Kimlikler Yasası'nı onayladı. Almanya'nın AB dijital kimlik cüzdanı \"d-you\" 2 Ocak 2027'de başlıyor ve kira sözleşmeleri bununla hukuken geçerli şekilde dijital olarak imzalanabilecek. Kimlik doğrulamadan sözleşme imzasına ve kredi notu belgesine kadar sürecin tamamen dijital yürümesi hedefleniyor; kira sözleşmesi ilk büyük sınav olacak.",
+          "kaynak": "Haufe Immobilien · 20 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eudi-wallet-d-you-mietvertrag-digital-2027_84342_702834.html",
+          "en": {
+            "baslik": "From 2027, leases can be signed with a digital identity wallet",
+            "ozet": "On 20 November, the Bundesrat approved the Digital Identities Act. Germany's EU digital identity wallet \"d-you\" launches on 2 January 2027, and leases can then be signed digitally with legal certainty. The aim is a fully digital process from identity checks and signing to proof of creditworthiness; the lease will be the first big test."
+          },
+          "de": {
+            "baslik": "Mietverträge ab 2027 per digitaler Identitäts-Wallet unterschreiben",
+            "ozet": "Der Bundesrat hat am 20. November dem Digitalen Identitätengesetz zugestimmt. Die deutsche EUDI-Wallet „d-you“ startet am 2. Januar 2027; Mietverträge können damit rechtssicher digital unterzeichnet werden. Von der Identitätsprüfung über die Unterschrift bis zum Bonitätsnachweis soll alles digital laufen; der Mietvertrag wird die erste Bewährungsprobe."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-19",
+          "baslik": "Volkswagen toplu sözleşmede iki yıl sıfır zam istiyor",
+          "ozet": "Volkswagen, başlayacak toplu sözleşme görüşmelerinde 2027 ve 2028 için ücret artışı yapılmamasını istiyor. Şirket ayrıca ortalama aylık kazancın yüzde 27,5'i kadar olan ve 6 izin gününe çevrilebilen ek ödemenin ve ayda 167 euroluk zammın kaldırılmasını, haftalık 35 saatlik çalışma süresinin de ücret telafisi olmadan iş yüküne göre esnetilmesini talep ediyor. IG Metall sendikası şirketi çalışanları sırtından bıçaklamakla suçladı.",
+          "kaynak": "tagesschau · 19 Kasım 2026",
+          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-nullrunde-100.html",
+          "en": {
+            "baslik": "Volkswagen wants two years without pay rises",
+            "ozet": "In the upcoming wage talks, Volkswagen wants no pay rises for 2027 and 2028. The company also wants to scrap a supplementary payment worth 27.5% of average monthly earnings, which can be converted into 6 days off, and a monthly allowance of 167 euros, and to flex the 35-hour week to workload without pay compensation. The IG Metall union accused the company of stabbing employees in the back."
+          },
+          "de": {
+            "baslik": "Volkswagen will zwei Nullrunden",
+            "ozet": "Volkswagen fordert in der anstehenden Tarifrunde Nullrunden für 2027 und 2028. Zudem sollen die tarifliche Zusatzvergütung von 27,5 % eines durchschnittlichen Monatsverdienstes, die in 6 freie Tage umgewandelt werden kann, und die Zulage von 167 Euro im Monat entfallen; die 35-Stunden-Woche soll ohne Entgeltausgleich an die Auslastung angepasst werden. Die IG Metall wirft dem Konzern vor, den Beschäftigten in den Rücken zu fallen."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-19",
+          "baslik": "Benzinli VW Polo'ya veda testi",
+          "ozet": "FAZ, benzin motorlu VW Polo için muhtemelen son büyük sürüş testini yayımladı. Marka yöneticisi Thomas Schäfer, Polo'nun yakında yalnız elektrikli olarak sunulacağını açıklamıştı. 1975'ten beri satılan modelin benzinli sürümü, gazeteye göre hâlâ başarılı ve elektrikli ID. Polo'dan daha uygun fiyatlı. İkinci el piyasasında benzinli Polo'nun bir süre daha aranan model olmayı sürdürmesi beklenebilir.",
+          "kaynak": "FAZ · 19 Kasım 2026",
+          "url": "https://www.faz.net/aktuell/technik-motor/motor/vw-polo-im-fahrbericht-hommage-an-den-dauerbrenner-accg-201673716.html",
+          "en": {
+            "baslik": "A farewell test of the petrol VW Polo",
+            "ozet": "FAZ has published what is probably its last big road test of a petrol-engined VW Polo. Brand chief Thomas Schäfer had announced that the Polo will soon be offered only as an electric car. According to the paper, the petrol version of the model, on sale since 1975, is still convincing and cheaper than the electric ID. Polo. The petrol Polo can be expected to remain in demand on the used-car market for some time."
+          },
+          "de": {
+            "baslik": "Abschiedstest für den Polo mit Benzinmotor",
+            "ozet": "Die FAZ hat den wohl letzten großen Fahrbericht über einen VW Polo mit Verbrennungsmotor veröffentlicht. Markenchef Thomas Schäfer hatte angekündigt, dass es den Polo bald nur noch elektrisch geben wird. Laut der Zeitung überzeugt der seit 1975 verkaufte Benziner noch immer und ist günstiger als der elektrische ID. Polo. Auf dem Gebrauchtwagenmarkt dürfte der Benzin-Polo noch eine Weile gefragt bleiben."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-19",
+          "baslik": "İklim raporu: binalar yine hedefin gerisinde, evlerin yüzde 70'inden fazlasında gaz ya da petrol",
+          "ozet": "2026 İklim Koruma Raporu'na göre bina sektörü 2025'te 103 milyon ton CO2 saldı ve hedeflerini yine tutturamadı. Isı pompası satışları rekor seviyede, ama binaların yüzde 70'inden fazlasında hâlâ gaz ya da petrol kazanı var. 2021–2030 için birikimli hedefteki açık şimdiden 110 milyon ton CO2 eşdeğerine ulaştı. Uzmanlar ve konut sektörünün bir kısmı, Bina Modernizasyon Yasası'nın bu açığı kapatmaya yetmeyeceğini düşünüyor.",
+          "kaynak": "Haufe Immobilien · 19 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/klimaschutzbericht_84342_523630.html",
+          "en": {
+            "baslik": "Climate report: buildings miss targets again, over 70% still heat with gas or oil",
+            "ozet": "According to the 2026 Climate Protection Report, the building sector emitted 103 million tonnes of CO2 in 2025 and again missed its targets. Heat pump sales are at a record, but more than 70% of buildings still have gas or oil heating. The gap in the cumulative target for 2021–2030 has already reached 110 million tonnes of CO2 equivalent. Experts and parts of the housing industry doubt that the Building Modernisation Act is enough to close it."
+          },
+          "de": {
+            "baslik": "Klimaschutzbericht: Gebäude verfehlen erneut die Ziele, über 70 % heizen mit Gas oder Öl",
+            "ozet": "Laut Klimaschutzbericht 2026 stieß der Gebäudesektor 2025 insgesamt 103 Millionen Tonnen CO2 aus und verfehlte seine Ziele erneut. Wärmepumpen verkaufen sich so gut wie nie, doch in mehr als 70 % der Gebäude hängt noch eine Gas- oder Ölheizung. Die Lücke bei den kumulierten Zielmengen für 2021–2030 beträgt bereits 110 Millionen Tonnen CO2-Äquivalente. Experten und Teile der Wohnungswirtschaft bezweifeln, dass das Gebäudemodernisierungsgesetz reicht."
+          },
+          "not": "Enerji sınıfı ve ısıtma türü alıcının ilk sorduğu şey olacak; ilanda Energieausweis bilgilerini eksiksiz ver (GEG § 87)."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-18",
+          "baslik": "VW CEO'su Blume sert tasarruf planını savundu",
+          "ozet": "Volkswagen ile IG Metall arasındaki toplu sözleşme görüşmeleri Emden'de başlıyor ve şirket tarihinin en zorlu görüşmeleri olabilir. NDR'ye konuşan CEO Oliver Blume, şirketin ekonomik olarak çok gergin bir durumda olduğunu, görüşmelerde ne kadar çok tasarruf sağlanırsa o kadar çok istihdamın korunabileceğini söyledi. Blume masada olmayacak ama süreci yakından izleyecek.",
+          "kaynak": "tagesschau · 18 Kasım 2026",
+          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-volkswagen-blume-zukunftsstrategie-100.html",
+          "en": {
+            "baslik": "VW CEO Blume defends tough savings plan",
+            "ozet": "Wage talks between Volkswagen and IG Metall are starting in Emden and could be the toughest in the group's history. Speaking to NDR, CEO Oliver Blume said the company is in a very tense economic situation and that the more the talks achieve, the more jobs can be secured. Blume will not sit at the table but will follow the talks closely."
+          },
+          "de": {
+            "baslik": "VW-Chef Blume verteidigt harten Sparkurs",
+            "ozet": "In Emden beginnen die Tarifgespräche zwischen Volkswagen und der IG Metall, und es könnten die härtesten in der Konzerngeschichte werden. Im NDR-Interview sagt Konzernchef Oliver Blume, das Unternehmen sei wirtschaftlich in einer sehr angespannten Lage; je mehr in den Gesprächen gelinge, desto mehr Beschäftigung lasse sich sichern. Blume sitzt nicht mit am Tisch, verfolgt die Gespräche aber genau."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-18",
+          "baslik": "Tesla Avrupa'da sürücü izlemeyi sıkılaştırıyor",
+          "ozet": "Hollanda araç kurumu RDW'nin 16 Kasım'da onayladığı güncellemeyle Tesla'nın destekli sürüş sistemi Avrupa'da sürücüyü daha sıkı izleyecek: uyarılar daha erken gelecek, manevra sırasında yola bakmayan sürücü doğrudan ceza puanı alacak ve saatte 130 kilometrenin üzerinde eller direksiyonda olmak zorunda. Güncelleme HW4 donanımlı araçlara internet üzerinden dağıtılıyor. ABD'de ise Tesla son bir yılda ters yönde ilerleyip uyarıları azalttı.",
+          "kaynak": "Electrek · 18 Kasım 2026",
+          "url": "https://electrek.co/2026/11/18/tesla-fsd-driver-monitoring-europe-stricter-than-us/",
+          "en": {
+            "baslik": "Tesla tightens driver monitoring in Europe",
+            "ozet": "With an update approved by the Dutch vehicle authority RDW on 16 November, Tesla's assisted driving system will monitor drivers more strictly in Europe: warnings come earlier, a driver who looks away during a manoeuvre gets a full strike, and hands must be on the wheel above 130 km/h. The update goes out over the air to HW4 vehicles. In the US, Tesla has gone the other way over the past year and reduced warnings."
+          },
+          "de": {
+            "baslik": "Tesla verschärft Fahrerüberwachung in Europa",
+            "ozet": "Mit einem Update, das die niederländische Zulassungsbehörde RDW am 16. November freigegeben hat, überwacht Teslas Fahrassistenz in Europa die Fahrer strenger: Warnungen kommen früher, wer während eines Manövers wegschaut, bekommt direkt einen Strike, und über 130 km/h müssen die Hände am Lenkrad sein. Das Update kommt per Funk auf HW4-Fahrzeuge. In den USA hat Tesla im vergangenen Jahr den umgekehrten Weg eingeschlagen und Warnungen reduziert."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-18",
+          "baslik": "Elektrikli otomobil ve ısı pompası: elektrik ne kadar ucuz kalacak?",
+          "ozet": "FAZ'ın yorumuna göre elektrik artık hem otomobili hem ısıtmayı taşıyacak, ama bunun için hem uygun fiyatlı hem de güvenilir biçimde yeterli olması gerekiyor. Yazara göre Almanya'daki yüksek elektrik tarifeleri, özellikle uzun yolda hızlı şarj fiyatları, akaryakıt fiyatları düştüğünde elektrikli otomobil heyecanının sürüp sürmeyeceği sorusunu doğuruyor. Yazı, geçişin hedeflerle değil fiyat ve şebeke güvenliğiyle kazanılacağını savunuyor.",
+          "kaynak": "FAZ · 18 Kasım 2026",
+          "url": "https://www.faz.net/aktuell/technik-motor/strom-als-neuer-alleskoenner-wie-bezahlbar-werden-e-auto-und-waermepumpe-201670762.html",
+          "en": {
+            "baslik": "Electric cars and heat pumps: how cheap will electricity stay?",
+            "ozet": "According to a FAZ commentary, electricity is now supposed to power both cars and heating, but for that it must be affordable and reliably available. The author argues that Germany's high electricity tariffs, especially fast-charging prices on long trips, raise the question of whether enthusiasm for electric cars will last once fuel prices fall. The piece says the transition will be won on price and grid security, not on targets."
+          },
+          "de": {
+            "baslik": "E-Auto und Wärmepumpe: Wie bezahlbar bleibt der Strom?",
+            "ozet": "Strom soll laut einem FAZ-Kommentar künftig Auto fahren und heizen, muss dafür aber bezahlbar und verlässlich verfügbar sein. Die hohen Stromtarife in Deutschland, besonders beim Laden auf der Langstrecke, werfen nach Ansicht des Autors die Frage auf, ob die Begeisterung für E-Autos anhält, wenn die Spritpreise wieder sinken. Der Text argumentiert, dass der Wandel über Preis und Netzsicherheit entschieden wird, nicht über Ziele."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-18",
+          "baslik": "Konut inşaat izinleri eylülde yüzde 14,8 düştü",
+          "ozet": "Federal İstatistik Ofisi'ne göre eylülde yeni konutlar için verilen inşaat izinleri bir önceki yılın aynı ayına göre yüzde 14,8 azalarak 20.800 daireye indi; sekiz aylık artış dönemi sona erdi. Yeni binalarda düşüş yüzde 20'ye yakın. Haufe'ye göre nedenler yüzde 4,4'lük konut kredisi faizleri, İran savaşıyla artan malzeme maliyetleri ve Ocak 2027'den itibaren beklenen KfW destek boşluğu. 2025'te 35.000 izin kullanılmadan süresi doldu.",
+          "kaynak": "Haufe Immobilien · 18 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-baugenehmigungen-fuer-wohnungen-deutlich-gestiegen_84324_511962.html",
+          "en": {
+            "baslik": "Housing permits fell 14.8% in September",
+            "ozet": "According to the Federal Statistical Office, permits for new homes fell 14.8% year on year in September to 20,800 dwellings, ending eight months of growth. For new buildings the drop was close to 20%. Haufe names mortgage rates of 4.4%, higher material costs due to the Iran war and an expected gap in KfW funding from January 2027 as causes. In 2025, 35,000 permits expired unused."
+          },
+          "de": {
+            "baslik": "Baugenehmigungen im September um 14,8 % eingebrochen",
+            "ozet": "Laut Statistischem Bundesamt sank die Zahl der Baugenehmigungen für neue Wohnungen im September gegenüber dem Vorjahresmonat um 14,8 % auf 20.800, nach acht Monaten mit Zuwächsen. Im Neubau lag das Minus bei knapp 20 %. Als Ursachen nennt Haufe Bauzinsen von 4,4 %, durch den Iran-Krieg gestiegene Materialkosten und die drohende KfW-Förderlücke ab Januar 2027. 2025 verfielen 35.000 Genehmigungen ungenutzt."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-18",
+          "baslik": "Engelsiz tadilat desteği 2027'de 60 milyon euroyla dönüyor",
+          "ozet": "Engelsiz konut tadilatını destekleyen KfW 455-B programı, Nisan 2026'da yeniden başladıktan yaklaşık dört ay sonra, ayrılan 50 milyon euro bitince temmuz sonunda durduruldu. Federal hükümet 2027 için 60 milyon euro ayırmayı planlıyor. Bakan Verena Hubertz, insanların ömür boyu yaşadıkları evde yaşlanabilmesi için tadilatın desteklendiğini söyledi. Destek en erken 2027'de yeniden alınabilecek.",
+          "kaynak": "Haufe Immobilien · 18 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kfw-zuschuesse-fuer-barrierefreies-wohnen_84342_464458.html",
+          "en": {
+            "baslik": "Grants for barrier-free renovation return in 2027 with 60 million euros",
+            "ozet": "The KfW 455-B programme for barrier-free home renovation was halted at the end of July, about four months after its restart in April 2026, once its 50 million euros were used up. The federal government plans 60 million euros for 2027. Minister Verena Hubertz said the grants help people grow old in the homes they have lived in all their lives. Funding will be available again in 2027 at the earliest."
+          },
+          "de": {
+            "baslik": "Förderung für barrierefreien Umbau kommt 2027 mit 60 Millionen Euro zurück",
+            "ozet": "Das KfW-Programm 455-B für barrierefreien Wohnungsumbau wurde Ende Juli gestoppt, knapp vier Monate nach dem Neustart im April 2026, als die 50 Millionen Euro ausgeschöpft waren. Für 2027 stellt der Bund 60 Millionen Euro in Aussicht. Bauministerin Verena Hubertz sagte, wer sein Leben lang in seiner Wohnung gelebt habe, solle dort auch alt werden können. Förderung gibt es frühestens 2027 wieder."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-18",
+          "baslik": "Elektrik vergisi 2027'de herkes için düşüyor, ama yalnız bir yıllığına",
+          "ozet": "Hükümet ortakları, Başbakanlıkta sekiz saati aşan bir toplantının ardından elektrik vergisinin herkes için düşürülmesinde anlaştı. İndirim 2027'de geçerli olacak ama finansmanı şimdilik yalnız bir yıl için hazır; kalıcı indirim 2028 bütçesinde karşılık bulunmasına bağlı. Finansman yenilenebilir enerji (EEG) hesabındaki fazladan sağlanacak; yetmezse sübvansiyon kesintisi gibi adımlar gündeme gelebilir.",
+          "kaynak": "Haufe Immobilien · 18 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizkosten-vielerorts-drohen-nachzahlungen_84342_440906.html",
+          "en": {
+            "baslik": "Electricity tax will fall for everyone in 2027, but only for one year",
+            "ozet": "After more than eight hours of talks at the Chancellery, the coalition partners agreed to cut the electricity tax for everyone. The cut applies in 2027, but funding is secured for only one year so far; a permanent cut depends on financing in the 2028 budget. It is to be financed from surpluses in the renewable energy (EEG) account; if these are not enough, steps such as subsidy cuts could follow."
+          },
+          "de": {
+            "baslik": "Stromsteuer sinkt 2027 für alle, aber vorerst nur für ein Jahr",
+            "ozet": "Nach mehr als acht Stunden Verhandlung im Kanzleramt haben sich Union und SPD auf eine Senkung der Stromsteuer für alle geeinigt. Sie gilt 2027, finanziert ist sie bislang nur für ein Jahr; eine dauerhafte Senkung setzt eine Gegenfinanzierung im Haushalt 2028 voraus. Bezahlt werden soll sie aus Spielräumen auf dem EEG-Konto; reichen diese nicht, sind etwa Subventionskürzungen denkbar."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-17",
+          "baslik": "Emlakçıların iyimserliği eriyor: 2027'de büyüme bekleyenler yüzde 25'e indi",
+          "ozet": "Kasım 2026'daki ankette 366 emlakçının yalnız yüzde 25'i 2027'de büyüme bekliyor; haziranda bu oran yüzde 37'ydi. Emlakçıların yüzde 55'i mevcut piyasayı geçen yıldan kötü buluyor (haziranda yüzde 50). Yüksek faizler, zayıf talep ve alıcıyla satıcı arasında uzayan fiyat pazarlığı, ilkbaharda geçici sanılan durgunluğu birçok emlakçının gözünde yapısal bir soruna çeviriyor.",
+          "kaynak": "Haufe Immobilien · 17 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/was-kunden-von-ihrem-immobilienmakler-erwarten_84342_524784.html",
+          "en": {
+            "baslik": "Brokers' optimism is fading: only 25% expect growth in 2027",
+            "ozet": "In a November 2026 survey, only 25% of 366 estate agents expect growth in 2027, down from 37% in June. 55% rate the current market as worse than last year (June: 50%). High interest rates, weak demand and drawn-out price negotiations between buyers and sellers are turning what looked like a temporary dip in spring into a structural problem for many agents."
+          },
+          "de": {
+            "baslik": "Makler verlieren den Optimismus: nur noch 25 % erwarten 2027 Wachstum",
+            "ozet": "In einer Umfrage vom November 2026 rechnen nur noch 25 % der 366 befragten Makler 2027 mit Wachstum, im Juni waren es 37 %. 55 % bewerten die aktuelle Marktlage schlechter als im Vorjahr (Juni: 50 %). Hohe Zinsen, schwache Nachfrage und zähe Preisfindung zwischen Käufern und Verkäufern machen aus der vermeintlichen Delle im Frühjahr für viele Makler ein Strukturproblem."
+          },
+          "not": "Satış videolarında fiyatı gerçekçi göster; alıcılar pazarlık payı bekliyor. Güçlü yanları (enerji, konum, aylık gider) net sayılarla ver."
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-17",
+          "baslik": "Konut sektöründen hükümete sert eleştiri: \"Sorun yöntem ve güven krizi\"",
+          "ozet": "Konut şirketlerinin çatı birliği GdW'nin başkanı Axel Gedaschko, 17 Kasım'da Berlin'deki Konut Sektörü Günü'nde konut inşaatının yıllardır en ağır krizinde olduğunu söyledi. Gedaschko'ya göre sorun yatırımcı eksikliği değil, inşaatı sistematik olarak zorlaştıran devlet: \"Hedeflerin değil, yöntemin, karar alabilmenin ve güvenin krizini yaşıyoruz.\" Toplantıda Wohnen.2050 girişiminin yeni uygulama raporu da sunuldu.",
+          "kaynak": "Haufe Immobilien · 17 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gdw-tag-der-wohnungswirtschaft_260_529700.html",
+          "en": {
+            "baslik": "Housing industry criticises the government: \"a crisis of method and trust\"",
+            "ozet": "Axel Gedaschko, president of the housing companies' federation GdW, said at the Housing Industry Day in Berlin on 17 November that residential construction is in its worst crisis for years. In his view the problem is not a lack of investors but a state that systematically makes building harder: \"We are not suffering from a crisis of goals but of method, decision-making and trust.\" A new practice report by the Wohnen.2050 initiative was also presented."
+          },
+          "de": {
+            "baslik": "Wohnungswirtschaft rechnet ab: \"Krise der Methode und des Vertrauens\"",
+            "ozet": "GdW-Präsident Axel Gedaschko sagte beim Tag der Wohnungswirtschaft am 17. November in Berlin, der Wohnungsbau stecke in seiner schwersten Krise seit Jahren. Nicht fehlende Investoren bremsten, sondern ein Staat, der das Bauen systematisch erschwere: „Wir leiden nicht an einer Krise der Ziele, sondern der Methode, der Entscheidungsfähigkeit und des Vertrauens.“ Vorgestellt wurde auch der neue Praxisbericht der Initiative Wohnen.2050."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-16",
+          "baslik": "VW ID. Polo'ya talep yüksek: en ucuz sürüm için bekleme neredeyse 2 yıl",
+          "ozet": "Volkswagen'in en ucuz elektrikli modeli ID. Polo Trend 24.995 eurodan başlıyor; 37 kWh bataryayla WLTP'ye göre 334 kilometre menzil sunuyor. 52 kWh'lik sürüm 33.795 eurodan satışta. Electrek'e göre en ucuz sürüm için bekleme süresi 2 yıla yaklaştı. FAZ'ın haberine göre ID. Polo için 50.000'den fazla sipariş var; Seat ve Skoda'daki kardeş modellerle birlikte bu sayı 150.000'e çıkıyor.",
+          "kaynak": "Electrek · 16 Kasım 2026",
+          "url": "https://electrek.co/2026/11/16/volkswagens-cheapest-ev-buyers-waiting-nearly-2-years/",
+          "en": {
+            "baslik": "High demand for VW ID. Polo: nearly 2-year wait for the cheapest version",
+            "ozet": "Volkswagen's cheapest electric model, the ID. Polo Trend, starts at 24,995 euros and offers 334 km of WLTP range with a 37 kWh battery. The 52 kWh version sells from 33,795 euros. According to Electrek, the wait for the cheapest version is approaching 2 years. FAZ reports more than 50,000 orders for the ID. Polo; including its sister models at Seat and Skoda the figure rises to 150,000."
+          },
+          "de": {
+            "baslik": "Hohe Nachfrage nach dem VW ID. Polo: fast 2 Jahre Wartezeit für die günstigste Version",
+            "ozet": "Volkswagens günstigstes E-Auto, der ID. Polo Trend, startet bei 24.995 Euro und schafft mit 37-kWh-Akku 334 Kilometer nach WLTP. Die 52-kWh-Version kostet ab 33.795 Euro. Laut Electrek nähert sich die Wartezeit für die günstigste Version 2 Jahren. Die FAZ berichtet von mehr als 50.000 Bestellungen für den ID. Polo, mit den Konzerngeschwistern von Seat und Skoda von 150.000."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-16",
+          "baslik": "Federal hükümet 2027 inşaat bütçesini 8,5 milyar euroya çıkardı",
+          "ozet": "Federal Meclis bütçe komisyonu, Konut, Kentsel Gelişim ve İnşaat Bakanlığı'nın 2027 bütçesini 8,5 milyar euro olarak kabul etti. Yazın tasarruf taslağı olarak sunulan bütçe 7,51 milyar euro öngörüyor ve konut yardımında kesinti içeriyordu. Haufe bunu bir dönüş olarak değerlendiriyor; bütçede yeni kurulacak federal konut inşaat şirketinin payı da yer alıyor.",
+          "kaynak": "Haufe Immobilien · 16 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundeshaushalt_84342_634714.html",
+          "en": {
+            "baslik": "Federal government raises 2027 construction budget to 8.5 billion euros",
+            "ozet": "The Bundestag budget committee approved a 2027 budget of 8.5 billion euros for the Ministry for Housing, Urban Development and Building. Presented in summer as a consolidation draft, it had foreseen 7.51 billion euros and cuts to housing benefit. Haufe calls it a U-turn; the budget also includes funding for the new federal housing construction company."
+          },
+          "de": {
+            "baslik": "Bund stockt den Bauetat 2027 auf 8,5 Milliarden Euro auf",
+            "ozet": "Der Haushaltsausschuss des Bundestags hat für das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen 2027 einen Etat von 8,5 Milliarden Euro beschlossen. Der im Sommer vorgelegte Konsolidierungsentwurf sah 7,51 Milliarden Euro und Kürzungen beim Wohngeld vor. Haufe spricht von einer Kehrtwende; enthalten ist auch das Budget für die neue Bundeswohnungsbaugesellschaft."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-13",
+          "baslik": "VW elektrikli Golf'ün ardından bir SSP modelini daha erteledi",
+          "ozet": "Maliyet kesmeye çalışan Volkswagen, elektrikli Golf'ün geliştirmesini Wolfsburg'da ertelemesinin ardından SSP platformuna dayanan bir modeli daha erteliyor. Grup üçüncü çeyrekte 5,9 milyar euro faaliyet zararı açıkladı; bu 2015'teki dizel skandalından beri en büyük çeyreklik zarar. Reuters'ın gördüğü iç yazışmaya göre Wolfsburg fabrikası tasarruf hedefinin yaklaşık 300 milyon euro gerisinde. Elektrikli Golf başlangıçta 2028 için planlanıyordu.",
+          "kaynak": "Electrek · 13 Kasım 2026",
+          "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/",
+          "en": {
+            "baslik": "VW delays another SSP model after the electric Golf",
+            "ozet": "Cutting costs, Volkswagen is delaying another model based on its SSP platform after postponing development of the electric Golf in Wolfsburg. The group reported an operating loss of 5.9 billion euros in the third quarter, its biggest quarterly loss since the 2015 diesel scandal. According to an internal memo seen by Reuters, the Wolfsburg plant is about 300 million euros short of its savings target. The electric Golf was originally planned for 2028."
+          },
+          "de": {
+            "baslik": "VW verschiebt nach dem E-Golf ein weiteres SSP-Modell",
+            "ozet": "Auf Sparkurs verschiebt Volkswagen nach der Entwicklung des elektrischen Golf in Wolfsburg ein weiteres Modell auf der SSP-Plattform. Der Konzern meldete im dritten Quartal einen operativen Verlust von 5,9 Milliarden Euro, den größten Quartalsverlust seit dem Dieselskandal 2015. Laut einem von Reuters eingesehenen internen Schreiben liegt das Werk Wolfsburg rund 300 Millionen Euro hinter seinem Sparziel. Der E-Golf war ursprünglich für 2028 geplant."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-13",
+          "baslik": "Bundesbank uyarıyor: yeni konut kredilerinin onda dördünde kredi oranı yüzde 90'ın üzerinde",
+          "ozet": "Bundesbank yönetim kurulu üyesi Michael Theurer, 12 Kasım'da sunduğu finansal istikrar raporunda iki risk odağına dikkat çekti. Yeni konut kredilerinin onda dördünde kredi tutarı mülk değerinin yüzde 90'ını aşıyor; veriler 2025'in son çeyreğinden beri tutulan yeni WIFSta istatistiğinden geliyor. İkinci risk, 2023'ten beri yoğun para çıkışı yaşayan açık uçlu gayrimenkul fonları.",
+          "kaynak": "Haufe Immobilien · 13 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/investment/bafin-immobilien-risiko-fuer-finanzstabilitaet_256_640920.html",
+          "en": {
+            "baslik": "Bundesbank warns: four in ten new mortgages have a loan-to-value above 90%",
+            "ozet": "Presenting the financial stability report on 12 November, Bundesbank board member Michael Theurer pointed to two sources of risk. In four out of ten new residential mortgages the loan exceeds 90% of the property's value; the figures come from the new WIFSta statistics collected since the fourth quarter of 2025. The second risk is open-ended real estate funds, which have seen heavy outflows since 2023."
+          },
+          "de": {
+            "baslik": "Bundesbank warnt: Vier von zehn neuen Wohnkrediten mit Beleihung über 90 %",
+            "ozet": "Bei der Vorstellung des Finanzstabilitätsberichts am 12. November nannte Bundesbank-Vorstand Michael Theurer zwei Risikoherde. Bei vier von zehn neuen Wohnimmobilienkrediten liegt die Beleihungsquote über 90 %; die Zahlen stammen aus der neuen Statistik WIFSta, die seit dem vierten Quartal 2025 erhoben wird. Das zweite Risiko sind offene Immobilienfonds, die seit 2023 massiv Kapital verlieren."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-13",
+          "baslik": "2026 Yıllık Vergi Kanunu: gayrimenkul sahiplerini etkileyen üç değişiklik",
+          "ozet": "Federal Meclis 12 Kasım'da 2026 Yıllık Vergi Kanunu'nu kabul etti; yasa için Federal Konsey onayı da gerekiyor. Gayrimenkul tarafında üç yenilik öne çıkıyor: binalı arsalarda satış bedelinin arsa ve bina arasında nasıl bölüneceği ilk kez yasayla düzenleniyor, boşanma sonrası yapılan gayrimenkul satışı vergiden muaf tutuluyor ve enerji verimliliği tadilatlarına yönelik vergi indirimi yeniden düzenleniyor.",
+          "kaynak": "Haufe Immobilien · 13 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/jahressteuergesetz_84342_582300.html",
+          "en": {
+            "baslik": "Annual Tax Act 2026: three changes for property owners",
+            "ozet": "The Bundestag passed the Annual Tax Act 2026 on 12 November; the Bundesrat still has to approve it. For real estate, three changes stand out: for the first time the law regulates how the purchase price of a built-on plot is split between land and building, a property sale after a divorce becomes tax-free, and the tax reduction for energy-efficient renovation is adjusted."
+          },
+          "de": {
+            "baslik": "Jahressteuergesetz 2026: drei Änderungen für Immobilieneigentümer",
+            "ozet": "Der Bundestag hat am 12. November das Jahressteuergesetz 2026 beschlossen; der Bundesrat muss noch zustimmen. Für Immobilien sind drei Neuregelungen wichtig: Die Kaufpreisaufteilung bei bebauten Grundstücken auf Grund und Boden sowie Gebäude wird erstmals gesetzlich geregelt, der Immobilienverkauf nach einer Scheidung wird steuerfrei, und die Steuerermäßigung für energetische Sanierungen wird angepasst."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-12",
+          "baslik": "Empirica balon endeksi: 400 bölgenin 262'sinde risk orta ile yüksek arasında",
+          "ozet": "Empirica'nın 2026 üçüncü çeyrek balon endeksine göre Almanya'daki 400 il ve şehrin 262'sinde konut piyasasında balon riski orta ile yüksek arasında kalıyor. Fiyatlarla kiralar arasındaki fark kapanıyor ama yavaş: en büyük yedi şehirde birikimli satış fiyatları kira artışının hâlâ yüzde 28 üzerinde, dört yıl önce bu fark yüzde 47'ydi. Farkı kapatan fiyat düşüşü değil, konut darlığıyla yükselen kiralar.",
+          "kaynak": "Haufe Immobilien · 12 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-empirica-blasenindex-steigt_84324_326394.html",
+          "en": {
+            "baslik": "Empirica bubble index: moderate to high risk in 262 of 400 districts",
+            "ozet": "According to Empirica's bubble index for the third quarter of 2026, the risk of a housing bubble remains moderate to high in 262 of Germany's 400 districts and cities. The gap between prices and rents is closing, but slowly: in the seven largest cities cumulative purchase prices are still 28% above rent growth, compared with 47% four years ago. What closes the gap is not falling prices but rents rising because housing is scarce."
+          },
+          "de": {
+            "baslik": "Empirica-Blasenindex: In 262 von 400 Kreisen mäßiges bis hohes Risiko",
+            "ozet": "Laut Empirica-Blasenindex für das dritte Quartal 2026 bleibt das Blasenrisiko in 262 von 400 deutschen Kreisen und Städten mäßig bis hoch. Die Schere zwischen Preisen und Mieten schließt sich, aber langsam: In den sieben größten Städten liegen die kumulierten Kaufpreise noch 28 % über dem Mietanstieg, vor vier Jahren waren es 47 %. Treiber ist kein Preisverfall, sondern der Mietanstieg infolge knappen Wohnraums."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-12",
+          "baslik": "Berlin kiralık dairelerin mülk daireye dönüştürülmesine izin şartını 2031'e uzatıyor",
+          "ozet": "Berlin Senatosu 10 Kasım'da, kiralık konutların mülk daireye dönüştürülmesini izne bağlayan İmar Kanunu 201a maddesine dayalı yönetmeliğin uzatılmasını başlattı. Yeni yönetmelik 1 Ocak 2027'den 31 Aralık 2031'e kadar geçerli olacak ve tüm şehri gergin konut piyasası sayacak; böylece yasanın izin verdiği en uzun süre kullanılıyor. Altı ve daha fazla daireli binalarda dönüşüm için resmî izin gerekmeye devam ediyor. Yönetmeliğin resmî kabulü ve ilanı henüz bekleniyor.",
+          "kaynak": "Haufe Immobilien · 12 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baulandmobilisierungsgesetz-das-planen-die-bundeslaender_84342_547308.html",
+          "en": {
+            "baslik": "Berlin extends permit requirement for converting rental flats until 2031",
+            "ozet": "On 10 November, Berlin's Senate started extending the ordinance under Section 201a of the Building Code that makes converting rental flats into condominiums subject to approval. The new ordinance is to apply from 1 January 2027 to 31 December 2031 and to designate the entire city as a tight housing market, using the longest period the law allows. Buildings with six or more flats still need official approval for conversion. Formal adoption and publication are still pending."
+          },
+          "de": {
+            "baslik": "Berlin verlängert den Umwandlungsschutz für Mietwohnungen bis 2031",
+            "ozet": "Der Berliner Senat hat am 10. November die Verlängerung der Rechtsverordnung nach § 201a BauGB auf den Weg gebracht, die die Umwandlung von Miet- in Eigentumswohnungen genehmigungspflichtig macht. Sie soll vom 1. Januar 2027 bis 31. Dezember 2031 gelten und das gesamte Stadtgebiet als angespannten Wohnungsmarkt ausweisen; damit schöpft Berlin die maximal mögliche Dauer aus. Häuser ab sechs Wohnungen brauchen weiter eine Genehmigung. Beschlussfassung und Verkündung stehen noch aus."
+          }
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-11",
+          "baslik": "Baden-Württemberg kira freni uygulamasını 2029 sonuna uzattı",
+          "ozet": "Baden-Württemberg kabinesi 10 Kasım'da kira frenini 2029 sonuna kadar uzattı ve kapsamını 133 şehir ve belediyeye genişletti; Mannheim, Konstanz ve Kehl listeye yeni girdi. Uygulama 1 Ocak 2027'den itibaren kesintisiz sürecek. Kira freni olan yerlerde yeni kira sözleşmelerinde kira, bölgedeki emsal kiranın en fazla yüzde 10 üzerinde olabiliyor.",
+          "kaynak": "Haufe Immobilien · 11 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-baden-wuerttemberg_84342_321932.html",
+          "en": {
+            "baslik": "Baden-Württemberg extends rent brake to the end of 2029",
+            "ozet": "On 10 November, the Baden-Württemberg cabinet extended the rent brake until the end of 2029 and widened it to 133 cities and municipalities; Mannheim, Konstanz and Kehl were newly added. It continues without a gap from 1 January 2027. Where the rent brake applies, rent in new leases may be at most 10% above the local comparative rent."
+          },
+          "de": {
+            "baslik": "Baden-Württemberg verlängert die Mietpreisbremse bis Ende 2029",
+            "ozet": "Das Landeskabinett hat am 10. November beschlossen, die Mietpreisbremse bis Ende 2029 zu verlängern und auf 133 Städte und Gemeinden auszuweiten; neu dabei sind Mannheim, Konstanz und Kehl. Ab dem 1. Januar 2027 greift sie nahtlos weiter. Bei neuen Mietverträgen darf die Miete dort höchstens 10 % über der ortsüblichen Vergleichsmiete liegen."
+          }
+        }
+      ],
+      "videolar": [
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-26",
+          "kanal": "immocation",
+          "baslik": "Fällt jetzt der Markt? So reagiert ein Profi-Investor Markus Beforth",
+          "id": "HSuHkKTMMh8",
+          "neden": "Yatırımcı Markus Beforth piyasa düşüşü ihtimaline nasıl hazırlandığını anlatıyor; kanal kendi kursunu satıyor, yatırım tavsiyesi değil görüş olarak izle."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-26",
+          "kanal": "AUTO BILD",
+          "baslik": "VW ID. Cross R-Line: So sieht das neue Topmodell aus",
+          "id": "ItuYfe73SFs",
+          "neden": "VW ID. Cross'un yeni R-Line donanımını tanıtıyor; electrive'e göre bu donanımın giriş fiyatı 37.225 avro."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-22",
+          "kanal": "ADAC",
+          "baslik": "Wenn das auf eurem Führerschein steht müsst ihr ihn 2027 umtauschen",
+          "id": "wXGz1K5ua9w",
+          "neden": "Eski ehliyetlerin 2027'deki değişim takvimi; Almanya'da araç kullanan herkesi ilgilendiriyor."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-21",
+          "kanal": "ADAC",
+          "baslik": "Geely Monjaro EM-i Ultra im Fahrbericht: Überraschend gut oder nur viel Ausstattung?",
+          "id": "rk2dDzO_9DM",
+          "neden": "Çinli markaların Almanya pazarına girişine ADAC'ın test gözüyle bakış."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-20",
+          "kanal": "AUTO BILD",
+          "baslik": "VW ID. Polo GTI Clubsport: Zu krass für die Serie?",
+          "id": "5-pUXsSi0cM",
+          "neden": "ID. Polo'nun sportif sürümü; Volkswagen'in elektrikli küçük sınıftaki iddiası."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-19",
+          "kanal": "ADAC",
+          "baslik": "Lackstift richtig anwenden: Kleine Lackschäden in 5 Schritten selbst ausbessern",
+          "id": "DS-BoDgAh-Q",
+          "neden": "Küçük boya hasarını 5 adımda gidermek; ikinci el satış öncesi işe yarar."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-17",
+          "kanal": "auto motor und sport",
+          "baslik": "\"Klingt nach Playstation\" | So fährt der elektrische BMW M3",
+          "id": "PRpGhSmDp50",
+          "neden": "BMW'nin elektrikli M3'ü ilk sürüşte: performans arabasında ses ve his tartışması."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-16",
+          "kanal": "AUTO BILD",
+          "baslik": "„Der Oscar der Autos“: 50 Jahre Goldenes Lenkrad",
+          "id": "1Ibb3JPsBps",
+          "neden": "Almanya'nın en bilinen otomobil ödülünün 50 yılı."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-14",
+          "kanal": "ADAC",
+          "baslik": "Leapmotor B03X ProMax im ADAC Fahrbericht – Wie gut ist der günstige Stromer wirklich?",
+          "id": "QHs_usH0qTQ",
+          "neden": "Ucuz elektrikli SUV'un ADAC sürüş testi."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-10",
+          "kanal": "ADAC",
+          "baslik": "SUV, Bus oder Van? Familien-E-Autos | Unter Strom",
+          "id": "1gluQbQfOOo",
+          "neden": "Aileler için elektrikli SUV, minibüs ve van seçeneklerinin karşılaştırması."
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-22",
+          "kanal": "immocation",
+          "baslik": "Verzockt? 6 Millionen bald weg? Unser Immobilienhandel mit allen Zahlen",
+          "id": "lRugH5hq1hc",
+          "neden": "Bir alım-satım projesinin rakamlarla anlatımı. Kanal kendi kurslarını da satıyor; yatırımcı bakışıyla izle."
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-19",
+          "kanal": "immocation",
+          "baslik": "Bauzins sinkt, Kaufpreise fallen: Warum ihr jetzt nicht zum Angebotspreis kaufen solltet",
+          "id": "N0SEix_L_pU",
+          "neden": "Faizler ve fiyatlar düşerken alıcının pazarlık payı; satıcı tarafında fiyatlamayı anlamak için de yararlı."
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-15",
+          "kanal": "immocation",
+          "baslik": "Das Eigenkapital ist alle. 6 Wege, wie ihr trotzdem die nächste Immobilie kauft",
+          "id": "0VkLuC-jnAc",
+          "neden": "Özsermaye bittiğinde finansman seçenekleri; yatırımcı alıcıların nasıl düşündüğünü gösteriyor."
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-10",
+          "kanal": "immocation",
+          "baslik": "Ohne eigenes Geld: So holst du Investoren in dein Immobilienprojekt",
+          "id": "KP4vGedOuvs",
+          "neden": "Projeye yatırımcı ortak almak; iddialı başlık, eleştirel izle."
+        },
+        {
+          "alan": "emlak",
+          "tarih": "2026-11-09",
+          "kanal": "immocation",
+          "baslik": "Ingenieur kauft 22 Wohnungen, bevor er kündigt",
+          "id": "Wl5em6H0T0M",
+          "neden": "Bir yatırımcının 22 daireye nasıl ulaştığı; tek bir örnek, genelleme değil."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-24",
+          "kanal": "ADAC",
+          "baslik": "E-Auto-Fahrmodi: Was bringt welcher? | Unter Strom – Einfach Elektromobilität | 127 | ADAC",
+          "id": "J37kK-VLVlE",
+          "neden": "Elektrikli otomobillerde sürüş modlarının menzile ve konfora etkisini anlatıyor; müşteriye EV tanıtırken kullanılabilir."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-25",
+          "kanal": "ADAC",
+          "baslik": "Blinken oder nicht? Dieser Irrtum kann euch teuer zu stehen kommen | ADAC | Recht? Logisch",
+          "id": "meG6jjSytfw",
+          "neden": "ADAC'ın hukuk dizisinden: sinyal verme konusunda yaygın bir yanılgı ve doğurabileceği ceza; Almanya'da araç kullananları ilgilendiriyor."
+        },
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-25",
+          "kanal": "auto motor und sport",
+          "baslik": "Die Zukunft des 718: So fährt der Prototyp des Elektro-Boxster",
+          "id": "U0xMti9ncq4",
+          "neden": "Elektrikli Porsche 718 Boxster prototipiyle sürüş izlenimi; modelin geleceğine erken bir bakış."
+        }
+      ]
     }
-   ],
-   "videolar": [
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-22",
-     "kanal": "ADAC",
-     "baslik": "Wenn das auf eurem Führerschein steht müsst ihr ihn 2027 umtauschen",
-     "id": "wXGz1K5ua9w",
-     "neden": "Eski ehliyetlerin 2027'deki değişim takvimi; Almanya'da araç kullanan herkesi ilgilendiriyor."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-21",
-     "kanal": "ADAC",
-     "baslik": "Geely Monjaro EM-i Ultra im Fahrbericht: Überraschend gut oder nur viel Ausstattung?",
-     "id": "rk2dDzO_9DM",
-     "neden": "Çinli markaların Almanya pazarına girişine ADAC'ın test gözüyle bakış."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-20",
-     "kanal": "AUTO BILD",
-     "baslik": "VW ID. Polo GTI Clubsport: Zu krass für die Serie?",
-     "id": "5-pUXsSi0cM",
-     "neden": "ID. Polo'nun sportif sürümü; Volkswagen'in elektrikli küçük sınıftaki iddiası."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-19",
-     "kanal": "ADAC",
-     "baslik": "Lackstift richtig anwenden: Kleine Lackschäden in 5 Schritten selbst ausbessern",
-     "id": "DS-BoDgAh-Q",
-     "neden": "Küçük boya hasarını 5 adımda gidermek; ikinci el satış öncesi işe yarar."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-17",
-     "kanal": "auto motor und sport",
-     "baslik": "\"Klingt nach Playstation\" | So fährt der elektrische BMW M3",
-     "id": "PRpGhSmDp50",
-     "neden": "BMW'nin elektrikli M3'ü ilk sürüşte: performans arabasında ses ve his tartışması."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-16",
-     "kanal": "AUTO BILD",
-     "baslik": "„Der Oscar der Autos“: 50 Jahre Goldenes Lenkrad",
-     "id": "1Ibb3JPsBps",
-     "neden": "Almanya'nın en bilinen otomobil ödülünün 50 yılı."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-14",
-     "kanal": "ADAC",
-     "baslik": "Leapmotor B03X ProMax im ADAC Fahrbericht – Wie gut ist der günstige Stromer wirklich?",
-     "id": "QHs_usH0qTQ",
-     "neden": "Ucuz elektrikli SUV'un ADAC sürüş testi."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-10",
-     "kanal": "ADAC",
-     "baslik": "SUV, Bus oder Van? Familien-E-Autos | Unter Strom",
-     "id": "1gluQbQfOOo",
-     "neden": "Aileler için elektrikli SUV, minibüs ve van seçeneklerinin karşılaştırması."
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-22",
-     "kanal": "immocation",
-     "baslik": "Verzockt? 6 Millionen bald weg? Unser Immobilienhandel mit allen Zahlen",
-     "id": "lRugH5hq1hc",
-     "neden": "Bir alım-satım projesinin rakamlarla anlatımı. Kanal kendi kurslarını da satıyor; yatırımcı bakışıyla izle."
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-19",
-     "kanal": "immocation",
-     "baslik": "Bauzins sinkt, Kaufpreise fallen: Warum ihr jetzt nicht zum Angebotspreis kaufen solltet",
-     "id": "N0SEix_L_pU",
-     "neden": "Faizler ve fiyatlar düşerken alıcının pazarlık payı; satıcı tarafında fiyatlamayı anlamak için de yararlı."
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-15",
-     "kanal": "immocation",
-     "baslik": "Das Eigenkapital ist alle. 6 Wege, wie ihr trotzdem die nächste Immobilie kauft",
-     "id": "0VkLuC-jnAc",
-     "neden": "Özsermaye bittiğinde finansman seçenekleri; yatırımcı alıcıların nasıl düşündüğünü gösteriyor."
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-10",
-     "kanal": "immocation",
-     "baslik": "Ohne eigenes Geld: So holst du Investoren in dein Immobilienprojekt",
-     "id": "KP4vGedOuvs",
-     "neden": "Projeye yatırımcı ortak almak; iddialı başlık, eleştirel izle."
-    },
-    {
-     "alan": "emlak",
-     "tarih": "2026-11-09",
-     "kanal": "immocation",
-     "baslik": "Ingenieur kauft 22 Wohnungen, bevor er kündigt",
-     "id": "Wl5em6H0T0M",
-     "neden": "Bir yatırımcının 22 daireye nasıl ulaştığı; tek bir örnek, genelleme değil."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-24",
-     "kanal": "ADAC",
-     "baslik": "E-Auto-Fahrmodi: Was bringt welcher? | Unter Strom – Einfach Elektromobilität | 127 | ADAC",
-     "id": "J37kK-VLVlE",
-     "neden": "Elektrikli otomobillerde sürüş modlarının menzile ve konfora etkisini anlatıyor; müşteriye EV tanıtırken kullanılabilir."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-25",
-     "kanal": "ADAC",
-     "baslik": "Blinken oder nicht? Dieser Irrtum kann euch teuer zu stehen kommen | ADAC | Recht? Logisch",
-     "id": "meG6jjSytfw",
-     "neden": "ADAC'ın hukuk dizisinden: sinyal verme konusunda yaygın bir yanılgı ve doğurabileceği ceza; Almanya'da araç kullananları ilgilendiriyor."
-    },
-    {
-     "alan": "otomotiv",
-     "tarih": "2026-11-25",
-     "kanal": "auto motor und sport",
-     "baslik": "Die Zukunft des 718: So fährt der Prototyp des Elektro-Boxster",
-     "id": "U0xMti9ncq4",
-     "neden": "Elektrikli Porsche 718 Boxster prototipiyle sürüş izlenimi; modelin geleceğine erken bir bakış."
-    }
-   ]
-  }
- ]
+  ]
 }
