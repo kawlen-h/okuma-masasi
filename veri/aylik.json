@@ -5,6 +5,138 @@
       "ogeler": [
         {
           "alan": "otomotiv",
+          "baslik": "Nissan, ikinci el elektrikli araçlarda Aviloo'nun üç dakikalık batarya testini tanıdı",
+          "ozet": "Nissan Automotive Europe, Avusturyalı Aviloo'yu sertifikalı ikinci el programında batarya sağlık belgesi (SoH) veren bağımsız sağlayıcı olarak tanıdı. Aviloo'nun Flash Test'i OBD girişinden bağlanıyor, deneme sürüşü gerektirmiyor, üç dakika sürüyor ve hücre düzeyinde 1.000'e kadar sinyali okuyor; şirket elektrikli modellerin yüzde 96'sını kapsadığını ve bir milyondan fazla test yaptığını söylüyor. Aviloo'nun Eylül'den beri 26 Avrupa ülkesinde sunduğu kendi garantisi, batarya sağlığı bir yıl içinde eşiğin altına düşerse 3.000 avro ödüyor; bu garantinin Nissan programında geçerli olup olmadığı belirtilmedi. Bir üreticinin bağımsız testi tanıması, ikinci el elektrikli araçta en büyük belirsizliği, yani bataryanın gerçek durumunu, belgelenebilir kılıyor.",
+          "kaynak": "electrive · 26 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/26/nissan-batterietests-von-aviloo/",
+          "not": "Bizde: galeride ikinci el elektrikli araç satarken ilana bağımsız batarya sağlık belgesi eklemek pazarlıkta en sık gelen soruyu baştan kapatır.",
+          "ig": "Nissan, ikinci el elektrikli araçlarda Aviloo'nun üç dakikalık batarya sağlık testini tanıdı. Test deneme sürüşü gerektirmiyor, 1.000'e kadar hücre sinyalini okuyor.",
+          "igNot": "İkinci el elektrikli araç ilanına bağımsız batarya sağlık belgesi ekle.",
+          "gorselAra": "",
+          "foto": "ekstrem",
+          "tarih": "2026-11-27",
+          "en": {
+            "baslik": "Nissan recognises Aviloo's three-minute battery test for used electric cars",
+            "ozet": "Nissan Automotive Europe recognised Austria's Aviloo as an independent provider issuing battery state-of-health (SoH) certificates in its certified used-car programme. Aviloo's Flash Test connects via the OBD port, requires no test drive, takes three minutes and reads up to 1,000 signals at cell level; the company says it covers 96 percent of electric models and has carried out more than one million tests. Aviloo's own guarantee, offered since September in 26 European countries, pays 3,000 euros if battery health falls below the threshold within one year; it is not stated whether this guarantee applies in the Nissan programme. A manufacturer recognising an independent test makes the biggest uncertainty in a used electric car, the battery's true condition, documentable."
+          },
+          "de": {
+            "baslik": "Nissan erkennt Aviloos dreiminütigen Batterietest für gebrauchte Elektroautos an",
+            "ozet": "Nissan Automotive Europe hat das österreichische Unternehmen Aviloo als unabhängigen Anbieter anerkannt, der im zertifizierten Gebrauchtwagenprogramm Batteriegesundheitszertifikate (SoH) ausstellt. Der Flash Test von Aviloo wird über die OBD-Schnittstelle angeschlossen, erfordert keine Probefahrt, dauert drei Minuten und liest auf Zellebene bis zu 1.000 Signale aus; das Unternehmen gibt an, 96 Prozent der Elektromodelle abzudecken und über eine Million Tests durchgeführt zu haben. Die eigene Garantie von Aviloo, die seit September in 26 europäischen Ländern angeboten wird, zahlt 3.000 Euro, wenn der Batteriezustand innerhalb eines Jahres unter die Schwelle fällt; ob diese Garantie im Nissan-Programm gilt, ist nicht angegeben. Dass ein Hersteller den unabhängigen Test anerkennt, macht den größten Unsicherheitsfaktor bei gebrauchten Elektroautos, nämlich den tatsächlichen Zustand der Batterie, nachweisbar."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "Xiaomi 2027'deki AB girişine hazırlanıyor: dört ülkede test, ilk pazar Almanya",
+          "ozet": "Xiaomi Başkanı Lu Weibing, 24 Kasım'daki üçüncü çeyrek sunumunda otomobillerin 2027'de planlanan AB lansmanı için İsveç, Almanya, İspanya ve İtalya'da test edildiğini söyledi; doğrulanan tek pazar Almanya. Şirket, aralarında Emil Frey ve LUEG'in bulunduğu sekiz bayi grubuyla niyet mektubu imzalamıştı. Çin'de üretilen Xiaomi otomobilleri AB'de yüzde 45,3 telafi edici vergiyle karşılaşıyor. Üçüncü çeyrekte otomobil ve yapay zekâ bölümü 3,4 milyar yuan faaliyet zararı yazdı, teslimatlar yüzde 7,2 azalarak 100.975'e indi. Haber Çin basınına dayanıyor; Xiaomi'nin resmî duyurusu yok.",
+          "kaynak": "electrive · 26 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/26/xiaomi-bereitet-seinen-eu-marktstart-mit-testfahrten-in-europa-vor/",
+          "ig": "Xiaomi 2027'deki AB girişi için otomobillerini dört ülkede test ediyor; doğrulanan ilk pazar Almanya. Çin üretimi araçlara AB'de yüzde 45,3 ek vergi uygulanıyor.",
+          "gorselAra": "",
+          "foto": "prompt101",
+          "tarih": "2026-11-27",
+          "en": {
+            "baslik": "Xiaomi prepares 2027 EU entry: cars tested in four countries, Germany first market",
+            "ozet": "Xiaomi chairman Lu Weibing said at the third-quarter presentation on 24 November that cars are being tested in Sweden, Germany, Spain and Italy ahead of the planned 2027 EU launch; Germany is the only market confirmed. The company has signed letters of intent with eight dealer groups, including Emil Frey and LUEG. Xiaomi cars made in China face a 45.3 percent countervailing duty in the EU. In the third quarter the car and AI segment posted an operating loss of 3.4 billion yuan, and deliveries fell 7.2 percent to 100,975. The report is based on Chinese press; there is no official Xiaomi announcement."
+          },
+          "de": {
+            "baslik": "Xiaomi bereitet EU-Start 2027 vor: Tests in vier Ländern, Deutschland als erster Markt",
+            "ozet": "Xiaomi-Chef Lu Weibing sagte bei der Vorlage der Quartalszahlen am 24. November, dass die Autos vor dem geplanten EU-Start 2027 in Schweden, Deutschland, Spanien und Italien getestet werden; bestätigt ist bisher nur Deutschland als Markt. Das Unternehmen hat Absichtserklärungen mit acht Händlergruppen unterzeichnet, darunter Emil Frey und LUEG. In China produzierte Xiaomi-Autos unterliegen in der EU einem Ausgleichszoll von 45,3 Prozent. Im dritten Quartal verbuchte der Bereich Autos und KI einen operativen Verlust von 3,4 Milliarden Yuan, die Auslieferungen sanken um 7,2 Prozent auf 100.975. Die Meldung stützt sich auf chinesische Medien; eine offizielle Ankündigung von Xiaomi gibt es nicht."
+          }
+        },
+        {
+          "alan": "otomotiv",
+          "baslik": "VW ID. Cross R-Line siparişe açıldı: 37.225 avrodan başlıyor, 166 kW'lık üst sürüm Mart 2027'de",
+          "ozet": "Volkswagen, kompakt elektrikli SUV'si ID. Cross'un R-Line donanımını Almanya'da siparişe açtı: 99 kW motor ve 37 kWh bataryalı giriş sürümü, ID. alım primi düşülmeden 37.225 avrodan başlıyor. Üst sürüm standart 155 kW yerine 166 kW ve 290 Nm üretecek, 0-100 km/s hızlanmayı 6,9 saniyede tamamlayacak; 52 kWh bataryayla WLTP menzili 428 kilometreye kadar çıkıyor. Bu sürümün ön satışı Mart 2027'de başlayacak, fiyatı henüz açıklanmadı. 1.200 kilogramlık çeki demiri yalnızca 52 kWh bataryayla sunuluyor.",
+          "kaynak": "electrive · 25 Kasım 2026",
+          "url": "https://www.electrive.net/2026/11/25/ab-37-225-euro-vw-id-cross-nun-auch-als-r-line-bestellbar/",
+          "ig": "VW ID. Cross R-Line Almanya'da siparişe açıldı: 99 kW'lık giriş sürümü 37.225 avrodan başlıyor. 166 kW ve 428 km menzilli üst sürümün ön satışı Mart 2027'de.",
+          "gorselAra": "",
+          "foto": "kaynak-3b1b",
+          "tarih": "2026-11-27",
+          "en": {
+            "baslik": "VW ID. Cross R-Line opens for orders from 37,225 euros; 166 kW top version due March 2027",
+            "ozet": "Volkswagen has opened orders in Germany for the R-Line trim of its compact electric SUV, the ID. Cross. The entry version with a 99 kW motor and 37 kWh battery starts at 37,225 euros before the ID. purchase bonus is deducted. The top version will produce 166 kW and 290 Nm instead of the standard 155 kW and will accelerate 0-100 km/h in 6.9 seconds; with the 52 kWh battery, WLTP range rises to up to 428 kilometres. Pre-orders for this version start in March 2027; its price has not yet been announced. The 1,200-kilogram towing capacity is offered only with the 52 kWh battery."
+          },
+          "de": {
+            "baslik": "VW ID. Cross R-Line ab sofort bestellbar: ab 37.225 Euro, Topversion mit 166 kW ab März 2027",
+            "ozet": "Volkswagen hat die R-Line-Ausstattung seines kompakten Elektro-SUV ID. Cross in Deutschland zur Bestellung freigegeben. Die Einstiegsversion mit 99-kW-Motor und 37-kWh-Batterie kostet ab 37.225 Euro, bevor der ID.-Kaufbonus abgezogen wird. Die Topversion leistet statt der Standardleistung von 155 kW nun 166 kW und 290 Nm und beschleunigt in 6,9 Sekunden von 0 auf 100 km/h; mit der 52-kWh-Batterie steigt die WLTP-Reichweite auf bis zu 428 Kilometer. Die Vorbestellung dieser Version beginnt im März 2027, der Preis ist noch nicht bekannt. Die Anhängelast von 1.200 Kilogramm gibt es nur mit der 52-kWh-Batterie."
+          }
+        },
+        {
+          "alan": "emlak",
+          "baslik": "Federal Mahkeme: yalnızca görüntü, kiracının balkon güneş panelini yasaklamaya yetmez",
+          "ozet": "Almanya Federal Mahkemesi (BGH) 25 Kasım tarihli kararında (VIII ZR 248/25) bir konut kooperatifinin, kiracısının balkon korkuluğunun dış yüzüne taktığı güneş panelini söktürme talebini reddetti ve Dresden Eyalet Mahkemesi'nin kararını onadı. Kooperatif paneli yalnızca korkuluğun altına takma şartıyla izin vermişti. Mahkemeye göre kiracının medeni kanunun 554. maddesinden doğan izin hakkı var; yalnızca görüntünün değişmesi, soyut yansıma riski ya da 'yamalı cephe' kaygısı izni reddetmek için yetmiyor ve genel kurulun dış cephe yasağı yasanın önüne geçemiyor. Ev sahipleri bundan sonra her talebi tek tek, somut gerekçeyle değerlendirmek zorunda.",
+          "kaynak": "Haufe Immobilien · 26 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/verwaltung/bgh-kein-pauschales-verbot-fuer-balkonkraftwerke_258_704154.html",
+          "not": "Bizde: kiracılı daire satarken alıcıya balkon paneline toptan yasak koyamayacağını baştan söyle; kira sözleşmesindeki böyle bir madde bu kararla zayıfladı.",
+          "ig": "BGH (VIII ZR 248/25): yalnızca görüntü gerekçesiyle kiracının balkon güneş paneli yasaklanamaz. Ev sahibi her talebi somut gerekçeyle tek tek değerlendirmek zorunda.",
+          "igNot": "Kiracılı daire satarken alıcıya söyle: balkon paneline toptan yasak konamıyor.",
+          "gorselAra": "Bundesgerichtshof Karlsruhe",
+          "foto": "bolum-saglik",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Karlsruhe-Bundesgerichtshof-02-2018-gje.jpg/960px-Karlsruhe-Bundesgerichtshof-02-2018-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Gerd Eichmann",
+            "lisans": "CC BY-SA 4.0",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Karlsruhe-Bundesgerichtshof-02-2018-gje.jpg"
+          },
+          "tarih": "2026-11-27",
+          "en": {
+            "baslik": "Federal Court of Justice: an image alone is not enough to ban a tenant's balcony solar panel",
+            "ozet": "In its ruling of 25 November (VIII ZR 248/25), Germany's Federal Court of Justice (BGH) rejected a housing cooperative's demand that a tenant remove a solar panel attached to the outside of the balcony railing, upholding the Dresden Regional Court's decision. The cooperative had only permitted panels fitted beneath the railing. According to the court, the tenant has a right to permission under section 554 of the Civil Code (BGB); a mere change in appearance, an abstract risk of reflection or concerns about a 'patchwork facade' are not enough to refuse permission, and a members' resolution banning exterior fittings cannot override the law. Landlords must now assess each request individually, with concrete reasons."
+          },
+          "de": {
+            "baslik": "Bundesgerichtshof: Bloße optische Veränderung rechtfertigt kein Verbot von Balkon-Solarmodulen für Mieter",
+            "ozet": "Der Bundesgerichtshof (BGH) hat am 25. November (VIII ZR 248/25) die Klage einer Wohnungsgenossenschaft abgewiesen, die einem Mieter untersagen wollte, ein Solarmodul an der Außenseite seines Balkongeländers zu befestigen, und damit das Urteil des Landgerichts Dresden bestätigt. Die Genossenschaft hatte nur eine Anbringung unterhalb des Geländers erlaubt. Nach Auffassung des Gerichts hat der Mieter aus Paragraf 554 BGB einen Anspruch auf Erlaubnis; eine bloße Veränderung des Erscheinungsbilds, ein abstraktes Spiegelungsrisiko oder Bedenken wegen einer 'Flickenfassade' reichen für eine Ablehnung nicht aus, und ein Beschluss der Mitgliederversammlung zum Verbot von Außenanbauten kann dem Gesetz nicht vorgehen. Vermieter müssen künftig jeden Antrag einzeln mit konkreten Gründen prüfen."
+          }
+        },
+        {
+          "alan": "emlak",
+          "baslik": "Hamburg'un fahiş kira ekibi ilk üç ev sahibini savcılığa bildirdi",
+          "ozet": "Hamburg'da 1 Temmuz'dan beri merkezî çalışan 'Mietwucher' görev gücü, fahiş kira şüphesiyle ilk üç dosyayı ceza kanununun 291. maddesi kapsamında savcılığa iletti; bilgi, Senato'nun bir SPD milletvekilinin sorusuna verdiği yanıttan geliyor. 15 Kasım'a kadar şehrin bildirim sistemine 109, uygulamaya 37 ihbar ulaştı; uygulamadaki ihbarların 23'ünde kira yerel emsalin yüzde 50'sinden fazla üzerindeydi. Emsal kiranın yüzde 20'den fazla üzerine çıkmak idari para cezası, yüzde 50'den fazlası suç sayılabiliyor. Şehir, kiracıların kendi kirasını emsalle karşılaştırabileceği bir hesaplayıcı da planlıyor.",
+          "kaynak": "Haufe Immobilien · 26 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/wirtschaft-politik/studie-mietenpolitik-in-hamburg-effizienter-als-in-berlin_84342_543986.html",
+          "not": "Bizde: yatırımcıya kira getirisi hesaplarken yerel emsal kirayı (Mietspiegel) esas al; yüzde 20'yi aşan beklenti ceza riski taşıyor.",
+          "ig": "Hamburg'un fahiş kira ekibi ilk üç ev sahibini savcılığa bildirdi. Emsal kiranın yüzde 20 üzeri para cezası, yüzde 50 üzeri suç sayılabiliyor.",
+          "igNot": "Kira getirisi hesabında yerel emsal kirayı esas al; yüzde 20 üstü riskli.",
+          "gorselAra": "Hamburg Rathaus",
+          "foto": "bolum-claude",
+          "gorsel": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Alsterblick_Hamburg.jpg/960px-Alsterblick_Hamburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "yazar": "Thomas Wolf , www.foto-tw.de",
+            "lisans": "CC BY-SA 3.0 de",
+            "sayfa": "https://commons.wikimedia.org/wiki/File:Alsterblick_Hamburg.jpg"
+          },
+          "tarih": "2026-11-27",
+          "en": {
+            "baslik": "Hamburg rent-gouging unit reports first three landlords to prosecutors",
+            "ozet": "Hamburg's 'Mietwucher' task force, which has been operating centrally since 1 July, has referred its first three cases to prosecutors on suspicion of rent gouging under section 291 of the Criminal Code. The information comes from the Senate's answer to a question from an SPD member of parliament. By 15 November, the city's reporting system had received 109 reports and the app 37; in 23 of the app reports, rent was more than 50 percent above the local comparable rent. Rent more than 20 percent above the comparable rent can be an administrative offence, and more than 50 percent can be a criminal offence. The city also plans a calculator that lets tenants compare their rent with comparable rents."
+          },
+          "de": {
+            "baslik": "Hamburger Mietwucher-Team zeigt erste drei Vermieter bei der Staatsanwaltschaft an",
+            "ozet": "Die seit dem 1. Juli zentral arbeitende Mietwucher-Taskforce in Hamburg hat ihre ersten drei Fälle wegen des Verdachts auf Mietwucher nach Paragraf 291 StGB an die Staatsanwaltschaft weitergeleitet. Die Angaben stammen aus der Antwort des Senats auf eine Anfrage eines SPD-Abgeordneten. Bis zum 15. November gingen 109 Hinweise über das Meldesystem der Stadt und 37 über die App ein; bei 23 App-Hinweisen lag die Miete um mehr als 50 Prozent über der ortsüblichen Vergleichsmiete. Liegt die Miete mehr als 20 Prozent über der Vergleichsmiete, kann dies eine Ordnungswidrigkeit sein, bei mehr als 50 Prozent eine Straftat. Die Stadt plant außerdem einen Rechner, mit dem Mieterinnen und Mieter ihre Miete mit Vergleichsmieten abgleichen können."
+          }
+        },
+        {
+          "alan": "emlak",
+          "baslik": "ICG rehberi: Almanya'da 830.000'e varan konut açığına karşı üç özel sermaye aracı",
+          "ozet": "Alman emlak sektörünün kurumsal yönetim enstitüsü ICG, uygun fiyatlı konut için özel sermayenin nasıl devreye sokulabileceğini anlatan bir uygulama rehberi yayımladı. Rehbere göre Almanya'da 830.000'e varan konut eksik, yılda ise yaklaşık 235.000 konut ekleniyor. Önerilen üç araç: arsayı satın almak yerine uzun süreli kiralamak (Erbbaurecht; büyük şehirlerde arsa maliyetin yüzde 30'una varabiliyor), işverenin çalışanı için konut üretmesi ve ölçülebilir toplumsal etki koşullu yatırım. ICG ayrıca kamulaştırma tartışmalarını ve sık değişen teşvikleri eleştirerek öngörülebilir kurallar istiyor; bu bir sektör kuruluşunun görüşü.",
+          "kaynak": "Haufe Immobilien · 26 Kasım 2026",
+          "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/krieg-in-der-ukraine-folgen-fuer-den-immobilienmarkt_84324_563072.html",
+          "ig": "ICG rehberi: Almanya'da 830.000'e varan konut eksik, yılda yaklaşık 235.000 ekleniyor. Öneri: arsa kiralama, işveren konutu ve toplumsal etki koşullu yatırım.",
+          "gorselAra": "",
+          "foto": "bolum-araclar",
+          "tarih": "2026-11-27",
+          "en": {
+            "baslik": "ICG guide: three private capital tools against a German housing shortfall of up to 830,000 homes",
+            "ozet": "ICG, the German institute for corporate governance in the real estate sector, published an implementation guide on how private capital can be deployed for affordable housing. According to the guide, Germany is short of up to 830,000 homes, while about 235,000 are added each year. The three proposed tools are long-term leasing of land instead of buying it (Erbbaurecht; in large cities land can account for up to 30 percent of costs), employers building housing for their employees, and impact-conditional investment. ICG also criticises expropriation debates and frequently changing incentives, calling for predictable rules; this is the view of an industry body."
+          },
+          "de": {
+            "baslik": "ICG-Leitfaden: Drei Instrumente privaten Kapitals gegen ein Wohnungsdefizit von bis zu 830.000 Wohnungen",
+            "ozet": "Das ICG, das Institut für Corporate Governance der deutschen Immobilienwirtschaft, hat einen Praxisleitfaden veröffentlicht, wie privates Kapital für bezahlbaren Wohnraum mobilisiert werden kann. Demnach fehlen in Deutschland bis zu 830.000 Wohnungen, jährlich kommen rund 235.000 hinzu. Die drei vorgeschlagenen Instrumente sind: Grundstücke langfristig in Erbbaurecht statt durch Kauf zu nutzen (in Großstädten können die Grundstückskosten bis zu 30 Prozent der Gesamtkosten ausmachen), dass Arbeitgeber Wohnungen für ihre Beschäftigten schaffen, sowie an messbare gesellschaftliche Wirkung gekoppelte Investments. Zudem kritisiert das ICG Enteignungsdebatten und häufig wechselnde Förderungen und fordert verlässliche Regeln. Dabei handelt es sich um die Meinung eines Branchenverbands."
+          }
+        },
+        {
+          "alan": "otomotiv",
           "baslik": "BYD, Fransa'daki eski Smart fabrikasını Ineos'tan almak için münhasır görüşmede",
           "ozet": "BYD ve Ineos Automotive, Almanya sınırına yakın Hambach'taki (Fransa) fabrikanın satışı için görüştüklerini resmen açıkladı; BYD görüşmelerin münhasır olduğunu belirtiyor. electrive'e göre işlem yalnızca işyeri temsilcileriyle istişare koşuluna bağlı; Handelsblatt'a göre gerçekleşirse bir Çinli üreticinin Avrupa'da bir otomobil fabrikasını ilk kez bütünüyle devralması olacak. BYD Başkan Yardımcısı Stella Li, Hambach'ta Avrupalı sürücülere göre tasarlanmış araçlar üretmeyi ve yerel istihdamı korumayı hedeflediklerini söyledi. Şirket Haziran'da Manisa'daki montaj fabrikası planını askıya almıştı; Macaristan'daki ilk Avrupa fabrikası tamamlanmak üzere.",
           "kaynak": "electrive · 25 Kasım 2026",
@@ -811,6 +943,14 @@
         }
       ],
       "videolar": [
+        {
+          "alan": "otomotiv",
+          "tarih": "2026-11-27",
+          "kanal": "auto motor und sport",
+          "baslik": "VW ID.Cross 155 kW Testfahrt | Schafft der kompakte Elektro-SUV jeden Spagat?",
+          "id": "iw609GeBdbM",
+          "neden": "auto motor und sport, 155 kW'lık VW ID. Cross'u sürüş testine alıyor; bugünkü R-Line haberindeki modelin yolda nasıl olduğunu görmek için."
+        },
         {
           "alan": "emlak",
           "tarih": "2026-11-26",

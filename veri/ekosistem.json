@@ -1,40 +1,40 @@
 {
- "guncelleme": "2026-11-26",
+ "guncelleme": "2026-11-27",
  "yeni": [
   {
    "ad": "heydamir/unslop",
    "link": "https://github.com/heydamir/unslop",
-   "yildiz": 21858,
+   "yildiz": 22301,
    "not": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
   },
   {
    "ad": "patch-gg/pixelfx",
    "link": "https://github.com/patch-gg/pixelfx",
-   "yildiz": 9320,
+   "yildiz": 9527,
    "not": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
   },
   {
    "ad": "mromidev/claude-animated-shorts",
    "link": "https://github.com/mromidev/claude-animated-shorts",
-   "yildiz": 4993,
+   "yildiz": 5117,
    "not": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion"
   },
   {
    "ad": "elvarofficial/teardown",
    "link": "https://github.com/elvarofficial/teardown",
-   "yildiz": 4195,
+   "yildiz": 4284,
    "not": "A Claude Code skill that turns any machine into a 3D simulator you can take apart"
   },
   {
    "ad": "NiazMorshed2007/reanimate",
    "link": "https://github.com/NiazMorshed2007/reanimate",
-   "yildiz": 2582,
+   "yildiz": 2645,
    "not": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same."
   },
   {
    "ad": "XiaoyeCodes/code-animation-prompts",
    "link": "https://github.com/XiaoyeCodes/code-animation-prompts",
-   "yildiz": 1545,
+   "yildiz": 1564,
    "not": "341 种代码动画风格提示词、196 张参考静帧与离线挑选器，封装为 Claude Code / Codex Skill，支持一键导入与 HTML 视频渲染。"
   }
  ]
